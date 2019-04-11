@@ -1,0 +1,544 @@
+
+
+/* ==========================================================================
+   Autor: Peterson Macedo
+   Data: 08/11/2016
+   Pagina - Peça agora
+   Life Health
+   ========================================================================== */
+
+
+/* ==========================================================================
+   	**************************  Responsividade  ****************************
+   ========================================================================== */
+
+@media screen and (min-width: 1200px) {
+	
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+	/* Trecho referente ao bloco1: Segurança; */
+
+	.content-img-security img {
+    	margin: 75px auto!important;
+    }
+
+    .content-line-security {
+	    padding: 5px 0!important;
+	}
+
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+	/* Trecho referente ao bloco1: Segurança; */
+	.title-text-security {
+		padding: 0;
+	}
+
+	.title-text-security h2 {
+		font-size:28px!important;
+		margin-top: 55px;
+	}
+
+	.title-text-security p {
+		font-size:16px!important;
+	}
+
+	.container-fluid-icon p {
+		font-size: 13px!important;
+		text-align: center!important;
+	}
+
+	.container-fluid-icon i {
+		text-align: center!important;
+		font-size:40px!important;
+	}
+	/* Trecho referente ao bloco2: Garantia; */
+
+	.text-warranty-term h3 {
+		font-size: 25px!important;
+	}
+
+	.sub-title-warranty-term, .text-warranty-term p.rzero {
+		text-align: center;
+		margin: 25px 0;
+	}
+
+	/* Trecho relacionado ao CTA */
+
+	.btn-adquira a {
+		height: 80px!important;
+		margin: 25px auto!important;
+	}
+
+	.btn-adquira a .btn-uppercase-experimente{
+		font-size: 25px!important;
+		margin:0 0 5px!important;
+	}
+
+	.btn-adquira a .btn-lowercase-experimente{
+		font-size: 14px!important;
+		white-space: normal!important;
+		line-height: 16px;
+	}
+
+	/* Fim do Trecho relacionado ao CTA */ 
+
+}
+
+@media screen and (max-width: 769px) and (min-width: 641px) {
+	
+
+	@media screen and (min-width: 641px) and (max-width:705px) {
+
+	}
+
+	@media screen and (min-width:706px) and (max-width:769px) {
+	
+	}
+	/* Trecho referente ao bloco1: Segurança; */
+	.title-text-security {
+		padding: 0;
+	}
+
+	.title-text-security h2 {
+		font-size:30px!important;
+	}
+
+	.title-text-security p {
+		font-size:16px!important;
+	}
+
+	.container-fluid-icon p {
+		font-size: 12px!important;
+		text-align: center!important;
+		padding:0 10px!important;
+	}
+
+	.container-fluid-icon i{
+		text-align: center!important;
+		font-size:35px!important;
+	}
+
+	.content-icon-hidden {
+		margin: 20px 0;
+		padding: 0;
+	}
+
+	/* Trecho referente ao bloco2: Garantia; */
+
+	.text-warranty-term h3 {
+		font-size: 25px!important;
+	}
+
+	.sub-title-warranty-term, .text-warranty-term p.rzero {
+		text-align: center;
+		margin: 25px 0;
+	}
+
+	/* Trecho relacionado ao CTA */
+
+	.btn-adquira a {
+		height: 80px!important;
+		margin: 25px auto!important;
+	}
+
+	.btn-adquira a .btn-uppercase-experimente{
+		font-size: 25px!important;
+		margin:0 0 5px!important;
+	}
+
+	.btn-adquira a .btn-lowercase-experimente{
+		font-size: 14px!important;
+		white-space: normal!important;
+		line-height: 16px;
+	}
+
+	/* Fim do Trecho relacionado ao CTA */
+}
+
+
+@media screen and (max-width: 640px) and (min-width: 481px) {
+	/* Trecho referente ao bloco1: Segurança; */
+	.content-img-security {
+		padding: 0;
+	}
+
+	.content-img-security img{
+		width: 100%;
+	}
+
+	.title-text-security {
+		padding: 0;
+	}
+
+	.title-text-security h2 {
+		font-size:25px!important;
+	}
+
+	.title-text-security p {
+		font-size:14px!important;
+	}
+
+	.container-fluid-icon p {
+		font-size: 12px!important;
+		text-align: center!important;
+		padding:0 10px!important;
+	}
+
+	.container-fluid-icon i{
+		text-align: center!important;
+		font-size:35px!important;
+	}
+
+	.content-icon-hidden {
+		margin: 20px 0;
+		padding: 0;
+	}
+
+	/* Trecho referente ao bloco2: Garantia; */
+
+	.text-warranty-term h3 {
+		font-size: 20px!important;
+	}
+
+	.sub-title-warranty-term, .text-warranty-term p.rzero {
+		text-align: center;
+		margin: 15px 0;
+	}
+
+	.img-warranty-term {
+		padding: 0!important;
+	}
+
+	.img-warranty-term img {
+		width: 100%;
+		padding: 0;
+	}
+
+	/* Trecho relacionado ao CTA */
+
+	.btn-adquira a {
+		height: 80px!important;
+		margin: 25px auto!important;
+	}
+
+	.btn-adquira a .btn-uppercase-experimente{
+		font-size: 25px!important;
+		margin:0 0 5px!important;
+	}
+
+	.btn-adquira a .btn-lowercase-experimente{
+		font-size: 14px!important;
+		white-space: normal!important;
+		line-height: 16px;
+	}
+
+	/* Fim do Trecho relacionado ao CTA */
+}
+
+@media screen and (max-width: 480px) {
+	/* Trecho referente ao bloco1: Segurança; */
+	.content-img-security {
+		display:none;
+	}
+	.content-img-security-hidden {
+		display:block!important;
+	}
+	.content-img-security-hidden img{
+		margin: 10px auto;
+		display: block;
+		float: none;
+	}
+
+	.content-text-security {
+		width: 100%!important;
+		padding:0;
+	}
+
+	.title-text-security {
+		padding: 0;
+	}
+
+	.container-icon {
+		width: 100%!important;
+	}
+
+	.title-text-security h2 {
+		font-size:30px!important;
+	}
+
+	.container-fluid-icon p {
+		text-align: center!important;
+		padding:0 10px!important;
+	}
+
+	.container-fluid-icon {
+		padding:10px 0!important;
+		margin:10px 0!important;
+		background: #f2f2f2!important;
+	}
+
+	.container-fluid-icon i{
+		text-align: center!important;
+		font-size:35px!important;
+	}
+
+	.content-icon-hidden {
+		margin: 20px 0;
+		padding: 0;
+	}
+
+	/* Trecho referente ao bloco2: Garantia; */
+
+	.text-warranty-term {
+		width: 100%;
+	}
+
+	.text-warranty-term h3 {
+		font-size: 20px!important;
+	}
+
+	.sub-title-warranty-term, .text-warranty-term p.rzero {
+		text-align: center;
+		margin: 15px 0;
+	}
+
+	.img-warranty-term, .container-warranty,
+	.container-fluid-warranty,
+	.text-warranty-term {
+		padding: 0!important;
+	}
+
+	.img-warranty-term img {
+		display:none!important;
+	}
+
+	.img-warranty-term-480 {
+		display: block!important;
+		margin: 0 auto;
+		display: block;
+		float:none;
+	}
+
+	/* Trecho relacionado ao CTA */
+
+	.content-cta-pa .btn-adquira a {
+		height: 80px!important;
+		margin: 25px auto!important;
+	}
+
+	.content-cta-pa .btn-adquira a .btn-uppercase-experimente{
+		font-size: 25px!important;
+		margin:0 0 5px!important;
+	}
+
+	.content-cta-pa .btn-adquira a .btn-lowercase-experimente{
+		font-size: 14px!important;
+		white-space: normal!important;
+		line-height: 16px;
+	}
+
+	/* Fim do Trecho relacionado ao CTA */
+
+}
+
+
+@media screen and (max-width: 480px) and (min-width: 321px) {
+
+	@media screen and (max-width: 480px) and (min-width: 380px) {
+
+	}
+
+}
+
+@media screen and (max-width: 321px) {
+
+	.box-content-text-cta-pa .btn-adquira a .btn-uppercase-experimente{
+		margin: 20px 0!important;
+	}
+
+}
+
+/*
+	// Trecho do bloco 1: Segurança;
+*/
+/* /////////// Reset CSS - bloco1: segurança; /////////// */
+
+.container-security, .container-fluid-security, .content-line-security, .container-icon, .container-fluid-icon {
+	padding:0;
+}
+
+.content-img-security img{
+	margin: 25px auto;
+	display: block;
+	float: none;
+}
+
+.title-text-security h2{
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	font-size: 37px;
+	margin: 35px 0 10px 0;
+}
+
+.title-text-security p{
+	font-weight: initial;
+	text-align: center;
+	color: #474747;
+	font-size: 18px;
+}
+
+.content-line-security {
+	padding: 15px 0;
+}
+
+
+.container-fluid-icon i {
+	color: #60A0BB;
+	text-align: right;
+}
+
+.container-fluid-icon p {
+	color: #474747;
+	font-weight: initial;
+	padding: 0;
+}
+
+/*
+	// Trecho do bloco 2: Garantia;
+*/
+
+.row-warranty {
+	background: #f7f7f7;
+	margin: 30px 0 0;
+}
+
+.title-warranty {
+	text-align: center;
+	margin: 30px 0;
+}
+
+.title-warranty h2{
+	color: #139246;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.title-warranty p{
+	color: #464646;
+	font-size: 18px;
+	font-weight: initial;
+}
+
+.content-warranty-term {
+	border: 2px dashed #8c8b8b;
+	background: #FBF6D8;
+	padding: 15px;
+	margin-bottom: 25px;
+}
+
+.img-warranty-term img {
+	padding: 15px 0;
+}
+
+.text-warranty-term h3 {
+	font-weight: bold;
+	color: #333;
+	text-align: center;
+	font-size: 22px;
+}
+
+.text-warranty-term p {
+	font-weight: initial;
+	color: #333;
+	font-size: 16px;
+}
+
+.text-warranty-term p.rzero {
+	font-weight: bold;
+	color: #139246;
+	font-size: 18px;
+}
+
+/*	// Trecho referente ao bloco 3: CTA - Peça agora (pa); //  */
+
+/*	/////////////// Zerendo CSS deste trecho //////////////  */
+
+.content-full-cta-pa, .cta-pa-fluid, .content-cta-pa, .box-content-text-cta-pa, .box-content-text-cta-pa .btn-adquira {
+	padding: 0;
+}
+
+/*	/////////////// Zerendo CSS deste trecho //////////////  */
+
+
+.content-cta-pa {
+	background: #fff;
+	padding: 10px 0!important;
+	margin: 20px 0;
+}
+
+.title-cta-pa {
+	font-weight: bold;
+	text-align: center;
+	margin: 35px 0;
+}
+
+.text-chamada-cta-pa {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 15px;	
+}
+
+.box-content-img-cta-pa-xs {
+	height: 260px;
+}
+
+.box-content-img-cta-pa-xs img{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.box-content-img-cta-pa {
+	height: 350px;	
+}
+
+.box-content-img-cta-pa img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.text-cta-pa {
+	text-align: center;
+	font-weight: initial;
+	color: #222222;
+	font-size: 16px;
+}
+
+.text-cta-pa span{
+	color: #006f92;
+	font-weight: bold;
+}
+
+.box-content-text-cta-pa .btn-adquira a{
+	margin:0 auto!important;
+	display:block!important;
+	float: none;
+}
+
+.box-content-text-cta-pa .btn-adquira {
+	margin:25px auto!important;
+}

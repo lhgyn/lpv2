@@ -1,0 +1,2233 @@
+
+
+/* ==========================================================================
+   Autor: Peterson Macedo
+   Data: 18/10/2016
+   Life Health
+   ========================================================================== */
+
+
+/* ==========================================================================
+   =========================================================================
+
+   Responsividade
+
+   ==========================================================================
+   ========================================================================== */
+@media screen and (min-width: 1200px) {
+
+	.content-text-banner {
+		padding: 0 35px;	
+	}
+
+	.banner-left {
+		padding: 15px 10px 0!important;
+	}
+
+	.navbar-menu-bio ul li {
+	font-size: 16px;
+	}
+
+	.icons-chamada ul li {
+	margin-top: 15px;
+	}
+
+	.submenus-rodape {
+		border-right: solid 1px #cccccc;
+	}
+
+	.line-banner {
+		width:440px!important;
+	}
+
+	.affix {
+		width: 1109px;
+	}
+
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+
+
+	.icons-chamada {
+		font-size: 12px!important;
+	}
+
+	.icons-chamada ul li{
+		padding: 10px 0!important;
+	}
+
+	.icons-chamada ul li > span{
+		font-size: 25px;
+	}
+
+	.moeda-idioma ul {
+		margin-top: -65px!important;
+	}
+
+	.navbar-menu-bio ul li {
+	    letter-spacing: 1px!important;
+	    font-size: 13px!important;
+	}
+
+	/* 
+	// Trecho referente ao banner
+	*/
+
+	.title-banner {
+		font-size: 28px!important;
+	}
+
+	.title-banner span{
+		font-size: 34px!important;
+	}
+
+	.banner-left img{
+		margin-top: 15px;
+	}
+
+	.banner-left, .banner-right {
+		padding:0 10px!important;
+	}
+
+	.banner-left, .banner-right {
+		margin:25px 0!important;	
+	}
+
+	.content-text-banner {
+		padding: 0 20px;
+	}
+
+	.line-banner {
+		width: 390px!important;
+	}
+
+	.text-banner {
+		font-size: 20px!important;
+		text-align:left!important;
+		line-height: 20px!important;
+		margin:5px!important;
+	}
+
+	.text-list-banner {
+		padding: 5px!important;
+		line-height: 15px!important;
+		font-size: 12px!important;
+	}
+
+	/* 
+		// Fim do trecho referente ao banner
+	*/
+
+	/* 
+		// Trecho referente ao CTA
+	*/
+
+	.row-conversao-interessados {
+		text-align: center!important;
+		height:210px!important;
+	}
+
+	.btn-adquira a{
+		display: block;
+		margin:10px auto!important;
+		float:none!important;
+	}
+
+	.text-adquira, .text-adquira p {
+		width: 100%!important;
+		height: 100px!important;
+	}
+
+	/* 
+		// Fim do trecho referente ao CTA
+	*/
+
+	.content-text-convince {
+		padding:15px!important;
+	}
+
+	.submenus-rodape {
+		border-right: solid 1px #cccccc;
+	}
+
+	/*
+		// Trecho referente ao bloco antes e depois
+	*/
+
+	.content-depo-box > div {
+		height: 530px;
+	}
+
+	.text-depo {
+		font-size: 13px!important;
+	}
+
+	/*
+		// Fim do trecho referente ao bloco antes e depois
+	*/
+
+	.affix {
+		width: 908px;
+	}
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+	.logo-tipo {
+		text-align: center;
+	}
+
+	.moeda-idioma ul {
+		margin-top:0;
+	}
+
+	.first-form {
+		float:left!important;
+	}
+
+	/* 
+		// Caso for habilitar o trecho html de opção de escolha da moeda corrente e do idioma
+		// Comentar as propriedades adicionadas baixo, DAQUI...
+	*/
+
+	.first-form {
+		width: 50%;
+		padding: 0 15px!important;
+		text-align: center!important;
+	}
+
+	.first-form.first-form-left {
+		text-align: right!important;
+	}
+
+	.first-form.first-form-right {
+		text-align: left!important;
+	}
+
+	/* 
+		// ... ATÉ AQUI!
+		// -- dev Peterson
+	*/
+
+	.icons-chamada ul li {
+		padding-top:8px!important;
+		padding-bottom:8px!important;
+	}
+
+	.input-left, .input-right {
+		padding:0!important;
+	}
+
+	.content-img-cta img {
+		width: 220px!important;
+		margin: 0 auto;
+		display: block;
+	}
+
+	/*
+		// Zerar CSS do trecho Antes e depois
+	*/
+
+	.row-after-before .container, .row-after-before .container-fluid, .content-after-before .block-after-before, .text-after-before {
+		padding:0!important;
+	}
+
+	/*
+		// Fim do trecho Antes e depois
+	*/
+
+	.content-img-cta-small {
+		display: block!important;
+	}
+
+	.content-img-cta-large {
+		display: none!important;
+	}
+
+	/*
+		// Zerar CSS do trecho rodapé
+	*/
+
+	.row-rodape .container, .row-rodape .container-fluid, .content-rodape, .submenus-rodape, .content-newletter-rodape {
+		padding:0!important;
+	}
+
+	/*
+		// Fim do trecho rodapé
+	*/
+
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+	.navbar-menu-bio {
+		font-size: 11px!important;
+	}
+
+	.navbar-menu-bio ul li {
+	    letter-spacing: 0.01em!important;
+	    font-size: 12px!important;
+	}
+
+	.navbar-menu-bio ul li a{
+		padding-left: 8px!important;
+		padding-right: 8px!important;
+	}
+
+	.icons-chamada ul li {
+		margin:0!important;
+	}
+
+	/* 
+	// Trecho referente ao banner
+	*/
+
+	.title-banner {
+		font-size: 20px!important;
+	}
+
+	.title-banner span{
+		font-size: 23px!important;
+	}
+
+	.banner-left{
+		padding:30px 10px 0!important;
+	}
+
+	.banner-right {
+		padding: 15px 0!important;
+	}
+
+	.banner-left {
+		margin-top:15px;
+	}
+
+	.text-banner {
+		font-size: 16px!important;
+		text-align:left!important;
+		line-height: 20px!important;
+		margin: 5px 0!important;
+	}
+
+	.text-list-banner {
+		padding: 5px!important;
+	}
+
+	.text-list-banner p {
+		font-size: 18px!important;
+	}
+
+	/* 
+		// Fim do trecho referente ao banner
+	*/
+
+	/* 
+		// Trecho referente ao CTA
+	*/
+
+	.row-conversao-interessados {
+		text-align: center!important;
+		height:165px!important;
+	}
+
+	
+	.btn-adquira a{
+		display: block;
+		margin:10px auto!important;
+		width: 320px!important;
+		height: 60px!important;
+		float:none!important;
+
+	}
+
+	.text-adquira p {
+		margin-top: 15px!important;
+	}
+
+	.text-adquira, .text-adquira p {
+		width: 100%!important;
+		height: 60px!important;
+		font-size: 18px!important;
+		display: block!important;
+	}
+
+	.btn-adquira a .btn-uppercase-experimente {
+		font-size:18px!important;
+		margin:5px 0 5px;
+	}
+
+	.btn-adquira a .btn-lowercase-experimente {
+		font-size:10px!important;
+	}
+
+	/* 
+		// Fim do trecho referente ao CTA
+	*/
+
+	.content-text-convince {
+		padding:15px!important;
+	}
+
+	.title-convince-prcpal {margin-top:0!important;}
+
+	.submenus-rodape {
+		border-right: solid 1px #cccccc;
+	}
+
+	/*
+		// Inicio do trecho referente ao bloco antes e depois
+	*/
+
+	.content-depo-box-center .img-after-before {
+		float: right!important;
+	}
+
+	.border-depo {
+		top:2%!important;
+		left:0.5%!important;
+		width:99%!important;
+		height:96%!important;
+	}
+
+	.img-after-before {
+		width: 30%!important;
+	}
+
+	.content-depo-box div .text-depo-total {
+		width:70%!important;
+	}
+
+	/*
+		// Fim do trecho referente ao bloco antes e depois
+	*/
+
+	/*
+	// Trecho referente ao bloco 4: Desejo mental;
+	*/
+
+	.title-img-wish, .title-img-wish h4 {
+		padding: 0;
+	}
+
+	.img-wish {
+    	padding: 25px 0;
+	}
+
+	.img-wish picture{
+    	padding: 0;
+	}
+
+	.text-rodape-img-wish {
+		padding:140px 15px 20px!important;
+		text-align: center!important;
+	}
+
+
+	/*
+		// Trecho referente ao bloco 4: Desejo mental;
+	*/
+
+	.affix {
+		width: 689px;
+	}
+
+}
+
+
+@media screen and (max-width: 769px) and (min-width: 641px) {
+
+	.icons-chamada ul li span{
+		font-size: 28px!important;
+	}
+
+	.icons-chamada ul li p{
+		font-size: 12px!important;
+	}
+
+	/* 
+	// Trecho referente ao banner
+	*/
+
+	@media screen and (min-width: 641px) and (max-width:705px) {
+
+		.container-banner .container .container-fluid {
+			padding: 0!important;
+		}
+
+		.title-banner {
+			font-size:15px!important;
+			margin-bottom:2px!important;
+		}
+
+		.title-banner span{
+			font-size:16px!important;
+			margin-bottom:2px!important;
+		}
+
+		.banner-right img{
+			width:148px;
+		}
+
+	}
+
+	@media screen and (min-width:706px) and (max-width:769px) {
+		
+
+		.title-banner {
+			font-size:17px!important;
+			margin-bottom:2px!important;
+		}
+
+		.title-banner span{
+			font-size:19px!important;
+			margin-bottom:2px!important;
+		}
+
+		.content-text-banner .line-banner {
+			width: 280px!important;
+			height: 3px!important;
+		}
+
+	}
+
+	.banner-left img {
+		width: 150px!important;
+	}
+
+	.content-text-banner {
+		width:50%;
+	}
+
+	.banner-left, .banner-right {
+		padding:0!important;
+		margin:35px 0 0!important;
+		width: 25%;
+	}
+
+	.line-banner {
+		width: 250px!important;
+		height: 3px!important;
+	}
+
+	.text-banner {
+		width: 290px;
+		font-size: 14px!important;
+		text-align:left!important;
+		line-height: 20px!important;
+		margin:5px!important;
+	}
+
+	.text-list-banner {
+		padding: 5px!important;
+	}
+
+	.text-list-banner p {
+		font-size: 19px!important;
+	}
+
+	/* 
+		// Fim do trecho referente ao banner
+	*/
+
+	/*
+		// Trecho referente ao Antes e Depois
+	*/
+
+	.content-depo-box-center .img-after-before {
+		float: right!important;
+	}
+
+	.border-depo {
+		top:2%!important;
+		left:1%!important;
+		width:98%!important;
+		height:96%!important;
+	}
+
+	.text-depo-total p {
+		font-size:14px!important;
+	}
+
+
+	/*
+		// Fim do trecho referente ao antes e depois
+	*/
+
+	/* 
+		// Trecho referente ao CTA
+	*/
+
+	
+
+	.row-conversao-interessados {
+		text-align: center!important;
+		height:165px!important;
+	}
+
+	
+	.btn-adquira a{
+		display: block;
+		margin:10px auto!important;
+		width: 320px!important;
+		height: 60px!important;
+		float:none!important;
+
+	}
+
+	.text-adquira p {
+		margin-top: 15px!important;
+	}
+
+	.text-adquira, .text-adquira p {
+		width: 100%!important;
+		height: 60px!important;
+		font-size: 18px!important;
+		display: block!important;
+	}
+
+
+	.btn-adquira a .btn-uppercase-experimente {
+		font-size:18px!important;
+		margin:0 5px;
+	}
+
+	.btn-adquira a .btn-lowercase-experimente {
+		font-size:10px!important;
+	}
+
+	/* 
+		// Fim do trecho referente ao CTA
+	*/
+
+	.content-text-convince {
+		padding:0!important;
+	}
+
+	/*
+	// Trecho referente ao bloco 4: Desejo mental;
+	*/
+
+	.content-full-wish, .content-full-wish .container-fluid, .content-wish, .content-three-wish {
+		padding:0!important;
+	}
+
+	.wish-individual {
+		width: 33.33%;
+		padding: 0;
+	}
+
+	.title-img-wish{
+		height: 65px;
+	}
+
+	.img-wish {
+    	padding: 25px 0;
+	}
+
+	.img-wish picture{
+    	padding: 0;
+	}
+
+	.text-rodape-img-wish {
+		padding:155px 15px 20px!important;
+		text-align: center!important;
+	}
+
+
+	/*
+		// Trecho referente ao bloco 4: Desejo mental;
+	*/
+
+	.content-img-lab {
+		width: 30%!important;
+	}
+
+	.content-text-lab {
+		width:70%!important;
+	}
+
+	.content-img-lab.img-lab-principal picture img{
+		margin: 25px 0 20px;
+	}
+
+	/*
+		// Trecho rodapé
+	*/
+
+	.submenus-rodape {
+	    border-right: solid 1px #cccccc;
+	}
+
+	.affix {
+		position: relative;
+	}
+
+}
+
+
+@media screen and (max-width: 640px) and (min-width: 481px) {
+
+	.last-form.last-form-left, .first-form.first-form-left {
+		text-align: right!important;
+	}
+
+	.last-form.last-form-right, .first-form.first-form-right {
+		text-align: left!important;
+	}
+
+	.first-form, .last-form {
+		width: 50%;
+		padding: 0 5px!important;
+		text-align: center!important;
+	}
+
+	.first-form a {
+		font-size:11px!important;
+	}
+
+	.icons-chamada ul li span{
+		font-size: 25px!important;
+		width: 100%;
+		text-align: center;
+	}
+
+	.icons-chamada ul li p{
+		font-size: 12px!important;
+		text-align: center;
+	}
+
+	.icons-chamada ul{
+		padding-left: 0!important;
+	}
+
+	.btn-adquira a h3.btn-uppercase-experimente {
+		font-size: 18px!important;
+	}
+
+	.btn-adquira a p.btn-lowercase-experimente {
+		font-size: 10px!important;
+		font-weight: lighter;
+	}
+
+	/* 
+	// Trecho referente ao banner
+	*/
+
+	.content-banner-full {
+		height: 497px;
+		border-bottom: solid 4px #93C9E6;
+	}
+
+	.row-conversao-interessados {
+		display: none;
+	}
+
+	.content-btn-direcionamento-480 {
+		display: block!important;
+		width: 65%;
+		height: 200px;
+		text-align: center;
+		float:left;
+		padding:40px 15px;
+	}
+
+	.content-btn-direcionamento-480 h4{
+		padding-top: 150px;
+	}	
+
+	.content-btn-direcionamento-480 span{
+		font-size:18px;
+	}
+
+	.btn-adquira-480.btn-adquira-480 button{
+		width:250px!important;
+		height: 60px;
+	}
+
+	.btn-adquira-480.btn-adquira-480 button h3{
+		margin: 5px!important;
+	}
+
+	.banner-right {
+		width:30%!important;
+		float:right;
+		padding-right: 25px!important;
+	}
+
+	.banner-right img{
+		width:150px!important;
+		float:right;
+	}
+
+	.container-banner .container, .container-banner .container .container-fluid {
+		padding: 0!important;
+	}
+
+	.content-text-banner {
+		width: 70%;
+	}
+
+	.banner-left {
+		width: 30%;
+	}
+
+	.banner-left img {
+		width: 170px!important;
+	}
+
+	.title-banner {
+		font-size:18px!important;
+		margin-bottom:2px!important;
+	}
+
+	.title-banner span{
+		font-size:20px!important;
+		margin-bottom:2px!important;
+	}
+
+	@media screen and (min-width: 560px) and (max-width:640px) {
+		.content-banner-full {
+			height: 513px;
+			border-bottom: solid 4px #93C9E6;
+		}
+		.content-text-banner .title-banner {
+			font-size:22px!important;
+		}
+		.content-text-banner .title-banner span {
+			font-size:26px!important;
+		}
+		.content-text-banner .line-banner {
+			width: 315px!important;
+		}
+		.content-banner-full .banner-left {
+			padding: 55px 0 0!important;
+		}
+
+		.titulo-depoimento {
+			margin: 20px 10px;
+		}
+
+		.text-depo-total p.text-depo {
+			font-size: 12px!important;
+			margin: 10px 0;
+		}
+
+		.text-after-before {
+			padding: 0 10!important;
+		}
+
+		.content-depo-box-center {
+			padding:0!important;
+		}
+
+		.content-depo-box-center .text-depo-total {
+			padding:0 5px!important;
+		}
+
+		.content-depo-box-center .img-after-before {
+			padding:0!important;
+		}
+
+	}
+
+	.banner-left {
+		padding: 45px 0 0!important;
+	}
+
+	.line-banner {
+		width: 265px!important;
+		height: 3px!important;
+	}
+
+	.text-banner {
+		width:290px;
+		font-size: 14px!important;
+		text-align:left!important;
+		line-height: 20px!important;
+		margin: 5px!important;
+	}
+
+	.text-list-banner {
+		padding: 5px!important;
+	}
+
+	.text-list-banner p{
+		line-height: 30px!important;
+		font-size: 18px!important;
+	}
+
+	/* 
+		// Fim do trecho referente ao banner
+	*/
+
+	/*
+		// Trecho referente ao antes e depois 
+	*/
+
+	.content-depo-box-center .img-after-before {
+		float: right!important;
+	}
+
+	.border-depo {
+		top:2%!important;
+		left:1%!important;
+		width:98%!important;
+		height:96%!important;
+	}
+
+	.text-depo-total p {
+		font-size: 11px!important;
+		margin:0;
+		padding:0;
+	}
+
+	.text-after-before {
+		padding: 0!important;
+	}
+
+	.text-after-before p {
+		width: 43%!important;
+	}
+
+	.content-depo-box-center {
+		padding:0!important;
+	}
+
+	.content-depo-box-center .img-after-before {
+		padding:0!important;
+	}
+
+	/*
+		// Fim do trecho referente ao antes e depois
+	*/
+
+	/* 
+		// Trecho referente ao CTA
+	*/
+
+	.row-conversao-interessados {
+		text-align: center!important;
+		height:165px!important;
+	}
+
+	
+	.btn-adquira a{
+		display: block;
+		margin:10px auto!important;
+		width: 320px!important;
+		height: 60px!important;
+		float:none!important;
+
+	}
+
+	.text-adquira p {
+		margin-top: 15px!important;
+	}
+
+	.text-adquira, .text-adquira p {
+		width: 100%!important;
+		height: 60px!important;
+		font-size: 18px!important;
+		display: block!important;
+	}
+
+
+	
+	.btn-adquira a{
+		display: block;
+		margin:10px auto!important;
+		width: 320px!important;
+		height: 60px!important;
+		float:none!important;
+
+	}
+
+	.btn-adquira a .btn-uppercase-experimente {
+		font-size:18px!important;
+		margin:0 5px;
+	}
+
+	.btn-adquira a .btn-lowercase-experimente {
+		font-size:10px!important;
+	}
+
+	/* 
+		// Fim do trecho referente ao CTA
+	*/
+	.content-text-convince {
+		padding:15px!important;
+	}
+
+	/*
+	// Trecho referente ao bloco 4: Desejo mental;
+	*/
+
+	.wish-individual {
+		width: 50%!important;
+		padding: 0;
+	}
+
+	.wish-right {
+		width: 50%!important;
+		float: none;
+		margin: 0 auto;
+		display: block;
+	}
+
+	.title-img-wish h4{
+		height: 50px;
+		font-size: 16px!important;
+	}
+
+	.title-right-img-wish {
+		margin-top: 375px!important;
+	}
+
+	.title-img-wish {
+		padding: 0!important;
+	}
+
+	.img-wish {
+    	padding: 25px 0!important;
+	}
+
+	.text-rodape-img-wish {
+		padding:20px!important;
+	}
+
+
+	/*
+		// Trecho referente ao bloco 4: Desejo mental;
+	*/
+
+	.content-img-lab {
+		width: 30%!important;
+	}
+
+	.content-text-lab {
+		width:70%!important;
+	}
+
+	.content-img-lab.img-lab-principal img {
+		margin:30px 0;
+	}
+
+	.affix {
+		position: relative;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.logo-tipo img {
+		width:100%!important;
+	}
+
+	.icons-chamada ul{
+		padding-left: 0!important;
+	}
+
+	.btn-adquira a {
+		white-space: normal;
+	}
+
+	.btn-adquira a h3.btn-uppercase-experimente {
+		font-size: 17px!important;
+	}
+
+	/*
+	// Trecho referente ao bloco 4: Desejo mental;
+	*/
+
+	.content-wish {
+		padding: 0!important;
+	}
+
+	.content-wish .content-three-wish{
+		padding: 0!important;
+	}
+
+	
+	.title-img-wish h4{
+		margin-top:30px!important;
+	}
+
+
+	.text-rodape-img-wish {
+		padding: 20px!important;
+		text-align: center!important;
+	}
+
+
+	/*
+		// Trecho referente ao bloco 4: Desejo mental;
+	*/
+
+	.content-text-lab, .content-img-lab {
+		padding: 0!important;
+	}
+
+	.img-lab-hidden {
+		display: block!important;
+	}
+
+	.img-lab-principal {
+		display:none!important;
+	}
+
+	/*
+		// Zerar CSS trecho referente ao bloco 4: Desejo mental
+	*/
+
+	.content-scientist .container, .content-scientist .container-fluid, .content-icon-scientist, .content-list-scientist {
+		padding: 0!important;
+	}
+
+	/*
+		// Trecho referente ao antes e depois 
+	*/
+
+	.img-after-before, .text-depo-total {
+		width: 100%!important;	
+	}
+
+	/*
+		// Fim do trecho referente ao antes e depois
+	*/
+
+	.content-cta > div {
+		padding:0!important;
+	}
+
+	.content-cta .container-fluid{
+		padding:0!important;
+	}
+
+	.content-img-cta{
+		padding:0!important;
+	}
+
+	.banner-right img {
+		display: none!important;
+	}
+
+	/*
+		// Trecho referente ao rodapé
+	*/
+
+	.submenus-rodape, .content-newletter-rodape {
+		width: 100%!important;
+	}
+
+	/*
+		// Trecho referente ao rodapé
+	*/
+
+	.affix {
+		position: relative;
+	}
+
+}
+
+
+@media screen and (max-width: 480px) and (min-width: 321px) {
+
+	.icons-chamada ul li span{
+		font-size: 25px!important;
+		width: 100%;
+		text-align: center;
+	}
+
+	.icons-chamada ul li p{
+		font-size: 12px!important;
+		text-align: center;
+	}
+
+	.last-form.last-form-left, .first-form.first-form-left {
+		text-align: right!important;
+	}
+
+	.last-form.last-form-right, .first-form.first-form-right {
+		text-align: left!important;
+	}
+
+	.first-form, .last-form {
+		width: 50%;
+		padding: 0 5px!important;
+		text-align: center!important;
+	}
+
+	.first-form a {
+		font-size:11px!important;
+	}
+
+	.icons-chamada ul li span{
+		font-size: 25px!important;
+		width: 100%;
+		text-align: center;
+	}
+
+	.icons-chamada ul li p{
+		font-size: 12px!important;
+		text-align: center;
+	}
+
+	.moeda-idioma ul {
+		padding-left: 0!important;
+	}
+
+	.moeda-idioma ul .first-form a{
+		font-size:9px!important;
+	}
+
+	/* 
+	// Trecho referente ao banner
+	*/
+
+	.container-banner .container, .container-banner .container-fluid {
+		padding: 0;
+	}
+
+	.banner-left, .banner-right {
+		padding:0 0px!important;
+		margin:15px 0 10px!important;
+	}
+
+	.line-banner {
+		height: 2px!important;
+	}
+
+	.text-banner {
+		font-size: 16px!important;
+		text-align: left!important;
+		line-height: 20px!important;
+		padding:5px!important;
+	}
+
+	.content-text-banner .text-list-banner {
+		width: 280px;
+		display: block!important;
+		margin: 0 auto!important;
+		float: none;
+		padding:5px 20px!important;
+		text-align: left!important;
+	}
+
+	.text-list-banner p {
+		font-size: 17px!important;
+		line-height: 20px!important;
+		padding: 6px 0!important;
+	}
+
+	.banner-left img {
+		width:150px!important;
+		margin:0 auto!important;
+	}
+
+	.ban-left-title-480 {
+		float: right;
+		display: block!important;
+		padding-right:20px!important;
+	}
+
+	.title-banner-480 {
+		font-size: 24px!important;
+		margin: 18px 0 0!important;
+		padding: 18px 0 0!important;
+		width: 130px!important;
+	}
+
+	.title-banner, .line-banner {
+		display: none;
+	}
+
+	.banner-left img, .ban-left-title-480 {
+		width:50%!important;
+	}
+
+	.content-text-banner .text-banner {
+		font-size: 17px!important;
+		width:280px;
+		float: none;
+		margin: 10px auto 0!important;
+		display: block!important;
+		text-align: center!important;
+	}
+
+	.banner-right img{
+		width: 220px!important;
+    	margin: 0 auto;
+    	display: block;
+	}
+
+	@media screen and (max-width: 480px) and (min-width: 380px) {
+		.title-banner-480 {
+			margin-top: 40px!important;
+		}
+
+		.btn-adquira a.btn-warning{
+			display: block;
+			margin:10px auto!important;
+			width: 320px!important;
+			height: 80px!important;
+			float:none!important;
+
+		}
+	}
+
+	/* 
+		// Fim do trecho referente ao banner
+	*/
+
+	/*
+		// Trecho referente ao antes e depois 
+	*/
+
+	.text-after-before {
+		padding: 0!important;
+	}
+
+	.content-depo-box-center, .content-depo-box-left {
+		padding:0!important;
+	}
+
+	.content-depo-box-left .text-depo-total, .content-depo-box-right .text-depo-total, .content-depo-box-center .text-depo-total {
+		padding:0 5px!important;
+	}
+
+	.content-depo-box-left .img-after-before, .content-depo-box-right .img-after-before, .content-depo-box-center .img-after-before {
+		padding:0!important;
+	}
+
+	/*
+		// Fim do trecho referente ao antes e depois
+	*/
+
+	/* 
+		// Trecho referente ao CTA
+	*/
+
+	.row-conversao-interessados {
+		text-align: center!important;
+	}
+
+	.row-conversao-interessados {
+		height:100px!important;
+	}
+
+	
+	.btn-adquira a{
+		display: block;
+		margin:10px auto!important;
+		width: 285px!important;
+		height: 80px!important;
+		float:none!important;
+
+	}
+
+	.btn-adquira a .btn-uppercase-experimente {
+		font-size:18px!important;
+		margin:5px;
+	}
+
+	.btn-adquira a .btn-lowercase-experimente {
+		font-size:10px!important;
+	}
+
+	/* 
+		// Fim do trecho referente ao CTA
+	*/
+
+	.content-text-convince {
+		padding:15px!important;
+	}
+
+}
+
+@media screen and (max-width: 321px) {
+
+	.icons-chamada, .moeda-idioma {
+		display: none!important;
+	}
+
+	/* 
+	// Trecho referente ao banner
+	*/
+
+	.content-text-banner {
+		padding: 0!important;
+	}
+
+	.title-banner {
+		font-size:22px!important;
+		margin-bottom:2px!important;
+	}
+
+	.title-banner span {
+		font-size:20px!important;
+		letter-spacing:3px!important;
+	}
+
+	.banner-left {
+		padding:0!important;
+		margin:10px 0!important;
+	}
+
+	.line-banner {
+		height: 2px!important;
+	}
+
+	.text-banner {
+		font-size: 14px!important;
+		line-height: 20px!important;
+		margin:15px 0 5px!important;
+	}
+
+	.text-list-banner {
+		padding: 5px 0!important;
+	}
+
+	.text-list-banner i{
+		width: 22px!important;
+	}
+
+
+	.text-list-banner p {
+		font-size: 16px!important;
+		line-height:20px!important;
+		padding: 6px 0!important;
+		text-align:left!important;
+		width: 220px;
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.content-text-banner {
+		text-align: center!important;
+	}
+
+	/* 
+		// Fim do trecho referente ao banner
+	*/
+
+	/*
+		// Trecho referente ao antes e depois 
+	*/
+
+	.row-after-before .container, .row-after-before .container-fluid, .content-depo-box, .text-after-before {
+		padding:0!important;
+	}
+
+	.content-depo-box-center, .content-depo-box-left, .content-depo-box-right {
+		padding:0!important;
+	}
+
+	.content-depo-box-left .text-depo-total, .content-depo-box-right .text-depo-total, .content-depo-box-center .text-depo-total {
+		padding:0 5px!important;
+	}
+
+	.content-depo-box-left .img-after-before, .content-depo-box-right .img-after-before, .content-depo-box-center .img-after-before {
+		padding:0!important;
+	}
+
+	/*
+		// Fim do trecho referente ao antes e depois
+	*/
+
+	/*
+		// Trecho referente bloco de desejo
+	*/
+
+	.content-full-wish, .content-full-wish .container-fluid {
+		padding: 0!important;
+	}
+
+	/*
+		// Fim do trecho referente bloco de desejo
+	*/
+
+	/* 
+		// Trecho referente ao CTA
+	*/
+
+	.row-conversao-interessados {
+		text-align: center!important;
+		padding:0;
+	}
+
+	.row-conversao-interessados {
+		height:100px!important;
+	}
+
+	.btn-adquira a h3{
+		font-size: 15px!important;
+
+	}
+
+	
+	.btn-adquira a{
+		display: block;
+		margin:10px auto!important;
+		width: 250px!important;
+		height: 80px!important;
+		float:none!important;
+
+	}
+
+	.btn-adquira a h3.btn-uppercase-experimente {
+		font-size: 22px!important;
+	}
+
+	.btn-adquira a p.btn-lowercase-experimente {
+		display: none;
+	}
+
+	
+	/* 
+		// Fim do trecho referente ao CTA
+	*/
+
+	.content-text-convince {
+		padding:15px!important;
+	}
+
+	.text-after-before {
+		margin-top: -35px!important;
+	}
+
+	.box-antes, .box-depois {
+		padding: 0!important;
+		margin: 0!important;
+		width: 50%!important;
+	}
+
+
+}
+
+.affix {
+	top: 0;
+	z-index:50000;
+}
+
+.affix + .container {
+  	padding-top: 98px;
+}
+
+.navbar-nav {
+	margin: 0!important;
+}
+
+.logo-tipo img{
+	width: 295px;
+	margin: 0!important;
+}
+
+.header-top {
+	height: 95px;
+}
+
+
+.header-top, .content-contat-header {
+	background: #fff;
+	padding: 0!important;
+
+}
+
+.moeda-idioma ul {
+	text-decoration: none;
+	list-style: none;
+	text-align: right;
+}
+
+.moeda-idioma ul li{
+	display: inline;
+}
+
+.navbar-default.header-bottom {
+	margin-bottom: -5px!important;
+}
+
+.navbar-menu-bio ul li:last-child {
+	background: #FFD65B;
+	background: -webkit-linear-gradient(#FFD65B, #FFC000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFD65B, #FFC000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFD65B, #FFC000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFD65B, #FFC000); /* Standard syntax */
+    border-bottom: solid 3px #E59100!important;
+}
+
+.navbar-menu-bio ul li {
+	text-align: center;
+	border-left: solid 1px #E5E5E5;
+	color: #444444!important;
+	letter-spacing: 2px;
+	
+}
+
+.navbar-menu-bio ul li a{
+	color: #444444!important;
+}
+
+.navbar-menu-bio ul li a:hover{
+	color: #F4A207!important;
+}
+
+.navbar-menu-bio ul li:firt-child {
+	border-left: none!important;
+}
+
+.navbar-menu-bio {
+	padding:0px;
+	border: none;
+	border-top: solid 1px #E5E5E5!important;
+	border-bottom: solid 3px #006F92!important;
+	background: #fff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fff, #E8E8E8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fff, #E8E8E8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fff, #E8E8E8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fff, #E8E8E8); /* Standard syntax */
+}
+
+/* 
+	// Trecho referente ao banner
+*/
+
+.ban-left-title-480 {
+	display: none;
+}
+
+.content-text-banner {
+	display:block;
+}
+
+.content-text-banner h2{
+	margin-bottom: 5px;
+}
+
+.content-btn-direcionamento-480 {
+	display: none;
+}
+
+.content-banner-full {
+	margin-bottom:10px;
+	padding:0;
+}
+
+.banner-left, .banner-right {
+	margin:0;
+	padding:0;
+}
+
+.title-banner {
+	letter-spacing: 2px;
+	font-size: 32px;
+}
+
+.title-banner span{
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 6px;
+}
+
+.line-banner {
+	width: 100%;
+	height:3px!important;
+	margin: 0;
+	background: #009343;
+}
+
+.text-banner {
+	font-size: 18px!important;
+	color: #6a6a6a;
+	font-weight: normal;
+	line-height: 20px;
+	display: block;
+	margin: 10px 0;
+}
+
+.text-list-banner {
+	padding: 5px;
+}
+
+.text-list-banner p{
+	margin-bottom: 0;
+	font-size:20px;
+	line-height: 35px;
+	font-weight: initial;
+}
+
+
+.text-list-banner i {
+	color:#139246;
+	width:30px;
+	font-size: 25px;
+	text-align: center;
+}
+.icon-fita-metrica {
+	width:20px!important;
+	height: 20px!important;
+	margin-right: 10px;
+}
+
+.icon-balance, .icon-celulite {
+	width:25px!important;
+	height: 25px!important;
+	margin-right: 5px;
+}
+
+/* 
+	// Fim do trecho referente ao banner
+*/
+
+.moeda-idioma ul li{
+	list-style: none;
+	display: inline;
+	text-align: right;
+	text-decoration: none;
+	padding: 0 10px;
+	
+}
+
+.moeda-idioma ul{
+	color: #fff;
+	margin-top: 10px;
+}
+
+.moeda-idioma ul li a{
+	text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #888888;
+}
+
+
+.moeda-idioma ul li:first-child{
+	border-right: solid 1px #CCC;
+}
+
+.last-form {
+	float: right;
+}
+
+.last-form > form > select {
+	font-style: italic;
+    font-size: 10px;
+    color: #888888;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+}
+
+.last-form > form #moeda{
+	width: 52px;
+	height:20px;
+}
+
+.last-form > form #opc-idioma{
+	width: 75px;
+	height:20px;
+}
+
+.moeda-idioma {
+	font-size: 12px;
+	font-weight: normal!important;
+	text-decoration: none;
+}
+
+.icon-client, .icon-anvisa, .icon-ingredients, .icon-contact {
+	padding: 0;
+	display: block;
+}
+
+.icon-client span, .icon-anvisa span, .icon-ingredients span, .icon-contact span {
+	float: left;
+	padding: 0 8px;
+}
+
+.icon-client p, .icon-anvisa p, .icon-ingredients p, .icon-contact p{
+	margin: 0;
+	text-align:left;
+}
+
+.icons-chamada ul li {
+	list-style: none;
+	display:inline;
+	text-align: right;
+	font-weight: initial;
+}
+
+.icons-chamada ul li > span{
+	font-size: 35px;
+}
+
+.container-banner picture img {
+	width:100%;
+}
+
+.row-conversao-interessados {
+	background:#006F92;
+	width: 100%;
+	margin: 15px 0!important;
+	padding: 0;
+}
+
+.row-conversao-interessados, .row-conversao-interessados > div, .row-conversao-interessados > div > div, .content-btn-direcionamento {
+	padding: 0!important;
+}
+
+.content-btn-direcionamento {
+	width: 100%;
+	height: 150px;
+}
+
+.text-adquira {
+	width: 50%;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+}
+
+.text-adquira p{	
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+	font-size: 25px;
+	color: #fff;
+	font-weight: initial;
+}
+
+.btn-adquira a {
+	width:450px;
+	height: 80px;
+	color:#191919;
+	background: #ffac0b;
+	border-radius: 0;
+	margin:35px 0;
+}
+
+.btn-adquira > a > h3{
+	font-size:24px!important;
+	font-weight: bold;
+	margin-top:5px;
+}
+
+.btn-adquira > button > p{
+	font-size:13px!important;
+}
+
+.title-convince {
+	font-size: 29px;
+    padding-bottom: 15px;
+}
+
+.text-convince {
+	font-size: 15px;
+    color: #353535;	
+    line-height: 23px;
+    font-weight:normal;
+}
+
+.title-convince-scd {
+	font-size: 19px;
+    font-style: italic;
+    color: #242424;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.content-img-lab picture img{
+	width: 100%;
+	margin: 10px 0 20px;
+}
+
+.content-text-convince{
+	padding:60px 15px;
+}
+
+.title-icons-desire h2 {
+	font-size: 29px;
+    text-align: center;
+}
+
+/*
+	// Trecho referente ao RODAPÉ
+*/
+
+.rodape-contato ul li p {
+	font-weight: lighter;
+	color: #737373;
+	font-size: 12px;
+}
+
+.row-rodape {
+	background: #EFEFEF;
+}
+
+.submenus-rodape {
+	margin:20px 0;
+}
+
+.submenus-rodape > div > ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.submenus-rodape > div > ul > li h4{
+	border: none;
+	color: #606060;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.submenus-rodape > div > ul > li a {
+	font-weight: lighter;
+	color: #737373;
+}
+
+.submenus-rodape > div > ul > li a:link {
+	text-decoration: none;
+	font-size:12px; 
+	color:#737373; 
+}
+
+.icons-social-networks {
+	padding:20px 15px;
+}
+
+.icons-social-networks span{
+	font-size:21px;
+	cursor: pointer;
+}
+
+.icon-facebook {
+	color:#3b5998;
+}
+
+.icon-instagram {
+	color: #125688;
+}
+
+.icon-twitter {
+	color: #00aced;
+}
+
+.rodape-obs {
+	font-size:12px;
+	font-weight: normal;
+	color:#898989;
+}
+
+.btn-newsletter h2{
+	font-size: 19px;
+	color: #242424;
+	font-weight: bold;
+	text-align: center;
+}
+
+.text-copyright {
+	font-weight:normal;
+	color: #242424;
+	text-align: right;
+}
+
+.btn-newsletter > form {
+	padding: 0;
+}
+
+.btn-newsletter > form input {
+	font-size: 15px;
+    color: #242424;
+    font-style: italic;
+    font-weight:normal;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+}
+
+.input-left {
+	padding-left:0;
+	padding-right:5px;
+}
+
+.input-right {
+	padding-right:0;
+	padding-left:5px;
+}
+
+/*
+	// Fim do trecho referente ao RODAPÉ
+*/
+
+/*
+	// Inicio do trecho referente ao bloco 3: Antes e depois;
+*/
+
+.content-after-before, .content-after-before .btn-adquira {
+	padding:0;
+}
+
+.row-after-before {
+	background: #e4e4e4;
+}
+
+.block-after-before {
+	margin-top:35px;
+}
+
+.content-depo-box > div{
+	background: #fff;
+	padding:0;
+	margin:15px 0;
+}
+
+.border-depo {
+	z-index:1000;
+	border: solid 2px #565656;
+	position:absolute;
+	top:1%;
+	left:2%;
+	width:96%;
+	height:98%;
+}
+
+.img-after-before, .img-after-before img {
+	padding: 0;
+}
+
+.content-after-before .btn-adquira a {
+	display: block;
+    margin: 35px auto!important;
+    float: none!important;
+}
+
+.title-after-before {
+	text-align: center;
+}
+
+.text-after-before {
+	margin-top: -50px;
+	text-align: center;
+}
+
+.box-antes, .box-depois {
+	color:#fff;
+	opacity: 0.85;
+	font-size:18px;
+	font-weight: initial;
+	padding: 8px 5px;
+	margin:5px;
+	width: 45%;
+}
+
+.box-antes {
+	background: #252525;
+}
+
+.box-depois {
+	background: #404040;
+}
+
+
+.titulo-depoimento {
+	text-align: center;
+	font-size: 24px;
+	letter-spacing:5px;
+	font-style: normal;
+	font-weight: bold;
+	color: #006F92;
+}
+
+.text-depo {
+	text-align: center;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: initial;
+	color: #2f2f2f;
+	margin: 8px 0 15px;
+}
+
+/*
+	// Fim do trecho referente ao bloco 3: Antes e depois;
+*/
+
+/*
+	// Trecho referente ao bloco 4: Desejo mental;
+*/
+
+.text-rodape-img-wish {
+	font-weight: initial;
+}
+
+.img-wish img {
+	border-radius:50%;
+	border: solid 4px #006f92;
+	width:100%;
+}
+
+.img-wish {
+	padding: 25px 15px;
+	width:100%;
+}
+
+.content-wish {
+	text-align: center;
+}
+
+.wish-individual {
+	color:#04485d;
+}
+
+.content-three-wish {
+	padding: 20px 15px;
+}
+
+
+/*
+	// Trecho referente ao bloco 4: Desejo mental;
+*/
+
+/*
+	// Trecho referente ao bloco 5: Conveniênica e autoridade médica;
+*/
+
+.content-scientist {
+	background: url(../img/back-scientist.png) center bottom fixed;
+	background-color: #f9f9f9;
+	width: 100%;
+    text-align: center;
+    border-top: solid 8px #f2f2f2;
+}
+
+.content-icon-scientist {
+	background: #fff;
+	font-weight: initial;
+	font-size: 20px;
+	color: #178aaf;
+	height: 390px;
+}
+
+.content-img-doctor img{
+	width:175px;
+	margin:15px auto;
+	float:none;
+	display: block;
+}
+
+.icon-txt-scientist {
+	padding:0;
+}
+
+.icon-txt-scientist {
+	background: #fff;
+	float: none;
+	margin: 0 auto;
+	display: block;
+	width: 250px;
+	padding:8px 0;
+	font-size: 14px;
+	display: flex;
+	text-align: left!important;
+}
+
+.icon-txt-scientist i{
+	color: #699669;
+	width: 25px;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center!important;
+}
+
+.content-text-scientist h2 {
+	margin-bottom:40px;
+}
+
+.content-text-full-scientist p{
+	font-size:16px;
+	color:#4d4d4d;
+	font-weight: lighter;
+	text-align: left;
+	margin: 0 0 25px;
+}
+
+/*
+	// Fim do trecho referente ao bloco 5: Conveniênica e autoridade médica;
+*/
+
+/*
+	// Trecho do bloco 6: CTA;
+*/
+
+.content-img-cta-small {
+	display: none;
+	margin-bottom: 20px;
+}
+
+.content-btn-cta .btn-adquira a{
+	margin: 45px auto;
+	float: none;
+}
+
+.content-cta {
+	border-top: solid 8px #d8e3eb;
+	padding: 20px 0;
+}
+
+.content-btn-cta {
+	text-align: center;
+	padding: 0!important;
+}
+
+.content-btn-cta .btn-adquira {
+	padding: 0!important;
+}
+
+.content-btn-cta h2{
+	margin: 15px 0 35px;
+}
+
+.text-cta{
+	font-size: 18px;
+	color: #424242;
+	font-weight: lighter;
+}
+
+.content-btn-cta h1{
+	font-weight: bold;
+	font-style: bold;
+	padding: 30px 15px 0;
+	font-size: 25px;
+}
+
+.content-btn-cta span{
+	font-weight:initial;
+	font-size: 22px;
+}
+
+.content-img-cta-large img {
+	width:100%;
+	padding:25px 15px;
+}
+
+
+.img-lab-hidden {
+	display: none;
+}
+
+/*
+	// Fim do trecho do bloco 6: CTA;
+*/
+
+.text-copyright {
+	text-align: center;
+	padding: 15px 0 5px!important;
+}

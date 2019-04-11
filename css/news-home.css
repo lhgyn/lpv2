@@ -1,0 +1,510 @@
+
+
+/* ==========================================================================
+   Autor: Peterson Macedo
+   Data: 24/04/2017
+   novos blocos home
+   Life Health
+   ========================================================================== */
+
+
+/* ==========================================================================
+   	**************************  Responsividade  ****************************
+   ========================================================================== */
+
+@media screen and (min-width: 1200px) {
+
+	.text-points-just p {
+		margin: 10px 0 0 70px!important;
+	}
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+
+	.content-box-quote, .img-quote-midia {
+		height: 200px!important;
+	}
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+	.text-warranty-term h3 {
+		font-size: 25px!important;
+	}
+
+	.sub-title-warranty-term, .text-warranty-term p.rzero {
+		text-align: center;
+		margin: 25px 0;
+	}
+
+	.img-quote-midia, .text-quote-midia {
+	    height: 135px!important;
+	}
+
+	.text-points-just p {
+		margin: 10px 0 20px 40px!important;
+	}
+
+}
+
+@media screen and (max-width: 769px) and (min-width: 641px) {
+
+	@media screen and (min-width: 641px) and (max-width:705px) {
+
+		.row-point-just .text-points-just p {
+			margin: 10px 0 20px 50px!important;
+		}
+
+	}
+
+	.text-points-just p {
+		margin: 10px 0 20px 35px!important;
+	}
+
+	.text-warranty-term h3 {
+		font-size: 25px!important;
+	}
+
+	.sub-title-warranty-term, .text-warranty-term p.rzero {
+		text-align: center;
+		margin: 25px 0;
+	}
+}
+
+@media screen and (max-width: 769px) {
+	.content-img-verao img {
+		width: 250px!important;
+		margin: 0 auto;
+		float: none;
+		display: block;
+	}
+}
+
+
+@media screen and (max-width: 640px) and (min-width: 481px) {
+
+	@media screen and (min-width: 560px) and (max-width:640px) {
+
+		.text-points-just .title-points-just.title-complete {
+			width: 160px!important;
+		}
+
+		.text-points-just .title-points-just.title-proven {
+			width: 198px!important;
+		}
+
+		.text-points-just .title-points-just.title-powerful {
+			width: 145px!important;
+		}
+
+		.text-points-just .title-points-just.title-synergy {
+			width: 165px!important;
+		}
+
+		.text-points-just {
+			width: 80%!important;
+		}
+
+		.img-points-justification {
+			width: 20%!important;
+		}
+
+		.img-points-justification {
+			height:155px;
+		}
+
+		.img-points-justification img{
+			position: relative!important;
+		}
+
+		.row-point-just .text-points-just p {
+			margin: 15px 0 15px 45px!important;
+		}
+		
+	}
+
+	.text-warranty-term h3 {
+		font-size: 20px!important;
+	}
+
+	.sub-title-warranty-term, .text-warranty-term p.rzero {
+		text-align: center;
+		margin: 15px 0;
+	}
+
+	.img-warranty-term {
+		padding: 0!important;
+	}
+
+	.img-warranty-term img {
+		width: 100%;
+		padding: 0;
+	}
+
+	.row-quote .container, .row-quote .container-fluid, .content-quote, .content-box-quote {
+		padding: 0;
+	}
+
+	.text-quote-midia {
+		height: auto!important;
+		padding-bottom: 15px!important;
+	}
+
+	.img-quote-midia {
+		height: 140px!important;
+	}
+
+	.img-quote-midia img {
+		width: 100%!important;
+		padding: 0 15px;
+		
+	}
+	.box-content-img-justification, .box-content-text-justification {
+		width: 100%;
+	}
+
+	.box-content-img-justification {
+		display: none;
+	}
+
+	.box-content-text-justification .img-justification-480 {
+		display: block!important;
+		float: none!important;
+		margin: 25px auto!important;
+	}
+
+	.box-content-text-justification h4 {
+		text-align: center;
+	}
+
+	.text-points-just .title-points-just {
+		width: 100%!important;
+		text-align: center;
+	}
+
+	.img-points-justification, .text-points-just {
+		width: 100%;
+	}
+
+	.img-points-justification {
+		height:155px;
+	}
+
+	.img-points-justification img{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+
+	.row-point-just .text-points-just p {
+		margin: 15px 0;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	
+	.text-warranty-term {
+		width: 100%;
+	}
+
+	.text-warranty-term h3 {
+		font-size: 20px!important;
+	}
+
+	.sub-title-warranty-term, .text-warranty-term p.rzero {
+		text-align: center;
+		margin: 15px 0;
+	}
+
+	.img-warranty-term, .container-warranty,
+	.container-fluid-warranty,
+	.text-warranty-term {
+		padding: 0!important;
+	}
+
+	.img-warranty-term img {
+		display:none!important;
+	}
+
+	.img-warranty-term-480 {
+		display: block!important;
+		margin: 0 auto;
+		display: block;
+		float:none;
+	}
+
+	.row-quote .container, .row-quote .container-fluid, .content-quote {
+		padding: 0;
+	}
+
+	.img-quote-midia, .text-quote-midia {
+		width:100%!important;
+	}
+
+	.text-quote-midia {
+		height: auto!important;
+		padding:0 0 15px!important;
+	}
+
+	.img-quote-midia-glbrp {
+		height: 110px!important;
+	}
+
+	.img-quote-midia-r7 {
+		height: 140px!important;
+	}
+
+	.img-quote-midia-soumaiseu {
+		height: 125px!important;
+	}
+
+	.img-quote-midia-dietaja {
+		height: 55px!important;
+	}
+
+	.row-content-justification .container, .row-content-justification .container-fluid {
+		padding: 0;
+	}
+
+	.box-content-img-justification {
+		display: none;
+		width: 100%;
+	}
+
+	.box-content-text-justification {
+		width: 100%;
+	}
+
+	.img-justification-480 {
+		display: block!important;
+		width: 100%;
+	}
+
+	.text-points-just .title-points-just {
+		width: 100%!important;
+		text-align: center;
+	}
+
+	.img-points-justification, .text-points-just {
+		width: 100%;
+	}
+
+	.img-points-justification {
+		height:155px;
+	}
+
+	.img-points-justification img{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+
+	.row-point-just .text-points-just p {
+		margin: 15px 0;
+	}
+
+}
+
+@media screen and (max-width: 350px) {
+	.content-img-verao img{
+		width: 100%!important;
+	}
+}
+
+.container-security, .container-fluid-security, .content-line-security, .container-icon, .container-fluid-icon {
+	padding:0;
+}
+
+.row-warranty {
+	background: #f7f7f7;
+	margin: 30px 0 0;
+}
+
+.title-warranty {
+	text-align: center;
+	margin: 30px 0;
+}
+
+.title-warranty h2{
+	color: #139246;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.title-warranty p{
+	color: #464646;
+	font-size: 18px;
+	font-weight: initial;
+}
+
+.content-warranty-term {
+	border: 2px dashed #8c8b8b;
+	background: #FBF6D8;
+	padding: 15px;
+	margin-bottom: 25px;
+}
+
+.img-warranty-term img {
+	padding: 15px 0;
+}
+
+.text-warranty-term h3 {
+	font-weight: bold;
+	color: #333;
+	text-align: center;
+	font-size: 22px;
+}
+
+.text-warranty-term p {
+	font-weight: initial;
+	color: #333;
+	font-size: 16px;
+}
+
+.text-warranty-term p.rzero {
+	font-weight: bold;
+	color: #139246;
+	font-size: 18px;
+}
+
+/* trecho referente a midia */
+
+
+.row-quote {
+	background: url(../img/img-midia.jpg) center bottom fixed;
+}
+
+.box-quote {
+	margin: 15px 0;
+}
+
+.title-quote h3 {
+	margin: 50px 0 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.content-box-quote {
+	background: rgba(255, 255, 255, .55);
+	border: solid 3px #ddd;
+
+}
+
+.img-quote-midia {
+	height:170px;
+}
+
+.img-quote-midia img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+}
+
+.text-quote-midia h4{
+	font-weight: bold;
+	color: #555;
+}
+
+.text-quote-midia i{
+	font-weight: initial;
+	color: #555;
+}
+
+.img-justification-480 {
+	display:none;
+}
+
+.title-justification {
+	text-align: center;
+	font-weight: bold;
+	margin: 20px 0; 
+}
+
+.box-content-text-justification p {
+	color: #222222;
+	font-weight: initial;
+	margin: 20px 0;
+}
+
+.box-content-img-justification img{
+	width: 100%;
+}
+
+.row-point-just {
+	background: #dce8f0;
+}
+
+.row-point-just, .img-points-justification {
+	padding: 0;
+}
+
+.row-point-just {
+	margin: 25px 0;
+}
+
+.row-point-just.row-just-complete {
+	margin: 50px 0 25px;
+}
+
+.row-point-just.row-just-synergy {
+	margin: 25px 0 0;
+}
+
+.img-points-justification img{
+	width: 140px;
+	margin-top: -30px;
+}
+
+.text-points-just h3 i{
+	padding: 0 5px;
+}
+
+.title-points-just {
+	background:#139246;
+	color: #ffffff;
+	padding: 4px;
+	margin: -15px 0 0 0;
+	font-weight: bold;
+	font-style: bold; 
+}
+
+.title-complete {
+	width: 165px;
+}
+
+.title-proven {
+	width: 203px;
+}
+
+.title-powerful {
+	width: 140px;
+}
+
+.title-synergy {
+	width: 162px;
+}
+
+.text-points-just p {
+	font-size: 14px;
+	color: #222222;
+	font-weight: initial;
+	margin: 10px 0 0 50px;
+}
+
+.img-points-justification img {
+	border: solid 8px #DCE8F0;
+}
+
+.content-img-verao img{
+	width: 100%;
+}

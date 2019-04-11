@@ -1,0 +1,346 @@
+
+
+/* ==========================================================================
+   Autor: Peterson Macedo
+   Data: 06/12/2016
+   Finalização Error - Fail page
+   Life Health
+   ========================================================================== */
+
+
+/* ================   Responsividade   ================== */
+
+
+
+@media screen and (min-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+	.icon-safe {
+		margin: 15px 0!important;
+		font-size: 12px!important;
+	}
+
+	.title-safe h2 {
+		font-size: 22px!important;
+		margin: 25px 0!important;
+	}
+}
+
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+	.icon-safe {
+		margin: 15px 0!important;
+		font-size: 12px!important;
+	}
+
+	.title-safe h2 {
+		font-size: 22px!important;
+		margin: 15px 0!important;
+	}
+
+	.text-safe-grey {
+		font-size: 16px!important;
+	}
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 641px) {
+
+	@media screen and (min-width: 641px) and (max-width:705px) {
+
+	}
+
+	@media screen and (min-width:706px) and (max-width:769px) {
+		
+	}
+
+	.content-payment-safe {
+		padding: 0 15px!important;
+		margin: 20px 0!important;
+	}
+
+	.title-txt-error {
+		margin: 0!important;
+	}
+
+	.subtitle-txt-error {
+		margin-bottom: 25px!important;
+	}
+
+	.payment-safe-red, .payment-safe-grey {
+		height: 70px!important;
+	}
+
+	.title-safe-mobile h2{
+		color: #fff;
+		line-height: 50px!important;
+		margin: 0!important;
+	}
+
+	.title-safe-mobile i{
+		font-size: 40px!important;
+		padding: 0 25px;
+	}
+
+	.arrow-red-safe {
+		top: 60px!important;
+		left: 50%!important;
+		width: 20px!important;
+		height: 20px!important;
+	}
+
+	.text-safe-grey {
+		line-height: 70px!important;
+	}
+
+	.content-btn-fnlz-error {
+		margin-bottom: 25px!important;
+	}
+
+}
+
+
+@media screen and (max-width: 640px) and (min-width: 481px) {
+
+	@media screen and (min-width: 560px) and (max-width:640px) {
+
+	}
+
+	@media screen and (min-width: 481px) and (max-width:559px) {
+
+	}
+
+	.content-payment-safe {
+		padding: 0 15px!important;
+		margin: 20px 0!important;
+	}
+
+	.title-txt-error {
+		margin: 0!important;
+	}
+
+	.title-txt-error h2{
+		font-size: 20px!important;
+	}
+
+	.subtitle-txt-error span {
+		font-size: 16px!important;
+	}
+
+	.subtitle-txt-error {
+		margin-bottom: 25px!important;
+	}
+
+	.payment-safe-red, .payment-safe-grey {
+		height: 70px!important;
+	}
+
+	.title-safe-mobile h2{
+		color: #fff;
+		line-height: 50px!important;
+		margin: 0!important;
+	}
+
+	.title-safe-mobile i{
+		font-size: 40px!important;
+		padding: 0 25px;
+	}
+
+	.arrow-red-safe {
+		top: 60px!important;
+		left: 50%!important;
+		width: 20px!important;
+		height: 20px!important;
+	}
+
+	.text-safe-grey {
+		line-height: 70px!important;
+		font-size: 14px!important;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.line-title {
+		width: 60%!important;
+	}
+
+	.btn-fnlz-error {
+		width: 100%!important;
+	}
+
+	.content-payment-safe {
+		padding: 0 15px!important;
+		margin: 20px 0!important;
+	}
+
+	.title-txt-error {
+		margin: 0!important;
+	}
+
+	.title-txt-error h2{
+		font-size: 20px!important;
+	}
+
+	.subtitle-txt-error span {
+		font-size: 16px!important;
+	}
+
+	.subtitle-txt-error {
+		margin-bottom: 25px!important;
+	}
+
+	.payment-safe-red, .payment-safe-grey {
+		height: 70px!important;
+	}
+
+	.title-safe-mobile h2{
+		color: #fff;
+		line-height: 50px!important;
+		margin: 0!important;
+		font-size: 20px!important;
+	}
+
+	.title-safe-mobile i{
+		font-size: 30px!important;
+		padding: 0 10px;
+	}
+
+	.arrow-red-safe {
+		top: 60px!important;
+		left: 50%!important;
+		width: 20px!important;
+		height: 20px!important;
+	}
+
+	.text-safe-grey {
+		line-height: 15px!important;
+		font-size: 14px!important;
+		padding: 20px 0;
+	}
+
+}
+
+
+@media screen and (max-width: 480px) and (min-width: 321px) {
+
+	@media screen and (max-width: 480px) and (min-width: 380px) {
+
+	}
+}
+
+@media screen and (max-width: 321px) {
+
+}
+
+.container, .container-fluid, .content-finalizacao-error, 
+.content-payment-safe, .content-txt-fnlz-error,
+.txt-info {
+	padding: 0;
+}
+
+.row-content-total {
+	text-align: center;
+}
+
+.content-payment-safe {
+	margin: 50px 0;
+}
+
+.payment-safe-red {
+	background: #ff8b8b;
+	height: 100px;
+}
+
+.icon-safe {
+	padding: 0 10px;
+	margin: 12px 0;
+}
+
+.icon-safe i, .title-safe h2 {
+	color: #fff;
+}
+
+.arrow-red-safe {
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	position: absolute;
+	top: 30%;
+	right: -20px;
+	width: 40px;
+	height: 40px;
+	background: #ff8b8b;
+	z-index: 100;
+}
+
+
+.text-safe-red h2{
+	color: #fff!important;
+}
+
+.payment-safe-grey {
+	background: #f1f1f1;
+	height: 100px;
+}
+
+.text-safe-grey {
+	font-size: 20px;
+	color: #ff8b8b;
+	line-height: 100px;
+}
+
+.icon-error {
+	color: #ff8b8b;
+	font-size: 120px;
+	text-align: center;
+}
+
+.title-txt-error {
+	margin-top: 30px;
+}
+
+.title-txt-error h2{
+	margin: 0;
+}
+
+.subtitle-txt-error {
+	margin-bottom: 50px;
+}
+
+.subtitle-txt-error span{
+	font-size: 20px;
+}
+
+.line-title {
+	width: 250px;
+	height: 1px;
+	background: #e8e8e8;
+	margin: 30px auto;
+}
+
+.btn-fnlz-error {
+	background: #d3d3d3;
+	height: 40px;
+	margin: 10px 0;
+	border: none;
+	border-radius: 0;
+}
+
+.btn-fnlz-error h4{
+	font-size: 16px;
+	margin: 5px 0;
+	color: #6f6f6f;
+}
+
+.content-btn-fnlz-error {
+	margin-bottom: 25px!important;
+}
