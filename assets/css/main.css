@@ -170,7 +170,7 @@ body, html{
 	}
 
 	.navbar-menu-bio ul li {
-	font-size: 1.13em;
+	font-size: 1em;
 	}
 
 	.icons-chamada ul li {
@@ -3586,4 +3586,16 @@ body, html{
         max-width: 180px;
         width:180px;
     }
+}
+
+
+
+/*///////////////////////////////////////
+////////////
+/////////////////////////////*/
+
+
+.header-top{
+	display: flex;
+	align-items: center;
 }
