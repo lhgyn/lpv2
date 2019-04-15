@@ -1,5 +1,6 @@
 <?php
 require('config.php');
+
 date_default_timezone_set('America/Sao_Paulo');
 $datahoralocalcadastro = date('d/m/Y H:i:s', time());
 $ipaddress = NULL;
@@ -31,19 +32,13 @@ else
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="robots" content="index, follow"/>
         <link rel="icon" href="favicon.ico" />
-        <style>
-            body {
-            	padding:0;
-            	margin:0;
-            }
-        </style>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.css">
 
-        <!-- <link rel="stylesheet" type="text/css" href="css/font-opensans.css"> -->
         <?php foreach ( $data['theme_fonts'] as $font ) {
 			echo '<link rel="stylesheet" type="text/css" href="'.$font.'">';
 		} ?>
+
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/news-home.css">
@@ -70,7 +65,7 @@ else
 		      	<div class="container-fluid">
 			      	<div class="header-top col-lg-12 hidden-xs">
 				      	<div class="logo-tipo col-lg-4 col-md-4 ">
-				      		<a href="index.php"><img src="img/phenatrim-logo.png" style="max-width: 220px;"></a> 
+				      		<a href="index.php"><img src="img/phenatrim-logo.png" style="max-width: 220px;"></a>
 				      	</div>
 				      	
 
