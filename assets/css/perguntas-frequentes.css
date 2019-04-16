@@ -160,7 +160,7 @@
     height: 50px;
     text-align: center;
     line-height: 50px;
-    background: #006F92;
+    background: #0077c8;
     color: #fff;
     cursor: pointer;
     border: 0;
@@ -343,7 +343,7 @@
 }
 
 .text-cta-faq span{
-	color: #006f92;
+	color: #0077c8;
 	font-weight: bold;
 }
 

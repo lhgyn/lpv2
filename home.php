@@ -22,12 +22,12 @@
 		    					<h2 class="title-banner">A MANEIRA MAIS EFICAZ E SEGURA PARA EMAGRECER <span>DEFINITIVAMENTE!</span></h2>
 		    					<hr class="line-banner">
 		    					<span class="text-banner">Poderosa fórmula com benefícios clinicamente comprovados:</span>
-		    					<div class="text-list-banner col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			    					<p><img class="icon-balance" src="assets/img/icon-scale.png">Perda de peso</p>
-			    					<p><img class="icon-fita-metrica" src="assets/img/icon-measure.png">Redução de medidas</p>
-			    					<p><img class="icon-celulite" src="assets/img/icon-woman.png">Combate à celulites</p>
-			    					<p><i class="fa fa-fire"></i>Queima de gordura teimosa</p>
-			    					<p><i class="fa fa-bolt"></i>Energia extra</p> 
+		    					<div id="s1BenefitsList" class="text-list-banner col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			    					<p><i class="flaticon-weight-scale"></i> Perda de peso</p>
+			    					<p><i class="flaticon-measuring-tape"></i> Redução de medidas</p>
+			    					<p><i class="flaticon-human-body"></i> Combate à celulites</p>
+			    					<p><i class="flaticon-fire"></i> Queima de gordura teimosa</p>
+			    					<p><i class="flaticon-flash"></i> Energia extra</p> 
 		    					</div>
 		    					<div class="frasco-480 hidden">
 		    						<img src="assets/img/phenatrim/phenatrim_mockup.jpg" alt="Phenatrim">
@@ -172,7 +172,7 @@
 			    		</div>
 
 			    		<div class="content-img-scientificity col-lg-6 col-md-6 col-sm-12 col-xs-12">
-							<div class="title-img-list hidden col-xs-12"> 
+							<div class="title-img-list hidden col-xs-12" style="background: red;"> 
 								<h3>FÓRMULA EXCLUSIVA</h3>
 							</div>
 
@@ -294,7 +294,7 @@
 					<div class="container-fluid">
 						<div class="content-after-before col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
 							<div class="title-after-before col-lg-12 col-md-12 col-sm-12 col-xs-12">
-								<h2>Resultados Que Você Também Pode Ter!</h2>
+								<h2 class="title-fullcolor">Resultados Que Você Também Pode Ter!</h2>
 							</div> 
 
 							<div class="block-after-before col-lg-12col-md-12 col-sm-12 col-xs-12">
@@ -385,7 +385,7 @@
 						<div class="content-wish col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
 							
 							<div class="title-wish col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-								<h2>
+								<h2 class="title-inverse">
 									Imagine Quão Bom Seria Você Magra, Bonita E Cheia De Disposição?
 								</h2>
 							</div>
@@ -478,15 +478,15 @@
 							<div class="content-list-scientist col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
 
 								<p class="icon-txt-scientist content-icon-1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<span><i class="fa fa-file-text-o"></i>Sem necessidade<br/>de receita</span>
+									<span><i class="flaticon-drugs"></i>Sem necessidade<br/>de receita</span>
 								</p>
 								
 								<p class="icon-txt-scientist content-icon-2 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<span><i class="fa fa-ambulance"></i>Sem substâncias<br/> farmacêuticas perigosas</span>
+									<span><i class="flaticon-mortar"></i>Sem substâncias<br/> farmacêuticas perigosas</span>
 								</p>
 								
 								<p class="icon-txt-scientist content-icon-3 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<span><i class="fa fa-stethoscope"></i>Sem efeitos<br/> colaterais nocivos</span>
+									<span><i class="flaticon-charity"></i>Sem efeitos<br/> colaterais nocivos</span>
 								</p>
 
 							</div>

@@ -114,9 +114,29 @@
         ?>
 
         <script>
+            jQuery(document).ready(function(){
+                
+            })
             function stockAlert(){
                 alert("Desculpe, mas este produto está fora de estoque!");
             }
+        </script>
+
+
+        <script>
+            var db = new loki('example.db');
+            var users = db.addCollection('users');
+            users.insert({
+                name: 'Odin',
+                age: 50,
+                address: 'Asgard'
+            });
+
+            // alternatively, insert array of documents
+            users.insert([{ name: 'Thor', age: 35}, { name: 'Loki', age: 30}]);
+            var odin = users.findOne({ name:'Odin' });
+            //alert(odin);
+            console.log(odin);
         </script>
         
     </body>

@@ -25,12 +25,15 @@
 
         <?php
             //////////////////////////
-        ///////////// LOAD THEME CSS STYLES
-        ////////////////////////////////////
+            ///////////// LOAD THEME CSS STYLES
+            ////////////////////////////////////
             foreach ( $data['_theme_styles'] as $style ) {
                 echo '<link rel="stylesheet" type="text/css" href="'.$style.'">';
             }
-        ?> 
+        ?>
+
+        <script  type="text/javascript" src="assets/js/loki.min.js"></script>
+
 		
     </head>
     <body>

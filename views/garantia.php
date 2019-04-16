@@ -63,7 +63,7 @@
 
 			    				<div class="container-icon col-md-6">
 			    					<div class="container-fluid-icon col-md-12">
-			    						<i class="icon-security fa fa-truck fa-4x col-md-4"></i>
+			    						<i class="flaticon-delivery-truck-with-circular-clock col-md-4"></i>
 			    						<p class="text-icon-security col-md-8">
 			    							Entrega garantida no prazo combinado e politica de devolução.
 			    						</p>
@@ -107,7 +107,7 @@
 
 	    				<div class="container-icon col-sm-3 col-xs-3">
 	    					<div class="container-fluid-icon col-sm-12 col-xs-12">
-	    						<i class="icon-security fa fa-truck col-sm-12 col-xs-12"></i>
+	    						<i class="flaticon-delivery-truck-with-circular-clock col-sm-12 col-xs-12"></i>
 	    						<p class="text-icon-security col-sm-12 col-xs-12">
 	    							Entrega garantida no prazo combinado e politica de devolução.
 	    						</p>

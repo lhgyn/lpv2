@@ -5,9 +5,16 @@
    Data: 18/10/2016
    Life Health
    ========================================================================== */
+
+@import('./flaticon.css');
+
 body, html{
 	font-family: 'Roboto Slab', serif;
 	color: #0077c8;
+}
+body p, body span{
+
+	font-size: 15px;
 }
 .navbar-brand.header-top-xs {
 	display: none;
@@ -608,7 +615,7 @@ body, html{
 	}
 
 	.img-wish img {
-		border: solid 6px #c9eaea!important;
+		border: solid 6px #0077c8!important;
 	}
 
 	.img-wish {
@@ -620,7 +627,7 @@ body, html{
 	}
 
 	.wish-individual {
-		color: #04485d;
+		color: #fff;
 	}
 
 	.wish-left .text-rodape-img-wish span {
@@ -1502,7 +1509,7 @@ body, html{
 	}
 
 	.row-wish {
-		background: #C9EAEA!important;
+		background: #0077c8!important;
 		margin: 0!important;
 		padding: 25px 0!important;
 	}
@@ -1562,7 +1569,7 @@ body, html{
 	.title-img-list {
 		display: block!important;
 		text-align: center;
-		background: #006A8B;
+		background: #0077c8;
 		height: 45px;
 	}
 
@@ -2386,7 +2393,7 @@ body, html{
 	width: 100%;
 	height: 3px!important;
 	margin: 0;
-	background: #009343;
+	background: #02708a;
 }
 
 .text-banner {
@@ -2464,7 +2471,7 @@ body, html{
 	vertical-align: middle;
 	line-height: normal;
 	font-size: 22px;
-	color: #006E91;
+	color: #0077c8;
 	font-weight: initial;
 }
 
@@ -2517,7 +2524,7 @@ body, html{
 }
 
 .text-scientificity span {
-	color: #006a8b!important;
+	color: #0077c8!important;
 }
 
 .content-img-list-right {
@@ -2558,7 +2565,7 @@ body, html{
 }
 
 .content-img-list-right ul li span i{
-	color: #006a8b!important;
+	color: #0077c8!important;
 	padding: 0 15px;
 }
 
@@ -2572,8 +2579,10 @@ body, html{
 }
 
 .row-after-before {
-	/*background: #31a0c2;*/
-	background: url('../img/bg-depoimento.png') center 0 fixed;
+  background: linear-gradient(rgba(255,255,255, 0.85), rgba(210,210,210, 0.85)), url("../img/parallax3.jpg");
+	background-size: cover, auto;
+	background-position: center center;
+	background-attachment: fixed;
 }
 
 .block-after-before {
@@ -2614,7 +2623,7 @@ body, html{
 
 .title-after-before h2 {
 	font-weight: bold;
-	color: #fff!important;
+	color: #fff;
 }
 
 .text-after-before {
@@ -2682,7 +2691,7 @@ body, html{
 
 .back-topo-wish {
 	position: absolute;
-	background: #c9eaea;
+	background: #0077c8;
 	width: 100%;
 	height: 305px;
 }
@@ -2691,7 +2700,7 @@ body, html{
 	margin-top: 95px;
 	width: 100%;
 	height: 90%;
-	background:#c9eaea;
+	background:#0077c8;
 }
 
 .back-wish-topo, .back-wish-bottom {
@@ -2737,7 +2746,7 @@ body, html{
 
 .img-wish img {
 	border-radius: 50%;
-	border: solid 8px #c9eaea;
+	border: solid 8px #0077c8;
 	padding: 0;
 	width: 100%;
 }
@@ -2754,7 +2763,7 @@ body, html{
 }
 
 .wish-individual {
-	color: #04485d;
+	color: #fff;
 }
 
 /* Trecho referente ao bloco 4: Desejo mental */
@@ -2782,7 +2791,7 @@ body, html{
 }
 
 .content-img-doctor img {
-	width: 170px;
+	width: 100%;
 	margin: 50px auto 30px;
 	float: none;
 	display: block;
@@ -2801,7 +2810,7 @@ body, html{
 }
 
 .icon-txt-scientist i {
-	color: #699669;
+	color: #0077c8;
 	font-size: 25px;
 	line-height: 40px;
 	padding-right: 15px;
@@ -2810,7 +2819,7 @@ body, html{
 .icon-txt-scientist span {
 	display: flex;
 	padding: 5px 0;
-	width: 170px;
+	width: 100%;
 	margin: 0 auto;
 	font-size: 16px;
 }
@@ -3588,6 +3597,12 @@ body, html{
     }
 }
 
+.title-fullcolor{
+	color:  #0077c8 !important;
+}
+.title-inverse{
+	color:  #fff;
+}
 
 
 /*///////////////////////////////////////
@@ -3598,4 +3613,20 @@ body, html{
 .header-top{
 	display: flex;
 	align-items: center;
+}
+
+
+#s1BenefitsList p{
+	color:  #333;
+}
+#s1BenefitsList i{
+	margin: 0;
+	padding: 0;
+}
+#s1BenefitsList i::before{
+	display: inline-block;
+	text-align: center;
+	width: 25px;
+	margin: 0; 
+	padding: 0;
 }

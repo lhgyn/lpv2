@@ -441,7 +441,7 @@
 }
 
 .row-point-just {
-	background: #dce8f0;
+	background: #f7f7f7;
 }
 
 .row-point-just, .img-points-justification {
@@ -502,7 +502,7 @@
 }
 
 .img-points-justification img {
-	border: solid 8px #DCE8F0;
+	border: solid 8px #f7f7f7;
 }
 
 .content-img-verao img{
