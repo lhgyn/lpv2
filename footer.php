@@ -124,7 +124,7 @@
 
 
         <script>
-            var db = new loki('example.db');
+            var db = new loki('db.json');
             var users = db.addCollection('users');
             users.insert({
                 name: 'Odin',

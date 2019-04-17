@@ -14,6 +14,10 @@
 		<meta name="robots" content="index, follow"/>
         <link rel="icon" href="favicon.ico" />
 
+        <script src="https://unpkg.com/lodash@4/lodash.min.js"></script>
+<script src="https://unpkg.com/lowdb@0.17/dist/low.min.js"></script>
+<script src="https://unpkg.com/lowdb@0.17/dist/LocalStorage.min.js"></script>
+
         <?php
             //////////////////////////
         ///////////// LOAD THEME FONTS
@@ -30,114 +34,75 @@
             foreach ( $data['_theme_styles'] as $style ) {
                 echo '<link rel="stylesheet" type="text/css" href="'.$style.'">';
             }
+            require('assets/css/header.style.php');
         ?>
-
-        <script  type="text/javascript" src="assets/js/loki.min.js"></script>
 
 		
     </head>
     <body>
 
-        <!--
-            // Este primeiro bloco de código é destinado a header do site
-            // É dividido em dois sub-blocos: header-top e header-bottom
-            // * header-top:: conteúdo acima do menu principal
-            // * header-bottom:: o próprio menu principal
-            // dev Peterson  // 
-        -->
-
-        <div class="navbar-phenatrim">
-            <div class="container container-header-top">
-                <div class="container-fluid">
-                    <div class="header-top col-lg-12 hidden-xs">
-                        <div class="logo-tipo col-lg-4 col-md-4 ">
-                            <a href="home"><img src="assets/img/phenatrim-logo.png" style="max-width: 220px;"></a>
-                        </div>
-                        
-
-                        <div class="col-lg-8 col-md-8 content-contat-header"> 
-
-                            <div class="icons-chamada">
-                                <ul>
-                                    <li class="col-md-3 col-sm-3 col-xs-3 icon-client">
-                                        <span class="fa fa-thumbs-o-up"></span>
-                                        <p>Mais de 25.000</p>
-                                        <p>Clientes</p>
-                                    </li>
-                                    <li class="col-md-3 col-sm-3 col-xs-3 icon-anvisa">
-                                        <span class="fa fa-check-square-o"></span>
-                                        <p>Aprovado pela</p>
-                                        <p>ANVISA</p>
-                                    </li>
-                                    <li class="col-md-3 col-sm-3 col-xs-3 icon-ingredients">
-                                        <span class="fa fa-leaf"></span>    
-                                        <p>Ingredientes</p>
-                                        <p>naturais</p>
-                                    </li>
-                                    <li class="col-md-3 col-sm-3 col-xs-3 icon-contact">
-                                        <span class="fa fa-phone"></span>
-                                        <p>SAC</p>
-                                        <p>(62) 3639-2975</p>
-                                    </li>
-                                </ul>
-
-                            </div><!--/icons-chamada-->
-
-                        </div><!--/content-contat-header-->
-
-                    </div><!--/header-top-->
-
-                </div><!--/container-fluid-->
-
-            </div><!--/container-->
-
-            <div class="loading-page"></div>
-
-            <div class="container container-header-bottom">
-
-                <div class="container-fluid">
-
-                    <nav class="navbar navbar-default header-bottom" role="navigation" id="slide-nav">
-
-                        <div class="navbar-header">
-                            <a class="navbar-toggle">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
+        <header id="site-header">
+            <div id="topbar"></div>
+            <div class="main-header hidden-xs">
+                <div class="container">
+                    <div class="branding col-md-4">
+                        <h1>
+                            <a href="home">
+                                <img src="assets/img/phenatrim-logo.png" alt="Phenatrim">
                             </a>
-                            <div class="navbar-brand header-top-xs">
-                                <div class="logo-xs">
-                                    <a href="home"><img src="assets/img/phenatrim-logo.png" style="max-width: 220px;">
-                                    </a>
-                                </div>
-
-                                <div class="content-contat-header-xs">
-                                    <div class="icon-contact-xs">
-                                        <p><i class="fa fa-phone"></i>&nbsp;SAC&nbsp;<span>(62) 3639-2975</span></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div id="slidemenu" class="navbar-menu-bio">
-                            <ul class="nav navbar-nav">
-                                <li><a href="home">HOME</a></li>
-                                <li><a href="como-funciona">COMO FUNCIONA</a></li>
-                                <li><a href="depoimentos">DEPOIMENTOS</a></li>
-                                <li><a href="garantia">GARANTIA</a></li>
-                                <li><a href="perguntas-frequentes">PERGUNTAS FREQUENTES</a></li>
-                                <li><a href="contato">CONTATO</a></li>
-                                <li><a href="home#buy-phenatrim" class="">PEÇA AGORA!</a></li>
-                                <!--<li><a href="http://phenatrimoficial.com.br">PEÇA AGORA!</a></li>-->
-                            </ul>                 
-                        </div><!-- /.navbar-collapse -->
-
-                    </nav><!--/navbar-bottom-->
-
+                        </h1>
+                    </div>
+                    <div class="icons col-md-8">
+                        <ul>
+                            <li>
+                                <i class="flaticon-like"></i>
+                                <span>Mais de 25.000<br> Clientes</span>
+                            </li>
+                            <li>
+                                <i class="flaticon-check"></i>
+                                <span>Aprovado pela<br> ANVISA</span>
+                            </li>
+                            <li>
+                                <i class="flaticon-herbal-spa-treatment-leaves"></i>
+                                <span>Ingredientes<br> naturais</span>
+                            </li>
+                            <li>
+                                <i class="flaticon-telephone"></i>
+                                <span>SAC<br> (62) 3639-2975</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-
             </div>
 
-        </div><!--/navbar-phenatrim-->
+             <!-- <nav class="navbar navbar-default header-bottom" role="navigation" id="slide-nav">
+                <div class="container">
+                    <div class="navbar-header">
+                    <a class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <div class="navbar-brand header-top-xs">
+                        <div class="logo-xs">
+                            <a href="home"><img src="assets/img/phenatrim-logo.png" style="max-width: 220px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="slidemenu" class="navbar-menu-bio">
+                    <ul class="nav navbar-nav">
+                        <li><a href="home">HOME</a></li>
+                        <li><a href="como-funciona">COMO FUNCIONA</a></li>
+                        <li><a href="depoimentos">DEPOIMENTOS</a></li>
+                        <li><a href="garantia">GARANTIA</a></li>
+                        <li><a href="perguntas-frequentes">PERGUNTAS FREQUENTES</a></li>
+                        <li><a href="contato">CONTATO</a></li>
+                        <li><a href="home#buy-phenatrim" class="">PEÇA AGORA!</a></li>
+                    </ul>                 
+                </div>
+                </div>
+            </nav> -->
+        </header>

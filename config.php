@@ -59,15 +59,28 @@ switch ($page) {
 $data['_theme_scripts'] = [
 	'https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js',
 	'assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js',
+    'assets/js/vendor/bootstrap.min.js',
+    'assets/js/renderer.js',
 	'app/ajaxGetPost.js',
-	'js/vendor/bootstrap.min.js',
 	'app/main.js',
 	'app/newsLetter.js',
 ];
 
 
 // Theme Colors
-$data['theme_colors'] = array();
+$data['theme_colors'] = [
+    'default' => '#333',
+    'primary' => '#0077c8',
+    'secondary' => '#106f88',
+    'light_color' => '#666',
+    'links' => '#606060',
+    'cta' => '#fff',
+    'cta_bg' => 'linear-gradient(to bottom,#f0ad4e 0,#eb9316 100%)',
+    'icons' => '#106f88',
+
+
+
+];
 
 
 // Scripts de Conversão
