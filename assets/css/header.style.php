@@ -103,20 +103,5 @@
 	}
 }
 
-/* 
-#desktop-menu{
-	list-style: none;
-	display: flex !important;
-	align-items: center;
-	justify-content: space-between;
-	border:  1px solid;
-	margin: 0; padding: 0;
-}
-#desktop-menu li a{
-	padding-top: 20px; 
-	padding-bottom: 20px;
-	display: flex;
-} */
-
 
 </style>

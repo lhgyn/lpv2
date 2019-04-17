@@ -1,9 +1,52 @@
-<?php require('header.php'); ?>    	
+<?php require('header.php'); ?>  
 
-	    <!--
-			// Trecho destinado ao banner principal
-	    -->
-	    <div id="page-content">
+<div class="container-fluid">
+	<section id="section-one">
+		<div class="row">
+			<div class="container">
+				<div class="col-md-3 hidden-md hidden-xs left">
+					<img class="img-responsive" src="assets/img/phenatrim/phenatrim_mockup.jpg" alt="Phenatrim pote">
+				</div>
+				<div class="col-md-5 col-xs-6 center">
+					<div class="title">
+						<h2 class="">
+							A MANEIRA MAIS EFICAZ<br>
+							E SEGURA PARA EMAGRECER
+							<big><strong>DEFINITIVAMENTE!</strong></big>
+						</h2>
+						<hr>
+						<h3>Poderosa fórmula com benefícios clinicamente comprovados:</h3>
+					</div>
+					<div class="benefit-list">
+						<p><i class="flaticon-weight-scale"></i> Perda de peso</p>
+						<p><i class="flaticon-measuring-tape"></i> Redução de medidas</p>
+						<p><i class="flaticon-human-body"></i> Combate à celulites</p>
+						<p><i class="flaticon-fire"></i> Queima de gordura teimosa</p>
+						<p><i class="flaticon-flash"></i> Energia extra</p> 
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6 right">
+					<img class="img-responsive" src="assets/img/woman-happy.png" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="row" id="cta-block">
+			<div class="container">
+				<div class="col-md-6">
+					<p class="text-center">
+						Conquiste Um Corpo Lindo E Atraente...<br/>
+						Sinta-se Mais Confiante E Feliz!
+					</p>
+				</div>
+				<div class="col-md-6">
+					
+				</div>
+			</div>
+		</div>
+	</section>  	
+</div>
+
+	    <!-- <div id="page-content">
 		    <div class="container-banner">
 		    	<div class="container">
 		    		<div class="container-fluid">
@@ -19,8 +62,11 @@
 								</picture>
 		    				</div>
 		    				<div class="content-text-banner col-lg-5 col-md-5 col-sm-8 col-xs-8"> 
-		    					<h2 class="title-banner">A MANEIRA MAIS EFICAZ E SEGURA PARA EMAGRECER <span>DEFINITIVAMENTE!</span></h2>
-		    					<hr class="line-banner">
+		    					<h2 class="title-banner">
+		    						A MANEIRA MAIS EFICAZ E SEGURA PARA EMAGRECER
+		    						<span>DEFINITIVAMENTE!</span>
+		    					</h2>
+		    					<hr>
 		    					<span class="text-banner">Poderosa fórmula com benefícios clinicamente comprovados:</span>
 		    					<div id="s1BenefitsList" class="text-list-banner col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			    					<p><i class="flaticon-weight-scale"></i> Perda de peso</p>
@@ -34,41 +80,23 @@
 		    					</div>
 		    				</div>
 
-		    				<!--
-
-		    				<div class="content-btn-direcionamento-480">
-								
-								<span>
-									Conquiste Um Corpo Lindo E Atraente...
-									Sinta-se Mais Confiante E Feliz!
-								</span>
-
-								<div class="btn-adquira btn-adquira-480">
-									<a href="http://www.phenatrim.com.br/peca-agora.php" class="btn-warning btn col-sm-12 col-xs-12">
-										<h3 class="btn-uppercase-experimente">EXPERIMENTE<br/>PHENATRIM HOJE!</h3>			
-									</a>
-								</div>
-							</div><! - -/content-btn-direcionamento-->
-
 		    				<div class="banner-right col-lg-4 col-md-4 col-sm-4 col-xs-4"> 
 		    					<picture>
-								    <source media="(min-width: 1200px)" srcset="assets/img/banner/banner-right-1200.png">
-								    <source media="(min-width: 991px)" srcset="assets/img/banner/banner-right-991.png">
-								    <source media="(min-width: 768px)" srcset="assets/img/banner/banner-right-768.png">
-								    <source media="(min-width: 640px)" srcset="assets/img/banner/banner-right-640.png">
-								    <source media="(min-width: 480px)" srcset="assets/img/banner/banner-right-480.png">
+								    <source media="(min-width: 1200px)" srcset="assets/img/woman-happy.png">
+								    <source media="(min-width: 991px)" srcset="assets/img/woman-happy.png">
+								    <source media="(min-width: 768px)" srcset="assets/img/woman-happy.png">
+								    <source media="(min-width: 640px)" srcset="assets/img/woman-happy.png">
+								    <source media="(min-width: 480px)" srcset="assets/img/woman-happy.png">
 								    <img src="assets/img/banner/banner-right-480.png" alt="Phenatrim-330">
 								</picture>
 		    				</div>
-		    			</div><!--/cozntent-banner-full-->
-		      		</div><!--/container-fluid-->
-		      	</div><!--/container-->
-		    </div><!--/container-banner-->
-		    <!--
-				// Fim do trecho destinado ao banner principal
-		    -->
+		    			</div>
+		      		</div>
+		      	</div>
+		    </div> -->
 
-			<div class="row-conversao-interessados">
+
+			<!-- <div class="row-conversao-interessados">
 				<div class="container"> 
 					<div class="container-fluid"> 
 
@@ -96,10 +124,10 @@
 									<p class="btn-lowercase-experimente">SATISFAÇÃO GARANTIDA OU O SEU DINHEIRO DE VOLTA!</p> 
 								</a>
 							</div>
-						</div><!--/content-btn-direcionamento-->
-					</div><!--/container-fluid-->
-				</div><!--/container-->
-			</div><!--/row-conversao-interessados-->
+						</div>
+					</div>
+				</div>
+			</div> -->
 
 			<div class="content-lab row-scientificity">
 				<div class="container container-scientificity">
