@@ -124,19 +124,15 @@
 
 
         <script>
-            var db = new loki('db.json');
-            var users = db.addCollection('users');
-            users.insert({
-                name: 'Odin',
-                age: 50,
-                address: 'Asgard'
-            });
 
-            // alternatively, insert array of documents
-            users.insert([{ name: 'Thor', age: 35}, { name: 'Loki', age: 30}]);
-            var odin = users.findOne({ name:'Odin' });
-            //alert(odin);
-            console.log(odin);
+            jQuery("#text-test").fitText(2.0, { minFontSize: '14px', maxFontSize: '30px' });
+            jQuery("#difinitive-title").fitText(1.6, { minFontSize: '30px', maxFontSize: '40px' });
+
+        </script>
+
+
+        <script>
+            new gnMenu( document.getElementById( 'gn-menu' ) );
         </script>
         
     </body>

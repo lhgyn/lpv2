@@ -97,10 +97,28 @@
     color: #fff;
 }
 
-@media only screen and(max-width:991px){
+@media only screen and (max-width:991px){
 	#navbar1.navbar-default .navbar-header .navbar-brand{
 		padding: 0 !important;
 	}
+}
+@media all and (min-width:991px) and (max-width:1199px){
+	#navbar1.navbar-default .navbar-nav>li>a {
+	    padding-left: 16px;
+	    padding-right: 16px;
+	    font-size: 13px;
+	}
+}
+
+
+#mobile-nav .mobile-header{
+	height: 25px;
+	background: blue;
+}
+#mobile-nav #gn-menu{
+}
+#mobile-nav #gn-menu > li{
+	border: 0;
 }
 
 

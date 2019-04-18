@@ -11,12 +11,13 @@ $page = basename($filename, '.php');
 $data['theme_fonts'] = [
 	'https://fonts.googleapis.com/css?family=Roboto+Slab:300,400',
 	'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700',
+    'https://fonts.googleapis.com/css?family=Marck+Script|Nothing+You+Could+Do|Yellowtail'
 ];
 
 
 
 // Theme Styles
-$data['_theme_styles'] = [ 'assets/css/bootstrap.min.css', 'assets/css/bootstrap-theme.min.css', 'assets/css/font-awesome.css', 'assets/css/main.css', 'assets/css/flaticon.css'];
+$data['_theme_styles'] = [ 'assets/css/bootstrap.min.css', 'assets/css/bootstrap-theme.min.css', 'assets/css/font-awesome.css', 'assets/css/main.css', 'assets/css/flaticon.css', 'assets/libs/animate.css', 'assets/libs/GoogleNexusWebsiteMenu/css/component.css'];
 
 switch ($page) {
     case 'home':
@@ -60,12 +61,15 @@ $data['_theme_scripts'] = [
 	'https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js',
 	'assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js',
     'assets/js/vendor/bootstrap.min.js',
-    'assets/js/renderer.js',
 	'app/ajaxGetPost.js',
 	'app/main.js',
 	'app/newsLetter.js',
-];
+    'assets/libs/jquery.fittext.js',
+    'assets/libs/GoogleNexusWebsiteMenu/js/gnmenu.js',
+    'assets/libs/GoogleNexusWebsiteMenu/js/classie.js'
 
+
+];
 
 // Theme Colors
 $data['theme_colors'] = [
@@ -77,9 +81,6 @@ $data['theme_colors'] = [
     'cta' => '#fff',
     'cta_bg' => 'linear-gradient(to bottom,#f0ad4e 0,#eb9316 100%)',
     'icons' => '#106f88',
-
-
-
 ];
 
 

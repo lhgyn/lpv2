@@ -2,132 +2,50 @@
 
 <div class="container-fluid">
 	<section id="section-one">
-		<div class="row">
+		<div class="row" id="main">
 			<div class="container">
-				<div class="col-md-3 hidden-md hidden-xs left">
+				<div class="col-md-3 hidden-md hidden-sm hidden-xs left">
 					<img class="img-responsive" src="assets/img/phenatrim/phenatrim_mockup.jpg" alt="Phenatrim pote">
 				</div>
-				<div class="col-md-5 col-xs-6 center">
+				<div class="col-md-5 col-sm-6 col-xs-12 center">
 					<div class="title">
-						<h2 class="">
-							A MANEIRA MAIS EFICAZ<br>
-							E SEGURA PARA EMAGRECER
-							<big><strong>DEFINITIVAMENTE!</strong></big>
-						</h2>
+						<h3>
+							<a>A MANEIRA MAIS EFICAZ E SEGURA PARA EMAGRECER</a> <br>
+							<strong id="difinitive-title">DEFINITIVAMENTE!</strong>
+						</h3>
 						<hr>
-						<h3>Poderosa fórmula com benefícios clinicamente comprovados:</h3>
+						<h4>Poderosa fórmula com benefícios clinicamente comprovados:</h4>
 					</div>
 					<div class="benefit-list">
-						<p><i class="flaticon-weight-scale"></i> Perda de peso</p>
-						<p><i class="flaticon-measuring-tape"></i> Redução de medidas</p>
-						<p><i class="flaticon-human-body"></i> Combate à celulites</p>
-						<p><i class="flaticon-fire"></i> Queima de gordura teimosa</p>
-						<p><i class="flaticon-flash"></i> Energia extra</p> 
+						<p><span><i class="flaticon-weight-scale"></i> Perda de peso</span></p>
+						<p><span><i class="flaticon-measuring-tape"></i> Redução de medidas</span></p>
+						<p><span><i class="flaticon-human-body"></i> Combate à celulites</span></p>
+						<p><span><i class="flaticon-fire"></i> Queima de gordura teimosa</span></p>
+						<p><span><i class="flaticon-flash"></i> Energia extra</span></p> 
 					</div>
 				</div>
-				<div class="col-md-4 col-xs-6 right">
+				<div class="col-md-4 col-sm-6 col-xs-12 right">
 					<img class="img-responsive" src="assets/img/woman-happy.png" alt="">
 				</div>
 			</div>
 		</div>
 		<div class="row" id="cta-block">
 			<div class="container">
-				<div class="col-md-6">
-					<p class="text-center">
+				<div class="col-md-6 left">
+					<p id="text-test">
 						Conquiste Um Corpo Lindo E Atraente...<br/>
 						Sinta-se Mais Confiante E Feliz!
 					</p>
 				</div>
-				<div class="col-md-6">
-					
+				<div class="col-md-6 right">
+					<a href="#buy-phenatrim" class="img-responsive">
+						<img class="animated infinite pulse delay-2s img-responsive" src="assets/img/order-btn.png" alt="">
+					</a>
 				</div>
 			</div>
 		</div>
 	</section>  	
 </div>
-
-	    <!-- <div id="page-content">
-		    <div class="container-banner">
-		    	<div class="container">
-		    		<div class="container-fluid">
-		    			<div class="content-banner-full col-md-12"> 
-		    				<div class="banner-left col-lg-3 col-md-3 hidden-sm hidden-xs"> 
-		    					<picture>
-								    <source media="(min-width: 1200px)" srcset="assets/img/phenatrim/phenatrim_mockup.jpg">
-								    <source media="(min-width: 991px)" srcset="assets/img/phenatrim/phenatrim_mockup.jpg">
-								    <source media="(min-width: 769px)" srcset="assets/img/phenatrim/phenatrim_mockup.jpg">
-								    <source media="(min-width: 640px)" srcset="assets/img/phenatrim/phenatrim_mockup.jpg">
-								    <source media="(min-width: 480px)" srcset="assets/img/phenatrim/phenatrim_mockup.jpg">
-								    <img src="assets/img/phenatrim/phenatrim_mockup.jpg" alt="Phenatrim">
-								</picture>
-		    				</div>
-		    				<div class="content-text-banner col-lg-5 col-md-5 col-sm-8 col-xs-8"> 
-		    					<h2 class="title-banner">
-		    						A MANEIRA MAIS EFICAZ E SEGURA PARA EMAGRECER
-		    						<span>DEFINITIVAMENTE!</span>
-		    					</h2>
-		    					<hr>
-		    					<span class="text-banner">Poderosa fórmula com benefícios clinicamente comprovados:</span>
-		    					<div id="s1BenefitsList" class="text-list-banner col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			    					<p><i class="flaticon-weight-scale"></i> Perda de peso</p>
-			    					<p><i class="flaticon-measuring-tape"></i> Redução de medidas</p>
-			    					<p><i class="flaticon-human-body"></i> Combate à celulites</p>
-			    					<p><i class="flaticon-fire"></i> Queima de gordura teimosa</p>
-			    					<p><i class="flaticon-flash"></i> Energia extra</p> 
-		    					</div>
-		    					<div class="frasco-480 hidden">
-		    						<img src="assets/img/phenatrim/phenatrim_mockup.jpg" alt="Phenatrim">
-		    					</div>
-		    				</div>
-
-		    				<div class="banner-right col-lg-4 col-md-4 col-sm-4 col-xs-4"> 
-		    					<picture>
-								    <source media="(min-width: 1200px)" srcset="assets/img/woman-happy.png">
-								    <source media="(min-width: 991px)" srcset="assets/img/woman-happy.png">
-								    <source media="(min-width: 768px)" srcset="assets/img/woman-happy.png">
-								    <source media="(min-width: 640px)" srcset="assets/img/woman-happy.png">
-								    <source media="(min-width: 480px)" srcset="assets/img/woman-happy.png">
-								    <img src="assets/img/banner/banner-right-480.png" alt="Phenatrim-330">
-								</picture>
-		    				</div>
-		    			</div>
-		      		</div>
-		      	</div>
-		    </div> -->
-
-
-			<!-- <div class="row-conversao-interessados">
-				<div class="container"> 
-					<div class="container-fluid"> 
-
-						<div class="content-img-frasco-direcionamento hidden-lg hidden-md col-sm-4 col-xs-4">
-							<picture>
-							    <source media="(min-width: 768px)" srcset="assets/img/phenatrim/phenatrim_mockup.jpg">
-							    <source media="(min-width: 640px)" srcset="assets/img/phenatrim/phenatrim_mockup.jpg">
-							    <source media="(min-width: 480px)" srcset="assets/img/phenatrim/phenatrim_mockup.jpg">
-							    <img src="assets/img/phenatrim/phenatrim_mockup.jpg" alt="Phenatrim">
-							</picture>
-						</div>
-
-						<div class="content-btn-direcionamento col-lg-12 col-md-12 col-sm-8 col-xs-8"> 
-							
-							<div class="text-adquira col-lg-6 col-md-5 col-sm-12 hidden-xs">
-								<p>
-									Conquiste Um Corpo Lindo E Atraente...<br/>
-									Sinta-se Mais Confiante E Feliz!
-								</p>
-							</div>
-
-							<div class="btn-adquira col-lg-6 col-md-7 col-sm-12 col-xs-12">
-								<a href="#buy-phenatrim" class="btn-buy btn-warning btn col-lg-12 col-md-12">
-									<h3 class="btn-uppercase-experimente">EXPERIMENTE PHENATRIM HOJE!</h3>
-									<p class="btn-lowercase-experimente">SATISFAÇÃO GARANTIDA OU O SEU DINHEIRO DE VOLTA!</p> 
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> -->
 
 			<div class="content-lab row-scientificity">
 				<div class="container container-scientificity">
@@ -148,32 +66,6 @@
 							<div class="col-lg-5 col-md-4 col-sm-4 col-xs-12 content-img-verao"> 
 			    				<img src="assets/img/conquista-verao.png" alt="conquita verao">
 			    			</div>
-
-							<!-- <div class="content-img-scientificity col-lg-6 col-md-6 col-sm-12 col-xs-12">
-								<div class="title-img-list hidden col-xs-12"> 
-									<h3>FÓRMULA EXCLUSIVA</h3>
-								</div>
-
-								<div class="content-img-left col-lg-6 col-md-6 col-sm-5 col-xs-6"> 
-									<picture>
-										<source media="(min-width: 1200px)" srcset="assets/img/scientificity-large.png">
-										<source media="(min-width: 991px)" srcset="assets/img/scientificity-large.png">
-										<source media="(min-width: 769px)" srcset="assets/img/scientificity-medio.png">
-										<source media="(min-width: 640px)" srcset="assets/img/scientificity-medio.png">
-										<source media="(min-width: 481px)" srcset="assets/img/scientificity-large.png">
-										<img src="assets/img/scientificity-small.jpg" alt="Imagem Cientificidade" />
-									</picture>
-								</div>
-
-								<div class="content-img-list-right col-lg-6 col-md-6 col-sm-7 col-xs-6">
-									<ul>
-										<li><span><i class="fa fa-check"></i>Completa</span></li>
-										<li><span><i class="fa fa-check"></i>Sinérgica</span></li>
-										<li><span><i class="fa fa-check"></i>Potente</span></li>
-										<li><span><i class="fa fa-check"></i>Comprovada</span></li>
-									</ul>
-								</div>
-							</div> -->
 						</div><!--/content-text-convince-->
 
 					</div><!--/container-fluid-->
@@ -193,8 +85,6 @@
 
 								Como você mesma pode perceber, Phenatrim foi perfeitamente formulado e precisamente equilibrado para atender às necessidades de cada mulher, quando se trata de perder peso.
 			    			</p>
-
-			    			<!-- <img class="img-justification-480" src="assets/img/img-lab-1200.png" alt="img-convince-mobile"> -->
 
 			    			<h4 class="col-lg-12 col-md-12 hidden-sm hidden-xs"><strong>Definitivamente, você nunca viu nada igual...</strong></h4>
 			    		</div>
@@ -227,16 +117,6 @@
 							<h4 class="hidden-lg hidden-md col-sm-12 col-xs-12"><strong>Definitivamente, você nunca viu nada igual...</strong></h4>
 							<br>
 						</div>
-
-			    		<!-- <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 box-content-img-justification">
-			    			<picture> 
-								<source media="(min-width: 1200px)" srcset="assets/img/img-lab-1200.png">
-								<source media="(min-width: 991px)" srcset="assets/img/img-lab-991.png">
-								<source media="(min-width: 768px)" srcset="assets/img/img-lab-769.png">
-								<source media="(min-width: 640px)" srcset="assets/img/img-lab-640.png">
-								<img src="../assets/assets/img/img-lab-1200.png" alt="img-convince-mobile">
-							</picture>
-			    		</div> -->
 
 			    		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 content-points-justification">
 
@@ -694,195 +574,7 @@
 		    </div>
 
 
-			<!--
-				// Deste trecho para baixo está em desenvolvimento
-			-->
 
-			<div class="content-cta">
-				<div class="container">
-					<div class="container-fluid">
-
-						<!-- // Bloco destinado ao trecho com o botão para direcioonamento às vendas-->
-						
-						<!-- <div class="content-btn-cta col-lg-8 col-md-8 col-sm-8 col-xs-8">
-
-							<h2 class="title-cta col-lg-12 col-md-12 col-sm-12 col-xs-12">O Que Você Ainda Está Esperando?</h2>
-
-							<div class="text-cta col-lg-12 col-md-12 col-sm-12 col-xs-12">							
-								<p>Dê o primeiro passo para você conquistar o corpo, a saúde e o bem estar que você sempre quis!</p>
-								<p>Milhares de pessoas já conseguiram resultados surpreendentes com Phenatrim. E você não pode ficar de fora!</p>							
-								<p>Então, venha fazer parte desse time de sucesso!</p>
-							</div>
-
-							<div class="content-img-cta content-img-cta-small hidden">
-								<div class="frasco-cta col-xs-12">
-									<picture>
-										<source media="(min-width: 480px)" srcset="assets/img/frasco-cta-640.png">
-										<img src="assets/img/frasco-cta-640.png" alt="produto Phenatrim">
-									</picture>
-								</div>
-							</div>
-
-							<div class="btn-cta col-lg-12 col-md-12 hidden-sm col-xs-12"> 
-								<a href="http://www.phenatrim.com.br/views/peca-agora.php" class="btn-warning btn col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<h3 class="btn-uppercase-experimente">GARANTA JÁ O SEU!</h3>
-									<p class="btn-lowercase-experimente">Estoques Limitados: Peça Agora Com Risco Zero!</p> 
-								</a>
-							</div>
-
-						</div> --><!--/content-img-convince-->
-
-						<!-- // Bloco destinado ao trecho a imagem do frasco do produto -->
-						
-						<!-- <div class="content-img-cta-large col-lg-4 col-md-4 col-sm-4 col-xs-4">
-							<div class="content-img-cta col-lg-12 col-md-12 col-sm-12 col-xs-12">
-								<picture>
-									<source media="(min-width: 1200px)" srcset="assets/img/frasco-cta-1200.png">
-									<source media="(min-width: 991px)" srcset="assets/img/frasco-cta-991.png">
-									<source media="(min-width: 769px)" srcset="assets/img/frasco-cta-769.png">
-									<img src="assets/img/frasco-cta-769.png" alt="produto Phenatrim">
-								</picture>
-							</div>
-						</div>
-
-						<div class="content-btn-wdt100 hidden-lg hidden-md col-sm-12 col-xs-12">
-							<div class="btn-cta col-sm-12 col-sm-12"> 
-								<a href="http://www.phenatrim.com.br/views/peca-agora.php" class="btn-warning btn col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<h3 class="btn-uppercase-experimente">GARANTA JÁ O SEU!</h3>
-									<p class="btn-lowercase-experimente">Estoques Limitados: Peça Agora Com Risco Zero!</p> 
-								</a>
-							</div>
-						</div> -->
-
-						<div class="packages col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<div class="wrap col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<section class="page-section">
-									<div class="title-buy col-lg-12 col-md-12 col-sm-12 col-xs-12">
-										<h2 class="text-center">O Que Você Ainda Está Esperando?</h2>
-										<h4 class="text-center">Dê o primeiro passo para você conquistar o corpo, a saúde e o bem estar que você sempre quis!</h4>
-										<h4 class="text-center">Milhares de pessoas já conseguiram resultados surpreendentes com Phenatrim. E você não pode ficar de fora!</h4>
-										<h4 class="text-center">Então, venha fazer parte desse time de sucesso!</h4>
-									</div>
-									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="buy-phenatrim">
-										  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 product-one">
-											  	<div class="product-block first">
-													<div class="product-title">
-											  			<h3>MELHOR OFERTA</h3>
-											  			<p>Super desconto! Economize 50%</p>
-											  		</div>
-											  		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 content-img-product-one">					  	
-													  	<img class="six-bottle-package" src="assets/img/product-one-frascos.png">
-													</div>
-											  		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center content-txt-product-one">
-											  			<div class="txt-product-one">
-												  			<div class="row">
-														  		<div class="col-xs-12">	
-														  			<!-- <form action="https://biz.payulatam.com/L0679a686685C1F61" method="post" target="carrinho"> -->
-																	  	<p class="product-name">LEVE 3 <strong>(1 GRÁTIS)</strong></p>
-																	  	<p class="product-price"><span><s class="old-price">DE R$599,96</s></span><br/><span>Por apenas</span><br>3x R$99,95</p>
-																	  	<!-- <input type="hidden" value="add" name="acao">
-																		<input type="hidden" value="contato@lifehealth24h.com" name="email_loja"> 
-																		<input type="hidden" value="2SEO_LIFE0001" name="cod_prod">
-																		<input type="hidden" value="Phenatrim (4 Potes + Frete Grátis)" name="nome_prod">
-																		<input type="hidden" value="299.85" name="valor_prod">
-																		<input type="hidden" value="000" name="peso_prod">
-																		<input type="hidden" name="quant_prod" value="1"> -->
-																		<button onClick="stockAlert()" id="form-cad-deliveri" type="submit" class="btn btn-lg btn-warning btn-finalizar-compra">
-									                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> <strong>&nbsp;COMPRAR</strong>
-									                                    </button>
-									                                    <ul class="factors-cta">
-									                                    	<li><i class="glyphicon glyphicon-plane" style="color: #333;"></i> <strong>FRETE GRÁTIS E RÁPIDO</strong></li>
-									                                    	<li><img src="assets/img/icon-discount.png"> <strong>PELA METADE DO PREÇO</strong></li>
-									                                    	<li><i class="fa fa-check"></i> <strong>SATISFAÇÃO GARANTIDA</strong></li>
-									                                    </ul>
-									                                <!-- </form> -->
-																</div>
-															</div>
-						                                </div>		  	
-													</div>
-												</div>
-										  </div>
-										  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 content-product-two">
-										  	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 product-two">
-											  	<div class="product-block second">
-												  	<div class="product-title">
-												  			<h3>MAIS POPULAR!</h3>
-												  			<p>Super desconto!<span> </span>Economize 39%</p>
-											  		</div>
-											  		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 content-img-product-two">					  	
-													  	<img class="six-bottle-package" src="assets/img/product-two-frascos.png">
-													</div>
-											  		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center content-txt-product-two">
-											  			<div class="txt-product-two">
-													  		<div class="row">
-														  		<div class="col-xs-12">
-														  			<!-- <form action="https://biz.payulatam.com/L0679a6865A8918EA" method="post" target="carrinho"> -->
-																  		<p class="product-name">LEVE 2<br></p>
-																		<p class="product-price"><span><s class="old-price">DE R$299,98</s></span><br/><span>Por apenas</span><br>3x R$59,95</p>
-																		<!-- <input type="hidden" value="add" name="acao">
-																		<input type="hidden" value="contato@lifehealth24h.com" name="email_loja"> 
-																		<input type="hidden" value="2SEO_LIFE0002" name="cod_prod">
-																		<input type="hidden" value="Phenatrim (2 Potes)" name="nome_prod">
-																		<input type="hidden" value="179.85" name="valor_prod">
-																		<input type="hidden" value="250" name="peso_prod">
-																		<input type="hidden" name="quant_prod" value="1">	 -->	  	
-																		<button onClick="stockAlert()" id="form-cad-deliveri" type="submit" class="btn btn-lg btn-warning btn-finalizar-compra">
-									                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> <strong>&nbsp;COMPRAR</strong>
-									                                    </button>
-									                                    <ul class="factors-cta">
-									                                    	<li><i class="fa fa-trophy"></i> <strong>CAMPEÃO DE VENDAS</strong></li>
-									                                    	<li><i class="fa fa-check"></i> <strong>SATISFAÇÃO GARANTIDA</strong></li>
-									                                    </ul>
-									                                <!-- </form> -->
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										  </div>
-										  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 content-product-three">
-										  	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 product-three">
-											  	<div class="product-block last">
-											  		<div class="product-title">
-											  			<h3>PARA COMEÇAR</h3>
-											  			<p>Super desconto!<span> </span>Economize 27%</p>
-											  		</div>
-											  		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 content-img-product-three">					  	
-													  	<img class="six-bottle-package" src="assets/img/product-three-frascos.png">
-													</div>
-											  		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center content-txt-product-three">
-												  		<div class="txt-product-two">
-													  		<div class="row">
-														  		<div class="col-xs-12">
-														  			<!-- <form action="https://biz.payulatam.com/L0679a68651092C4A" method="post" target="carrinho"> -->
-																  		<p class="product-name">LEVE 1</p>
-																		<p class="product-price"><span><s class="old-price">DE R$149,99</s></span><br/><span>Por apenas</span><br>R$99,95</p>
-																		<!-- <input type="hidden" value="add" name="acao">
-																		<input type="hidden" value="contato@lifehealth24h.com" name="email_loja"> 
-																		<input type="hidden" value="2SEO_LIFE0003" name="cod_prod">
-																		<input type="hidden" value="Phenatrim (1 Pote)" name="nome_prod">
-																		<input type="hidden" value="99.95" name="valor_prod">
-																		<input type="hidden" value="250" name="peso_prod">
-																		<input type="hidden" name="quant_prod" value="1">	 -->		  	
-																	  	<button onClick="stockAlert()" type="submit" class="btn btn-lg btn-warning btn-finalizar-compra">
-									                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> <strong>&nbsp;COMPRAR</strong>
-									                                    </button>
-									                                    <ul class="factors-cta">
-									                                    	<li><i class="fa fa-check"></i> <strong>SATISFAÇÃO GARANTIDA</strong></li>
-									                                    </ul>
-									                                <!-- </form> -->
-															  	</div>
-															</div>
-														</div>
-												  	</div>
-												  </div>
-											  </div>
-										  </div>
-									</div>
-								</section>
-							</div>
-						</div>
 
 
 					</div><!--/container-fluid-->
