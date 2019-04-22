@@ -155,4 +155,94 @@ font-family: 'Nothing You Could Do', cursive; */
 	}
 }
 
+
+
+/* SEÇÃO 2 - CIÊNCIA -- modelo 1*/
+#ciencia{
+	margin-top: 40px;
+}
+
+#ciencia .first{
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+#ciencia .first p{
+	color: #333;
+}
+#ciencia .first p strong{
+	color:  #0077c8;
+}
+#ciencia .first ul{
+	list-style: none;
+	margin: 0; padding: 0; 
+}
+
+
+
+
+
+#ciencia .items_1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#ciencia .items_1 .col-md-2{
+	max-width: 50px;
+}
+#ciencia .items_1 .col-md-5{
+	width: calc(50% - 25px);
+}
+#ciencia .items_1:first-child .col-md-2{ align-self: flex-end; }
+#ciencia .items_1 .col-md-12 hr{
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #333;
+}
+
+#ciencia .items_1 figure{
+	position: relative;
+	float: left;
+	margin-right: 25px;
+	width: 150px;
+	height: 150px;
+	z-index: 1;
+}
+#ciencia .items_1 figure::before{
+	position: absolute;
+	content: "";
+	width: 170px;
+	height: 170px;
+	background: #fff;
+	top: -10px; left: -10px;
+	border-radius: 50%;
+	box-shadow: #999 0 0 5px;
+	z-index: 0;
+
+}
+#ciencia .items_1 figure img{
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	z-index: 2;
+}
+#ciencia .items_1 p{
+	text-align: justify;
+	color: #333
+}
+
+
+
+#ciencia .last span{
+    position: relative;
+    font-size: 24px;
+    border: 1px solid;
+    border-radius: 100px;
+    padding-left: 48px;
+    padding-right: 40px;
+    border-bottom: 0;
+    left: -50px;
+}
+
+
 </style>

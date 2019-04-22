@@ -72,115 +72,87 @@
 				</div><!--/container-->
 			</div><!--/content-convince-->
 
-			<div class="row-content-justification row-content-justification-home">
-			    <div class="container content-full-justification"> 
-			    	<div class="container-fluid">
-			    		<hr/>
-			    		<div class="box-container-title-justification"> 
-			    			<h3 class="title-justification col-md-12">FINALMENTE UMA ALTERNATIVA NATURAL, SEGURA E EFICAZ</h3>
-			    		</div>
-			    		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 box-content-text-justification">
-			    			<p>
-			    				Se você realmente quer perder peso ou se livrar daquela gordurinha extra e ter um corpo magro e atraente; com Phenatrim você pode obter resultados reais.<br/><br/>
 
-								Como você mesma pode perceber, Phenatrim foi perfeitamente formulado e precisamente equilibrado para atender às necessidades de cada mulher, quando se trata de perder peso.
-			    			</p>
-
-			    			<h4 class="col-lg-12 col-md-12 hidden-sm hidden-xs"><strong>Definitivamente, você nunca viu nada igual...</strong></h4>
-			    		</div>
-
-			    		<div class="content-img-scientificity col-lg-6 col-md-6 col-sm-12 col-xs-12">
-							<div class="title-img-list hidden col-xs-12" style="background: red;"> 
-								<h3>FÓRMULA EXCLUSIVA</h3>
+			<section id="ciencia">
+				<div class="container first">
+					<div class="col-md-12">
+						<h2 class="text-center">FINALMENTE UMA ALTERNATIVA<br>NATURAL, SEGURA E EFICAZ</h2>
+					</div>
+					<div class="col-md-12">
+						<div class="row">
+							<div class="col-md-6 left">
+								<p>Se você realmente quer perder peso ou se livrar daquela gordurinha extra e ter um corpo magro e atraente; com Phenatrim você pode obter resultados reais.</p>
+								<p>Como você mesma pode perceber, Phenatrim foi perfeitamente formulado e precisamente equilibrado para atender às necessidades de cada mulher, quando se trata de perder peso.</p>
+								<p class=""><strong>Definitivamente, você nunca viu nada igual...</strong></p>
 							</div>
-
-							<div class="content-img-left col-lg-6 col-md-6 col-sm-5 col-xs-6"> 
-								<picture>
-									<source media="(min-width: 1200px)" srcset="assets/img/scientificity-large.png">
-									<source media="(min-width: 991px)" srcset="assets/img/scientificity-large.png">
-									<source media="(min-width: 769px)" srcset="assets/img/scientificity-medio.png">
-									<source media="(min-width: 640px)" srcset="assets/img/scientificity-medio.png">
-									<source media="(min-width: 481px)" srcset="assets/img/scientificity-large.png">
-									<img src="assets/img/scientificity-small.jpg" alt="Imagem Cientificidade" />
-								</picture>
+							<div class="col-md-6 right">
+								<div class="row">
+									<div class="col-md-6">
+										<img class="img-responsive" src="./assets/img/scientificity-small.jpg" alt="">
+									</div>
+									<div class="col-md-6">
+										<ul>
+											<li><span><i class="fa fa-check"></i>Completa</span></li>
+											<li><span><i class="fa fa-check"></i>Sinérgica</span></li>
+											<li><span><i class="fa fa-check"></i>Potente</span></li>
+											<li><span><i class="fa fa-check"></i>Comprovada</span></li>
+										</ul>
+									</div>
+								</div>
 							</div>
+						</div>
+					</div>
+				</div>
 
-							<div class="content-img-list-right col-lg-6 col-md-6 col-sm-7 col-xs-6">
-								<ul>
-									<li><span><i class="fa fa-check"></i>Completa</span></li>
-									<li><span><i class="fa fa-check"></i>Sinérgica</span></li>
-									<li><span><i class="fa fa-check"></i>Potente</span></li>
-									<li><span><i class="fa fa-check"></i>Comprovada</span></li>
-								</ul>
-							</div>
-							<br>
-							<h4 class="hidden-lg hidden-md col-sm-12 col-xs-12"><strong>Definitivamente, você nunca viu nada igual...</strong></h4>
-							<br>
+				<div class="container last">
+					<div class="row items_1">
+						<div class="col-md-5">							
+	    					<figure>
+	    						<img src="assets/img/complete-justification.jpg" alt="">
+	    					</figure>
+							<h3 class=""><span><i class="fa fa-check"></i> Completa</span></h3>
+	    					<p>Nenhuma outra fórmula contém ingredientes 100% naturais, seguros e eficazes para ajudar estabelecer o equilíbrio metabólico e ativar o seu metabolismo no modo queimador de gordura. Este fator é crucial para acelerar a perda de peso. Afinal, com o metabolismo operando em ritmo lento nada irá contribuir para que você emagreça de forma eficiente.</p>
 						</div>
 
-			    		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 content-points-justification">
+						<div class="col-md-2" style="display: flex; align-items: center;justify-content: center;">
+							<i style="height: 150px; width: 1px; background: #ddd;"></i>
+						</div>
+						
+						<div class="col-md-5">							
+	    					<figure>
+	    						<img src="assets/img/proven-justification.jpg" alt="">
+	    					</figure>
+							<h3 class=""><span><i class="fa fa-check"></i> Comprovada</span></h3>
+	    					<p>Diversos estudos realizados nos EUA revelam que os compostos do Phenatrim – ácido clorogênico, sinefrina, caffeine anhydrous, irvingia gabonensis, metilxantinas e Green tea – intensificam consideravelmente a oxidação de gordura, especialmente aquela que se localiza na barriga, nas coxas e no bumbum.</p>
+						</div>
+					</div>
 
-			    			<div class="row-point-just row-just-complete col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-			    				<div class="col-md-1 col-sm-2 col-xs-2 img-points-justification img-just-complete">
-			    					<img src="assets/img/complete-justification.jpg">
-			    				</div>
+					<div class="row items-divisor"> <div class="col-12"><hr></div> </div>
 
-			    				<div class="col-md-11 col-sm-10 col-xs-10 text-points-just text-just-complete">
-			    					<h3 class="title-points-just title-complete"><i class="fa fa-check"></i>Completa</h3>
+					<div class="row items_1">
+						<div class="col-md-5">							
+	    					<figure>
+	    						<img src="assets/img/powerful-justification.jpg" alt="">
+	    					</figure>
+							<h3 class=""><span><i class="fa fa-check"></i> Potente</span></h3>
+	    					<p>Uma mistura única que reúne as melhores substâncias aprovadas pela ANVISA, na dosagem exata para ser capaz de proporcionar os melhores resultados, sem risco e sem efeito sanfona.</p>
+						</div>
 
-			    					<p>
-			    						Nenhuma outra fórmula contém ingredientes 100% naturais, seguros e eficazes para ajudar estabelecer o equilíbrio metabólico e ativar o seu metabolismo no modo queimador de gordura. Este fator é crucial para acelerar a perda de peso. Afinal, com o metabolismo operando em ritmo lento nada irá contribuir para que você emagreça de forma eficiente.
-			    					</p>
-			    				</div>
-			    			</div>
+						<div class="col-md-2" style="display: flex; align-items: center;justify-content: center;">
+							<i style="height: 150px; width: 1px; background: #ddd;"></i>
+						</div>
 
-			    			<div class="row-point-just row-just-proven col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-			    				<div class="col-md-1 col-sm-2 col-xs-2 img-points-justification img-just-proven">
-			    					<img src="assets/img/proven-justification.jpg">
-			    				</div>
+						<div class="col-md-5">							
+	    					<figure>
+	    						<img src="assets/img/synergy-justification.jpg" alt="">
+	    					</figure>
+							<h3 class=""><span><i class="fa fa-check"></i> Sinérgica</span></h3>
+	    					<p>Cada componente foi cuidadosamente selecionado e trabalha em perfeita sinergia, atacando a gordura diretamente em sua fonte, promovendo assim até 3x mais perda de peso.</p>
+						</div>
+					</div>
+				</div>
+			</section>
 
-			    				<div class="col-md-11 col-sm-10 col-xs-10 text-points-just text-just-proven">
-			    					<h3 class="title-points-just title-proven"><i class="fa fa-check"></i>Comprovada</h3>
-
-			    					<p>
-			    						Diversos estudos realizados nos EUA revelam que os compostos do Phenatrim – ácido clorogênico, sinefrina, caffeine anhydrous, irvingia gabonensis, metilxantinas e Green tea – intensificam consideravelmente a oxidação de gordura, especialmente aquela que se localiza na barriga, nas coxas e no bumbum.
-			    					</p>
-			    				</div>
-			    			</div>
-
-			    			<div class="row-point-just row-just-powerful col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-			    				<div class="col-md-1 col-sm-2 col-xs-2 img-points-justification img-just-powerful">
-			    					<img src="assets/img/powerful-justification.jpg">
-			    				</div>
-
-			    				<div class="col-md-11 col-sm-10 col-xs-10 text-points-just text-just-powerful">
-			    					<h3 class="title-points-just title-powerful"><i class="fa fa-check"></i>Potente</h3>
-
-			    					<p>
-			    						Uma mistura única que reúne as melhores substâncias aprovadas pela ANVISA, na dosagem exata para ser capaz de proporcionar os melhores resultados, sem risco e sem efeito sanfona.
-			    					</p>
-			    				</div>
-			    			</div>
-
-			    			<div class="row-point-just row-just-synergy col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			    				<div class="col-md-1 col-sm-2 col-xs-2 img-points-justification img-just-synergy">
-			    					<img src="assets/img/synergy-justification.jpg">
-			    				</div>
-
-			    				<div class="col-md-11 col-sm-10 col-xs-10 text-points-just text-just-synergy">
-			    					<h3 class="title-points-just title-synergy"><i class="fa fa-check"></i>Sinérgica</h3>
-
-			    					<p>
-			    						Cada componente foi cuidadosamente selecionado e trabalha em perfeita sinergia, atacando a gordura diretamente em sua fonte, promovendo assim até 3x mais perda de peso.
-			    					</p>
-			    				</div>
-			    			</div>
-
-			    		</div>
-
-			    	</div>
-			    </div>
-			</div>
 
 			<div class="row row-cta-body">
 				<div class="container">

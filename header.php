@@ -36,7 +36,9 @@
                 echo '<link rel="stylesheet" type="text/css" href="'.$style.'">';
             }
             require('assets/css/header.style.php');
+            require('assets/css/footer.style.php');
             require('assets/css/home.style.php');
+            require('assets/css/peca-agora.style.php');
         ?>
 
 		
