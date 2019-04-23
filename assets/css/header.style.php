@@ -1,5 +1,8 @@
 <?php 	$colors = $data['theme_colors']; ?>
 <style>	
+html, body p{
+	font-size: 16px;
+}
 
 #site-header{
 	border-top: 3px solid <?=$colors['primary']?>
@@ -49,7 +52,9 @@
 }
 
 
-
+#navbar1.navbar{
+	margin-bottom: 0; 
+}
 #navbar1.navbar-default{
 	background: #fff;
 	border-radius: 0;

@@ -5,8 +5,15 @@
 font-family: 'Marck Script', cursive;
 font-family: 'Nothing You Could Do', cursive; */
 
+#main{
+	background-image: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 32%,rgba(255,255,255,0) 36%,rgba(255,255,255,1) 51%,rgba(255,255,255,1) 100%), url('assets/img/bg-home-3.png');
+	background-size: contain;
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+
 #section-one{
-	margin-top: 40px;
 }
 #section-one #main .container{
 	display: flex;
@@ -21,50 +28,53 @@ font-family: 'Nothing You Could Do', cursive; */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	padding-bottom: 25px;
 }
+#section-one #main .container .center .title{
+	margin-top: 30px;
+}
+
 #section-one #main .container .center h2{
 	margin: 0; 
 	line-height: 1.3;
+	text-align: center;
+}
+#section-one #main .container .center h2 strong{
+	font-size: 42px;
 }
 #section-one #main .container .center h2 big{
-	font-size: 3.2vw;
+	font-size: 42px;
 }
 #section-one #main .container .center h3{
 	margin-top: 0;
-	color: dimgray;
+	color: #333;
 }
 #section-one #main .container .center hr{
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+#section-one #main .container .center .benefit-list{
+	margin-top: 25px;
+}
 #section-one #main .container .center .benefit-list p{
 	position: relative;
-	color: dimgray;
+	color: #333;
 	display: flex;
 	align-items: center;
-	font-size: 16px;
-}
-#section-one #main .container .center .benefit-list p span{
-	display: flex;
-	align-items: center;
-	border-radius: 50px; 
-	padding-right: 25px;
-	border: 1px solid #0077c8;
-	border-bottom: none;
-
+	font-size: 20px;
 }
 
 #section-one #main .container .center .benefit-list i{
 	position: relative;
 	display: flex;
-	width: 40px; height: 40px;
+	width: 35px; height: 35px;
 	margin-right: 10px;
-	color: #fff;
+	color: <?=$colors['primary']?>;
 }
 #section-one #main .container .center .benefit-list i::before{
 	margin: 0;margin: 0;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -79,7 +89,7 @@ font-family: 'Nothing You Could Do', cursive; */
 	width: 100%;
 	height: 100%;
 	border: 1px solid <?=$colors['primary']?>;
-	background: <?=$colors['primary']?>;
+	background: ;
 	border-radius: 20px; 
 	z-index: 0;
 }
@@ -101,15 +111,15 @@ font-family: 'Nothing You Could Do', cursive; */
 }
 
 #cta-block{
-	background: #f7f7f7;
+	background: #607d8b;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
 
 #cta-block p{
     font-size: 25px;
-    font-weight: bold;
-    color: dimgray;
+    font-weight: normal;
+    color: #fff;
     text-align: center;
 }
 
@@ -233,7 +243,7 @@ font-family: 'Nothing You Could Do', cursive; */
 
 
 
-#ciencia .last span{
+/* #ciencia .last span{
     position: relative;
     font-size: 24px;
     border: 1px solid;
@@ -242,7 +252,55 @@ font-family: 'Nothing You Could Do', cursive; */
     padding-right: 40px;
     border-bottom: 0;
     left: -50px;
+} */
+
+
+
+#autoridade-medica{
+	position: relative;
+	background-image:
+	    url('assets/img/img-doctor.png'),
+	    linear-gradient(135deg, rgba(255,255,255,0.5) 0%,rgba(254,254,254,0.5) 2%,rgba(243,243,243,1) 46%,rgba(229,229,229,1) 100%),
+	    url('assets/img/science-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: auto, auto, contain;
+	background-position: bottom left; 
+	padding-top: 30px;
+	padding-bottom: 50px;
+
+	/* box-shadow: #333 10px -10px 5px; */
+	z-index: 99;
 }
 
+#autoridade-medica p{
+	color: #607d8b;
+
+}
+
+#autoridade-medica #icones{
+	display: flex;
+	flex-direction: column;
+}
+#autoridade-medica #icones span{
+    display: flex;
+    flex: 10;
+    align-items: center;
+    font-size: 14px;
+    color: #0077c8;
+    width: 100%;
+}
+#autoridade-medica #icones span b{ display: block; font-size: 16px; }
+#autoridade-medica #icones span i{
+	margin-right: 15px;
+	font-size: 24px;
+	color: #777;
+}
+#autoridade-medica #icones span i::before{
+	font-size: 32px;
+}
+
+#autoridade-medica #icones span.icon{
+	
+}
 
 </style>

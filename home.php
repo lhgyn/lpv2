@@ -4,28 +4,34 @@
 	<section id="section-one">
 		<div class="row" id="main">
 			<div class="container">
-				<div class="col-md-3 hidden-md hidden-sm hidden-xs left">
-					<img class="img-responsive" src="assets/img/phenatrim/phenatrim_mockup.jpg" alt="Phenatrim pote">
+				<div class="col-md-4 col-sm-6 col-xs-12 right">
+					<img class="img-responsive" src="assets/img/woman-happy.png" alt="" style=" visibility: hidden;">
 				</div>
-				<div class="col-md-5 col-sm-6 col-xs-12 center">
+				<div class="col-md-8 col-sm-6 col-xs-12 center">
 					<div class="title">
-						<h3>
-							<a>A MANEIRA MAIS EFICAZ E SEGURA PARA EMAGRECER</a> <br>
+						<h2>
+							A MANEIRA MAIS EFICAZ E SEGURA <br>PARA EMAGRECER<br>
 							<strong id="difinitive-title">DEFINITIVAMENTE!</strong>
-						</h3>
+						</h2>
 						<hr>
-						<h4>Poderosa fórmula com benefícios clinicamente comprovados:</h4>
+						<h3>Poderosa fórmula com benefícios clinicamente comprovados:</h3>
 					</div>
 					<div class="benefit-list">
-						<p><span><i class="flaticon-weight-scale"></i> Perda de peso</span></p>
-						<p><span><i class="flaticon-measuring-tape"></i> Redução de medidas</span></p>
-						<p><span><i class="flaticon-human-body"></i> Combate à celulites</span></p>
-						<p><span><i class="flaticon-fire"></i> Queima de gordura teimosa</span></p>
-						<p><span><i class="flaticon-flash"></i> Energia extra</span></p> 
+						<div class="row">
+							<div class="col-md-6" align="center">								
+								<img class="img-responsive" src="assets/img/phenatrim/phenatrim_mockup.png" alt="Phenatrim pote" style="max-width: 250px;">
+							</div>
+							<div class="col-md-6">
+								<div style="margin-left: -10px; margin-top: 15px;">
+									<p><i class="flaticon-weight-scale"></i> Perda de peso</p>
+									<p><i class="flaticon-measuring-tape"></i> Redução de medidas</p>
+									<p><i class="flaticon-human-body"></i> Combate à celulites</p>
+									<p><i class="flaticon-fire"></i> Queima de gordura teimosa</p>
+									<p><i class="flaticon-flash"></i> Energia extra</p>
+								</div>
+							</div>
+						</div>						
 					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 right">
-					<img class="img-responsive" src="assets/img/woman-happy.png" alt="">
 				</div>
 			</div>
 		</div>
@@ -39,7 +45,7 @@
 				</div>
 				<div class="col-md-6 right">
 					<a href="#buy-phenatrim" class="img-responsive">
-						<img class="animated infinite pulse delay-2s img-responsive" src="assets/img/order-btn.png" alt="">
+						<img class="animated infinite pulse delay-2s img-responsive" src="assets/img/icones/cta-phenatrim.png" alt="">
 					</a>
 				</div>
 			</div>
@@ -342,12 +348,39 @@
 			</div>
 
 			
+			<section id="autoridade-medica">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4"></div>							
+						<div class="col-md-8">
+							<h2>Você Pode Mudar A Sua Realidade <br>Agora Mesmo!</h2>
+							<br>
+							<p>Se você realmente quer perder peso, Phenatrim definitivamente é a melhor solução que você pode encontrar hoje no mercado. Este emagrecedor é fruto de uma longa investigação que finalmente resultou no desenvolvimento de uma perfeita formulação que age sinergicamente no organismo para promover o equilíbrio da função metabólica e contribuir consideravelmente para o processo de emagrecimento.</p>
+							<p>E para obter melhores resultados tome Phenatrim corretamente, mantenha uma alimentação saudável e pratique atividades físicas de forma moderada e sempre acompanhada por um profissional qualificado.</p>
+							<hr>
 
-			<div class="content-scientist row-scientist">
+							<div id="icones">
+								<span>
+									<i class="flaticon-drugs"></i>
+									<b>Sem necessidade de receita</b>
+								</span>
+								<span>
+									<i class="flaticon-mortar"></i>
+									<b>Sem substâncias farmacêuticas perigosas</b>
+								</span>
+								<span>
+									<i class="flaticon-charity"></i>
+									<b>Sem efeitos colaterais nocivos</b>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- <div class="content-scientist row-scientist">
 				<div class="container">
 					<div class="container-fluid"> 
-
-						<!-- // Bloco destinado ao trecho de texto com icones -->
 						
 						<div class="content-icon-scientist col-lg-4 col-md-4 col-sm-4 col-xs-12"> 
 							
@@ -371,9 +404,8 @@
 
 							</div>
 							
-						</div><!--/content-text-scientist-->
+						</div>
 
-						<!-- // Bloco destinado ao trecho somente ao texto-->
 						
 						<div class="content-text-scientist col-lg-8 col-md-8 col-sm-8 col-xs-12">
 
@@ -397,7 +429,7 @@
 								</div>
 							</div>
 
-						</div><!--/content-img-scientist-->
+						</div>
 						
 						<div class="content-cta-body cta-autoridade-medica-sm hidden-lg hidden-md col-sm-12 col-xs-12"> 
 							<div class="btn-adquira col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
@@ -410,7 +442,7 @@
 
 					</div>
 				</div> 
-			</div>
+			</div> -->
 
 			<div class="row-quote">
 			    <div class="container">

@@ -66,7 +66,6 @@
                                 <!--
                                     // trecho do menu especifico do produto
                                 -->
-
                                 <div class="rodape-phenatrim col-lg-4 col-md-4 col-sm-4"> 
                                     <ul> 
                                         <li><h3>Phenatrim</h3></li>
@@ -167,7 +166,7 @@
         <script>
 
             jQuery("#text-test").fitText(2.0, { minFontSize: '14px', maxFontSize: '30px' });
-            jQuery("#difinitive-title").fitText(1.6, { minFontSize: '30px', maxFontSize: '40px' });
+            jQuery("#difinitive-title").fitText(1.6, { minFontSize: '42.5px', maxFontSize: '44px' });
 
         </script>
 
