@@ -36,16 +36,22 @@
 			</div>
 		</div>
 		<div class="row" id="cta-block">
-			<div class="container">
+			<div class="container" style="display: flex;">
 				<div class="col-md-6 left">
 					<p id="text-test">
 						Conquiste Um Corpo Lindo E Atraente...<br/>
 						Sinta-se Mais Confiante E Feliz!
 					</p>
 				</div>
-				<div class="col-md-6 right">
-					<a href="#buy-phenatrim" class="img-responsive">
-						<img class="animated infinite pulse delay-2s img-responsive" src="assets/img/icones/cta-phenatrim.png" alt="">
+				<div class="col-md-6 right"> <!-- animated infinite pulse delay-2s -->
+					<a href="#buy-phenatrim" id="cta-button" class="img-responsive"> 
+						<div>
+							<span>EXPERIMENTE PHENATRIM HOJE!</span>
+							<small>SEJA A PRÓXIMA HISTÓRIA DE SUCESSO</small>
+						</div>
+						<div>
+							<i class="fa fa-angle-double-right"></i>
+						</div>
 					</a>
 				</div>
 			</div>
@@ -53,61 +59,45 @@
 	</section>  	
 </div>
 
-			<div class="content-lab row-scientificity">
-				<div class="container container-scientificity">
-					<div class="container-fluid container-fluid-scientificity">
 
-						<!-- // Bloco 2: Cientificidade -->
-						<div class="content-scientificity col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<div class="title-scientificity col-lg-12 col-md-12 col-sm-12 col-xs-12">
-								<h2>Absolutamente Tudo O Que Você Precisa Para Conquistar A Melhor Versão De Si Mesma!</h2>
-							</div>
+	<section id="section-two">
+		<div class="container">
+			<div class="col-md-8">
+				<h2>Absolutamente Tudo O Que Você Precisa Para Conquistar A Melhor Versão De Si Mesma!</h2>
+				<br>
+				<p>Phenatrim é uma fórmula emagrecedora 100% natural, composta por uma mistura única de ingredientes cuidadosamente selecionados e que oferecem benefícios comprovados cientificamente para perda de peso e queima de gordura.</p>
 
-							<div class="content-text-scientificity col-lg-7 col-md-8 col-sm-8 col-xs-12">
-								<p class="text-scientificity">
-									<span>Phenatrim</span> é uma fórmula emagrecedora 100% natural, composta por uma mistura única de ingredientes cuidadosamente selecionados e que oferecem benefícios comprovados cientificamente para perda de peso e queima de gordura.
-								</p>
-							</div>
-
-							<div class="col-lg-5 col-md-4 col-sm-4 col-xs-12 content-img-verao"> 
-			    				<img src="assets/img/conquista-verao.png" alt="conquita verao">
-			    			</div>
-						</div><!--/content-text-convince-->
-
-					</div><!--/container-fluid-->
-				</div><!--/container-->
-			</div><!--/content-convince-->
+				<p class="text-center"><img style="max-width: 300px" src="assets/img/selos.png" alt=""></p>
+			</div>
+			<div class="col-md-4">
+				<figure id="figure-card"><img class="img-responsive" src="./assets/img/resultado-60d.jpg" alt=""></figure>
+			</div>
+		</div>
+	</section>
 
 
 			<section id="ciencia">
-				<div class="container first">
-					<div class="col-md-12">
-						<h2 class="text-center">FINALMENTE UMA ALTERNATIVA<br>NATURAL, SEGURA E EFICAZ</h2>
-					</div>
-					<div class="col-md-12">
-						<div class="row">
-							<div class="col-md-6 left">
-								<p>Se você realmente quer perder peso ou se livrar daquela gordurinha extra e ter um corpo magro e atraente; com Phenatrim você pode obter resultados reais.</p>
-								<p>Como você mesma pode perceber, Phenatrim foi perfeitamente formulado e precisamente equilibrado para atender às necessidades de cada mulher, quando se trata de perder peso.</p>
-								<p class=""><strong>Definitivamente, você nunca viu nada igual...</strong></p>
-							</div>
-							<div class="col-md-6 right">
-								<div class="row">
-									<div class="col-md-6">
-										<img class="img-responsive" src="./assets/img/scientificity-small.jpg" alt="">
-									</div>
-									<div class="col-md-6">
-										<ul>
-											<li><span><i class="fa fa-check"></i>Completa</span></li>
-											<li><span><i class="fa fa-check"></i>Sinérgica</span></li>
-											<li><span><i class="fa fa-check"></i>Potente</span></li>
-											<li><span><i class="fa fa-check"></i>Comprovada</span></li>
-										</ul>
-									</div>
-								</div>
-							</div>
+				<div class="first">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 right">
+							<ul>
+								<li><i>→</i> Completa</li>
+								<li><i>→</i> Sinérgica</li>
+								<li><i>→</i> Potente</li>
+								<li><i>→</i> Comprovada</li>
+							</ul>
+						</div>
+						<div class="col-md-6 left">
+							<h2>FINALMENTE UMA ALTERNATIVA<br>NATURAL, SEGURA E EFICAZ</h2>
+							<hr>
+							<p>Se você realmente quer perder peso ou se livrar daquela gordurinha extra e ter um corpo magro e atraente; com Phenatrim você pode obter resultados reais.</p>
+							<p>Como você mesma pode perceber, Phenatrim foi perfeitamente formulado e precisamente equilibrado para atender às necessidades de cada mulher, quando se trata de perder peso.</p>
+							<hr>
+							<p class=""><strong>Definitivamente, você nunca viu nada igual...</strong></p>
 						</div>
 					</div>
+				</div>
 				</div>
 
 				<div class="container last">
@@ -116,8 +106,10 @@
 	    					<figure>
 	    						<img src="assets/img/complete-justification.jpg" alt="">
 	    					</figure>
-							<h3 class=""><span><i class="fa fa-check"></i> Completa</span></h3>
-	    					<p>Nenhuma outra fórmula contém ingredientes 100% naturais, seguros e eficazes para ajudar estabelecer o equilíbrio metabólico e ativar o seu metabolismo no modo queimador de gordura. Este fator é crucial para acelerar a perda de peso. Afinal, com o metabolismo operando em ritmo lento nada irá contribuir para que você emagreça de forma eficiente.</p>
+	    					<div>	    						
+								<h3>Completa</h3>
+		    					<p>Nenhuma outra fórmula contém ingredientes 100% naturais, seguros e eficazes para ajudar estabelecer o equilíbrio metabólico e ativar o seu metabolismo no modo queimador de gordura. Este fator é crucial para acelerar a perda de peso. Afinal, com o metabolismo operando em ritmo lento nada irá contribuir para que você emagreça de forma eficiente.</p>
+	    					</div>
 						</div>
 
 						<div class="col-md-2" style="display: flex; align-items: center;justify-content: center;">
@@ -128,8 +120,10 @@
 	    					<figure>
 	    						<img src="assets/img/proven-justification.jpg" alt="">
 	    					</figure>
-							<h3 class=""><span><i class="fa fa-check"></i> Comprovada</span></h3>
-	    					<p>Diversos estudos realizados nos EUA revelam que os compostos do Phenatrim – ácido clorogênico, sinefrina, caffeine anhydrous, irvingia gabonensis, metilxantinas e Green tea – intensificam consideravelmente a oxidação de gordura, especialmente aquela que se localiza na barriga, nas coxas e no bumbum.</p>
+	    					<div>	    						
+								<h3>Comprovada</h3>
+		    					<p>Diversos estudos realizados nos EUA revelam que os compostos do Phenatrim – ácido clorogênico, sinefrina, caffeine anhydrous, irvingia gabonensis, metilxantinas e Green tea – intensificam consideravelmente a oxidação de gordura, especialmente aquela que se localiza na barriga, nas coxas e no bumbum.</p>
+	    					</div>
 						</div>
 					</div>
 
@@ -140,8 +134,10 @@
 	    					<figure>
 	    						<img src="assets/img/powerful-justification.jpg" alt="">
 	    					</figure>
-							<h3 class=""><span><i class="fa fa-check"></i> Potente</span></h3>
-	    					<p>Uma mistura única que reúne as melhores substâncias aprovadas pela ANVISA, na dosagem exata para ser capaz de proporcionar os melhores resultados, sem risco e sem efeito sanfona.</p>
+							<div>
+								<h3>Potente</h3>
+	    						<p>Uma mistura única que reúne as melhores substâncias aprovadas pela ANVISA, na dosagem exata para ser capaz de proporcionar os melhores resultados, sem risco e sem efeito sanfona.</p>
+							</div>
 						</div>
 
 						<div class="col-md-2" style="display: flex; align-items: center;justify-content: center;">
@@ -152,8 +148,10 @@
 	    					<figure>
 	    						<img src="assets/img/synergy-justification.jpg" alt="">
 	    					</figure>
-							<h3 class=""><span><i class="fa fa-check"></i> Sinérgica</span></h3>
-	    					<p>Cada componente foi cuidadosamente selecionado e trabalha em perfeita sinergia, atacando a gordura diretamente em sua fonte, promovendo assim até 3x mais perda de peso.</p>
+	    					<div>
+								<h3>Sinérgica</h3>
+		    					<p>Cada componente foi cuidadosamente selecionado e trabalha em perfeita sinergia, atacando a gordura diretamente em sua fonte, promovendo assim até 3x mais perda de peso.</p>
+		    				</div>
 						</div>
 					</div>
 				</div>
@@ -164,188 +162,116 @@
 				<div class="container">
 					<div class="container-fluid">
 						<div class="content-cta-body col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-							<div class="btn-adquira col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-								<a href="#buy-phenatrim" class="btn-buy btn-warning btn col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<h3 class="btn-uppercase-experimente">EXPERIMENTE PHENATRIM HOJE!</h3>
-									<p class="btn-lowercase-experimente">SEJA A NOSSA PRÓXIMA HISTÓRIA DE SUCESSO!</p> 
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
+								<a href="#buy-phenatrim" id="cta-button" class="img-responsive"> 
+									<div>
+										<span>EXPERIMENTE PHENATRIM HOJE!</span>
+										<small>SEJA A PRÓXIMA HISTÓRIA DE SUCESSO</small>
+									</div>
+									<div>
+										<i class="fa fa-angle-double-right"></i>
+									</div>
 								</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			
 
-			<div class="row-after-before">
-				<div class="container"> 
-					<div class="container-fluid">
-						<div class="content-after-before col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-							<div class="title-after-before col-lg-12 col-md-12 col-sm-12 col-xs-12">
-								<h2 class="title-fullcolor">Resultados Que Você Também Pode Ter!</h2>
-							</div> 
 
-							<div class="block-after-before col-lg-12col-md-12 col-sm-12 col-xs-12">
-								
-								<div class="content-depo-box col-lg-4 col-md-4 col-sm-12 col-xs-12">
-									<div class="content-depo-box-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
-										<div class="border-depo"></div>
-										<div class="img-after-before col-lg-12 col-md-12 col-sm-6 col-xs-6">
-											<img src="assets/img/img-depoimento1.jpg" class="img-depoimento col-lg-12 col-md-12 col-sm-12 col-xs-12">
-											<div class="text-after-before col-lg-12 col-md-12 col-sm-12 col-xs-12">
-												<p class="box-antes col-lg-6 col-md-6 col-sm-6 col-xs-6">Antes</p>
-												<p class="box-depois col-lg-6 col-md-6 col-sm-6 col-xs-6">Depois</p> 
-											</div>
-										</div>
-										<div class="text-depo-total col-lg-12 col-md-12 col-sm-6 col-xs-6">
-											<h2 class="titulo-depoimento col-lg-12 col-md-12 col-sm-12 col-xs-12">Aline</h2>
-											<div class="content-text-depo col-lg-12 col-md-12 col-sm-12 col-xs-12">
-												<p class="text-depo col-lg-12 col-md-12 col-sm-12 col-xs-12">
-													“Perder peso e manter definitivamente não é uma tarefa fácil, mas com Phenatrim isso é possível. Nunca me senti tão realizada quanto agora! Viver em paz com a balança é simplesmente maravilhoso! Valeu a pena experimentar.”
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="content-depo-box col-lg-4 col-md-4 col-sm-12 col-xs-12">
-									<div class="content-depo-box-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
-										<div class="border-depo"></div>
-										<div class="img-after-before col-lg-12 col-md-12 col-sm-6 col-xs-6">
-											<img src="assets/img/img-depoimento2.jpg" class="img-depoimento col-lg-12 col-md-12 col-sm-12 col-xs-12">
-											<div class="text-after-before col-lg-12 col-md-12 col-sm-12 col-xs-12">
-												<p class="box-antes col-lg-6 col-md-6 col-sm-6 col-xs-6">Antes</p>
-												<p class="box-depois col-lg-6 col-md-6 col-sm-6 col-xs-6">Depois</p> 
-											</div>
-										</div>
-										<div class="text-depo-total col-lg-12 col-md-12 col-sm-6 col-xs-6">
-											<h2 class="titulo-depoimento col-lg-12 col-md-12 col-sm-12 col-xs-12">Luciana</h2>
-											<div class="content-text-depo col-lg-12 col-md-12 col-sm-12 col-xs-12">
-												<p class="text-depo col-lg-12 col-md-12 col-sm-12 col-xs-12">
-													“Depois de tanto tempo tentando emagrecer, descobri esse produto fantástico! Finalmente consegui perder peso, e o melhor; de forma natural e sem efeito colateral. Sem falar que hoje me sinto muito mais disposta e confiante. Só tenho a agradecer.”
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="content-depo-box content-depo-box-right col-lg-4 col-md-4 col-sm-12 col-xs-12">
-									<div class="content-depo-box-right col-lg-12 col-md-12 col-sm-12 col-xs-12">
-										<div class="border-depo"></div>
-										<div class="img-after-before col-lg-12 col-md-12 col-sm-6 col-xs-6">
-											<img src="assets/img/img-depoimento3.jpg" class="img-depoimento col-lg-12 col-md-12 col-sm-12 col-xs-12">
-											<div class="text-after-before col-lg-12 col-md-12 col-sm-12 col-xs-12">
-												<p class="box-antes col-lg-6 col-md-6 col-sm-6 col-xs-6">Antes</p>
-												<p class="box-depois col-lg-6 col-md-6 col-sm-6 col-xs-6">Depois</p> 
-											</div>
-										</div>
-										<div class="text-depo-total col-lg-12 col-md-12 col-sm-6 col-xs-6">
-											<h2 class="titulo-depoimento col-lg-12 col-md-12 col-sm-12 col-xs-12">Simone</h2>
-											<div class="content-text-depo col-lg-12 col-md-12 col-sm-12 col-xs-12">
-												<p class="text-depo col-lg-12 col-md-12 col-sm-12 col-xs-12">“Estou muito contente com o meu resultado. Já tomei diversos produtos para emagrecimento e nenhum me proporcionou um resultado satisfatório, mas Phenatrim é diferente, pode acreditar...<br>Funciona mesmo!”</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="btn-adquira col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-								<a href="#buy-phenatrim" class="btn-buy btn-warning btn col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<h3 class="btn-uppercase-experimente">EXPERIMENTE PHENATRIM HOJE!</h3>
-									<p class="btn-lowercase-experimente">SEJA A NOSSA PRÓXIMA HISTÓRIA DE SUCESSO!</p> 
-								</a>
-							</div>
-
+			<section id="depoiments">	
+				<div class="container">
+					<div class="col-md-12">	
+						<h2 class="text-center">Resultados Que Você Também Pode Ter!</h2>
+					</div>
+					<div class="col-md-4">
+						<div class="item col-md-12">
+							<figure>
+								<img src="./assets/img/img-depoimento3.jpg" alt="">
+							</figure>
+							<h2 class="text-center">Aline</h2>
+							<p class="text-center">“Perder peso e manter definitivamente não é uma tarefa fácil, mas com Phenatrim isso é possível. Nunca me senti tão realizada quanto agora! Viver em paz com a balança é simplesmente maravilhoso! Valeu a pena experimentar.”</p>
 						</div>
 					</div>
-				</div> 
-			</div>
-			
-			
-			<div class="row-wish">
-				<div class="back-topo-wish">
-					<div class="back-wish-topo"></div>
-					<div class="separador"></div>
-					<div class="back-wish-bottom"></div>
-				</div>
-				<div class="content-full-wish container"> 
-					<div class="container-fluid">
-						<div class="content-wish col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-							
-							<div class="title-wish col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-								<h2 class="title-inverse">
-									Imagine Quão Bom Seria Você Magra, Bonita E Cheia De Disposição?
-								</h2>
-							</div>
-
-							<div class="content-three-wish col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-								
-								<div class="wish-individual wish-left col-lg-4 col-md-4 col-sm-4 col-xs-12"> 
-									
-									<div class="title-img-wish title-left-img-wish col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-										<h4><span>CORPO</span><br/><strong>MAGRO E SAUDÁVEL</strong></h4>
-									</div>
-									<div class="img-wish col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-										<picture class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-											<source media="(min-width: 1200px)" srcset="assets/img/wish/img-wish-01-1200.jpg">
-											<source media="(min-width: 991px)" srcset="assets/img/wish/img-wish-01-991.jpg">
-											<source media="(min-width: 768px)" srcset="assets/img/wish/img-wish-01-768.jpg">
-											<source media="(min-width: 640px)" srcset="assets/img/wish/img-wish-01-640.jpg">
-											<source media="(min-width: 480px)" srcset="assets/img/wish/img-wish-01-480.jpg">
-											<img src="assets/img/wish/img-wish-01-480.jpg" alt="wish-left">
-										</picture>
-									</div>
-									<div class="text-rodape-img-wish col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-										<span>Desfile um corpo incrivelmente <br><strong>lindo e atraente</strong></span>
-									</div>
-								</div>
-
-								<div class="wish-individual wish-center col-lg-4 col-md-4 col-sm-4 col-xs-12"> 
-
-									<div class="title-img-wish title-center-img-wish col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-										<h4><span>MAIS</span><br/><strong>AUTOESTIMA</strong></h4>
-									</div>
-									<div class="img-wish col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-										<picture class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-											<source media="(min-width: 1200px)" srcset="assets/img/wish/img-wish-02-1200.jpg">
-											<source media="(min-width: 991px)" srcset="assets/img/wish/img-wish-02-991.jpg">
-											<source media="(min-width: 768px)" srcset="assets/img/wish/img-wish-02-768.jpg">
-											<source media="(min-width: 640px)" srcset="assets/img/wish/img-wish-02-640.jpg">
-											<source media="(min-width: 480px)" srcset="assets/img/wish/img-wish-02-480.jpg">
-											<img src="assets/img/wish/img-wish-02-480.jpg" alt="wish-left">
-										</picture>
-									</div>
-									<div class="text-rodape-img-wish txt-rdp-img-wish-center col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-										<span>Você altamente <br><strong>feliz e confiante</strong></span>
-									</div>
-									
-								</div>
-
-								<div class="wish-individual wish-right col-lg-4 col-md-4 col-sm-4 col-xs-12"> 
-									
-									<div class="title-img-wish title-right-img-wish col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-										<h4><span>RESULTADOS</span><br/><strong>SURPREENDENTES</strong></h4>
-									</div>
-									<div class="img-wish col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<picture class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-											<source media="(min-width: 1200px)" srcset="assets/img/wish/img-wish-03-1200.jpg">
-											<source media="(min-width: 991px)" srcset="assets/img/wish/img-wish-03-991.jpg">
-											<source media="(min-width: 768px)" srcset="assets/img/wish/img-wish-03-768.jpg">
-											<source media="(min-width: 640px)" srcset="assets/img/wish/img-wish-03-640.jpg">
-											<source media="(min-width: 480px)" srcset="assets/img/wish/img-wish-03-480.jpg">
-											<img src="assets/img/wish/img-wish-03-480.jpg" alt="wish-left">
-										</picture>
-									</div>
-									<div class="text-rodape-img-wish col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-										<span>Resultados reais que você <br><strong>sempre desejou conquistar</strong></span>
-									</div>
-
-								</div>
-
-							</div>
-
+					<div class="col-md-4">
+						<div class="item col-md-12">
+							<figure>
+								<img src="./assets/img/img-depoimento3.jpg" alt="">
+							</figure>
+							<h2 class="text-center">Luciana</h2>
+							<p class="text-center">“Depois de tanto tempo tentando emagrecer, descobri esse produto fantástico! Finalmente consegui perder peso, e o melhor; de forma natural e sem efeito colateral. Sem falar que hoje me sinto muito mais disposta e confiante. Só tenho a agradecer.”</p>
 						</div>
 					</div>
+					<div class="col-md-4">
+						<div class="item col-md-12">
+							<figure>
+								<img src="./assets/img/img-depoimento3.jpg" alt="">
+							</figure>
+							<h2 class="text-center">Simone</h2>
+							<p class="text-center">“Estou muito contente com o meu resultado. Já tomei diversos produtos para emagrecimento e nenhum me proporcionou um resultado satisfatório, mas Phenatrim é diferente, pode acreditar... <br>  Funciona mesmo!”</p>
+						</div>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" align="center"> 
+						<a href="#buy-phenatrim" id="cta-button"> 
+							<div>
+								<span>EXPERIMENTE PHENATRIM HOJE!</span>
+								<small>SEJA A PRÓXIMA HISTÓRIA DE SUCESSO</small>
+							</div>
+							<div>
+								<i class="fa fa-angle-double-right"></i>
+							</div>
+						</a>
+					</div>
 				</div>
-			</div>
+			</section>
+
+
+			<section id="inspiracional">
+				<div class="top">
+					<div class="container">
+						<div class="col-md-12">
+							<h2 class="text-center">
+								Imagine Quão Bom Seria Você Magra, <br> Bonita E Cheia De Disposição?
+							</h2>
+						</div>
+					</div>					
+				</div>
+				<div class="content">
+					<div class="container">
+						<div class="col-md-4">
+							<div class="col-md-12">
+								<figure>
+									<img src="assets/img/wish/img-wish-02-480.jpg" alt="">
+									<figcaption>
+										CORPO MAGRO E SAUDÁVEL
+									</figcaption>
+								</figure>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="col-md-12">
+								<figure>
+									<img src="assets/img/wish/img-wish-02-480.jpg" alt="">
+									<figcaption>
+										MAIS AUTOESTIMA
+									</figcaption>
+								</figure>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="col-md-12">
+								<figure>
+									<img src="assets/img/wish/img-wish-02-480.jpg" alt="">
+									<figcaption>
+										RESULTADOS SURPREENDENTES
+									</figcaption>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</section>
 
 			
 			<section id="autoridade-medica">
@@ -362,15 +288,15 @@
 							<div id="icones">
 								<span>
 									<i class="flaticon-drugs"></i>
-									<b>Sem necessidade de receita</b>
+									Sem necessidade de receita
 								</span>
 								<span>
 									<i class="flaticon-mortar"></i>
-									<b>Sem substâncias farmacêuticas perigosas</b>
+									Sem substâncias farmacêuticas perigosas
 								</span>
 								<span>
 									<i class="flaticon-charity"></i>
-									<b>Sem efeitos colaterais nocivos</b>
+									Sem efeitos colaterais nocivos
 								</span>
 							</div>
 						</div>

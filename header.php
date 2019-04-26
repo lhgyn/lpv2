@@ -49,32 +49,12 @@
         <div id="topbar"></div>
         <div class="main-header hidden-sm hidden-xs">
             <div class="container">
-                <div class="branding col-md-4">
-                    <h1>
+                <div class="branding col-md-12">
+                    <h1 class="text-center">
                         <a href="home">
                             <img src="assets/img/phenatrim-logo.png" alt="Phenatrim">
                         </a>
                     </h1>
-                </div>
-                <div class="icons col-md-8">
-                    <ul>
-                        <li>
-                            <i class="flaticon-like"></i>
-                            <span>Mais de 25.000<br> Clientes</span>
-                        </li>
-                        <li>
-                            <i class="flaticon-check"></i>
-                            <span>Aprovado pela<br> ANVISA</span>
-                        </li>
-                        <li>
-                            <i class="flaticon-herbal-spa-treatment-leaves"></i>
-                            <span>Ingredientes<br> naturais</span>
-                        </li>
-                        <li>
-                            <i class="flaticon-telephone"></i>
-                            <span>SAC<br> (62) 3639-2975</span>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>

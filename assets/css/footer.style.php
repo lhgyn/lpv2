@@ -38,9 +38,33 @@
 #site-footer{
 	background-image: linear-gradient(to bottom,#fff 0,#ddd 100%);
 }
+#footer-menu{
+	padding-top: 25px;
+	padding-bottom: 40px;
+}
 #footer-menu ul{
-	list-style: none;
+	list-style-type: none;
 	margin: 0; padding: 0;
+	color: #333
+}
+#footer-menu ul li{
+	display: flex;
+	align-items: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+#footer-menu ul li a{
+	margin: 0; padding: 0; 
+}
+#footer-menu ul li::before{
+	content: "";	
+	position: relative;
+	width: 3px; height: 8px;
+	background: #999;
+	left: -6px;
+}
+#footer-menu ul li:first-child::before{
+	display: none;
 }
 
 #footer-menu h3{
@@ -53,7 +77,27 @@
 	display: block;
 	color: #333;
 	font-size: 16px;
-	margin-top: 5px;
+}
+
+
+#contact-menu li::before{
+	display: none;
+}
+#contact-menu li{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-bottom: 10px;
+}
+
+#contact-menu li .icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 35px; height: 35px;
+	color: #333;
+	margin-right: 10px;
+	border: 1px solid #ddd;
 }
 
 

@@ -6,7 +6,7 @@ font-family: 'Marck Script', cursive;
 font-family: 'Nothing You Could Do', cursive; */
 
 #main{
-	background-image: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 32%,rgba(255,255,255,0) 36%,rgba(255,255,255,1) 51%,rgba(255,255,255,1) 100%), url('assets/img/bg-home-3.png');
+	background-image: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 32%,rgba(255,255,255,0) 36%,rgba(255,255,255,1) 51%,rgba(255,255,255,1) 100%), url('assets/img/bg-home-3.jpg');
 	background-size: contain;
 	background-position: left center;
 	background-repeat: no-repeat;
@@ -111,7 +111,7 @@ font-family: 'Nothing You Could Do', cursive; */
 }
 
 #cta-block{
-	background: #607d8b;
+	background: <?=$colors['primary']?>;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
@@ -127,25 +127,6 @@ font-family: 'Nothing You Could Do', cursive; */
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-
-#cta{
-	display: flex;
-	align-items: center;
-	background-image: linear-gradient(to bottom,#f0ad4e 0,#eb9316 100%);
-	background-repeat: repeat-x;
-    border-color: #e38d13;
-    border-radius: 5px;
-}
-#cta .left{
- border-right: 1px solid #fff;
- padding-right: 15px;
- font-size: 30px;
-}
-#cta .right{
-	display: flex;
-	flex-direction: column;
 }
 
 @media only screen and (max-width:768px){
@@ -166,16 +147,63 @@ font-family: 'Nothing You Could Do', cursive; */
 }
 
 
+/* SEÇÃO 2 - PRODUTO NATURAL, RESULTADO -- modelo 1*/
+#section-two{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #f9f9f9 
+}
+#figure-card{
+	position: relative;
+	display: block;
+	background: #fbfbfb;
+	padding: 16px; padding-bottom: 30px;
+	box-shadow: #999 2px 2px 5px;
+	width: 300px; height: 300px;
+	transform: rotate(-10deg);
+	z-index: 0;
 
-/* SEÇÃO 2 - CIÊNCIA -- modelo 1*/
-#ciencia{
-	margin-top: 40px;
+}
+#figure-card::before{
+	content:  "";
+	position: absolute;
+	top: 0px; left: 0px;
+	display: block;
+	background: #fbfbfb;
+	padding: 15px; padding-bottom: 30px;
+	box-shadow: #999 2px 2px 5px;
+	width: 300px; height: 300px;
+	transform: rotate(10deg);
+	z-index: 1;
+
+}
+#figure-card img{
+	position: relative;
+	width: 100%; height: 100%;
+	object-fit: cover;
+	transform: rotate(10deg);
+	z-index: 10;
 }
 
+#section-two p{
+	color: #333;
+	font-size: 18px;
+}
+
+
+/* SEÇÃO 3 - CIÊNCIA -- modelo 1*/
 #ciencia .first{
-	margin-top: 25px;
+	background: url('./assets/img/bg-bloco-3.jpeg') left -50px center no-repeat;
+	background-size: cover;
 	margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+#ciencia .first .container .row{
+	display: flex;
+	align-items: center;
+}
+
 #ciencia .first p{
 	color: #333;
 }
@@ -187,6 +215,48 @@ font-family: 'Nothing You Could Do', cursive; */
 	margin: 0; padding: 0; 
 }
 
+#ciencia .first .right{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+#ciencia .first ul li{
+	position: relative;
+	padding: 10px 25px;
+	margin-bottom: 15px;
+	background: transparent;
+	font-size: 18px;
+	text-transform: uppercase;
+	z-index: 10;
+}
+#ciencia .first ul li::before{
+	content: "";
+	position: absolute;
+	top: 2px; left: -2px;
+	width: 100%;
+	height: 100%;
+	background: #ccc;
+	transform: rotate(3deg);
+	z-index: -2;
+}
+#ciencia .first ul li::after{	
+	content: "";
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%;
+	height: 100%;
+	background: #eee;
+	z-index: -1;
+}
+
+#ciencia .right img{
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
 
 
 
@@ -209,6 +279,10 @@ font-family: 'Nothing You Could Do', cursive; */
 	border-bottom: 1px solid #333;
 }
 
+#ciencia .items_1 .col-md-5{
+	display: flex;
+	align-items: center;
+}
 #ciencia .items_1 figure{
 	position: relative;
 	float: left;
@@ -225,7 +299,7 @@ font-family: 'Nothing You Could Do', cursive; */
 	background: #fff;
 	top: -10px; left: -10px;
 	border-radius: 50%;
-	box-shadow: #999 0 0 5px;
+	box-shadow: #ccc 0 0 5px;
 	z-index: 0;
 
 }
@@ -236,23 +310,80 @@ font-family: 'Nothing You Could Do', cursive; */
 	border-radius: 50%;
 	z-index: 2;
 }
+#ciencia .items_1 h3{ margin: 5px 0;  }
 #ciencia .items_1 p{
 	text-align: justify;
-	color: #333
+	color: #333;
+	margin: 0; 
 }
 
 
+/* SEÇÃO 4 - DEPOIMENTOS -- modelo 1*/
+#depoiments{
+	background-image:
+	    linear-gradient(rgba(255,255,255, 0.85), rgba(210,210,210, 0.65)),
+	    url('assets/img//parallax3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: left center;
+    background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#depoiments .item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center; 
+	background: rgba(255,255,255,.85);
+	min-height: 500px;
+	border: 1px solid #bbb;
+}
+#depoiments .item h2{}
+#depoiments .item figure{
+	width: calc(100% - 40px);
+	border: 1px solid #ddd;
+	box-shadow: #eee -2px -2px 3px;
 
-/* #ciencia .last span{
-    position: relative;
-    font-size: 24px;
-    border: 1px solid;
-    border-radius: 100px;
-    padding-left: 48px;
-    padding-right: 40px;
-    border-bottom: 0;
-    left: -50px;
-} */
+}
+
+#inspiracional{
+	position: relative;
+	min-height: 400px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+#inspiracional .top{
+	margin-bottom: 40px;
+}
+#inspiracional .content .col-md-4:nth-child(2)  {
+	margin-top: -50px;
+}
+
+#inspiracional::before{
+	content: "";
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%; height: 50%;
+	background: #0077c8;
+}
+#inspiracional h2{
+	color: #fff;
+}
+
+#inspiracional figure:nth-child(2){
+	margin-top: 40px;
+}
+#inspiracional figure img{
+	width: 280px;
+	height: 280px;
+	object-fit: cover;
+	object-position: center;
+	border: 10px solid #fff;
+	box-shadow: inset #333 0 0 5px;
+	border-radius: 50%;
+
+}
 
 
 
@@ -260,7 +391,7 @@ font-family: 'Nothing You Could Do', cursive; */
 	position: relative;
 	background-image:
 	    url('assets/img/img-doctor.png'),
-	    linear-gradient(135deg, rgba(255,255,255,0.5) 0%,rgba(254,254,254,0.5) 2%,rgba(243,243,243,1) 46%,rgba(229,229,229,1) 100%),
+	    linear-gradient(135deg, rgba(255,255,255,0.7) 0%,rgba(254,254,254,0.7) 2%,rgba(243,243,243,1) 46%,rgba(255,255,255,1) 100%),
 	    url('assets/img/science-bg.jpg');
 	background-repeat: no-repeat;
 	background-size: auto, auto, contain;
@@ -273,7 +404,8 @@ font-family: 'Nothing You Could Do', cursive; */
 }
 
 #autoridade-medica p{
-	color: #607d8b;
+	color: #333;
+	text-align: justify;
 
 }
 
@@ -285,15 +417,15 @@ font-family: 'Nothing You Could Do', cursive; */
     display: flex;
     flex: 10;
     align-items: center;
-    font-size: 14px;
-    color: #0077c8;
+    font-size: 16px;
+    color: #333;
     width: 100%;
 }
 #autoridade-medica #icones span b{ display: block; font-size: 16px; }
 #autoridade-medica #icones span i{
 	margin-right: 15px;
 	font-size: 24px;
-	color: #777;
+	color: #0077c8;
 }
 #autoridade-medica #icones span i::before{
 	font-size: 32px;
