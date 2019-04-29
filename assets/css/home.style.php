@@ -192,12 +192,26 @@ font-family: 'Nothing You Could Do', cursive; */
 
 
 /* SEÇÃO 3 - CIÊNCIA -- modelo 1*/
+
 #ciencia .first{
+	position: relative;
 	background: url('./assets/img/bg-bloco-3.jpeg') left -50px center no-repeat;
 	background-size: cover;
 	margin-bottom: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
+	border-top: 2px solid #ddd;
+	border-bottom: 2px solid #ddd;
+}
+#ciencia .first .divisor{
+	position: absolute;
+	bottom: -25px; left: calc(50% - 25px);
+	-webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+	clip-path: polygon(50% 100%, 0 0, 100% 0);
+	background: #ddd;
+	width: 50px;
+	height: 25px;
+	display: block;
 }
 #ciencia .first .container .row{
 	display: flex;
@@ -232,11 +246,11 @@ font-family: 'Nothing You Could Do', cursive; */
 #ciencia .first ul li::before{
 	content: "";
 	position: absolute;
-	top: 2px; left: -2px;
-	width: 100%;
-	height: 100%;
-	background: #ccc;
-	transform: rotate(3deg);
+	bottom: -3px; right: -3px;
+	width: 50%;
+	height: 90%;
+	background: linear-gradient(to right, rgba(238,238,238,0) 0%,rgba(213,213,213,1) 50%,rgba(187,187,187,1) 100%);
+	transform: rotate(2deg);
 	z-index: -2;
 }
 #ciencia .first ul li::after{	
@@ -245,7 +259,7 @@ font-family: 'Nothing You Could Do', cursive; */
 	top: 0; left: 0;
 	width: 100%;
 	height: 100%;
-	background: #eee;
+	background: linear-gradient(to right, rgba(238,238,238,0) 0%,rgba(238,238,238,0) 25%,rgba(238,238,238,1) 50%,rgba(238,238,238,1) 100%);
 	z-index: -1;
 }
 
@@ -330,22 +344,39 @@ font-family: 'Nothing You Could Do', cursive; */
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+#depoiments .block{
+	padding: 0;
+}
 #depoiments .item{
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center; 
-	background: rgba(255,255,255,.85);
-	min-height: 500px;
-	border: 1px solid #bbb;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f9f9f9;
+    min-height: 500px;
+    /* box-shadow: #ccc 2px 2px 5px; */
+    padding: 30px;
+}
+#depoiments .item .col-md-12{
+	padding: 25px;
 }
 #depoiments .item h2{}
 #depoiments .item figure{
-	width: calc(100% - 40px);
+	width: 100%;
 	border: 1px solid #ddd;
 	box-shadow: #eee -2px -2px 3px;
 
 }
+#depoiments .item figure img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+
+
+
 
 #inspiracional{
 	position: relative;
@@ -391,15 +422,13 @@ font-family: 'Nothing You Could Do', cursive; */
 	position: relative;
 	background-image:
 	    url('assets/img/img-doctor.png'),
-	    linear-gradient(135deg, rgba(255,255,255,0.7) 0%,rgba(254,254,254,0.7) 2%,rgba(243,243,243,1) 46%,rgba(255,255,255,1) 100%),
-	    url('assets/img/science-bg.jpg');
+	    linear-gradient(135deg, rgba(255,255,255,0.7) 0%,rgba(254,254,254,0.7) 2%,rgba(243,243,243,1) 46%,rgba(255,255,255,1) 100%);
 	background-repeat: no-repeat;
-	background-size: auto, auto, contain;
-	background-position: bottom left; 
+	background-size: auto;
+	background-position: bottom right; 
 	padding-top: 30px;
 	padding-bottom: 50px;
-
-	/* box-shadow: #333 10px -10px 5px; */
+	border-top: 1px solid #bbb;
 	z-index: 99;
 }
 
@@ -433,6 +462,106 @@ font-family: 'Nothing You Could Do', cursive; */
 
 #autoridade-medica #icones span.icon{
 	
+}
+
+
+/* ////////////////////////////////////////////////////////////////
+///////////// BLOCO NA MIDIA
+//////////////////////////////////// */
+#na-midia{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-image:
+	    linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)),
+	    url('./assets/img/bg/naturalwhite.png');
+}
+#na-midia .title{
+	margin-bottom: 40px;
+}
+
+#na-midia figure{
+	width: 150px;
+	height: 150px;
+	padding: 10px;
+	background: #fff;
+	border-radius: 50%;
+	box-shadow: #ddd 0 0 5px;
+}
+#na-midia figure img{
+	max-width: 100%;
+	object-fit: contain;
+	width: 100%; height: 100%;
+	border-radius: 50%;
+	background: #f9f9f9;
+}
+#na-midia .col-md-6{
+	display: flex;
+	align-items: center;
+}
+#na-midia .col-md-8 > div{
+	position: relative;
+	background: #f9f9f9;
+	padding: 15px;
+}
+#na-midia .col-md-8 > div::before{
+	position: absolute;
+	content: "";
+	width: 25px; height: 50px;
+	background: #f9f9f9;
+	top: calc(50% - 25px);
+}
+
+#na-midia .item-1 .col-md-8 > div,
+#na-midia .item-2 .col-md-8 > div{
+	/* box-shadow: #bbb 2px 2px 2px; */
+
+}
+
+#na-midia .item-1 div::before,
+#na-midia .item-2 div::before{
+	left:  -20px;
+	-webkit-clip-path: polygon(100% 100%, 0 50%, 100% 0);
+	clip-path: polygon(100% 100%, 0 50%, 100% 0);
+}
+#na-midia .item-3 div::before,
+#na-midia .item-4 div::before{
+	right: -20px;
+	-webkit-clip-path: polygon(0 100%, 100% 50%, 0 0);
+	clip-path: polygon(0 100%, 100% 50%, 0 0);
+}
+
+
+/* ////////////////////////////////////////////////////////////////
+///////////// BLOCO GARANTIA
+//////////////////////////////////// */
+#guarantee-block{
+	position: relative;
+	border-top: 1px solid #bbb;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	/* background-image:
+	    linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)),
+	    url('./assets/img/bg/old_wall.png'); */
+}
+#guarantee-block::before{
+	content: "";
+	position: absolute;
+	top: 0; left: calc(50% - 25px);
+	width: 50px; height: 25px;
+	background: #999;
+	-webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+	clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+#guarantee-block .bg-transparent{
+	border: 1px solid #0077c8;
+	background: rgba(255,255,255,.7);
+	padding: 25px;
+}
+#guarantee-block .title{
+	margin-bottom: 40px;
+}
+#guarantee-block p, #guarantee-block h3{
+	color: #333;
 }
 
 </style>
