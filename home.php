@@ -17,17 +17,23 @@
 						<h3>Poderosa fórmula com benefícios clinicamente comprovados:</h3>
 					</div>
 					<div class="benefit-list">
-						<div class="row">
-							<div class="col-md-6" align="center">								
-								<img class="img-responsive" src="assets/img/phenatrim/phenatrim_mockup.png" alt="Phenatrim pote" style="max-width: 250px;">
-							</div>
+						<div class="row" style="display: flex; align-items: center;">
 							<div class="col-md-6">
 								<div style="margin-left: -10px; margin-top: 15px;">
-									<p><i class="flaticon-weight-scale"></i> Perda de peso</p>
-									<p><i class="flaticon-measuring-tape"></i> Redução de medidas</p>
-									<p><i class="flaticon-human-body"></i> Combate à celulites</p>
-									<p><i class="flaticon-fire"></i> Queima de gordura teimosa</p>
-									<p><i class="flaticon-flash"></i> Energia extra</p>
+									<p><span><i class="flaticon-weight-scale"></i> Perda de peso</span></p>
+									<p><span><i class="flaticon-measuring-tape"></i> Redução de medidas</span></p>
+									<p><span><i class="flaticon-human-body"></i> Combate à celulites</span></p>
+									<p><span><i class="flaticon-fire"></i> Queima de gordura teimosa</span></p>
+									<p><span><i class="flaticon-flash"></i> Energia extra</span></p>
+								</div>
+							</div>
+
+							<div class="col-md-6" align="center" style="display: flex; align-items: center;">								
+								<img class="img-responsive" src="assets/img/phenatrim/phenatrim_mockup.png" alt="Phenatrim pote" style="max-width: 250px;">
+								<div class="selos" style="display: flex; flex-direction: column; margin-left: -5px;">
+									<img class="img-fluid" src="./assets/img/icones/selo-formula.png" alt="" style="max-width: 100px; margin-bottom: 10px;">
+									<img class="img-fluid" src="./assets/img/icones/selo-garantia.png" alt="" style="max-width: 100px; margin-bottom: 10px;">
+									<img class="img-fluid" src="./assets/img/icones/selo-anvisa.png" alt="" style="max-width: 100px; margin-bottom: 10px;">
 								</div>
 							</div>
 						</div>						
@@ -44,7 +50,7 @@
 					</p>
 				</div>
 				<div class="col-md-6 right"> <!-- animated infinite pulse delay-2s -->
-					<a href="#buy-phenatrim" id="cta-button" class="img-responsive"> 
+					<a href="#buy-phenatrim" id="cta-button" class="animated infinite pulse delay-4s"> 
 						<div>
 							<span>EXPERIMENTE PHENATRIM HOJE!</span>
 							<small>SEJA A PRÓXIMA HISTÓRIA DE SUCESSO</small>
@@ -188,8 +194,17 @@
 					<div class="col-md-12" style="margin-bottom: 40px;">	
 						<h2 class="text-center">Resultados Que Você Também Pode Ter!</h2>
 					</div>
-					<div class="col-md-4 block">
-						<div class="item col-md-12">
+					<div class="col-md-4" align="center">
+						<img class="img-responsive" src="./assets/img/bg-instagram.png" alt="">
+					</div>
+					<div class="col-md-4" align="center">
+						<img class="img-responsive" src="./assets/img/bg-instagram.png" alt="">
+					</div>
+					<div class="col-md-4" align="center">
+						<img class="img-responsive" src="./assets/img/bg-instagram.png" alt="">
+					</div>
+					<!-- <div class="col-md-4 block">
+						<div class="item col-md-12">							
 							<figure>
 								<img src="./assets/img/img-depoimento3.jpg" alt="">
 							</figure>
@@ -214,7 +229,7 @@
 							<h2 class="text-center">Simone</h2>
 							<p class="text-center">“Estou muito contente com o meu resultado. Já tomei diversos produtos para emagrecimento e nenhum me proporcionou um resultado satisfatório, mas Phenatrim é diferente, pode acreditar... <br>  Funciona mesmo!”</p>
 						</div>
-					</div>
+					</div> -->
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" align="center" style="margin-top:100px;"> 
 						<a href="#buy-phenatrim" id="cta-button"> 
 							<div>
@@ -232,11 +247,9 @@
 
 			<section id="inspiracional">
 				<div class="top">
-					<div class="container">
+					<div class="container title">
 						<div class="col-md-12">
-							<h2 class="text-center">
-								Imagine Quão Bom Seria Você Magra, <br> Bonita E Cheia De Disposição?
-							</h2>
+							<h2 class="text-center" style="color: #fff">Imagine Quão Bom Seria Você Magra, <br> Bonita E Cheia De Disposição?</h2>
 						</div>
 					</div>					
 				</div>
@@ -244,32 +257,26 @@
 					<div class="container">
 						<div class="col-md-4">
 							<div class="col-md-12">
-								<figure>
-									<img src="assets/img/wish/img-wish-02-480.jpg" alt="">
-									<figcaption>
-										CORPO MAGRO E SAUDÁVEL
-									</figcaption>
+								<figure id="figure-card">
+									<img class="img-responsive" src="./assets/img/wish2/adult-attractive-beautiful-1638324.jpg" alt="">
 								</figure>
+								<h3> CORPO <br> <b>MAGRO E SAUDÁVEL</b> </h3>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="col-md-12">
-								<figure>
-									<img src="assets/img/wish/img-wish-02-480.jpg" alt="">
-									<figcaption>
-										MAIS AUTOESTIMA
-									</figcaption>
+								<figure id="figure-card">
+									<img class="img-responsive" src="./assets/img/wish2/pexels-photo-1930632.jpeg" alt="">
 								</figure>
+								<h3> MAIS <br> <b>AUTOESTIMA</b> </h3>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="col-md-12">
-								<figure>
-									<img src="assets/img/wish/img-wish-02-480.jpg" alt="">
-									<figcaption>
-										RESULTADOS SURPREENDENTES
-									</figcaption>
+								<figure id="figure-card">
+									<img class="img-responsive" src="./assets/img/wish2/33.jpg" alt="">
 								</figure>
+								<h3> RESULTADOS <br> <b>SURPREENDENTES</b> </h3>
 							</div>
 						</div>
 					</div>
@@ -310,7 +317,10 @@
 			<section id="na-midia">
 				<div class="container">
 					<div class="col-md-12 title">
-						<h3 class="text-center">O QUE A MÍDIA ESTÁ DIZENDO SOBRE OS COMPOSTOS DO PHENATRIM</h3>
+						<div style="">
+							<h3 class="text-center"><big>O QUE A MÍDIA ESTÁ DIZENDO</big><br> SOBRE OS COMPOSTOS DO PHENATRIM</h3>
+						</div>
+						<hr>
 					</div>
 
 					<div class="col-md-6 item-1">

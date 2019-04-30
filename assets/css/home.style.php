@@ -5,11 +5,11 @@
 font-family: 'Marck Script', cursive;
 font-family: 'Nothing You Could Do', cursive; */
 
-#main{
-	background-image: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 32%,rgba(255,255,255,0) 36%,rgba(255,255,255,1) 51%,rgba(255,255,255,1) 100%), url('assets/img/bg-home-3.jpg');
-	background-size: contain;
-	background-position: left center;
-	background-repeat: no-repeat;
+#main {
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 24%,rgba(255,255,255,0) 25%,rgba(255,255,255,1) 40%,rgba(255,255,255,1) 100%), url(assets/img/bg-home-3.jpg);
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
 }
 
 
@@ -37,7 +37,7 @@ font-family: 'Nothing You Could Do', cursive; */
 #section-one #main .container .center h2{
 	margin: 0; 
 	line-height: 1.3;
-	text-align: center;
+	text-align: left;
 }
 #section-one #main .container .center h2 strong{
 	font-size: 42px;
@@ -56,42 +56,74 @@ font-family: 'Nothing You Could Do', cursive; */
 #section-one #main .container .center .benefit-list{
 	margin-top: 25px;
 }
-#section-one #main .container .center .benefit-list p{
-	position: relative;
-	color: #333;
-	display: flex;
-	align-items: center;
-	font-size: 20px;
+#section-one #main .container .center .benefit-list p {
+    position: relative;
+    line-height: 2.4;
 }
+#section-one #main .container .center .benefit-list p span{
+	position: relative;
+	z-index: 999;
+    color: <?=$colors['primary']?>;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#section-one #main .container .center .benefit-list p::after {
+	content:  "";
+    position: absolute;
+    background: #999;
+    width: 60%;
+    height: 80%;
+    right: -3px;
+    bottom: -3px;
+    transform: rotate(2deg);
+    z-index: 1;
+}
+
+#section-one #main .container .center .benefit-list p::before {
+	content:  "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0; top: 0;    
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 42%,rgba(239,239,239,1) 100%);
+    z-index: 10;
+}
+
+
 
 #section-one #main .container .center .benefit-list i{
 	position: relative;
 	display: flex;
-	width: 35px; height: 35px;
+	width: 40px; height: 40px;
 	margin-right: 10px;
 	color: <?=$colors['primary']?>;
 }
 #section-one #main .container .center .benefit-list i::before{
 	margin: 0;margin: 0;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 1; 
 }
+
 #section-one #main .container .center .benefit-list i::after{
 	content: "";
-	position: absolute;
-	top: -1px; left: -1px;
-	margin: 0;
-	width: 100%;
-	height: 100%;
-	border: 1px solid <?=$colors['primary']?>;
-	background: ;
-	border-radius: 20px; 
-	z-index: 0;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #eee;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: #999 2px 2px 2px;
+    z-index: 0;
 }
 
 #section-one #main .container .right{
@@ -377,18 +409,19 @@ font-family: 'Nothing You Could Do', cursive; */
 
 
 
-
+/*//////////////////////////////////////////////////////
+////////////// INSPIRACIONAL
+////////////////////////////////////*/
 #inspiracional{
 	position: relative;
 	min-height: 400px;
-	padding-bottom: 50px;
 	padding-top: 50px;
-}
-#inspiracional .top{
-	margin-bottom: 40px;
-}
-#inspiracional .content .col-md-4:nth-child(2)  {
-	margin-top: -50px;
+	padding-bottom: 100px;
+	background-image:
+	    linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,1)),
+	    url('./assets/img/bg/old_wall.png');
+	background-repeat: repeat;
+	background-size: ;
 }
 
 #inspiracional::before{
@@ -397,23 +430,38 @@ font-family: 'Nothing You Could Do', cursive; */
 	top: 0; left: 0;
 	width: 100%; height: 50%;
 	background: #0077c8;
-}
-#inspiracional h2{
-	color: #fff;
+	-webkit-clip-path: polygon(100% 0, 100% 70%, 50% 100%, 0 70%, 0 0);
+clip-path: polygon(100% 0, 100% 70%, 50% 100%, 0 70%, 0 0);
+box-shadow: #bbb 3px 3px 5px;
 }
 
-#inspiracional figure:nth-child(2){
-	margin-top: 40px;
+#inspiracional .top{
+	margin-bottom: 50px;
 }
+
+#inspiracional .content h2{
+	color: #fff;
+	text-align: center;
+}
+
+#inspiracional .content h3{
+	color: #0077c8;
+	text-align: center;
+}
+
+#inspiracional figure{
+	text-align: center;
+}
+
 #inspiracional figure img{
-	width: 280px;
-	height: 280px;
+	width: 100%;
+	height: 100%;
 	object-fit: cover;
 	object-position: center;
-	border: 10px solid #fff;
-	box-shadow: inset #333 0 0 5px;
-	border-radius: 50%;
-
+}
+#inspiracional figure figcaption{
+	font-size: 18px;
+	text-align: center;
 }
 
 
@@ -469,14 +517,45 @@ font-family: 'Nothing You Could Do', cursive; */
 ///////////// BLOCO NA MIDIA
 //////////////////////////////////// */
 #na-midia{
+	position: relative;
 	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-bottom: 60px;
 	background-image:
 	    linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)),
 	    url('./assets/img/bg/naturalwhite.png');
+	box-shadow: #ccc -2px -2px 4px;
+	z-index: 999;
 }
+/* #na-midia::before{
+	content: "";
+	position: absolute;
+	top: -5px; left: 10%;
+	width: 80%; height: 150px;
+	border: 1px solid;
+	border-radius: 50%;
+	background: #fff;
+	z-index: -1;
+
+} */
+/* #na-midia::after{
+	content: "";
+	position: absolute;
+	top: 0; left: calc(50% - 10px);
+	width: 40px; height: 20px;
+	background: #999;
+	-webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+	clip-path: polygon(50% 100%, 0 0, 100% 0);
+} */
+
 #na-midia .title{
 	margin-bottom: 40px;
+
+}
+#na-midia .title h3{
+	/* color: white;
+   background: url('./assets/img/bg/naturalwhite.png') repeat;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; */
 }
 
 #na-midia figure{
@@ -543,15 +622,15 @@ font-family: 'Nothing You Could Do', cursive; */
 	    linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)),
 	    url('./assets/img/bg/old_wall.png'); */
 }
-#guarantee-block::before{
+/* #guarantee-block::before{
 	content: "";
 	position: absolute;
-	top: 0; left: calc(50% - 25px);
-	width: 50px; height: 25px;
+	top: 0; left: calc(50% - 10px);
+	width: 40px; height: 20px;
 	background: #999;
 	-webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
 	clip-path: polygon(50% 100%, 0 0, 100% 0);
-}
+} */
 #guarantee-block .bg-transparent{
 	border: 1px solid #0077c8;
 	background: rgba(255,255,255,.7);
