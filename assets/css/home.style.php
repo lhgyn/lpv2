@@ -376,37 +376,78 @@ font-family: 'Nothing You Could Do', cursive; */
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-#depoiments .block{
-	padding: 0;
+#depoiments .container .col-md-4{
+	position: relative;
+	padding: 15px;
+	z-index: 1;
 }
-#depoiments .item{
+#depoiments .container .left,
+#depoiments .container .right{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#depoiments .container figure{
+	position: relative;
+}
+
+#depoiments .container figure > img:last-child{
+	position: absolute;
+	top: 60px;
+}
+
+#depoiments .container .left figure,
+#depoiments .container .right figure{
+	box-shadow: #bbb 0 0 10px;
+}
+
+#depoiments .container .center figure{
+	position: relative;
+	z-index: 999;
+	box-shadow: #bbb 0 0 10px;
+}
+
+#depoiments .thumb{
+	position: absolute;
+	top: 18px; left: 10px;
 	display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: #f9f9f9;
-    min-height: 500px;
-    /* box-shadow: #ccc 2px 2px 5px; */
-    padding: 30px;
-}
-#depoiments .item .col-md-12{
-	padding: 25px;
-}
-#depoiments .item h2{}
-#depoiments .item figure{
-	width: 100%;
-	border: 1px solid #ddd;
-	box-shadow: #eee -2px -2px 3px;
+	align-items: center;
+	color: #777;
 
 }
-#depoiments .item figure img{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	object-position: center;
+#depoiments .thumb img{
+	max-width: 30px;
+	margin-right: 10px;
 }
 
+#depoiments .tip{
+	position: relative;
+	margin-top: 50px;
+	border: 0;
+	padding: 15px;
+	font-size: 16px;
+	color: #eee;
+	background: #0077c8;
+	box-shadow: #bbb 2px 2px 5px;
+}
+#depoiments .tip::before{
+	content: "";
+	position: absolute;
+	width: 40px; height: 20px;
+	top: -22px; left: calc(50% - 18px);
+	background: #bbb;
+	-webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
 
+#depoiments .tip::after{
+	content: "";
+	position: absolute;
+	width: 40px; height: 20px;
+	top: -20px; left: calc(50% - 20px);
+	background: #0077c8;
+	-webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
 
 
 /*//////////////////////////////////////////////////////
@@ -522,8 +563,8 @@ box-shadow: #bbb 3px 3px 5px;
 	padding-bottom: 60px;
 	background-image:
 	    linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)),
-	    url('./assets/img/bg/naturalwhite.png');
-	box-shadow: #ccc -2px -2px 4px;
+	    url('./assets/img/bg/exclusive_paper.png');
+	box-shadow: #ccc 0px 0px 5px;
 	z-index: 999;
 }
 /* #na-midia::before{
@@ -590,15 +631,22 @@ box-shadow: #bbb 3px 3px 5px;
 	top: calc(50% - 25px);
 }
 
+
 #na-midia .item-1 .col-md-8 > div,
 #na-midia .item-2 .col-md-8 > div{
-	/* box-shadow: #bbb 2px 2px 2px; */
+	box-shadow: #ccc 2px 2px 5px;
 
 }
 
 #na-midia .item-1 div::before,
 #na-midia .item-2 div::before{
 	left:  -20px;
+	-webkit-clip-path: polygon(100% 100%, 0 50%, 100% 0);
+	clip-path: polygon(100% 100%, 0 50%, 100% 0);
+}
+#na-midia .item-1 div::after,
+#na-midia .item-2 div::after{
+	left:  -22px;
 	-webkit-clip-path: polygon(100% 100%, 0 50%, 100% 0);
 	clip-path: polygon(100% 100%, 0 50%, 100% 0);
 }
@@ -615,7 +663,6 @@ box-shadow: #bbb 3px 3px 5px;
 //////////////////////////////////// */
 #guarantee-block{
 	position: relative;
-	border-top: 1px solid #bbb;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	/* background-image:

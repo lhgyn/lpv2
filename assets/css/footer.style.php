@@ -83,21 +83,33 @@
 #contact-menu li::before{
 	display: none;
 }
+
 #contact-menu li{
+	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 	margin-bottom: 10px;
 }
 
-#contact-menu li .icon{
+#contact-menu ul li span.icon{
+	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	width: 35px; height: 35px;
 	color: #333;
-	margin-right: 10px;
-	border: 1px solid #ddd;
+	margin-right: 20px;
+	border: 1px solid #999;
+}
+#contact-menu ul li span.icon::after{
+	content: "";
+	position: absolute;
+	right: -10px; top: calc(50% - 10px);
+	width: 10px; height: 20px;
+	background: #999;
+	-webkit-clip-path: polygon(0 0, 0% 100%, 100% 50%);
+clip-path: polygon(0 0, 0% 100%, 100% 50%);
 }
 
 

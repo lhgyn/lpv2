@@ -194,43 +194,49 @@
 					<div class="col-md-12" style="margin-bottom: 40px;">	
 						<h2 class="text-center">Resultados Que Você Também Pode Ter!</h2>
 					</div>
-					<div class="col-md-4" align="center">
-						<img class="img-responsive" src="./assets/img/bg-instagram.png" alt="">
-					</div>
-					<div class="col-md-4" align="center">
-						<img class="img-responsive" src="./assets/img/bg-instagram.png" alt="">
-					</div>
-					<div class="col-md-4" align="center">
-						<img class="img-responsive" src="./assets/img/bg-instagram.png" alt="">
-					</div>
-					<!-- <div class="col-md-4 block">
-						<div class="item col-md-12">							
-							<figure>
-								<img src="./assets/img/img-depoimento3.jpg" alt="">
-							</figure>
-							<h2 class="text-center">Aline</h2>
-							<p class="text-center">“Perder peso e manter definitivamente não é uma tarefa fácil, mas com Phenatrim isso é possível. Nunca me senti tão realizada quanto agora! Viver em paz com a balança é simplesmente maravilhoso! Valeu a pena experimentar.”</p>
+					<div class="col-md-4 left" align="center">
+						<figure>
+							<div class="thumb">
+								<img class="img-responsive" src="./assets/img/depoiments/depo1-thumb.png" alt="">
+								<span class="name">Maria Clara</span>
+							</div>
+							<img class="img-responsive" src="./assets/img/bg/bg-instagram.png" alt="">
+							<img class="img-responsive" src="./assets/img/depoiments/depo2.png" alt="">
+						</figure>
+
+						<div class="tip thumbnail">
+							<i>“Perder peso e manter definitivamente não é uma tarefa fácil, mas com Phenatrim isso é possível. Nunca me senti tão realizada quanto agora! Viver em paz com a balança é simplesmente maravilhoso! Valeu a pena experimentar.”</i>
 						</div>
 					</div>
-					<div class="col-md-4 block">
-						<div class="item col-md-12">
-							<figure>
-								<img src="./assets/img/img-depoimento3.jpg" alt="">
-							</figure>
-							<h2 class="text-center">Luciana</h2>
-							<p class="text-center">“Depois de tanto tempo tentando emagrecer, descobri esse produto fantástico! Finalmente consegui perder peso, e o melhor; de forma natural e sem efeito colateral. Sem falar que hoje me sinto muito mais disposta e confiante. Só tenho a agradecer.”</p>
+					<div class="col-md-4 center" align="center">
+						<figure>
+							<div class="thumb">
+								<img class="img-responsive" src="./assets/img/depoiments/depo2-thumb.png" alt="">
+								<span class="name">Ana Carolina</span>
+							</div>
+							<img class="img-responsive" src="./assets/img/bg/bg-instagram.png" alt="">
+							<img class="img-responsive" src="./assets/img/depoiments/depo5.png" alt="">
+						</figure>
+
+						<div class="tip thumbnail">
+							<i>“Depois de tanto tempo tentando emagrecer, descobri esse produto fantástico! Finalmente consegui perder peso, e o melhor; de forma natural e sem efeito colateral. Sem falar que hoje me sinto muito mais disposta e confiante. Só tenho a agradecer.”</i>
 						</div>
 					</div>
-					<div class="col-md-4 block">
-						<div class="item col-md-12">
-							<figure>
-								<img src="./assets/img/img-depoimento3.jpg" alt="">
-							</figure>
-							<h2 class="text-center">Simone</h2>
-							<p class="text-center">“Estou muito contente com o meu resultado. Já tomei diversos produtos para emagrecimento e nenhum me proporcionou um resultado satisfatório, mas Phenatrim é diferente, pode acreditar... <br>  Funciona mesmo!”</p>
+					<div class="col-md-4 right" align="center">
+						<figure>
+							<div class="thumb">
+								<img class="img-responsive" src="./assets/img/depoiments/depo3-thumb.png" alt="">
+								<span class="name">Simone Santos</span>
+							</div>
+							<img class="img-responsive" src="./assets/img/bg/bg-instagram.png" alt="">
+							<img class="img-responsive" src="./assets/img/depoiments/depo6.png" alt="">
+						</figure>
+
+						<div class="tip thumbnail">
+							<i>“Estou muito contente com o meu resultado. Já tomei diversos produtos para emagrecimento e nenhum me proporcionou um resultado satisfatório, mas Phenatrim é diferente, pode acreditar... <br>  Funciona mesmo!”</i>
 						</div>
-					</div> -->
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" align="center" style="margin-top:100px;"> 
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" align="center" style="margin-top:30px;"> 
 						<a href="#buy-phenatrim" id="cta-button"> 
 							<div>
 								<span>EXPERIMENTE PHENATRIM HOJE!</span>

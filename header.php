@@ -39,6 +39,7 @@
             require('assets/css/footer.style.php');
             require('assets/css/home.style.php');
             require('assets/css/peca-agora.style.php');
+            require('assets/css/como-funciona.style.php');
         ?>
 
 		
