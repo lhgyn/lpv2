@@ -40,6 +40,9 @@
             require('assets/css/home.style.php');
             require('assets/css/peca-agora.style.php');
             require('assets/css/como-funciona.style.php');
+            require('assets/css/depoiments.style.php');
+            require('assets/css/garantia.style.php');
+            require('assets/css/perguntas-frequentes.style.php');
         ?>
 
 		

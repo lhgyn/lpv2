@@ -5,7 +5,7 @@
 		    <section id="the_science">
 		    	<div class="container">
 		    		<div class="row">
-		    			<div class="col-md-7">
+		    			<div class="col-md-6">
 		    				<h2>A Ciência por trás do Phenatrim</h2> <hr>
 		    				<p>
 		    					Phenatrim é o resultado de uma longa investigação que determinou a perfeita formulação de um emagrecedor 100% natural, composto por ingredientes de alta qualidade e com benefícios clinicamente comprovados para perda de peso e queima de gordura.
@@ -17,8 +17,8 @@
 								Isso é possível devido à ação sinérgica de 6 potentes metabolizadores de gordura presentes em sua composição que conseguem atuar diretamente nos principais fatores fisiológicos e atacar a gordura em sua fonte, resultando em uma perda de peso rápida e saudável.
 		    				</p>
 		    			</div>
-		    			<div class="col-md-5">
-		    				<!-- <img src="./assets/img/scientist-330.jpg" alt="scientist-330"> -->
+		    			<div class="col-md-6" align="center">
+		    				<img src="./assets/img/scientist-330.jpg" alt="scientist-330">
 		    			</div>
 		    		</div>
 		    	</div>
@@ -29,6 +29,12 @@
 
 		    <section id="ingredients" class="">
 		    	<div class="container">
+		    		<div class="row">
+		    			<div class="col-md-12">
+		    				<h2 class="text-center">INGREDIENTES</h2>
+		    				<hr>
+		    			</div>
+		    		</div>
 		    		<div class="row">
 		    			<div class="left">
 	    					<div class="ingredient text-right">
@@ -170,9 +176,17 @@
 	<section id="start-your-transformation">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6"></div>
-				<div class="col-md-6">
-					<h2>COMECE A SUA TRANSFORMAÇÃO HOJE MESMO!</h2>
+				<div class="col-md-4" style="display: flex; align-items: center;">
+					<div class="selos" style="display: flex; flex-direction: column; margin-left: -5px;">
+						<img class="img-fluid" src="./assets/img/icones/selo-formula.png" alt="" style="max-width: 100px; margin-bottom: 10px;">
+						<img class="img-fluid" src="./assets/img/icones/selo-garantia.png" alt="" style="max-width: 100px; margin-bottom: 10px;">
+						<img class="img-fluid" src="./assets/img/icones/selo-anvisa.png" alt="" style="max-width: 100px; margin-bottom: 10px;">
+					</div>
+					<img class="img-responsive" src="assets/img/phenatrim/phenatrim_mockup.png" alt="Phenatrim pote" style="max-width: 250px;">
+				</div>
+				<div class="col-md-8">
+					<h2>COMECE A SUA TRANSFORMAÇÃO <br> HOJE MESMO!</h2>
+					<hr style="max-width: 50%; margin-left: 0;">
 
 	    			<p> Garanta já o seu <span>Phenatrim com Risco Zero!</span> </p>
 	    			<p> É isso mesmo que você acabou de ler, <span>RISCO ZERO!</span> </p>
@@ -180,7 +194,7 @@
 	    			<br><br>
 
 	    			<div>
-	    				<a href="#buy-phenatrim" id="cta-button" class="img-responsive"> 
+	    				<a href="#buy-phenatrim" id="cta-button" class="nimated infinite pulse delay-4s"> 
 							<div>
 								<span>PEÇA O SEU AGORA!</span>
 								<small>100% DE SATISFAÇÃO OU SEU DINHEIRO DE VOLTA</small>

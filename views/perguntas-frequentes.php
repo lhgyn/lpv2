@@ -1,3 +1,279 @@
+<section id="perguntas-frequentes">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 title">
+				<h2 class="text-center">PERGUNTAS FREQUENTES</h2>
+			</div>
+		</div>
+		<div class="row content">
+
+			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingOne">
+			      <h4 class="panel-title">
+			        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			          Categorias
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+			      <div class="panel-body">
+
+			        <div class="panel-group" id="sub-accordion" role="tablist" aria-multiselectable="true">
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingOne1">
+					      <h4 class="panel-title">
+					        <a role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+					          Qual é o modo de usar?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseOne1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne1">
+					      <div class="panel-body">
+					        <p>Na primeira semana recomenda-se iniciar com 2 cápsulas apenas 1 vez ao dia (30 minutos antes do café da manhã).
+							A partir da segunda semana tomar 2cápsulas 30 minutos antes do café da manhã e 2 cápsulas 30 minutos antes do almoço.
+
+							ATENÇÃO: Não ultrapassar a dosagem recomendada.</p>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingTwo2">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+					          Tem alguma contraindicação?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseTwo2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo2">
+					      <div class="panel-body">
+					        <p>Phenatrim é contraindicado para crianças, gestantes ou lactantes, idosos, pessoas alérgicas aos componentes da fórmula e portadores de enfermidades.</p>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingThree3">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+					          Causa efeito colateral?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseThree3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree3">
+					      <div class="panel-body">
+					        <p>Os efeitos colaterais dependem da sensibilidade aos componentes da fórmula e da reação de cada organismo.</p>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingThree3">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+					          Quais são os ingredientes com compõem o Phenatrim?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseThree3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree3">
+					      <div class="panel-body">
+					        <p>Phenatrim é composto por: Café verde (Ácido Clorogênico), Paullinia Cupana (Metilxantinas), Citrus Aurantium (Sinefrina), Chá Verde (Polifenóis), Caffeine Anhydrous e Manga Africana (Irvingia Gabonensis).</p>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingThree3">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+					          Phenatrim corta o efeito do anticoncepcional?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseThree3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree3">
+					      <div class="panel-body">
+					        <p>Não. Phenatrim não tem nenhuma substância capaz de interferir ou anular o efeito de anticoncepcionais.</p>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingThree3">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+					          Este produto é apenas para mulheres ou homens também podem tomar?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseThree3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree3">
+					      <div class="panel-body">
+					        <p>Sim. Embora Phenatrim tenha sido desenvolvido especialmente para atender as necessidades das mulheres, homens que queiram emagrecer também podem fazer uso do produto, sem nenhum problema.</p>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingThree3">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+					          Quem tem pressa alta pode tomar?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseThree3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree3">
+					      <div class="panel-body">
+					        <p>Se você tem algum problema de saúde ou toma remédio de uso contínuo, não é recomendado que faça uso deste produto sem orientação médica.</p>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingThree3">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+					          Somente quem faz atividade física pode tomar?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseThree3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree3">
+					      <div class="panel-body">
+					        <p>Não. É recomendado associar o produto com atividades físicas e alimentação saudável para potencializar os resultados.</p>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingThree3">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+					          Phenatrim tira o sono?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseThree3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree3">
+					      <div class="panel-body">
+					        <p>Phenatrim contém em sua fórmula substâncias estimulantes, portanto é recomendado tomar no mínimo 5 horas antes de ir dormir.</p>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingThree3">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+					          Phenatrim dá espinhas?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseThree3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree3">
+					      <div class="panel-body">
+					        <p>Não. Phenatrim não contém nenhuma substância que possa desenvolver o aparecimento de acne.</p>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingThree3">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+					          O produto é aprovado pela ANVISA?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseThree3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree3">
+					      <div class="panel-body">
+					        <p>Sim. Este produto está de acordo com a resolução vigente da ANVISA.</p>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+
+			      </div>
+			    </div>
+			  </div>
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingTwo">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			          Produto
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+			      <div class="panel-body">
+			        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+			      </div>
+			    </div>
+			  </div>
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingThree">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			          Compra e pagamento
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+			      <div class="panel-body">
+			        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+			      </div>
+			    </div>
+			  </div>
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingFour">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+			          Garantia
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+			      <div class="panel-body">
+			        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+			
+		</div>
+	</div>
+</section>
+
+
+<section id="start-your-transformation">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4" style="display: flex; align-items: center;">
+				<div class="selos" style="display: flex; flex-direction: column; margin-left: -5px;">
+					<img class="img-responsive" src="./assets/img/icones/selo-formula.png" alt="" style="max-width: 100px; margin-bottom: 10px;">
+					<img class="img-responsive" src="./assets/img/icones/selo-garantia.png" alt="" style="max-width: 100px; margin-bottom: 10px;">
+					<img class="img-responsive" src="./assets/img/icones/selo-anvisa.png" alt="" style="max-width: 100px; margin-bottom: 10px;">
+				</div>
+				<img class="img-responsive" src="assets/img/phenatrim/phenatrim_mockup.png" alt="Phenatrim pote" style="max-width: 250px;">
+			</div>
+			<div class="col-md-8">
+				<h2>COMECE A SUA TRANSFORMAÇÃO <br> HOJE MESMO!</h2>
+				<hr style="max-width: 50%; margin-left: 0;">
+
+    			<p> Garanta já o seu <span>Phenatrim com Risco Zero!</span> </p>
+    			<p> É isso mesmo que você acabou de ler, <span>RISCO ZERO!</span> </p>
+				<p> Mas corra! Porque os estoques são limitados. </p>
+    			<br><br>
+
+    			<div>
+    				<a href="#buy-phenatrim" id="cta-button" class="nimated infinite pulse delay-4s"> 
+						<div>
+							<span>PEÇA O SEU AGORA!</span>
+							<small>100% DE SATISFAÇÃO OU SEU DINHEIRO DE VOLTA</small>
+						</div>
+						<div>
+							<i class="fa fa-angle-double-right"></i>
+						</div>
+					</a>
+    			</div>	    			
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
 <div id="page-content">
     <div class="row-faq">
     	<div class="container container-faq"> 
