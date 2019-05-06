@@ -43,6 +43,7 @@
             require('assets/css/depoiments.style.php');
             require('assets/css/garantia.style.php');
             require('assets/css/perguntas-frequentes.style.php');
+            require('assets/css/contato.style.php');
         ?>
 
 		

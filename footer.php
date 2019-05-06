@@ -133,6 +133,17 @@
         <script>
             new gnMenu( document.getElementById( 'gn-menu' ) );
         </script>
+
+
+        <script>
+            jQuery(document).ready(function($) {
+                $(".panel-title a").click(function() {
+                    $('html, body').animate({
+                        scrollTop: $(this).parent().offset().top - 40
+                    }, 800);
+                });
+            });
+        </script>
         
     </body>
         
