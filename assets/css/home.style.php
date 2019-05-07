@@ -6,7 +6,7 @@ font-family: 'Marck Script', cursive;
 font-family: 'Nothing You Could Do', cursive; */
 
 #main {
-    background-image: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 24%,rgba(255,255,255,0) 25%,rgba(255,255,255,1) 40%,rgba(255,255,255,1) 100%), url(assets/img/bg-home-3.jpg);
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 24%,rgba(255,255,255,0) 25%,rgba(255,255,255,1) 40%,rgba(255,255,255,1) 100%), url('assets/img/bg-home-3.jpg');
     background-size: contain;
     background-position: left center;
     background-repeat: no-repeat;
@@ -59,6 +59,7 @@ font-family: 'Nothing You Could Do', cursive; */
 #section-one #main .container .center .benefit-list p {
     position: relative;
     line-height: 2.4;
+    z-index: 0;
 }
 #section-one #main .container .center .benefit-list p span{
 	position: relative;
@@ -147,6 +148,9 @@ font-family: 'Nothing You Could Do', cursive; */
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
+#cta-block .container{
+	display: flex;
+}
 
 #cta-block p{
     font-size: 25px;
@@ -161,22 +165,46 @@ font-family: 'Nothing You Could Do', cursive; */
 	justify-content: center;
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:991px){
+	#main{
+		background: #fff;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
 	#section-one #main .container{
 		flex-direction: column;
 	}
-	#section-one #main .container .right{ justify-content: flex-start; }
-	#section-one #main .container .right img{
-		max-height: 470px;
+	#section-one #main .container .center .benefit-list .row{
+		flex-direction: column;
+		align-items: flex-start !important;
+	}
 
-        -moz-transform: scaleX(1);
-        -o-transform: scaleX(1);
-        -webkit-transform: scaleX(1);
-        transform: scaleX(-);
-        filter: FlipH;
-        -ms-filter: "FlipH";
+	#section-one #main .title h2{ font-size: 24px; }
+	#section-one #main .title h2 strong{ font-size: 24px !important; }
+	#section-one #main .title h2 > br{ display: none; }
+
+
+	#section-one #main .container .center .benefit-list p span{
+		font-size: 14px;
+		padding-right: 10px;
+	}
+	.selos img{
+		max-width: 70px !important;
+	}
+
+	#cta-block .container{
+		flex-direction: column;
+	}
+	
+	.mockup{
+		margin-top: 30px;
+	}
+	.mockup > img{
+		max-width: 200px !important;
 	}
 }
+
+
 
 
 /* SEÇÃO 2 - PRODUTO NATURAL, RESULTADO -- modelo 1*/
@@ -220,6 +248,65 @@ font-family: 'Nothing You Could Do', cursive; */
 #section-two p{
 	color: #333;
 	font-size: 18px;
+}
+
+#section-two #stamp-guarantee{
+	max-width: 260px !important;
+}
+
+@media only screen and (max-width: 991px){
+	#section-two h2, #section-two p{
+		text-align: center;
+	}
+	#section-two #figure-card{
+		margin: 25px auto;
+	}
+
+	.items_1{
+		flex-direction: column;
+	}
+
+	#ciencia .first {
+	    background: url('./assets/img/bg-bloco-3.jpeg') bottom left -80px no-repeat !important;
+	    background-size: auto 260px !important;
+	    padding-bottom: 30px !important;
+	}
+	#ciencia .first ul li{
+		padding: 0 20px !important;
+
+	}
+	#ciencia .first .container .row{
+		flex-direction: column-reverse;
+	}
+	#ciencia .first .right{
+		width: 100%;
+	}
+	#ciencia .first .left{
+		margin-bottom: 45px;
+	}
+	#ciencia .items_1 .col-md-5{
+		flex-direction: column;
+		width: 100% !important;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	#ciencia .items_1 .col-md-5 p{
+		text-align: center;
+	}
+	#ciencia .items_1 .col-md-5 figure{
+		margin-bottom: 15px;
+	} 
+
+	#figure-card{
+		width: 250px !important; height: 250px !important;
+	}
+	#figure-card::before{
+		width: 250px !important; height: 250px !important;
+	}
+
+	#section-two {
+		max-width: 100% !important; 
+	}
 }
 
 
@@ -443,10 +530,31 @@ clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 	content: "";
 	position: absolute;
 	width: 40px; height: 20px;
-	top: -20px; left: calc(50% - 20px);
+	top: -19px; left: calc(50% - 20px);
 	background: #0077c8;
 	-webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+@media only screen and (max-width: 991px){
+	#depoiments figure{
+		max-width: 300px;
+	}
+	#depoiments .container figure > img:last-child{
+		top: 50px;
+		z-index: -1;
+	}
+	#depoiments .tip{
+		width: 350px;
+	}
+}
+@media only screen and (max-width: 430px){
+	#depoiments figure{
+		
+	}
+	#depoiments .tip{
+		width: 100%;
+	}
 }
 
 
@@ -506,7 +614,25 @@ box-shadow: #bbb 3px 3px 5px;
 }
 
 
+@media only screen and (max-width:991px){
+	#inspiracional::before{
+		clip-path: initial;
+		height: 25%;
+		box-shadow: none;
+	}
+	#inspiracional #figure-card{
+		margin: 0 auto;
+	}
+	#inspiracional .content .col-md-4{
+		margin-bottom: 50px;
+	}
+}
 
+
+
+/* /////////////////////////////////////////////////
+////////// AUTORIDADE MÉDICA
+//////////////////////////// */
 #autoridade-medica{
 	position: relative;
 	background-image:
@@ -551,6 +677,17 @@ box-shadow: #bbb 3px 3px 5px;
 
 #autoridade-medica #icones span.icon{
 	
+}
+
+@media only screen and (max-width: 991px){
+	#autoridade-medica{
+		position: relative;
+	    background-image: linear-gradient(135deg, rgba(255,255,255,0.7) 0%,rgba(254,254,254,0.7) 2%,rgba(243,243,243,1) 46%,rgba(255,255,255,1) 100%);
+	    padding-bottom: 0;
+	}
+	#autoridade-medica p{
+		text-align: left;
+	}
 }
 
 
@@ -657,6 +794,29 @@ box-shadow: #bbb 3px 3px 5px;
 	clip-path: polygon(0 100%, 100% 50%, 0 0);
 }
 
+@media only screen and (max-width: 991px){
+	#na-midia .col-md-6.item-1,
+	#na-midia .col-md-6.item-2{
+		flex-direction: column;
+	}
+	#na-midia .col-md-6.item-3,
+	#na-midia .col-md-6.item-4{
+		flex-direction: column-reverse;
+	}
+	#na-midia .item-1 div::before,
+	#na-midia .item-2 div::before,
+	#na-midia .item-3 div::before,
+	#na-midia .item-4 div::before{
+		display: none;
+	}
+	#na-midia .col-md-6{
+		margin-bottom: 25px;
+	}
+	#na-midia .col-md-6 figure{
+		margin-bottom: 10px;
+	}
+}
+
 
 /* ////////////////////////////////////////////////////////////////
 ///////////// BLOCO GARANTIA
@@ -689,5 +849,10 @@ box-shadow: #bbb 3px 3px 5px;
 #guarantee-block p, #guarantee-block h3{
 	color: #333;
 }
+
+
+
+
+
 
 </style>

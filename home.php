@@ -3,15 +3,12 @@
 <div class="container-fluid">
 	<section id="section-one">
 		<div class="row" id="main">
-			<div class="container">
-				<div class="col-md-4 col-sm-6 col-xs-12 right">
-					<img class="img-responsive" src="assets/img/woman-happy.png" alt="" style=" visibility: hidden;">
-				</div>
-				<div class="col-md-8 col-sm-6 col-xs-12 center">
+			<div class="container">				
+				<div class="col-md-8 col-md-offset-4 col-sm-12 col-xs-12 center">
 					<div class="title">
 						<h2>
 							A MANEIRA MAIS EFICAZ E SEGURA <br>PARA EMAGRECER<br>
-							<strong id="difinitive-title">DEFINITIVAMENTE!</strong>
+							<strong>DEFINITIVAMENTE!</strong>
 						</h2>
 						<hr>
 						<h3>Poderosa fórmula com benefícios clinicamente comprovados:</h3>
@@ -28,7 +25,7 @@
 								</div>
 							</div>
 
-							<div class="col-md-6" align="center" style="display: flex; align-items: center;">								
+							<div class="col-md-6 mockup" align="center" style="display: flex; align-items: center;">								
 								<img class="img-responsive" src="assets/img/phenatrim/phenatrim_mockup.png" alt="Phenatrim pote" style="max-width: 250px;">
 								<div class="selos" style="display: flex; flex-direction: column; margin-left: -5px;">
 									<img class="img-fluid" src="./assets/img/icones/selo-formula.png" alt="" style="max-width: 100px; margin-bottom: 10px;">
@@ -42,7 +39,7 @@
 			</div>
 		</div>
 		<div class="row" id="cta-block">
-			<div class="container" style="display: flex;">
+			<div class="container">
 				<div class="col-md-6 left">
 					<p id="text-test">
 						Conquiste Um Corpo Lindo E Atraente...<br/>
@@ -73,7 +70,7 @@
 				<br>
 				<p>Phenatrim é uma fórmula emagrecedora 100% natural, composta por uma mistura única de ingredientes cuidadosamente selecionados e que oferecem benefícios comprovados cientificamente para perda de peso e queima de gordura.</p>
 
-				<p class="text-center"><img style="max-width: 300px" src="assets/img/selos.png" alt=""></p>
+				<p class="text-center"><img id="stamp-guarantee" src="assets/img/selos.png" alt=""></p>
 			</div>
 			<div class="col-md-4">
 				<figure id="figure-card"><img class="img-responsive" src="./assets/img/resultado-60d.jpg" alt=""></figure>
@@ -106,7 +103,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="divisor"></div>
+			<div class="divisor hidden-sm hidden-xs"></div>
 		</div>
 
 		<div class="container last">
@@ -121,7 +118,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-2" style="display: flex; align-items: center;justify-content: center;">
+				<div class="col-md-2 hidden-sm hidden-xs" style="display: flex; align-items: center;justify-content: center;">
 					<i style="height: 150px; width: 1px; background: #ddd;"></i>
 				</div>
 				
@@ -136,7 +133,7 @@
 				</div>
 			</div>
 
-			<div class="row items-divisor"> <div class="col-12"><hr></div> </div>
+			<div class="row items-divisor"> <div class="col-12 hidden-xs hidden-sm"><hr></div> </div>
 
 			<div class="row items_1">
 				<div class="col-md-5">							
@@ -149,7 +146,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-2" style="display: flex; align-items: center;justify-content: center;">
+				<div class="col-md-2 hidden-sm hidden-xs" style="display: flex; align-items: center;justify-content: center;">
 					<i style="height: 150px; width: 1px; background: #ddd;"></i>
 				</div>
 
@@ -191,7 +188,7 @@
 
 			<section id="depoiments">	
 				<div class="container">
-					<div class="col-md-12" style="margin-bottom: 40px;">	
+					<div class="col-md-12">	
 						<h2 class="text-center">Resultados Que Você Também Pode Ter!</h2>
 					</div>
 					<div class="col-md-4 left" align="center">
@@ -316,6 +313,9 @@
 							</div>
 						</div>
 						<div class="col-md-4"></div>
+						<div class="col-md-12 visible-sm visible-xs">
+							<img class="img-responsive" src="assets/img/img-doctor.png" alt="">
+						</div>
 					</div>
 				</div>
 			</section>
@@ -356,7 +356,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row hidde-sm hidden-xs">
 						<div class="col-md-12">
 							<br>
 							<br>
