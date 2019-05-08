@@ -4,9 +4,7 @@
 /* ////////////////////////////////////////////
 //////////// BLOCO NEWSLETTER
 ///////////////////////////// */
-#site-newsletter .container{
-	flex-direction: column;
-}
+
 #site-newsletter{
 	background: #333;
 	padding-top: 25px;
@@ -43,6 +41,9 @@
 @media only screen and (max-width: 991px){
 	#site-newsletter .right, #site-newsletter .right form{
 		width: 100%;
+	}
+	#site-newsletter .container{
+		flex-direction: column;
 	}
 }
 

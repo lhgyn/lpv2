@@ -83,6 +83,34 @@
 	background-color: #bbb;
 }
 
+@media only screen and (max-width: 991px){
+	#page-depoiments{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	#depoiment-cards .item{
+		flex-direction: column;
+		margin-bottom: 50px;
+	}
+	#depoiment-cards .item:nth-child(even){
+		flex-direction: column-reverse;
+	}
+	#depoiment-cards .item figure{
+		margin-bottom: 25px;
+	}
+	#page-depoiments .item .text.left{
+		padding-left: 15px;
+	}
+	#depoiment-cards .item > div:last-child{
+		padding-top: 40px;
+	}
+	#relatos{
+		margin-top: 0;
+	}
+}
+
+
+
 
 
 #relatos{

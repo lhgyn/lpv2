@@ -7,9 +7,9 @@
                 <p class="text-center">Veja algumas histórias de sucesso e realização de pessoas que usaram o Phenatrim</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12 item">
-                <div style="display:flex; align-items: center">
+        <div id="depoiment-cards" class="row">
+            <div class="col-md-12">
+                <div class="item" style="display:flex; align-items: center">
                     <div class="figure">
                         <figure id="figure-card">
                             <img class="img-responsive" src="./assets/img/depoiments/p-depo1.jpg" alt="">
@@ -22,7 +22,7 @@
                         </i></p>
                     </div>
                 </div>
-                <div style="display:flex; align-items: center">
+                <div class="item" style="display:flex; align-items: center">
                     <div class="text right">
                         <h3>Camile Vitória</h3>
                         <p><i>
@@ -35,7 +35,7 @@
                         </figure>
                     </div>
                 </div>
-                <div style="display:flex; align-items: center">
+                <div class="item" style="display:flex; align-items: center">
                     <div class="figure">                        
                         <figure id="figure-card">
                             <img class="img-fluid" src="./assets/img/depoiments/p-depo3.jpg" alt="">
@@ -48,7 +48,7 @@
                         </i></p>
                     </div>
                 </div>
-                <div style="display:flex; align-items: center">
+                <div class="item" style="display:flex; align-items: center">
                     <div class="text right">
                         <h3>Janaina C.</h3>
                         <p><i>
@@ -61,7 +61,7 @@
                         </figure>
                     </div>
                 </div>
-                <div style="display:flex; align-items: center">
+                <div class="item" style="display:flex; align-items: center">
                     <div class="figure">
                         <figure id="figure-card">
                             <img class="img-fluid" src="./assets/img/depoiments/p-depo5.jpg" alt="">

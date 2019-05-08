@@ -68,18 +68,18 @@
 }
 
 #product-box > div:first-child{
-	border-top-right-radius: 10px !important;
-	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
 }
 #product-box > div:last-child{
-	border-bottom-right-radius: 10px !important;
-	border-bottom-left-radius: 10px !important;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 #product-box > div:nth-child(1) .left{
-	border-top-left-radius: 10px !important;
+	border-top-left-radius: 10px;
 }
 #product-box > div:last-child .left{
-	border-bottom-left-radius: 10px !important;
+	border-bottom-left-radius: 10px;
 }
 
 
@@ -124,8 +124,8 @@
 }
 #product-box .main .left{
 	background: #0077c8;	
-	border-top-left-radius: 10px !important;
-	border-bottom-left-radius: 10px !important;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 #product-box .main .left::after{
 	background: #0077c8;
@@ -214,9 +214,64 @@
 }
 
 
+@media all and (max-width:991px){
+	#product-box .item .left::before,
+	#product-box .item .left::after{
+		content:  ;
+		display: none;
+	}
+	#product-box .item .right .cta-box::before{
+		content:  ;
+		display: none;
+	}
+	#product-box .item{
+		flex-direction: column;
+		padding-bottom: 40px;
+		border: 1px solid #eee; 
+		margin-bottom: 25px;
+		background-image: linear-gradient(to bottom, #fff 100%, #f9f9f9 0%);
+	}
 
-@media all and (min-width:991px) and (max-width:1199px){
-	
+
+	#product-box .main{
+		margin: 0;
+		margin-bottom: 25px;
+		width: 100%;
+		box-shadow: none;
+	}
+	#product-box .popular {
+	    left: calc(50% - 110px);
+	}
+
+
+
+	#product-box .main .left{
+		padding-top: 40px;
+	}
+	#product-box .main .right{
+		position: initial;
+	}
+
+	#product-box .item .left {
+	    background: #f9f9f9;
+	}
+	#product-box .item .left img{
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+
+	#product-box .item .right{
+		flex-direction: column;
+	}
+	#product-box .item .right h3, #product-box .item .right h4{
+		text-align: center;
+	}
+
+	#product-box .item, #product-box .item .left, #product-box .item .right{
+		border-radius:  0 !important;
+	}
+
 }
 
 </style>

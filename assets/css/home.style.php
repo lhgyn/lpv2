@@ -222,7 +222,6 @@ font-family: 'Nothing You Could Do', cursive; */
 	width: 300px; height: 300px;
 	transform: rotate(-10deg);
 	z-index: 0;
-
 }
 #figure-card::before{
 	content:  "";
@@ -235,7 +234,6 @@ font-family: 'Nothing You Could Do', cursive; */
 	width: 300px; height: 300px;
 	transform: rotate(10deg);
 	z-index: 1;
-
 }
 #figure-card img{
 	position: relative;
@@ -267,7 +265,7 @@ font-family: 'Nothing You Could Do', cursive; */
 	}
 
 	#ciencia .first {
-	    background: url('./assets/img/bg-bloco-3.jpeg') bottom left -80px no-repeat !important;
+	    background: url('./assets/img/bg-bloco-3.jpg') bottom left -100px no-repeat !important;
 	    background-size: auto 260px !important;
 	    padding-bottom: 30px !important;
 	}
@@ -448,6 +446,12 @@ font-family: 'Nothing You Could Do', cursive; */
 	text-align: justify;
 	color: #333;
 	margin: 0; 
+}
+
+@media only screen and (max-width:991px){
+	#ciencia .items_1 figure{
+		margin: 0;
+	}
 }
 
 

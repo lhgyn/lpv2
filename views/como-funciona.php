@@ -2,93 +2,103 @@
 	
 		    
 
-		    <section id="the_science">
-		    	<div class="container">
-		    		<div class="row">
-		    			<div class="col-md-6">
-		    				<h2>A Ciência por trás do Phenatrim</h2> <hr>
-		    				<p>
-		    					Phenatrim é o resultado de uma longa investigação que determinou a perfeita formulação de um emagrecedor 100% natural, composto por ingredientes de alta qualidade e com benefícios clinicamente comprovados para perda de peso e queima de gordura.
-		    				</p>
-		    				<p>		    					
-								A poderosa fórmula de Phenatrim trabalha para aumentar suavemente o metabolismo, intensificar o processo de termogênese e potencializar a queima de gordura de forma segura e eficaz.
-		    				</p>
-		    				<p>		    					
-								Isso é possível devido à ação sinérgica de 6 potentes metabolizadores de gordura presentes em sua composição que conseguem atuar diretamente nos principais fatores fisiológicos e atacar a gordura em sua fonte, resultando em uma perda de peso rápida e saudável.
-		    				</p>
-		    			</div>
-		    			<div class="col-md-6" align="center">
-		    				<img src="./assets/img/scientist-330.jpg" alt="scientist-330">
-		    			</div>
-		    		</div>
-		    	</div>
-		    </section>
+
+	<!-- /////////////////////////////////////////////////////////////////
+	/////////////// BLOCO 1 - CIÊNCIA DO PHENATRIM
+	////////////////////////////////////// -->
+    <section id="the_science">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-6">
+    				<h2>A Ciência por trás do Phenatrim</h2> <hr>
+    				<p>
+    					Phenatrim é o resultado de uma longa investigação que determinou a perfeita formulação de um emagrecedor 100% natural, composto por ingredientes de alta qualidade e com benefícios clinicamente comprovados para perda de peso e queima de gordura.
+    				</p>
+    				<p>		    					
+						A poderosa fórmula de Phenatrim trabalha para aumentar suavemente o metabolismo, intensificar o processo de termogênese e potencializar a queima de gordura de forma segura e eficaz.
+    				</p>
+    				<p>		    					
+						Isso é possível devido à ação sinérgica de 6 potentes metabolizadores de gordura presentes em sua composição que conseguem atuar diretamente nos principais fatores fisiológicos e atacar a gordura em sua fonte, resultando em uma perda de peso rápida e saudável.
+    				</p>
+    			</div>
+    			<div class="col-md-6 figure" align="center">
+    				<img class="img-responsive" src="./assets/img/scientist-330.jpg" alt="scientist-330">
+    			</div>
+    		</div>
+    	</div>
+    </section>
 
 
+	<!-- /////////////////////////////////////////////////////////////////
+	/////////////// BLOCO 2 - INGREDIENTES
+	////////////////////////////////////// -->
+    <section id="ingredients" class="">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-12">
+    				<h2 class="text-center">INGREDIENTES</h2>
+    				<hr>
+    			</div>
+    		</div>
+    		<div class="row">
+    			<div class="left">
+					<div class="ingredient text-right">
+						<img class="img-responsive visible-sm visible-xs" src="http://emagrecersemdieta.com.br/wp-content/uploads/2014/11/para-que-serve-oleo-de-cartamo.jpg" alt="">
+						<h4>ÓLEO DE CÁRTAMO - (CARTHAMUS TINCTORIUS)</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
+					</div>
+					<div class="ingredient text-right">
+						<img class="img-responsive visible-sm visible-xs" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTifXNN9OiD2vt4VQi3jjme6hRjzQObah2NsZoMZ5M6m_JYqJpE" alt="">
+						<h4>FENILALANINA</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
+					</div>
+					<div class="ingredient text-right">
+						<img class="img-responsive visible-sm visible-xs" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5LyLXN--d72lIxoQNyaOpJVFyAiTv0w5eRXV4OV9SGBo7Dztm" alt="">
+						<h4>CAFEÍNA ANIDRA - (1, 3, 7-TRIMETHILXANTINE)</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
+					</div>
+    			</div>
 
 
-		    <section id="ingredients" class="">
-		    	<div class="container">
-		    		<div class="row">
-		    			<div class="col-md-12">
-		    				<h2 class="text-center">INGREDIENTES</h2>
-		    				<hr>
-		    			</div>
-		    		</div>
-		    		<div class="row">
-		    			<div class="left">
-	    					<div class="ingredient text-right">
-	    						<h4>ÓLEO DE CÁRTAMO - (CARTHAMUS TINCTORIUS)</h4>
-	    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
-	    					</div>
-	    					<div class="ingredient text-right">
-	    						<h4>FENILALANINA</h4>
-	    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
-	    					</div>
-	    					<div class="ingredient text-right">
-	    						<h4>CAFEÍNA ANIDRA - (1, 3, 7-TRIMETHILXANTINE)</h4>
-	    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
-	    					</div>
-		    			</div>
+    			<div class="center hidden-sm hidden-xs">
+					<div class="left">
+    					<img src="http://emagrecersemdieta.com.br/wp-content/uploads/2014/11/para-que-serve-oleo-de-cartamo.jpg" alt="">
+    					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTifXNN9OiD2vt4VQi3jjme6hRjzQObah2NsZoMZ5M6m_JYqJpE" alt="">
+    					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5LyLXN--d72lIxoQNyaOpJVFyAiTv0w5eRXV4OV9SGBo7Dztm" alt="">
+					</div>
+    				<div class="center hidde-sm- hidden-xs">
+    					<img class="img-responsive" src="./assets/img/phenatrim/phenatrim_mockup.png" alt="">
+    				</div>
+    				<div class="right">
+    					<img src="http://cdn5.nopesoideal.com.br/wp-content/uploads/2014/05/castanhas1-620x413.jpg" alt="">
+    					<img src="https://cdn.awsli.com.br/1000x1000/163/163535/produto/5829773/4d2b90a2d0.jpg" alt="">
+    					<img src="https://www.quimlab.com.br/guiadoselementos/cromo/cromo7.jpg" alt="">
+    				</div>
+    			</div>
 
+    			<div class="right">
+					<div class="ingredient">
+						<img class="img-responsive visible-sm visible-xs" src="http://cdn5.nopesoideal.com.br/wp-content/uploads/2014/05/castanhas1-620x413.jpg" alt="">
+						<h4>TRIPTOFANO</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
+					</div>
+					<div class="ingredient">
+						<img class="img-responsive visible-sm visible-xs" src="https://cdn.awsli.com.br/1000x1000/163/163535/produto/5829773/4d2b90a2d0.jpg" alt="">
+						<h4>PAULLINIA CUPANA (METILXANTINAS)</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
+					</div>
+					<div class="ingredient">
+						<img class="img-responsive visible-sm visible-xs" src="https://www.quimlab.com.br/guiadoselementos/cromo/cromo7.jpg" alt="">
+						<h4>PICOLINATO DE CROMO</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
+					</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
 
-		    			<div class="center">
-							<div class="left">
-		    					<img src="http://emagrecersemdieta.com.br/wp-content/uploads/2014/11/para-que-serve-oleo-de-cartamo.jpg" alt="">
-		    					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTifXNN9OiD2vt4VQi3jjme6hRjzQObah2NsZoMZ5M6m_JYqJpE" alt="">
-		    					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5LyLXN--d72lIxoQNyaOpJVFyAiTv0w5eRXV4OV9SGBo7Dztm" alt="">
-							</div>
-		    				<div class="center">
-		    					<img class="img-responsive" src="./assets/img/phenatrim/phenatrim_mockup.png" alt="">
-		    				</div>
-		    				<div class="right">
-		    					<img src="http://cdn5.nopesoideal.com.br/wp-content/uploads/2014/05/castanhas1-620x413.jpg" alt="">		    					
-		    					<img src="https://cdn.awsli.com.br/1000x1000/163/163535/produto/5829773/4d2b90a2d0.jpg" alt="">
-		    					<img src="https://www.quimlab.com.br/guiadoselementos/cromo/cromo7.jpg" alt="">
-		    				</div>
-		    			</div>
-
-		    			<div class="right">
-	    					<div class="ingredient">
-	    						<h4>TRIPTOFANO</h4>
-	    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
-	    					</div>
-	    					<div class="ingredient">
-	    						<h4>PAULLINIA CUPANA (METILXANTINAS)</h4>
-	    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
-	    					</div>
-	    					<div class="ingredient">
-	    						<h4>PICOLINATO DE CROMO</h4>
-	    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
-	    					</div>
-		    			</div>
-		    		</div>
-		    	</div>
-		    </section>
-
-
-		    <!-- /////////////////////////////////////////////////////////////////
-	/////////////// BLOCO 3 CIÊNCIA COMPROVADA
+	<!-- /////////////////////////////////////////////////////////////////
+	/////////////// BLOCO 3 - EFICÁCIA
 	////////////////////////////////////// -->
 	<section id="ciencia" style="margin-bottom: 50px;">
 		<div class="first">
@@ -127,7 +137,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-2" style="display: flex; align-items: center;justify-content: center;">
+				<div class="col-md-2 hidde-sm- hidden-xs" style="display: flex; align-items: center;justify-content: center;">
 					<i style="height: 150px; width: 1px; background: #ddd;"></i>
 				</div>
 				
@@ -142,7 +152,7 @@
 				</div>
 			</div>
 
-			<div class="row items-divisor"> <div class="col-12"><hr></div> </div>
+			<div class="row items-divisor hidde-sm- hidden-xs"> <div class="col-12"><hr></div> </div>
 
 			<div class="row items_1">
 				<div class="col-md-5">							
@@ -155,7 +165,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-2" style="display: flex; align-items: center;justify-content: center;">
+				<div class="col-md-2 hidde-sm- hidden-xs" style="display: flex; align-items: center;justify-content: center;">
 					<i style="height: 150px; width: 1px; background: #ddd;"></i>
 				</div>
 
@@ -173,6 +183,9 @@
 	</section>
 
 
+	<!-- /////////////////////////////////////////////////////////////////
+	/////////////// BLOCO 4 - COMECE
+	////////////////////////////////////// -->
 	<section id="start-your-transformation">
 		<div class="container">
 			<div class="row">

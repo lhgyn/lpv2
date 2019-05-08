@@ -34,8 +34,26 @@
 #the_science img{
 	border: 6px solid #f7f7f7;
 	box-shadow: #bbb 2px 2px 5px;
+}
 
+@media only screen and (max-width:991px){
+	#the_science{
+		padding-bottom: 0;
+	}
+	#the_science::before{
+		clip-path: initial;
+	}
+	#the_science .row{
+		flex-direction: column;
+	}
+	#the_science .figure{
+		padding: 0;
+		margin-top: 25px;
+	}
 
+	#the_science .figure img{
+		border:  0;
+	}
 }
 
 
@@ -95,6 +113,26 @@
 	max-width: 250px;
 }
 
+@media only screen and (max-width: 991px){
+	#ingredients .container .row{
+		flex-direction: column;
+	}
+	#ingredients .ingredient{
+		text-align: center !important;
+		padding: 15px;
+	}
+	#ingredients .ingredient img{
+		width: 150px; height: 150px;
+		object-fit: cover;
+		border-radius: 50%;
+		border: 10px solid #f9f9f9;
+		box-shadow: #bbb 3px 3px 5px;
+		margin: 0 auto;
+	}
+}
+
+
+
 
 
 #start-your-transformation{
@@ -111,11 +149,18 @@
 #start-your-transformation p{
 	font-size: 16px;
 	color: #333;
-}
-	
+}	
 
-@media all and (min-width:991px) and (max-width:1199px){
-	
+@media all and (max-width:991px){	
+	#start-your-transformation{background-image:
+	    linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 60%,rgba(255,255,255,.8) 100%),
+	    url('./assets/img/parallax.jpg');
+		background-position: left center, right -220px bottom;
+		background-size: cover;
+	}
+	#start-your-transformation p{
+		color: #444;
+	}
 }
 
 </style>
