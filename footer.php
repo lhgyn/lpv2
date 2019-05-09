@@ -134,14 +134,35 @@
             new gnMenu( document.getElementById( 'gn-menu' ) );
         </script>
 
-
         <script>
             jQuery(document).ready(function($) {
                 $(".panel-title a").click(function() {
+                    $('.panel-collapse').removeClass('in');
+
+                    var panel = $(this).attr('aria-controls');
+                    //alert(panel);
+                    
+                    // if( $('#'+panel).hasClass('in') ){
+                    //     $('#'+panel).removeClass('in');
+                    // }else{
+                    //     $('#'+panel).addClass('in')
+                    // }
+
+
+                    //$('.panel-collapse').removeClass('in');
                     $('html, body').animate({
-                        scrollTop: $(this).parent().offset().top - 40
+                        scrollTop: $(this).parent().offset().top - 15
                     }, 800);
                 });
+            });
+        </script>
+
+        <script>////////////////////////////////////////////////
+        /////////////////////// menu active
+        ////////////////////////////////////////////////////
+            jQuery(document).ready(function($) {
+                var route = '<?= $page; ?>';
+                $(`#nav-links > li > a[href=${route}]`).parent('li').addClass('active');
             });
         </script>
         

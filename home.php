@@ -197,8 +197,8 @@
 								<img class="img-responsive" src="./assets/img/depoiments/depo1-thumb.png" alt="">
 								<span class="name">Maria Clara</span>
 							</div>
-							<img class="img-responsive" src="./assets/img/bg/bg-instagram.png" alt="">
-							<img class="img-responsive" src="./assets/img/depoiments/depo2.png" alt="">
+							<img class="img-responsive" src="./assets/img/depoiments/card1.png" alt="">
+							<img class="img-responsive" src="./assets/img/depoiments/depo1.jpg" alt="">
 						</figure>
 
 						<div class="tip thumbnail">
@@ -211,8 +211,8 @@
 								<img class="img-responsive" src="./assets/img/depoiments/depo2-thumb.png" alt="">
 								<span class="name">Ana Carolina</span>
 							</div>
-							<img class="img-responsive" src="./assets/img/bg/bg-instagram.png" alt="">
-							<img class="img-responsive" src="./assets/img/depoiments/depo5.png" alt="">
+							<img class="img-responsive" src="./assets/img/depoiments/card2.png" alt="">
+							<img class="img-responsive" src="./assets/img/depoiments/depo2.jpg" alt="">
 						</figure>
 
 						<div class="tip thumbnail">
@@ -225,8 +225,8 @@
 								<img class="img-responsive" src="./assets/img/depoiments/depo3-thumb.png" alt="">
 								<span class="name">Simone Santos</span>
 							</div>
-							<img class="img-responsive" src="./assets/img/bg/bg-instagram.png" alt="">
-							<img class="img-responsive" src="./assets/img/depoiments/depo6.png" alt="">
+							<img class="img-responsive" src="./assets/img/depoiments/card3.png" alt="">
+							<img class="img-responsive" src="./assets/img/depoiments/depo3.jpg" alt="">
 						</figure>
 
 						<div class="tip thumbnail">
@@ -261,7 +261,7 @@
 						<div class="col-md-4">
 							<div class="col-md-12">
 								<figure id="figure-card">
-									<img class="img-responsive" src="./assets/img/wish2/adult-attractive-beautiful-1638324.jpg" alt="">
+									<img class="img-responsive" src="./assets/img/wish2/wish1.jpg" alt="">
 								</figure>
 								<h3> CORPO <br> <b>MAGRO E SAUDÁVEL</b> </h3>
 							</div>
@@ -269,7 +269,7 @@
 						<div class="col-md-4">
 							<div class="col-md-12">
 								<figure id="figure-card">
-									<img class="img-responsive" src="./assets/img/wish2/pexels-photo-1930632.jpeg" alt="">
+									<img class="img-responsive" src="./assets/img/wish2/wish2.jpg" alt="">
 								</figure>
 								<h3> MAIS <br> <b>AUTOESTIMA</b> </h3>
 							</div>
@@ -277,7 +277,7 @@
 						<div class="col-md-4">
 							<div class="col-md-12">
 								<figure id="figure-card">
-									<img class="img-responsive" src="./assets/img/wish2/33.jpg" alt="">
+									<img class="img-responsive" src="./assets/img/wish2/wish3.jpg" alt="">
 								</figure>
 								<h3> RESULTADOS <br> <b>SURPREENDENTES</b> </h3>
 							</div>
@@ -406,7 +406,7 @@
 		    		</div>
 		    		<div class="col-md-12 bg-transparent">
 		    			<div class="col-md-4">
-			    			<img class="img-responsive" src="./assets/img/selo-de-garantia.png" alt="">
+			    			<img class="img-responsive" src="./assets/img/selo-garantia.png" alt="" style="margin-top: 25px;">
 			    		</div>
 			    		<div class="col-md-8">
 			    			<h3>EXPERIMENTE PHENATRIM AGORA COM RISCO ZERO</h3>

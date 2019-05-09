@@ -12,32 +12,39 @@
 			<div class="col-md-7">
 				<form>
 				  <div class="form-group">
-				    <label for="inputPassword">Nome Completo</label>
-				    <input type="text" class="form-control" id="inputPassword" placeholder="nome">
+				    <!-- <label for="inputPassword">Nome Completo</label> -->
+				    <input type="text" class="form-control input-sm" id="inputPassword" placeholder="Nome Completo">
 				  </div>
 				  <div class="form-group">
-				    <label for="inputPassword">E-mail</label>
-				    <input type="email" class="form-control" id="inputPassword" placeholder="email">
+				    <!-- <label for="inputPassword">E-mail</label> -->
+				    <input type="email" class="form-control input-sm" id="inputPassword" placeholder="E-mail">
 				  </div>
 				  <div class="form-group">
-				    <label for="inputPassword">Assunto</label>
-				    <input type="text" class="form-control" id="inputPassword" placeholder="assunto">
+				    <!-- <label for="inputPassword">Assunto</label> -->
+				    <input type="text" class="form-control input-sm" id="inputPassword" placeholder="Assunto">
 				  </div>
 				  <div class="form-group">
-				    <label for="inputPassword">Nº Pedido</label>
-				    <input type="text" class="form-control" id="inputPassword" placeholder="nº pedido">
+				    <!-- <label for="inputPassword">Nº Pedido</label> -->
+				    <input type="text" class="form-control input-sm" id="inputPassword" placeholder="Nº do Pedido">
 				  </div>
 				  <div class="form-group">
-				    <label for="inputPassword">Mensagem</label>
-				    <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+				    <!-- <label for="inputPassword">Mensagem</label> -->
+				    <textarea name="" id="" cols="20" rows="6" class="form-control" placeholder="Sua mensagem aqui!"></textarea>
 				  </div>
 				  <div class="form-group">
-				  	<button id="cta-button" class="btn btn-default pull-right">Enviar</button>
+				  	<button id="cta-button" class="btn pull-right">
+						<div>
+							<span>Enviar</span>
+						</div>
+						<div>
+							<i class="fa fa-angle-double-right"></i>
+						</div>
+				  	</button>
 				  </div>
 				</form>
 			</div>
 
-			<div class="col-md-5">
+			<div class="col-md-4 col-md-offset-1 info">
 				<div >
 					<h3>Gostaríamos de ouvir a sua opinião</h3>
 					<p>Como podemos ajudá-lo? Caso tenha alguma questão relacionada com a sua encomenda, por favor não se esqueça de mencionar o seu número de pedido.</p>

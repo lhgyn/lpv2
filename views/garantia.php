@@ -92,7 +92,7 @@
 		</div>
 		<div class="col-md-12 bg-transparent">
 			<div class="col-md-4">
-    			<img class="img-responsive" src="./assets/img/selo-de-garantia.png" alt="">
+    			<img class="img-responsive" src="./assets/img/selo-garantia.png" alt="">
     		</div>
     		<div class="col-md-8">
     			<h3>EXPERIMENTE PHENATRIM AGORA COM RISCO ZERO</h3>

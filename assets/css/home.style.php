@@ -312,7 +312,7 @@ font-family: 'Nothing You Could Do', cursive; */
 
 #ciencia .first{
 	position: relative;
-	background: url('./assets/img/bg-bloco-3.jpeg') left -50px center no-repeat;
+	background: url('./assets/img/bg-bloco-3.jpg') left -50px center no-repeat;
 	background-size: cover;
 	margin-bottom: 50px;
     padding-top: 50px;
@@ -524,7 +524,7 @@ font-family: 'Nothing You Could Do', cursive; */
 	content: "";
 	position: absolute;
 	width: 40px; height: 20px;
-	top: -22px; left: calc(50% - 18px);
+	top: -20px; left: calc(50% - 18px);
 	background: #bbb;
 	-webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
@@ -775,8 +775,12 @@ box-shadow: #bbb 3px 3px 5px;
 
 #na-midia .item-1 .col-md-8 > div,
 #na-midia .item-2 .col-md-8 > div{
-	box-shadow: #ccc 2px 2px 5px;
+	box-shadow: #ddd 2px 2px 5px;
+}
 
+#na-midia .item-3 .col-md-8 > div,
+#na-midia .item-4 .col-md-8 > div{
+	box-shadow: #ddd -2px -2px 5px;
 }
 
 #na-midia .item-1 div::before,

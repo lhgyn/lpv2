@@ -81,14 +81,14 @@
                 </div>
 
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="home">HOME</a></li>
+                    <ul id="nav-links" class="nav navbar-nav">
+                        <li><a href="home">HOME</a></li>
                         <li><a href="como-funciona">COMO FUNCIONA</a></li>
                         <li><a href="depoimentos">DEPOIMENTOS</a></li>
                         <li><a href="garantia">GARANTIA</a></li>
                         <li><a href="perguntas-frequentes">PERGUNTAS FREQUENTES</a></li>
                         <li><a href="contato">CONTATO</a></li>
-                        <li><a href="home#buy-phenatrim" class="">PEÇA AGORA!</a></li>
+                        <li><a href="peca-agora" class="">PEÇA AGORA!</a></li>
                     </ul>
                 </div>
             </div>

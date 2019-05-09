@@ -43,17 +43,17 @@
     		<div class="row">
     			<div class="left">
 					<div class="ingredient text-right">
-						<img class="img-responsive visible-sm visible-xs" src="http://emagrecersemdieta.com.br/wp-content/uploads/2014/11/para-que-serve-oleo-de-cartamo.jpg" alt="">
+						<img class="img-responsive visible-sm visible-xs" src="./assets/img/ingredients/_1-cartamus.png" alt="">
 						<h4>ÓLEO DE CÁRTAMO - (CARTHAMUS TINCTORIUS)</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
 					</div>
 					<div class="ingredient text-right">
-						<img class="img-responsive visible-sm visible-xs" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTifXNN9OiD2vt4VQi3jjme6hRjzQObah2NsZoMZ5M6m_JYqJpE" alt="">
+						<img class="img-responsive visible-sm visible-xs" src="./assets/img/ingredients/_2-fenilalanina.png" alt="">
 						<h4>FENILALANINA</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
 					</div>
 					<div class="ingredient text-right">
-						<img class="img-responsive visible-sm visible-xs" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5LyLXN--d72lIxoQNyaOpJVFyAiTv0w5eRXV4OV9SGBo7Dztm" alt="">
+						<img class="img-responsive visible-sm visible-xs" src="./assets/img/ingredients/_3-cafeina-anidra.png" alt="">
 						<h4>CAFEÍNA ANIDRA - (1, 3, 7-TRIMETHILXANTINE)</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
 					</div>
@@ -62,9 +62,9 @@
 
     			<div class="center hidden-sm hidden-xs">
 					<div class="left">
-    					<img src="http://emagrecersemdieta.com.br/wp-content/uploads/2014/11/para-que-serve-oleo-de-cartamo.jpg" alt="">
-    					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTifXNN9OiD2vt4VQi3jjme6hRjzQObah2NsZoMZ5M6m_JYqJpE" alt="">
-    					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5LyLXN--d72lIxoQNyaOpJVFyAiTv0w5eRXV4OV9SGBo7Dztm" alt="">
+    					<img src="./assets/img/ingredients/_1-cartamus.png" alt="">
+    					<img src="./assets/img/ingredients/_2-fenilalanina.png" alt="">
+    					<img src="./assets/img/ingredients/_3-cafeina-anidra.png" alt="">
 					</div>
     				<div class="center hidde-sm- hidden-xs">
     					<img class="img-responsive" src="./assets/img/phenatrim/phenatrim_mockup.png" alt="">
