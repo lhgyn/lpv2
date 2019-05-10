@@ -1,35 +1,55 @@
 
+
 <section id="page-contato">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 title">
 				<h1 class="text-center">Entre em Contato</h1>
-				<hr>	
+				<hr>
+				<?php
+					if (isset($_REQUEST['envio'])) {
+						if ($_REQUEST['envio']=='1') {
+							?>
+								<div class="alert-success alert-dismissible alert" role="alert">
+									<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<strong>Parabéns!</strong> Sua mensagem foi enviada com sucesso!
+								</div>
+							<?php
+						} else if ($_REQUEST['envio']=='0') {
+							?>
+								<div class="alert-danger alert-dismissible alert" role="alert">
+									<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<strong>Ops!</strong> Ocorreu algum erro ao enviar. <strong>Tente novamente!</strong>
+								</div>
+							<?php
+						}
+					}
+				?>	
 			</div>
 		</div>
 		<div class="row content">
 
 			<div class="col-md-7">
-				<form>
+				<form action="./controllers/Email/sendemail.php" id="contactForm">
 				  <div class="form-group">
 				    <!-- <label for="inputPassword">Nome Completo</label> -->
-				    <input type="text" class="form-control input-sm" id="inputPassword" placeholder="Nome Completo">
+				    <input type="text" class="form-control input-sm" id="inputPassword" name="nome" placeholder="Nome Completo">
 				  </div>
 				  <div class="form-group">
 				    <!-- <label for="inputPassword">E-mail</label> -->
-				    <input type="email" class="form-control input-sm" id="inputPassword" placeholder="E-mail">
+				    <input type="email" class="form-control input-sm" id="inputPassword" name="email" placeholder="E-mail">
 				  </div>
 				  <div class="form-group">
 				    <!-- <label for="inputPassword">Assunto</label> -->
-				    <input type="text" class="form-control input-sm" id="inputPassword" placeholder="Assunto">
+				    <input type="text" class="form-control input-sm" id="inputPassword" name="assunto" placeholder="Assunto">
 				  </div>
 				  <div class="form-group">
 				    <!-- <label for="inputPassword">Nº Pedido</label> -->
-				    <input type="text" class="form-control input-sm" id="inputPassword" placeholder="Nº do Pedido">
+				    <input type="text" class="form-control input-sm" id="inputPassword" name="n-pedido" placeholder="Nº do Pedido">
 				  </div>
 				  <div class="form-group">
 				    <!-- <label for="inputPassword">Mensagem</label> -->
-				    <textarea name="" id="" cols="20" rows="6" class="form-control" placeholder="Sua mensagem aqui!"></textarea>
+				    <textarea name="" id="" cols="20" rows="6" class="form-control" name="mensagem" placeholder="Sua mensagem aqui!"></textarea>
 				  </div>
 				  <div class="form-group">
 				  	<button id="cta-button" class="btn pull-right">

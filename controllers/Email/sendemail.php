@@ -2,26 +2,26 @@
 
 	require "PHPMailer/PHPMailerAutoload.php";
 
-	$nome = utf8_decode($_GET['contactNameBiod']);
-	$email = utf8_decode($_GET['contactEmailBiod']);
-	$assunto = utf8_decode($_GET['contactSubjectBiod']);
-	$pedido = utf8_decode($_GET['contactPedidoBiod']);
-	$mensagem = utf8_decode($_GET['contactMessageBiod']);
+	$nome = utf8_decode($_GET['nome']);
+	$email = utf8_decode($_GET['email']);
+	$assunto = utf8_decode($_GET['assunto']);
+	$pedido = utf8_decode($_GET['n-pedido']);
+	$mensagem = utf8_decode($_GET['mensagem']);
 
 	$Mailer = new PHPMailer(true);
 	$Mailer->isSMTP();
-	$Mailer->Host = 'mx1.hostinger.com.br';
+	$Mailer->Host = 'mail.slim24.com.br';
 	$Mailer->Port = 587;
 	$Mailer->SMTPAuth = true;
 	
 	//$Mailer->SMTPDebug = 3;
 	$Mailer->Charset = "utf8";
-	$Mailer->Username = "sac@biodryne.com.br";
-	$Mailer->Password = ';3D[$$GYfT';
-	$Mailer->From = "sac@biodryne.com.br";
+	$Mailer->Username = "phenatrim@slim24.com.br";
+	$Mailer->Password = '@Masterfzhb18@';
+	$Mailer->From = "phenatrim@slim24.com.br";
 	$Mailer->FromName = $nome;
-	$Mailer->AddAddress('sac@biodryne.com.br');
-	$Mailer->Subject = "Contato Biodryne - ". $assunto;
+	$Mailer->AddAddress('phenatrim@slim24.com.br');
+	$Mailer->Subject = "Contato Phenatrim - ". $assunto;
 	$Mailer->isHTML(true);
 
 	$Mailer->Body = "<!doctype html>
@@ -79,9 +79,9 @@
 		</html>";
 
 	if( $Mailer->send() ) {
-		header("Location: http://www.biodryne.com.br/views/contato.php?envio=1");
+		header("Location: http://localhost/phenatrimlpg2/contato.php?envio=1");
 	} else {
-		header("Location: http://www.biodryne.com.br/views/contato.php?envio=0");
+		header("Location: http://localhost/phenatrimlpg2/contato.php?envio=0");
 	}
 
 ?>
