@@ -106,6 +106,7 @@
 	border-radius: 50%;
 	margin-top: 15px;
 	margin-bottom: 15px;
+		box-shadow: #bbb 3px 3px 5px;
 }
 #ingredients .center .center{
 }
@@ -114,6 +115,11 @@
 }
 
 @media only screen and (max-width: 991px){
+	#ingredients{
+		margin-bottom: 0;
+		background-image:
+	    linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(248,248,248,1) 100%);
+	}
 	#ingredients .container .row{
 		flex-direction: column;
 	}
@@ -126,7 +132,6 @@
 		object-fit: cover;
 		border-radius: 50%;
 		border: 10px solid #f9f9f9;
-		box-shadow: #bbb 3px 3px 5px;
 		margin: 0 auto;
 	}
 }
@@ -142,6 +147,7 @@
 	background-position: right top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-size: contain, auto 100%;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	border-top: 2px solid #ddd;

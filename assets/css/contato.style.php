@@ -6,11 +6,11 @@
 	padding-top: 50px;
 	padding-bottom: 250px;
 	background-image:
-	    linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%),
+	    linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 100%),
 	    linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 55%,rgba(255,255,255,0) 100%),
-	    url('./assets/img/calcenter.jpg');
+	    url('./assets/img/callcenter2.jpg');
 	background-repeat: no-repeat;
-	background-position: center center, center center, right bottom -150px;
+	background-position: top center, left center, left bottom -150px;
 	background-size: cover, cover, auto 550px;
 }
 
@@ -18,15 +18,14 @@
 	border-radius: 0;
 	color: #444;
 	border: 1px solid #f1f1f1;
-	/* border-bottom: 2px solid #999; */
 	background: #fff;
-	box-shadow: #999 2px 2px 1px;
+	box-shadow: #9E9E9E  1px 1px 1px;
 	min-height: 40px;
 }
 #page-contato .form-control::placeholder {
-  color: <?=$colors['primary']?>;
+  color: #777;
   font-size: 14px;
-  text-transform: uppercase;
+  font-weight: bold;
 }
 #page-contato form{
 	margin-top: 25px;
@@ -36,20 +35,37 @@
 }
 
 #page-contato .info{
+	margin-top: 20px;
+	padding-bottom: 15px;
+}
+#page-contato .info div{
 	position: relative;
-	background-image: linear-gradient(to left, #f2f2f2, rgba(255,255,255,1));
-	margin-top: 16px;
-	z-index: 999;
+	z-index: 10;
+    color: <?=$colors['primary']?>;
 }
-#page-contato .info::before{
-	content: "";
-	position: absolute;
-	width: 60%; height: 90%;
-	bottom: -4px; right: -4px;
-	background-image: linear-gradient(to left, #bbb, rgba(255,255,255,.1));
-	z-index: -1;
+/* #page-contato .info::after {
+	content:  "";
+    position: absolute;
+    background: <?=$colors['primary']?>;
+    width: 45%;
+    height: 100%;
+    right: -2px;
+    bottom: -4px;
+    transform: rotate(2deg);
+    z-index: 1;
+}
 
-}
+#page-contato .info::before {
+	content:  "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0; top: 0;    
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 42%,rgba(239,239,239,1) 100%);
+    z-index: 10;
+} */
+
+
 
 #page-contato .info p{
 	color:  #444;
@@ -64,8 +80,16 @@
 }
 
 
-@media all and (min-width:991px){
-	
+@media all and (max-width: 991px){
+	#page-contato{
+		background-image:
+		    linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 90%,rgba(255,255,255,1) 100%),
+		    linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 70%,rgba(255,255,255,0) 100%),
+		    url('./assets/img/callcenter2.jpg');
+	}
+	#page-contato .info{
+		margin-top: 100px;
+	}
 }
 
 </style>

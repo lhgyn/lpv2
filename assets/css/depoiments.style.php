@@ -96,16 +96,21 @@
 		flex-direction: column-reverse;
 	}
 	#depoiment-cards .item figure{
-		margin-bottom: 25px;
+		margin-bottom: -10px;
 	}
 	#page-depoiments .item .text.left{
 		padding-left: 15px;
 	}
-	#depoiment-cards .item > div:last-child{
+	#depoiment-cards .item > .text{
 		padding-top: 40px;
 	}
 	#relatos{
-		margin-top: 0;
+		margin-top: 0 !important;
+		margin-bottom: 25px;
+	}
+	#relatos h2{
+		text-align: center;
+		margin-bottom: 15px;
 	}
 }
 
@@ -148,14 +153,14 @@ position: relative;
     clip-path: polygon(100% 0, 100% 70%, 50% 100%, 0 70%, 0 0);
     width: 300px;
 	margin: 0; padding: 25px;
-	z-index: 999;
+	z-index: 10;
 }
 #aviso-legal #title-arow-down span.before{
 	position: absolute;
 	top: -15px; left: calc(50% - 170px);
 	width: 340px; height: 30px;
 	background: #555; 
-	z-index: 999;
+	z-index: 10;
 	-webkit-clip-path: polygon(6% 0, 94% 0, 100% 100%, 0% 100%);
 	clip-path: polygon(6% 0, 94% 0, 100% 100%, 0% 100%);
 	z-index: 1;

@@ -25,6 +25,9 @@
 	margin-bottom: 15px;
 	color:  #333;
 }
+#payment h4{
+	color:  #333;
+}
 
 #payment i{
 	position: relative;
@@ -42,8 +45,15 @@
 }
 
 
-@media all and (min-width:991px) and (max-width:1199px){
-	
+@media all and (max-width: 991px){	
+	#payment::before{
+		clip-path: none;
+		background-image:
+	    linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(248,248,248,1) 100%);
+	}
 }
 
 </style>
+
+
+		

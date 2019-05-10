@@ -46,6 +46,7 @@
 
 			<div class="col-md-4 col-md-offset-1 info">
 				<div >
+					<hr class="visible-sm visible-xs">
 					<h3>Gostaríamos de ouvir a sua opinião</h3>
 					<p>Como podemos ajudá-lo? Caso tenha alguma questão relacionada com a sua encomenda, por favor não se esqueça de mencionar o seu número de pedido.</p>
 

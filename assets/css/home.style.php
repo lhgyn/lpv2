@@ -268,6 +268,7 @@ font-family: 'Nothing You Could Do', cursive; */
 	    background: url('./assets/img/bg-bloco-3.jpg') bottom left -100px no-repeat !important;
 	    background-size: auto 260px !important;
 	    padding-bottom: 30px !important;
+	    padding-top: 0 !important;
 	}
 	#ciencia .first ul li{
 		padding: 0 20px !important;

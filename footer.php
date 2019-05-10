@@ -136,23 +136,21 @@
 
         <script>
             jQuery(document).ready(function($) {
-                $(".panel-title a").click(function() {
-                    $('.panel-collapse').removeClass('in');
+                $(".panel-master a").click(function() {
+
+                    //$(".panel-master div.colapse").removeClass('in');
 
                     var panel = $(this).attr('aria-controls');
-                    //alert(panel);
-                    
-                    // if( $('#'+panel).hasClass('in') ){
-                    //     $('#'+panel).removeClass('in');
-                    // }else{
-                    //     $('#'+panel).addClass('in')
-                    // }
+                    //$(`#${panel}`).removeClass('in');
 
 
-                    //$('.panel-collapse').removeClass('in');
                     $('html, body').animate({
-                        scrollTop: $(this).parent().offset().top - 15
+                        scrollTop: $(`#${panel}`).offset().top - 50
                     }, 800);
+
+
+                    
+                    
                 });
             });
         </script>
