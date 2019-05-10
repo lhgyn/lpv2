@@ -1,8 +1,15 @@
 <?php 	$colors = $data['theme_colors']; ?>
 <style>	
-html, body p{
+
+body, html{
+	font-family: 'Roboto Slab', serif !important;
+	color: #0077c8;
+}
+body P{
 	font-size: 16px;
 }
+
+	
 
 #site-header{
 	border-top: 3px solid <?=$colors['primary']?>

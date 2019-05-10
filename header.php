@@ -15,9 +15,9 @@
 		<meta name="robots" content="index, follow"/>
         <link rel="icon" href="favicon.ico" />
 
-        <script src="https://unpkg.com/lodash@4/lodash.min.js"></script>
+       <!--  <script src="https://unpkg.com/lodash@4/lodash.min.js"></script>
         <script src="https://unpkg.com/lowdb@0.17/dist/low.min.js"></script>
-        <script src="https://unpkg.com/lowdb@0.17/dist/LocalStorage.min.js"></script>
+        <script src="https://unpkg.com/lowdb@0.17/dist/LocalStorage.min.js"></script> -->
 
         <?php
             //////////////////////////

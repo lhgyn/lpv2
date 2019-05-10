@@ -6,18 +6,17 @@ $filename = FILE_NAME;
 $page = basename($filename, '.php');
 
 
-
 // Theme Fontes
 $data['theme_fonts'] = [
-	'https://fonts.googleapis.com/css?family=Roboto+Slab:300,400',
-	'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700',
-    'https://fonts.googleapis.com/css?family=Marck+Script|Nothing+You+Could+Do|Yellowtail'
+	'assets/css/__google-fonts.css',
+    'assets/css/font-awesome.css',
+    'assets/css/flaticon.css',
 ];
 
 
 
 // Theme Styles
-$data['_theme_styles'] = [ 'assets/css/bootstrap.min.css', 'assets/css/bootstrap-theme.min.css', 'assets/css/font-awesome.css', 'assets/css/main.css', 'assets/css/flaticon.css', 'assets/libs/animate.css', 'assets/libs/GoogleNexusWebsiteMenu/css/component.css'];
+$data['_theme_styles'] = [ 'assets/css/bootstrap.min.css', 'assets/css/bootstrap-theme.min.css',  'assets/libs/animate.css', 'assets/libs/GoogleNexusWebsiteMenu/css/component.css'];
 
 switch ($page) {
     case 'home':
