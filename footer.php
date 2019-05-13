@@ -103,14 +103,6 @@
         
 
 
-        <?php
-            ///////////////////////////
-            //////////////// LOAD THEME SCRIPTS
-            //////////////////////////////////////////////
-            // foreach ($data['_theme_scripts'] as $script) {
-            //     echo '<script  type="text/javascript" src="'.$script.'"></script>';
-            // }
-        ?>
         <script  type="text/javascript" src="./assets/js/all.min.js"></script>
 
         <script>
@@ -139,10 +131,7 @@
 
                     $('html, body').animate({
                         scrollTop: $(`#${panel}`).offset().top - 50
-                    }, 800);
-
-
-                    
+                    }, 800);                    
                     
                 });
             });

@@ -15,34 +15,9 @@
 	<meta name="robots" content="index, follow"/>
     <link rel="icon" href="./assets/img/favicon.png" />
 
-    <?php
-        //////////////////////////
-    ///////////// LOAD THEME FONTS
-    ////////////////////////////////////
-        foreach ( $data['theme_fonts'] as $font ) {
-		 echo '<link rel="stylesheet" type="text/css" href="'.$font.'">';
-	    }
-    ?>
-
-    <?php
-        //////////////////////////
-        ///////////// LOAD THEME CSS STYLES
-        ////////////////////////////////////
-        // foreach ( $data['_theme_styles'] as $style ) {
-        //     echo '<link rel="stylesheet" type="text/css" href="'.$style.'">';
-        // }
-        // require('assets/css/header.style.css');
-        // require('assets/css/footer.style.css');
-        // require('assets/css/home.style.css');
-        // require('assets/css/peca-agora.style.css');
-        // require('assets/css/como-funciona.style.css');
-        // require('assets/css/depoiments.style.css');
-        // require('assets/css/garantia.style.css');
-        // require('assets/css/perguntas-frequentes.style.css');
-        // require('assets/css/contato.style.css');
-        // require('assets/css/politicas.style.css');
-    ?>
-
+    <!-- //////////////////////////////////
+    //////// MODO PRODUÇÃO - BY GULP AUTOMATION
+    ///////////////////// -->
     <link rel="stylesheet" type="text/css" href="./assets/css/all.min.css">
 		
 </head>
