@@ -32,14 +32,9 @@
 			<head>
 				<meta charset='utf-8'>
 				<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
-				<title>Contato Phenatrim Oficial</title>
+				<title>Contato - Phenatrim Oficial</title>
 				<meta name='description' content='phenatrim.com.br'>
 				<meta name='viewport' content='width=device-width, initial-scale=1'>
-				<style>
-					body {
-						font-family: 'Open Sans';
-					}
-				</style>
 			</head>
 			<body>
 				<div class='row-content-total'>

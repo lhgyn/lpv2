@@ -49,7 +49,7 @@
 				  </div>
 				  <div class="form-group">
 				    <!-- <label for="inputPassword">Mensagem</label> -->
-				    <textarea name="" id="" cols="20" rows="6" class="form-control" name="mensagem" placeholder="Sua mensagem aqui!"></textarea>
+				    <textarea cols="20" rows="6" class="form-control" name="mensagem" placeholder="Sua mensagem aqui!"></textarea>
 				  </div>
 				  <div class="form-group">
 				  	<button id="cta-button" class="btn pull-right">
