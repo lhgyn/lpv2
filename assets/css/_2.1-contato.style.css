@@ -1,0 +1,90 @@
+
+#page-contato{
+	padding-top: 50px;
+	padding-bottom: 250px;
+	background-image:
+	    linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 100%),
+	    linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 55%,rgba(255,255,255,0) 100%),
+	    url('../img/callcenter2.jpg');
+	background-repeat: no-repeat;
+	background-position: top center, left center, left bottom -150px;
+	background-size: cover, cover, auto 550px;
+}
+
+#page-contato .form-control{
+	border-radius: 0;
+	color: #444;
+	border: 1px solid #f1f1f1;
+	background: #fff;
+	box-shadow: #9E9E9E  1px 1px 1px;
+	min-height: 40px;
+}
+#page-contato .form-control::placeholder {
+  color: #777;
+  font-size: 14px;
+  font-weight: bold;
+}
+#page-contato form{
+	margin-top: 25px;
+}
+#page-contato form label{
+	color: #444;
+}
+
+#page-contato .info{
+	margin-top: 20px;
+	padding-bottom: 15px;
+}
+#page-contato .info div{
+	position: relative;
+	z-index: 10;
+    color: <?=$colors['primary']?>;
+}
+/* #page-contato .info::after {
+	content:  "";
+    position: absolute;
+    background: <?=$colors['primary']?>;
+    width: 45%;
+    height: 100%;
+    right: -2px;
+    bottom: -4px;
+    transform: rotate(2deg);
+    z-index: 1;
+}
+
+#page-contato .info::before {
+	content:  "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0; top: 0;    
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 42%,rgba(239,239,239,1) 100%);
+    z-index: 10;
+} */
+
+
+
+#page-contato .info p{
+	color:  #444;
+}
+
+
+#page-contato #cta-button{
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+
+@media all and (max-width: 991px){
+	#page-contato{
+		background-image:
+		    linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 90%,rgba(255,255,255,1) 100%),
+		    linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 70%,rgba(255,255,255,0) 100%),
+		    url('./assets/img/callcenter2.jpg');
+	}
+	#page-contato .info{
+		margin-top: 100px;
+	}
+}

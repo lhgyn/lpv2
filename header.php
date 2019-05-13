@@ -7,46 +7,43 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang=""> <!--<![endif]-->
 <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title><?=$data['site_title']?></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="robots" content="index, follow"/>
-        <link rel="icon" href="favicon.ico" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title><?=$data['site_title']?></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow"/>
+    <link rel="icon" href="./assets/img/favicon.png" />
 
-       <!--  <script src="https://unpkg.com/lodash@4/lodash.min.js"></script>
-        <script src="https://unpkg.com/lowdb@0.17/dist/low.min.js"></script>
-        <script src="https://unpkg.com/lowdb@0.17/dist/LocalStorage.min.js"></script> -->
+    <?php
+        //////////////////////////
+    ///////////// LOAD THEME FONTS
+    ////////////////////////////////////
+        foreach ( $data['theme_fonts'] as $font ) {
+		 echo '<link rel="stylesheet" type="text/css" href="'.$font.'">';
+	    }
+    ?>
 
-        <?php
-            //////////////////////////
-        ///////////// LOAD THEME FONTS
+    <?php
+        //////////////////////////
+        ///////////// LOAD THEME CSS STYLES
         ////////////////////////////////////
-            foreach ( $data['theme_fonts'] as $font ) {
-			 echo '<link rel="stylesheet" type="text/css" href="'.$font.'">';
-		    }
-        ?>
+        // foreach ( $data['_theme_styles'] as $style ) {
+        //     echo '<link rel="stylesheet" type="text/css" href="'.$style.'">';
+        // }
+        // require('assets/css/header.style.css');
+        // require('assets/css/footer.style.css');
+        // require('assets/css/home.style.css');
+        // require('assets/css/peca-agora.style.css');
+        // require('assets/css/como-funciona.style.css');
+        // require('assets/css/depoiments.style.css');
+        // require('assets/css/garantia.style.css');
+        // require('assets/css/perguntas-frequentes.style.css');
+        // require('assets/css/contato.style.css');
+        // require('assets/css/politicas.style.css');
+    ?>
 
-        <?php
-            //////////////////////////
-            ///////////// LOAD THEME CSS STYLES
-            ////////////////////////////////////
-            foreach ( $data['_theme_styles'] as $style ) {
-                echo '<link rel="stylesheet" type="text/css" href="'.$style.'">';
-            }
-            require('assets/css/header.style.php');
-            require('assets/css/footer.style.php');
-            require('assets/css/home.style.php');
-            require('assets/css/peca-agora.style.php');
-            require('assets/css/como-funciona.style.php');
-            require('assets/css/depoiments.style.php');
-            require('assets/css/garantia.style.php');
-            require('assets/css/perguntas-frequentes.style.php');
-            require('assets/css/contato.style.php');
-            require('assets/css/politicas.style.php');
-        ?>
-
+    <link rel="stylesheet" type="text/css" href="./assets/css/all.min.css">
 		
 </head>
 <body>

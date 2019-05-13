@@ -20,56 +20,50 @@ $data['_theme_styles'] = [ 'assets/css/bootstrap.min.css', 'assets/libs/animate.
 
 $data['_theme_page_styles'] = [];
 
-//switch ($page) {
-    // case 'home':
-    //     array_push($data['_theme_styles'], 'assets/css/home.style.php');
-    //     break;
-    // case 'como-funciona':
-    //     array_push($data['_theme_styles'], 'assets/css/como-funciona.css');
-    //     break;
-    // case 'depoimentos':
-    //     array_push($data['_theme_styles'], 'assets/css/depoimentos.css');
-    //     break;
-    // case 'garantia':
-    //     array_push($data['_theme_styles'], 'assets/css/garantia.css');
-    //     break;
-    // case 'perguntas-frequentes':
-    //     array_push($data['_theme_styles'], 'assets/css/perguntas-frequentes.css');
-    //     break;
-    // case 'contato':
-    //     array_push($data['_theme_styles'], 'assets/css/contato.css');
-    //     break;
-    // case 'sobre-nos':
-    //     array_push($data['_theme_styles'], 'assets/css/sobre-nos.css');
-    //     break;
-    // case 'na-midia':
-    //     array_push($data['_theme_styles'], 'assets/css/na-midia.css');
-    //     break;
-    // case 'politica-privacidade':
-    //     array_push($data['_theme_styles'], 'assets/css/politica-privacidade.css');
-    //     break;
-    // case 'politica-reembolso':
-    //     array_push($data['_theme_styles'], 'assets/css/politica-reembolso.css');
-    //     break;
+switch ($page) {
+    case 'home':
+        array_push($data['_theme_styles'], 'assets/css/home.style.php');
+        break;
+    case 'como-funciona':
+        array_push($data['_theme_styles'], 'assets/css/como-funciona.css');
+        break;
+    case 'depoimentos':
+        array_push($data['_theme_styles'], 'assets/css/depoimentos.css');
+        break;
+    case 'garantia':
+        array_push($data['_theme_styles'], 'assets/css/garantia.css');
+        break;
+    case 'perguntas-frequentes':
+        array_push($data['_theme_styles'], 'assets/css/perguntas-frequentes.css');
+        break;
+    case 'contato':
+        array_push($data['_theme_styles'], 'assets/css/contato.css');
+        break;
+    case 'sobre-nos':
+        array_push($data['_theme_styles'], 'assets/css/sobre-nos.css');
+        break;
+    case 'na-midia':
+        array_push($data['_theme_styles'], 'assets/css/na-midia.css');
+        break;
+    case 'politica-privacidade':
+        array_push($data['_theme_styles'], 'assets/css/politica-privacidade.css');
+        break;
+    case 'politica-reembolso':
+        array_push($data['_theme_styles'], 'assets/css/politica-reembolso.css');
+        break;
     
-//     default:
-//         # code...
-//         break;
-// }
+    default:
+        # code...
+        break;
+}
 
 // Theme Scripts
 $data['_theme_scripts'] = [
-	'https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js',
-	'assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js',
+	'assets/js/jquery.min.js',
     'assets/js/vendor/bootstrap.min.js',
 	'app/ajaxGetPost.js',
-	'app/main.js',
-	'app/newsLetter.js',
-    'assets/libs/jquery.fittext.js',
     'assets/libs/GoogleNexusWebsiteMenu/js/gnmenu.js',
     'assets/libs/GoogleNexusWebsiteMenu/js/classie.js'
-
-
 ];
 
 // Theme Colors

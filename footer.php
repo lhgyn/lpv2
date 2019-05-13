@@ -107,10 +107,11 @@
             ///////////////////////////
             //////////////// LOAD THEME SCRIPTS
             //////////////////////////////////////////////
-            foreach ($data['_theme_scripts'] as $script) {
-                echo '<script  type="text/javascript" src="'.$script.'"></script>';
-            }
+            // foreach ($data['_theme_scripts'] as $script) {
+            //     echo '<script  type="text/javascript" src="'.$script.'"></script>';
+            // }
         ?>
+        <script  type="text/javascript" src="./assets/js/all.min.js"></script>
 
         <script>
             jQuery(document).ready(function(){
@@ -119,14 +120,6 @@
             function stockAlert(){
                 alert("Desculpe, mas este produto está fora de estoque!");
             }
-        </script>
-
-
-        <script>
-
-            // jQuery("#text-test").fitText(2.0, { minFontSize: '14px', maxFontSize: '30px' });
-            // jQuery("#difinitive-title").fitText(1.6, { minFontSize: '42.5px', maxFontSize: '44px' });
-
         </script>
 
 
