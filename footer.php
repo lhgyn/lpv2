@@ -17,10 +17,10 @@
                         <label class="sr-only" for="assinaturas_nomecompleto">Seu nome</label>
                         <input type="text" class="form-control" id="assinaturas_nomecompleto" placeholder="Seu nome">
                       </div>
-                      <input type="hidden" name="assinaturas_siteacessado" value="PHENATRIMOFICIAL">
-                      <input type="hidden" name="assinaturas_datahora" value="<?php echo $datahoralocalcadastro; ?>">
-                      <input type="hidden" name="assinaturas_ip" value="<?php echo $ipaddress; ?>">
-                      <button type="submit" id="submitbutton" class="btn btn-default">ENVIAR</button>
+                      <input type="hidden" id="assinaturas_siteacessado" value="PHENATRIMOFICIAL">
+                      <input type="hidden" id="assinaturas_datahora" value="<?php echo $datahoralocalcadastro; ?>">
+                      <input type="hidden" id="assinaturas_ip" value="<?php echo $ipaddress; ?>">
+                      <button type="button" id="submitbutton" class="btn btn-default">ENVIAR</button>
                     </form>
                 </div>
             </div>
