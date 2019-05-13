@@ -32,8 +32,8 @@
 			<head>
 				<meta charset='utf-8'>
 				<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
-				<title>Contato Biodryne</title>
-				<meta name='description' content='biodryne.com.br'>
+				<title>Contato Phenatrim Oficial</title>
+				<meta name='description' content='phenatrim.com.br'>
 				<meta name='viewport' content='width=device-width, initial-scale=1'>
 				<style>
 					body {
@@ -45,10 +45,10 @@
 				<div class='row-content-total'>
 					<div class='container'>
 						<div class='container-fluid'>
-							<div class='content-email-biodryne col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+							<div class='content-email-phenatrim col-lg-12 col-md-12 col-sm-12 col-xs-12'>
 								<div class='content-congratulations col-lg-12 col-md-12 col-sm-12 col-xs-12'>
 									<h3 class='txt-congratulations col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-										Mensagem enviada via formul&aacute;rio de contato biodryne.com.br  
+										Mensagem enviada via formul&aacute;rio de contato phenatrim.com.br  
 									</h3>
 									<hr>
 								</div>
