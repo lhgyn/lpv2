@@ -10,17 +10,17 @@
 
 	$Mailer = new PHPMailer(true);
 	$Mailer->isSMTP();
-	$Mailer->Host = 'mail.slim24.com.br';
+	$Mailer->Host = 'smtp.hostinger.com.br';
 	$Mailer->Port = 587;
 	$Mailer->SMTPAuth = true;
 	
 	//$Mailer->SMTPDebug = 3;
 	$Mailer->Charset = "utf8";
-	$Mailer->Username = "phenatrim@slim24.com.br";
-	$Mailer->Password = '@Masterfzhb18@';
-	$Mailer->From = "phenatrim@slim24.com.br";
+	$Mailer->Username = "sac@phenatrimoficial.com.br";
+	$Mailer->Password = 'NGb0spSFRgZV';
+	$Mailer->From = "sac@phenatrimoficial.com.br";
 	$Mailer->FromName = $nome;
-	$Mailer->AddAddress('phenatrim@slim24.com.br');
+	$Mailer->AddAddress('sac@phenatrimoficial.com.br');
 	$Mailer->Subject = "Contato Phenatrim - ". $assunto;
 	$Mailer->isHTML(true);
 
@@ -79,9 +79,9 @@
 		</html>";
 
 	if( $Mailer->send() ) {
-		header("Location: http://localhost/phenatrimlpg2/contato.php?envio=1");
+		header("Location: http://phenatrimoficial/contato.php?envio=1");
 	} else {
-		header("Location: http://localhost/phenatrimlpg2/contato.php?envio=0");
+		header("Location: http://phenatrimoficial/contato.php?envio=0");
 	}
 
 ?>
