@@ -1,95 +1,17 @@
 /* latin */
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto'), local('Roboto-Regular'), url('./assets/fonts/roboto.woff2') format('woff2');
-}
-
-/* latin */
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  src: local('Roboto Medium'), local('Roboto-Medium'), url('./assets/fonts/roboto.woff2') format('woff2');
-}
-
-/* latin */
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Roboto Bold'), local('Roboto-Bold'), url('./assets/fonts/roboto.woff2') format('woff2');
-}
-
-/* latin */
-@font-face {
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 300;
-  src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url('./assets/fonts/roboto.woff2') format('woff2');
+  src: url('../fonts/google-fonts/roboto-slab-300.woff2') format('woff2');
 }
 
 /* latin */
 @font-face {
   font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url('./assets/fonts/roboto.woff2') format('woff2');
-}
-
-/* latin */
-@font-face {
-  font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'), url('./assets/fonts/roboto.woff2') format('woff2');
-}
-
-
-
-
-
-
-
-/* latin */
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/google-fonts/roboto-400.woff2') format('woff2');
-}
-
-/* latin */
-@font-face {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  src: url('../fonts/google-fonts/roboto-500.woff2') format('woff2');
-}
-
-/* latin */
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../fonts/google-fonts/roboto-700.woff2') format('woff2');
-}
-
-/* latin */
-@font-face {
-  font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url('../fonts/google-fonts/roboto-slab-300.woff2') format('woff2');
-}
-
-/* latin */
-@font-face {
-  font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url('../fonts/google-fonts/roboto-slab-500.woff2') format('woff2');
+  src: url('../fonts/google-fonts/roboto-slab-500.woff2') format('woff2');
 }
 
 /* latin */
@@ -97,5 +19,5 @@
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 700;
-  src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'), url('../fonts/google-fonts/roboto-slab-700.woff2') format('woff2');
+  src: url('../fonts/google-fonts/roboto-slab-700.woff2') format('woff2');
 }

@@ -21,9 +21,15 @@
 	box-shadow: #ccc 0px 0px 4px;
 }
 
+#payment .col-md-7 .row{
+	margin-top: 25px;
+}
 #payment .col-md-6{
 	margin-bottom: 15px;
 	color:  #333;
+}
+#payment .col-md-6 span{
+	font-size: 18px;
 }
 #payment h4{
 	color:  #333;

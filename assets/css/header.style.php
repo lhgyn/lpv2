@@ -1,8 +1,9 @@
 <?php 	$colors = $data['theme_colors']; ?>
-<style>	
+<style>
 
 body, html{
 	font-family: 'Roboto Slab', serif !important;
+	font-weight: normal;
 	color: #0077c8;
 }
 body P{

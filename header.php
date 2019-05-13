@@ -44,6 +44,7 @@
             require('assets/css/garantia.style.php');
             require('assets/css/perguntas-frequentes.style.php');
             require('assets/css/contato.style.php');
+            require('assets/css/politicas.style.php');
         ?>
 
 		

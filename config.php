@@ -16,44 +16,46 @@ $data['theme_fonts'] = [
 
 
 // Theme Styles
-$data['_theme_styles'] = [ 'assets/css/bootstrap.min.css', 'assets/css/bootstrap-theme.min.css',  'assets/libs/animate.css', 'assets/libs/GoogleNexusWebsiteMenu/css/component.css'];
+$data['_theme_styles'] = [ 'assets/css/bootstrap.min.css', 'assets/libs/animate.css', 'assets/libs/GoogleNexusWebsiteMenu/css/component.css'];
 
-switch ($page) {
-    case 'home':
-        array_push($data['_theme_styles'], 'assets/css/news-home.css');
-        break;
-    case 'como-funciona':
-        array_push($data['_theme_styles'], 'assets/css/como-funciona.css');
-        break;
-    case 'depoimentos':
-        array_push($data['_theme_styles'], 'assets/css/depoimentos.css');
-        break;
-    case 'garantia':
-        array_push($data['_theme_styles'], 'assets/css/garantia.css');
-        break;
-    case 'perguntas-frequentes':
-        array_push($data['_theme_styles'], 'assets/css/perguntas-frequentes.css');
-        break;
-    case 'contato':
-        array_push($data['_theme_styles'], 'assets/css/contato.css');
-        break;
-    case 'sobre-nos':
-        array_push($data['_theme_styles'], 'assets/css/sobre-nos.css');
-        break;
-    case 'na-midia':
-        array_push($data['_theme_styles'], 'assets/css/na-midia.css');
-        break;
-    case 'politica-privacidade':
-        array_push($data['_theme_styles'], 'assets/css/politica-privacidade.css');
-        break;
-    case 'politica-reembolso':
-        array_push($data['_theme_styles'], 'assets/css/politica-reembolso.css');
-        break;
+$data['_theme_page_styles'] = [];
+
+//switch ($page) {
+    // case 'home':
+    //     array_push($data['_theme_styles'], 'assets/css/home.style.php');
+    //     break;
+    // case 'como-funciona':
+    //     array_push($data['_theme_styles'], 'assets/css/como-funciona.css');
+    //     break;
+    // case 'depoimentos':
+    //     array_push($data['_theme_styles'], 'assets/css/depoimentos.css');
+    //     break;
+    // case 'garantia':
+    //     array_push($data['_theme_styles'], 'assets/css/garantia.css');
+    //     break;
+    // case 'perguntas-frequentes':
+    //     array_push($data['_theme_styles'], 'assets/css/perguntas-frequentes.css');
+    //     break;
+    // case 'contato':
+    //     array_push($data['_theme_styles'], 'assets/css/contato.css');
+    //     break;
+    // case 'sobre-nos':
+    //     array_push($data['_theme_styles'], 'assets/css/sobre-nos.css');
+    //     break;
+    // case 'na-midia':
+    //     array_push($data['_theme_styles'], 'assets/css/na-midia.css');
+    //     break;
+    // case 'politica-privacidade':
+    //     array_push($data['_theme_styles'], 'assets/css/politica-privacidade.css');
+    //     break;
+    // case 'politica-reembolso':
+    //     array_push($data['_theme_styles'], 'assets/css/politica-reembolso.css');
+    //     break;
     
-    default:
-        # code...
-        break;
-}
+//     default:
+//         # code...
+//         break;
+// }
 
 // Theme Scripts
 $data['_theme_scripts'] = [

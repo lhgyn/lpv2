@@ -160,29 +160,24 @@
     				</div>
 				</div>
 			</div>
+
+			<div class="row" style="margin-top: 50px; margin-bottom: 50px;" align="center">
+				<a href="#buy-phenatrim" id="cta-button" class="img-responsive"> 
+					<div>
+						<span>EXPERIMENTE PHENATRIM HOJE!</span>
+						<small>SEJA A PRÓXIMA HISTÓRIA DE SUCESSO</small>
+					</div>
+					<div>
+						<i class="fa fa-angle-double-right"></i>
+					</div>
+				</a>
+			</div>
+
 		</div>
 	</section>
 
 
-			<div class="row row-cta-body">
-				<div class="container">
-					<div class="container-fluid">
-						<div class="content-cta-body col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-								<a href="#buy-phenatrim" id="cta-button" class="img-responsive"> 
-									<div>
-										<span>EXPERIMENTE PHENATRIM HOJE!</span>
-										<small>SEJA A PRÓXIMA HISTÓRIA DE SUCESSO</small>
-									</div>
-									<div>
-										<i class="fa fa-angle-double-right"></i>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			
 			
 
 
