@@ -79,9 +79,9 @@
 		</html>";
 
 	if( $Mailer->send() ) {
-		header("Location: http://phenatrimoficial/contato.php?envio=1");
+		header("Location: http://phenatrimoficial.com.br/contato.php?envio=1");
 	} else {
-		header("Location: http://phenatrimoficial/contato.php?envio=0");
+		header("Location: http://phenatrimoficial.com.br/contato.php?envio=0");
 	}
 
 ?>
