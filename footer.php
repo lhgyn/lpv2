@@ -10,14 +10,17 @@
                 <div class="col-md-8 right">
                     <form class="form-inline">
                       <div class="form-group">
-                        <label class="sr-only" for="exampleInputEmail3">Seu melhor email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Seu melhor email">
+                        <label class="sr-only" for="assinaturas_email">Seu melhor email</label>
+                        <input type="email" class="form-control" id="assinaturas_email" placeholder="Seu melhor email">
                       </div>
                       <div class="form-group">
-                        <label class="sr-only" for="exampleInputPassword3">Seu nome</label>
-                        <input type="text" class="form-control" id="exampleInputPassword3" placeholder="Seu nome">
+                        <label class="sr-only" for="assinaturas_nomecompleto">Seu nome</label>
+                        <input type="text" class="form-control" id="assinaturas_nomecompleto" placeholder="Seu nome">
                       </div>
-                      <button type="submit" class="btn btn-default">ENVIAR</button>
+                      <input type="hidden" name="assinaturas_siteacessado" value="PHENATRIMOFICIAL">
+                      <input type="hidden" name="assinaturas_datahora" value="<?php echo $datahoralocalcadastro; ?>">
+                      <input type="hidden" name="assinaturas_ip" value="<?php echo $ipaddress; ?>">
+                      <button type="submit" id="submitbutton" class="btn btn-default">ENVIAR</button>
                     </form>
                 </div>
             </div>

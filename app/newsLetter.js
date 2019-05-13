@@ -36,12 +36,12 @@ jQuery(document).ready(function($) {
 			data: encode,
 			success: function (data) {
 				//alert(JSON.stringify(data));
-				if (siteacessado=='PVBIOD001NL') {
+				if (siteacessado=='PHENATRIMOFICIAL') {
 					alert("Cadastrado com sucesso!");
 					$('#assinaturas_nomecompleto').val("");
 					$('#assinaturas_email').val("");
 				} else {
-					location.href =	'http://biodryneoficial.com.br/#footer';
+					location.href =	'http://phenatrimoficial.com.br/#site-footer';
 				}
 			}			
 		//});
