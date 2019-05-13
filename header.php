@@ -15,8 +15,14 @@
 	<meta name="robots" content="index, follow"/>
     <link rel="icon" href="./assets/img/favicon.png" />
 
+
     <!-- //////////////////////////////////
-    //////// MODO PRODUÇÃO - BY GULP AUTOMATION
+    //////// DESENVOLVIMENTO
+    ///////////////////// -->
+    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/__desenvolvimento.css"> -->
+
+    <!-- //////////////////////////////////
+    //////// PRODUÇÃO - BY GULP AUTOMATION
     ///////////////////// -->
     <link rel="stylesheet" type="text/css" href="./assets/css/all.min.css">
 		

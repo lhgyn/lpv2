@@ -6,85 +6,14 @@ $filename = FILE_NAME;
 $page = basename($filename, '.php');
 
 
-// Theme Fontes
-$data['theme_fonts'] = [
-	'assets/css/__google-fonts.css',
-    'assets/css/font-awesome.css',
-    'assets/css/flaticon.css',
-];
-
-
-
-// Theme Styles
-$data['_theme_styles'] = [ 'assets/css/bootstrap.min.css', 'assets/libs/animate.css', 'assets/libs/GoogleNexusWebsiteMenu/css/component.css'];
-
-$data['_theme_page_styles'] = [];
-
-switch ($page) {
-    case 'home':
-        array_push($data['_theme_styles'], 'assets/css/home.style.php');
-        break;
-    case 'como-funciona':
-        array_push($data['_theme_styles'], 'assets/css/como-funciona.css');
-        break;
-    case 'depoimentos':
-        array_push($data['_theme_styles'], 'assets/css/depoimentos.css');
-        break;
-    case 'garantia':
-        array_push($data['_theme_styles'], 'assets/css/garantia.css');
-        break;
-    case 'perguntas-frequentes':
-        array_push($data['_theme_styles'], 'assets/css/perguntas-frequentes.css');
-        break;
-    case 'contato':
-        array_push($data['_theme_styles'], 'assets/css/contato.css');
-        break;
-    case 'sobre-nos':
-        array_push($data['_theme_styles'], 'assets/css/sobre-nos.css');
-        break;
-    case 'na-midia':
-        array_push($data['_theme_styles'], 'assets/css/na-midia.css');
-        break;
-    case 'politica-privacidade':
-        array_push($data['_theme_styles'], 'assets/css/politica-privacidade.css');
-        break;
-    case 'politica-reembolso':
-        array_push($data['_theme_styles'], 'assets/css/politica-reembolso.css');
-        break;
-    
-    default:
-        # code...
-        break;
-}
-
-// Theme Scripts
-$data['_theme_scripts'] = [
-	'assets/js/jquery.min.js',
-    'assets/js/vendor/bootstrap.min.js',
-	'app/ajaxGetPost.js',
-    'assets/libs/GoogleNexusWebsiteMenu/js/gnmenu.js',
-    'assets/libs/GoogleNexusWebsiteMenu/js/classie.js'
-];
-
-// Theme Colors
-$data['theme_colors'] = [
-    'default' => '#333',
-    'primary' => '#0077c8',
-    'secondary' => '#106f88',
-    'light_color' => '#666',
-    'links' => '#606060',
-    'cta' => '#fff',
-    'cta_bg' => 'linear-gradient(to bottom,#f0ad4e 0,#eb9316 100%)',
-    'icons' => '#106f88',
-];
+// Site info
+$data['site_title'] = 'Phenatrim | Weight Loss Formula | Site Oficial';
 
 
 // Scripts de Conversão
 $data['site_pixels'] = [];
 
 
-// Site info
-$data['site_title'] = 'Phenatrim | Weight Loss Formula | Site Oficial';
 
 
 

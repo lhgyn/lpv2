@@ -101,8 +101,18 @@
         </footer><!--/row-rodape-->
 
         
+        <!-- /////////////////////////////////////////
+        //////// DESENVOLVIMENTO
+        ////////////////////////// -->
+        <!-- <script  type="text/javascript" src="./assets/js/_1-jquery.min.js"></script>
+        <script  type="text/javascript" src="./assets/js/_2-bootstrap.min.js"></script>
+        <script  type="text/javascript" src="./assets/js/_3-jquery.mask.js"></script>
+        <script  type="text/javascript" src="./assets/libs/GoogleNexusWebsiteMenu/js/classie.js"></script>
+        <script  type="text/javascript" src="./assets/libs/GoogleNexusWebsiteMenu/js/gnmenu.js"></script> -->
 
-
+        <!-- /////////////////////////////////////////
+        //////// PRODUÇÃO
+        ////////////////////////// -->
         <script  type="text/javascript" src="./assets/js/all.min.js"></script>
 
         <script>
