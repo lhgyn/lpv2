@@ -67,7 +67,7 @@
                         <li><a href="garantia">GARANTIA</a></li>
                         <li><a href="perguntas-frequentes">PERGUNTAS FREQUENTES</a></li>
                         <li><a href="contato">CONTATO</a></li>
-                        <li><a href="peca-agora" class="">PEÇA AGORA!</a></li>
+                        <li><a href="https://phenatrim.com.br/#order" class="">PEÇA AGORA!</a></li>
                     </ul>
                 </div>
             </div>
@@ -88,13 +88,13 @@
                     <nav class="gn-menu-wrapper">
                         <div class="gn-scroller">
                             <ul class="gn-menu">
-                                <li><a href="home" class=""> <i class="fa fa-home"></i> HOME </a></li>
-                                <li><a href="como-funciona" class=""> <i class="fa fa-comment"></i> COMO FUNCIONA </a></li>
-                                <li><a href="depoimentos" class=""> <i class="fa fa-bullhorn"></i> DEPOIMENTOS </a></li>
-                                <li><a href="garantia" class=""> <i class="fa fa-trophy"></i> GARANTIA </a></li>
-                                <li><a href="perguntas-frequentes" class=""> <i class="fa fa-question-circle"></i> PERGUNTAS FREQUENTES</a></li>
-                                <li><a href="contato" class=""> <i class="fa fa-volume-control-phone"></i> CONTATO </a></li>
-                                <li><a href="peca-agora" class=""> <i class="fa fa-shopping-cart"></i> PEÇA AGORA! </a></li>
+                                <li><a href="home" class=""> <i class="flaticon-home-icon-silhouette"></i> HOME </a></li>
+                                <li><a href="como-funciona" class=""> <i class="flaticon-mortar"></i> COMO FUNCIONA </a></li>
+                                <li><a href="depoimentos" class=""> <i class="flaticon-megaphone"></i> DEPOIMENTOS </a></li>
+                                <li><a href="garantia" class=""> <i class="flaticon-guarantee"></i> GARANTIA </a></li>
+                                <li><a href="perguntas-frequentes" class=""> <i class="flaticon-help"></i> PERGUNTAS FREQUENTES</a></li>
+                                <li><a href="contato" class=""> <i class="flaticon-contact"></i> CONTATO </a></li>
+                                <li><a href="peca-agora" class=""> <i class="flaticon-shopping-basket"></i> PEÇA AGORA! </a></li>
                             </ul>
                         </div><!-- /gn-scroller -->
                     </nav>

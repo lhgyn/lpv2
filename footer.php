@@ -1,7 +1,6 @@
-        <!--
-            // Rodapé Phenatrim 
-        -->
-
+        <!-- ///////////////////////////////////////////////
+        //////////////// NEWSLETTER
+        /////////////////////////////////// -->
         <section id="site-newsletter" class="">
             <div class="container">
                 <div class="col-md-4 left">
@@ -26,7 +25,9 @@
             </div>
         </section>
 
-
+        <!-- ///////////////////////////////////////////////
+        //////////////// SITE FOOTER
+        /////////////////////////////////// -->
         <footer id="site-footer">
             <div class="container">
                 <div id="footer-menu" class="container">                    
@@ -39,7 +40,7 @@
                             <li><a href="depoimentos">Depoimentos</a></li>
                             <li><a href="perguntas-frequentes">Perguntas frequentes</a></li>
                             <li><a href="garantia">Garantia</a></li>
-                            <li><a href="#buy-phenatrim" class="btn-buy">Peça agora!</a></li>
+                            <li><a href="https://phenatrim.com.br/#order" class="btn-buy">Peça agora!</a></li>
                         </ul>
                     </div>
 
@@ -119,12 +120,12 @@
         <script  type="text/javascript" src="./assets/js/all.min.js"></script>
 
         <script>
-            jQuery(document).ready(function(){
-                
+            jQuery(document).ready(function($){
+                $('.cta_button-comprar').click(function(event) {
+                    event.preventDefault();
+                    alert('Produto indisponível para comprar');
+                });
             })
-            function stockAlert(){
-                alert("Desculpe, mas este produto está fora de estoque!");
-            }
         </script>
 
 
@@ -156,6 +157,48 @@
             jQuery(document).ready(function($) {
                 var route = '<?= $page; ?>';
                 $(`#nav-links > li > a[href=${route}]`).parent('li').addClass('active');
+            });
+        </script>
+
+
+        <script>
+            jQuery(document).ready(function($) {
+
+                $('#cta-button').click(function(event) {
+                    let error = 0;
+                    let name_error = null;
+                    let email_error = null;
+                    let subject_error = null;
+                    let message_error = null;  
+
+                    if($('input[name=nome]').val() == ''){
+                        error = 1;
+                        $('input[name=nome]').css('border-color', 'red');
+                        $('#message-error').append('<p style="color:#444">*Informe o seu Nome</p>');
+                    }
+                     if($('input[name=email]').val() == ''){
+                        error = 1;
+                        $('input[name=email]').css('border-color', 'red');
+                        $('#message-error').append('<p style="color:#444">*Informe o seu E-mail</p>');
+                    }
+                     if($('input[name=assunto]').val() == ''){
+                        error = 1;
+                        $('input[name=assunto]').css('border-color', 'red');
+                        $('#message-error').append('<p style="color:#444">*Informe o Assunto</p>');
+                    }
+                     if($('textarea[name=mensagem]').val() == ''){
+                        error = 1;
+                        $('textarea[name=mensagem]').css('border-color', 'red');
+                        $('#message-error').append('<p style="color:#444">*Escreva sua mensagem</p>');
+                    }
+
+
+                    if(error == 0){
+                     $('#contactForm').submit();
+                    }
+                });
+
+                
             });
         </script>
         

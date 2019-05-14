@@ -36,7 +36,7 @@
 								</div>
 								<big>39,81</big>
 							</h2>
-							<a href="" id="cta-button">								 
+							<a href="" id="cta-button" class="cta_button-comprar">								 
 								<div>
 									<span>COMPRAR</span>
 								</div>
@@ -77,7 +77,7 @@
 								</div>
 								<big>29,97</big>
 							</h2>
-							<a href="" id="cta-button">								 
+							<a href="" id="cta-button" class="cta_button-comprar">								 
 								<div>
 									<span>COMPRAR</span>
 								</div>
@@ -114,7 +114,7 @@
 								</div>
 								<big>19,53</big>
 							</h2>
-							<a href="" id="cta-button">								 
+							<a href="" id="cta-button" class="cta_button-comprar">								 
 								<div>
 									<span>COMPRAR</span>
 								</div>
@@ -151,7 +151,7 @@
 								</div>
 								<big>10,79</big>
 							</h2>
-							<a href="" id="cta-button">								 
+							<a href="" id="cta-button" class="cta_button-comprar">								 
 								<div>
 									<span>COMPRAR</span>
 								</div>

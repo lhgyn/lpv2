@@ -207,7 +207,7 @@
 	    			<br><br>
 
 	    			<div>
-	    				<a href="#buy-phenatrim" id="cta-button" class="nimated infinite pulse delay-4s"> 
+	    				<a href="https://phenatrim.com.br/#order" id="cta-button" class="nimated infinite pulse delay-4s"> 
 							<div>
 								<span>PEÇA O SEU AGORA!</span>
 								<small>100% DE SATISFAÇÃO OU SEU DINHEIRO DE VOLTA</small>

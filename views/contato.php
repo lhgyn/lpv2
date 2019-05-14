@@ -33,26 +33,26 @@
 				<form action="./controllers/Email/sendemail.php" id="contactForm">
 				  <div class="form-group">
 				    <!-- <label for="inputPassword">Nome Completo</label> -->
-				    <input type="text" class="form-control input-sm" id="inputPassword" name="nome" placeholder="Nome Completo">
+				    <input type="text" class="form-control input-sm" name="nome" placeholder="Nome Completo">
 				  </div>
 				  <div class="form-group">
 				    <!-- <label for="inputPassword">E-mail</label> -->
-				    <input type="email" class="form-control input-sm" id="inputPassword" name="email" placeholder="E-mail">
+				    <input type="email" class="form-control input-sm" name="email" placeholder="E-mail">
 				  </div>
 				  <div class="form-group">
 				    <!-- <label for="inputPassword">Assunto</label> -->
-				    <input type="text" class="form-control input-sm" id="inputPassword" name="assunto" placeholder="Assunto">
+				    <input type="text" class="form-control input-sm" name="assunto" placeholder="Assunto">
 				  </div>
 				  <div class="form-group">
 				    <!-- <label for="inputPassword">Nº Pedido</label> -->
-				    <input type="text" class="form-control input-sm" id="inputPassword" name="n-pedido" placeholder="Nº do Pedido">
+				    <input type="text" class="form-control input-sm" name="n-pedido" placeholder="Nº do Pedido">
 				  </div>
 				  <div class="form-group">
 				    <!-- <label for="inputPassword">Mensagem</label> -->
 				    <textarea cols="20" rows="6" class="form-control" name="mensagem" placeholder="Sua mensagem aqui!"></textarea>
 				  </div>
 				  <div class="form-group">
-				  	<button id="cta-button" class="btn pull-right">
+				  	<button type="button" id="cta-button" class="btn pull-right">
 						<div>
 							<span>Enviar</span>
 						</div>
@@ -62,6 +62,8 @@
 				  	</button>
 				  </div>
 				</form>
+
+				<div id="message-error"></div>
 			</div>
 
 			<div class="col-md-4 col-md-offset-1 info">

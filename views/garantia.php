@@ -66,7 +66,7 @@
     			<br><br>
 
     			<div>
-    				<a href="#buy-phenatrim" id="cta-button" class="nimated infinite pulse delay-4s"> 
+    				<a href="https://phenatrim.com.br/#order" id="cta-button" class="nimated infinite pulse delay-4s"> 
 						<div>
 							<span>PEÇA O SEU AGORA!</span>
 							<small>100% DE SATISFAÇÃO OU SEU DINHEIRO DE VOLTA</small>
@@ -105,7 +105,7 @@
     		</div>
 		</div>
 		<div class="col-md-12" style="margin-top: 40px" align="center">
-			<a href="#buy-phenatrim" id="cta-button"> 
+			<a href="https://phenatrim.com.br/#order" id="cta-button"> 
 				<div>
 					<span>EXPERIMENTE PHENATRIM HOJE!</span>
 					<small>SEJA A PRÓXIMA HISTÓRIA DE SUCESSO</small>

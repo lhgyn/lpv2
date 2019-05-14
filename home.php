@@ -19,7 +19,7 @@
 								<div style="margin-left: -10px; margin-top: 15px;">
 									<p><span><i class="flaticon-weight-scale"></i> Perda de peso</span></p>
 									<p><span><i class="flaticon-measuring-tape"></i> Redução de medidas</span></p>
-									<p><span><i class="flaticon-human-body"></i> Combate à celulites</span></p>
+									<p><span><i class="flaticon-hip"></i> Combate à celulites</span></p>
 									<p><span><i class="flaticon-fire"></i> Queima de gordura teimosa</span></p>
 									<p><span><i class="flaticon-flash"></i> Energia extra</span></p>
 								</div>
@@ -47,7 +47,7 @@
 					</p>
 				</div>
 				<div class="col-md-6 right"> <!-- animated infinite pulse delay-2s -->
-					<a href="#buy-phenatrim" id="cta-button" class="animated infinite pulse delay-4s"> 
+					<a href="https://phenatrim.com.br/#order" id="cta-button" class="animated infinite pulse delay-4s"> 
 						<div>
 							<span>EXPERIMENTE PHENATRIM HOJE!</span>
 							<small>SEJA A PRÓXIMA HISTÓRIA DE SUCESSO</small>
@@ -162,7 +162,7 @@
 			</div>
 
 			<div class="row" style="margin-top: 50px; margin-bottom: 50px;" align="center">
-				<a href="#buy-phenatrim" id="cta-button" class="img-responsive"> 
+				<a href="https://phenatrim.com.br/#order" id="cta-button" class="img-responsive"> 
 					<div>
 						<span>EXPERIMENTE PHENATRIM HOJE!</span>
 						<small>SEJA A PRÓXIMA HISTÓRIA DE SUCESSO</small>
@@ -229,7 +229,7 @@
 						</div>
 					</div>
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" align="center" style="margin-top:30px;"> 
-						<a href="#buy-phenatrim" id="cta-button"> 
+						<a href="https://phenatrim.com.br/#order" id="cta-button"> 
 							<div>
 								<span>EXPERIMENTE PHENATRIM HOJE!</span>
 								<small>SEJA A PRÓXIMA HISTÓRIA DE SUCESSO</small>
@@ -414,7 +414,7 @@
 			    		</div>
 		    		</div>
 		    		<div class="col-md-12" style="margin-top: 40px" align="center">
-		    			<a href="#buy-phenatrim" id="cta-button"> 
+		    			<a href="https://phenatrim.com.br/#order" id="cta-button"> 
 							<div>
 								<span>EXPERIMENTE PHENATRIM HOJE!</span>
 								<small>SEJA A PRÓXIMA HISTÓRIA DE SUCESSO</small>

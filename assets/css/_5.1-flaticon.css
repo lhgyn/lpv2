@@ -22,35 +22,45 @@
   }
 }
 
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+[class^="flaticon-"]::before, [class*=" flaticon-"]::before,
+[class^="flaticon-"]::after, [class*=" flaticon-"]::after {   
   font-family: Flaticon;
-        font-size: 24px;
-font-style: normal;
-margin-left: 20px;
+  font-size: 24px;
+  font-style: normal;
+  margin-left: 0px;
+  margin-right: 10px;
 }
 
-.flaticon-fire:before { content: "\f100"; }
-.flaticon-flash:before { content: "\f101"; }
-.flaticon-weight-scale:before { content: "\f102"; }
-.flaticon-slim:before { content: "\f103"; }
-.flaticon-hips:before { content: "\f104"; }
-.flaticon-measuring-tape:before { content: "\f105"; }
-.flaticon-human-body:before { content: "\f106"; }
-.flaticon-like:before { content: "\f107"; }
-.flaticon-check:before { content: "\f108"; }
-.flaticon-herbal-spa-treatment-leaves:before { content: "\f109"; }
-.flaticon-tree-leaf:before { content: "\f10a"; }
-.flaticon-telephone:before { content: "\f10b"; }
-.flaticon-pill:before { content: "\f10c"; }
-.flaticon-drugs:before { content: "\f10d"; }
-.flaticon-dropper:before { content: "\f10e"; }
-.flaticon-medical-notes-symbol-of-a-list-paper-on-a-clipboard:before { content: "\f10f"; }
-.flaticon-mortar:before { content: "\f110"; }
-.flaticon-charity:before { content: "\f111"; }
-.flaticon-padlock:before { content: "\f112"; }
-.flaticon-shield:before { content: "\f113"; }
-.flaticon-delivery-truck-with-circular-clock:before { content: "\f114"; }
-.flaticon-shield-1:before { content: "\f115"; }
-.flaticon-security-on:before { content: "\f116"; }
-.flaticon-electronic-key:before { content: "\f117"; }
+
+.flaticon-fire::before { content: "\f100"; }
+.flaticon-flash::before { content: "\f101"; }
+.flaticon-weight-scale::before { content: "\f102"; }
+.flaticon-slim::before { content: "\f103"; }
+.flaticon-hips::before { content: "\f104"; }
+.flaticon-measuring-tape::before { content: "\f105"; }
+.flaticon-human-body::before { content: "\f106"; }
+.flaticon-like::before { content: "\f107"; }
+.flaticon-check::before { content: "\f108"; }
+.flaticon-herbal-spa-treatment-leaves::before { content: "\f109"; }
+.flaticon-tree-leaf::before { content: "\f10a"; }
+.flaticon-telephone::before { content: "\f10b"; }
+.flaticon-pill::before { content: "\f10c"; }
+.flaticon-drugs::before { content: "\f10d"; }
+.flaticon-dropper::before { content: "\f10e"; }
+.flaticon-medical-notes-symbol-of-a-list-paper-on-a-clipboard::before { content: "\f10f"; }
+.flaticon-mortar::before { content: "\f110"; }
+.flaticon-charity::before { content: "\f111"; }
+.flaticon-padlock::before { content: "\f112"; }
+.flaticon-shield::before { content: "\f113"; }
+.flaticon-delivery-truck-with-circular-clock::before { content: "\f114"; }
+.flaticon-shield-1::before { content: "\f115"; }
+.flaticon-security-on::before { content: "\f116"; }
+.flaticon-electronic-key::before { content: "\f117"; }
+.flaticon-home-icon-silhouette::before { content: "\f118"; }
+.flaticon-businessman::before { content: "\f119"; }
+.flaticon-help::before { content: "\f11a"; }
+.flaticon-megaphone::before { content: "\f11b"; }
+.flaticon-guarantee::before { content: "\f11c"; }
+.flaticon-contact::before { content: "\f11d"; }
+.flaticon-shopping-basket::before { content: "\f11e"; }
+.flaticon-hip::before { content: "\f11f"; }
