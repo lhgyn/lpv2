@@ -40,22 +40,22 @@
     				<hr>
     			</div>
     		</div>
-    		<div class="row">
+    		<div class="row items">
     			<div class="left">
 					<div class="ingredient text-right">
 						<img class="img-responsive visible-sm visible-xs" src="./assets/img/ingredients/_1-cartamus.png" alt="">
 						<h4>ÓLEO DE CÁRTAMO - (CARTHAMUS TINCTORIUS)</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
+						<p>Sua composição apresenta substâncias importantes que ajudam na perda de peso e queima de gordura, especialmente gordura abdominal.</p>
 					</div>
 					<div class="ingredient text-right">
 						<img class="img-responsive visible-sm visible-xs" src="./assets/img/ingredients/_2-fenilalanina.png" alt="">
 						<h4>FENILALANINA</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
+						<p>É um aminoácido essencial que atua como inibidor de apetite ao administrar a liberação de um hormônio intestinal, a colecistocinina, que faz com que o cérebro se sinta saciado depois de comer.</p>
 					</div>
 					<div class="ingredient text-right">
 						<img class="img-responsive visible-sm visible-xs" src="./assets/img/ingredients/_3-cafeina-anidra.png" alt="">
 						<h4>CAFEÍNA ANIDRA - (1, 3, 7-TRIMETHILXANTINE)</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
+						<p>Estudos concluíram que a cafeína é realmente eficaz para perda de peso. Ela é um estimulante metabólico que aumenta o estado de alerta, foco e concentração. Além disso, ajuda reduzir o apetite.</p>
 					</div>
     			</div>
 
@@ -80,17 +80,17 @@
 					<div class="ingredient">
 						<img class="img-responsive visible-sm visible-xs" src="http://cdn5.nopesoideal.com.br/wp-content/uploads/2014/05/castanhas1-620x413.jpg" alt="">
 						<h4>TRIPTOFANO</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
+						<p>Colabora para o melhor funcionamento metabólico, facilitando a perda de peso e ajudando na queima de gordura. Também combate estresse e ansiedade e proporciona melhor desempenho físico.</p>
 					</div>
 					<div class="ingredient">
 						<img class="img-responsive visible-sm visible-xs" src="https://cdn.awsli.com.br/1000x1000/163/163535/produto/5829773/4d2b90a2d0.jpg" alt="">
 						<h4>PAULLINIA CUPANA (METILXANTINAS)</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
+						<p>Naturalmente rico em Metilxantinas, composto que ajuda aumentar a taxa metabólica do organismo, intensificar a queima de gordura, controlar o apetite, elevar os níveis de energia e melhorar o desempenho físico e mental.</p>
 					</div>
 					<div class="ingredient">
 						<img class="img-responsive visible-sm visible-xs" src="https://www.quimlab.com.br/guiadoselementos/cromo/cromo7.jpg" alt="">
 						<h4>PICOLINATO DE CROMO</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eius alias quidem, dolores pariatur at veritatis.</p>
+						<p>Segundo a maioria dos especialistas, o cromo ajuda a reduzir o peso, diminuindo a quantidade de gordura corporal, suprindo o apetite e estimulando a produção de calor no organismo (termogênese), o que aumenta o gasto energético. Além disso, é útil para a construção muscular.</p>
 					</div>
     			</div>
     		</div>
@@ -189,13 +189,13 @@
 	<section id="start-your-transformation">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4" style="display: flex; align-items: center;">
+				<div class="col-md-4 images" style="display: flex; align-items: center;">
 					<div class="selos" style="display: flex; flex-direction: column; margin-left: -5px;">
 						<img class="img-fluid" src="./assets/img/icones/selo-formula.png" alt="" style="max-width: 100px; margin-bottom: 10px;">
 						<img class="img-fluid" src="./assets/img/icones/selo-garantia.png" alt="" style="max-width: 100px; margin-bottom: 10px;">
 						<img class="img-fluid" src="./assets/img/icones/selo-anvisa.png" alt="" style="max-width: 100px; margin-bottom: 10px;">
 					</div>
-					<img class="img-responsive" src="assets/img/phenatrim/phenatrim_mockup.png" alt="Phenatrim pote" style="max-width: 250px;">
+					<img class="img-responsive mockup" src="assets/img/phenatrim/phenatrim_mockup.png" alt="Phenatrim pote" style="max-width: 250px;">
 				</div>
 				<div class="col-md-8">
 					<h2>COMECE A SUA TRANSFORMAÇÃO <br> HOJE MESMO!</h2>

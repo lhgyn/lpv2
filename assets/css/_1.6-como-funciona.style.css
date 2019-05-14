@@ -66,6 +66,10 @@
 	align-items: center;
 }
 
+#ingredients .items > .left, #ingredients .items > .right{
+	width: 30%;
+}
+
 #ingredients .ingredient{
 	align-items: center;
 	position: relative;
@@ -79,9 +83,9 @@
 #ingredients .center{
 	display: flex;
 	align-items: center;
-	width: 100%;
-	padding-left: 25px;
-	padding-right: 25px;
+	width: 40%;
+	padding-left: 10px;
+	padding-right: 10px;
 } 
 
 #ingredients .center  .left,
@@ -90,12 +94,13 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	width: 25%;
 }
 
 #ingredients .center  .left > img,
 #ingredients .center  .right > img{
-	width: 120px;
-	height: 120px;
+	width: 110px;
+	height: 110px;
 	object-fit: cover;
 	object-position: center;
 	border: 8px solid #eee;
@@ -106,11 +111,27 @@
 		box-shadow: #bbb 3px 3px 5px;
 }
 #ingredients .center .center{
+	width: 50%;
 }
 #ingredients .center .center img{
-	max-width: 250px;
+	max-width: 210px;
 }
 
+
+@media only screen and (max-width: 1199px){
+	#ingredients .center .center img{
+		max-width: 180px;
+	}
+	#ingredients .ingredient p{
+		font-size: 14px;
+	}
+
+#ingredients .center  .left > img,
+#ingredients .center  .right > img{
+	width: 90px;
+	height: 90px;
+}
+}
 @media only screen and (max-width: 991px){
 	#ingredients{
 		margin-bottom: 0;
@@ -120,6 +141,10 @@
 	#ingredients .container .row{
 		flex-direction: column;
 	}
+	#ingredients .items>.left, #ingredients .items>.right {
+    	width: auto;
+	}
+
 	#ingredients .ingredient{
 		text-align: center !important;
 		padding: 15px;
@@ -129,6 +154,7 @@
 		object-fit: cover;
 		border-radius: 50%;
 		border: 10px solid #f9f9f9;
+		box-shadow: #bbb 3px 3px 5px !important;
 		margin: 0 auto;
 	}
 }
@@ -154,6 +180,18 @@
 	color: #333;
 }	
 
+@media all and (max-width:1199px){
+	#start-your-transformation{
+		background-position: left center,right -130px bottom;
+	}
+	#start-your-transformation .images img.mockup{
+		max-width: 180px !important;
+		margin-top: 0;		
+	}
+	#start-your-transformation .images .selos img{
+		max-width: 60px;
+	}
+}
 @media all and (max-width:991px){	
 	#start-your-transformation{background-image:
 	    linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 60%,rgba(255,255,255,.8) 100%),

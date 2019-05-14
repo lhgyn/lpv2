@@ -445,6 +445,11 @@
 	margin: 0; 
 }
 
+@media only screen and (max-width:1199px){
+	#ciencia .first{
+		background-position: left -140px center;
+	}
+}
 @media only screen and (max-width:991px){
 	#ciencia .items_1 figure{
 		margin: 0;
