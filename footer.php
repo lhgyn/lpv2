@@ -169,27 +169,40 @@
                     let name_error = null;
                     let email_error = null;
                     let subject_error = null;
-                    let message_error = null;  
+                    let message_error = null; 
+
+                    $('#message-error').html('');
 
                     if($('input[name=nome]').val() == ''){
                         error = 1;
                         $('input[name=nome]').css('border-color', 'red');
                         $('#message-error').append('<p style="color:#444">*Informe o seu Nome</p>');
+                    }else{
+                        $('input[name=nome]').css('border-color', 'green');
                     }
+
                      if($('input[name=email]').val() == ''){
                         error = 1;
                         $('input[name=email]').css('border-color', 'red');
                         $('#message-error').append('<p style="color:#444">*Informe o seu E-mail</p>');
+                    }else{
+                        $('input[name=email]').css('border-color', 'green');
                     }
+
                      if($('input[name=assunto]').val() == ''){
                         error = 1;
                         $('input[name=assunto]').css('border-color', 'red');
                         $('#message-error').append('<p style="color:#444">*Informe o Assunto</p>');
+                    }else{
+                        $('input[name=assunto]').css('border-color', 'green');
                     }
+                    
                      if($('textarea[name=mensagem]').val() == ''){
                         error = 1;
                         $('textarea[name=mensagem]').css('border-color', 'red');
                         $('#message-error').append('<p style="color:#444">*Escreva sua mensagem</p>');
+                    }else{
+                        $('input[name=mensagem]').css('border-color', 'green');
                     }
 
 
