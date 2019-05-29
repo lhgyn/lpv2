@@ -97,7 +97,7 @@
             <div class="row-copy" id="site-copy">
                 <div class="container">
                     <div class="col-md-12">
-                        <p class="text-center"><small>N1 SUPPLEMENTS COMÉRCIO E DISTRIBUIÇÃO LTDA, CNPJ: 15.301.011/0001-89 | &copy; <?php echo date("Y"); ?> Phenatrim - Todos direitos reservados</small></p> 
+                        <p class="text-center"><small>N1 SUPPLEMENTS COMÉRCIO E DISTRIBUIÇÃO LTDA, CNPJ: 32.017.806/0001-89 | &copy; <?php echo date("Y"); ?> Phenatrim - Todos direitos reservados</small></p> 
                     </div>
                 </div>
             </div>
