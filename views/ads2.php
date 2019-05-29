@@ -1,6 +1,6 @@
 <div class="container-fluid">
 		<section id="section-one">
-			<div class="row" id="main">
+			<div class="row ads2" id="main">
 				<div class="container">				
 					<div class="col-md-8 col-md-offset-4 col-sm-12 col-xs-12 center">
 						<div class="title">
