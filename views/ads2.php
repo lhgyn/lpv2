@@ -6,7 +6,7 @@
 						<div class="title">
 							<h2>
 								A MANEIRA MAIS EFICAZ E SEGURA <br>PARA EMAGRECER<br>
-								<strong>NATURALMENTE!</strong>
+								<strong>DEFINITIVAMENTE!</strong>
 							</h2>
 							<hr>
 							<h3>Poderosa fórmula com benefícios clinicamente comprovados:</h3>
