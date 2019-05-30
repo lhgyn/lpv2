@@ -1,4 +1,4 @@
-	<div class="container-fluid">
+<div class="container-fluid">
 		<section id="section-one">
 			<div class="row ads2" id="main">
 				<div class="container">				
@@ -6,10 +6,10 @@
 						<div class="title">
 							<h2>
 								A MANEIRA MAIS EFICAZ E SEGURA <br>PARA EMAGRECER<br>
-								<strong>DEFINITIVAMENTE!</strong>
+								<strong>NATURALMENTE!</strong>
 							</h2>
 							<hr>
-							<h3>Poderosa fórmula com benefícios clinicamente comprovados:</h3>
+							<h3>Poderosa fórmula com benefícios comprovados:</h3>
 						</div>
 						<div class="benefit-list">
 							<div class="row" style="display: flex; align-items: center;">
@@ -96,7 +96,7 @@
 						<p>Se você realmente quer perder peso ou se livrar daquela gordurinha extra e ter um corpo magro e atraente; com Phenatrim você pode obter resultados reais.</p>
 						<p>Como você mesma pode perceber, Phenatrim foi perfeitamente formulado e precisamente equilibrado para atender às necessidades de cada mulher, quando se trata de perder peso.</p>
 						<hr>
-						<p>Definitivamente, você nunca viu nada igual...</p>
+						<p>Você nunca viu nada igual...</p>
 					</div>
 				</div>
 			</div>
@@ -111,7 +111,7 @@
 					</figure>
 					<div>	    						
 						<h3>Completa</h3>
-    					<p>Nenhuma outra fórmula contém ingredientes 100% naturais, seguros e eficazes para ajudar estabelecer o equilíbrio metabólico e ativar o seu metabolismo no modo queimador de gordura. Este fator é crucial para acelerar a perda de peso. Afinal, com o metabolismo operando em ritmo lento nada irá contribuir para que você emagreça de forma eficiente.</p>
+    					<p>Nenhuma outra fórmula contém ingredientes 100% naturais, seguros e eficazes para ajudar estabelecer o equilíbrio metabólico e ativar o seu metabolismo no modo queimador de gordura. Este fator é crucial para a perda de peso. Afinal, com o metabolismo operando em ritmo lento nada irá contribuir para que você emagreça de forma eficiente.</p>
 					</div>
 				</div>
 
@@ -194,7 +194,7 @@
 						</figure>
 
 						<div class="tip thumbnail">
-							<i>“Perder peso e manter definitivamente não é uma tarefa fácil, mas com Phenatrim isso é possível. Nunca me senti tão realizada quanto agora! Viver em paz com a balança é simplesmente maravilhoso! Valeu a pena experimentar.”</i>
+							<i>“Perder peso e manter não é uma tarefa fácil, mas com Phenatrim isso é possível. Nunca me senti tão realizada quanto agora! Viver em paz com a balança é simplesmente maravilhoso! Valeu a pena experimentar.”</i>
 						</div>
 					</div>
 					<div class="col-md-4 center" align="center">
@@ -285,7 +285,7 @@
 						<div class="col-md-8">
 							<h2>Você Pode Mudar A Sua Realidade <br>Agora Mesmo!</h2>
 							<br>
-							<p>Se você realmente quer perder peso, Phenatrim definitivamente é a melhor solução que você pode encontrar hoje no mercado. Este emagrecedor é fruto de uma longa investigação que finalmente resultou no desenvolvimento de uma perfeita formulação que age sinergicamente no organismo para promover o equilíbrio da função metabólica e contribuir consideravelmente para o processo de emagrecimento.</p>
+							<p>Se você realmente quer perder peso, Phenatrim é a melhor solução que você pode encontrar hoje no mercado. Este emagrecedor é fruto de uma longa investigação que finalmente resultou no desenvolvimento de uma perfeita formulação que age sinergicamente no organismo para promover o equilíbrio da função metabólica e contribuir consideravelmente para o processo de emagrecimento.</p>
 							<p>E para obter melhores resultados tome Phenatrim corretamente, mantenha uma alimentação saudável e pratique atividades físicas de forma moderada e sempre acompanhada por um profissional qualificado.</p>
 							<hr>
 
@@ -390,10 +390,10 @@
 		    <section id="guarantee-block">
 		    	<div class="container">
 		    		<div class="col-md-12 title">
-		    			<h2 class="text-center"><strong>Satisfação 100% Garantida!</strong></h2>
+		    			<h2 class="text-center"><strong>Experimente Hoje Mesmo!</strong></h2>
 						<p class="text-center">
 		    				Sabemos que oferecemos um produto verdadeiramente eficaz e com alto padrão de qualidade.<br/>
-							Por isso, confiamos completamente em nossa fórmula e garantimos a sua satisfação.
+							Por isso, confiamos completamente em nossa fórmula.
 						</p>
 		    		</div>
 		    		<div class="col-md-12 bg-transparent">
