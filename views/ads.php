@@ -27,7 +27,7 @@
 									<img class="img-responsive" src="assets/img/phenatrim/phenatrim_mockup.png" alt="Phenatrim pote" style="max-width: 250px;">
 									<div class="selos" style="display: flex; flex-direction: column; margin-left: -5px;">
 										<img class="img-fluid" src="./assets/img/icones/selo-formula.png" alt="" style="max-width: 100px; margin-bottom: 10px;">
-										<img class="img-fluid" src="./assets/img/icones/selo-garantia.png" alt="" style="max-width: 100px; margin-bottom: 10px;">
+										<!-- <img class="img-fluid" src="./assets/img/icones/selo-garantia.png" alt="" style="max-width: 100px; margin-bottom: 10px;"> -->
 										<img class="img-fluid" src="./assets/img/icones/selo-anvisa.png" alt="" style="max-width: 100px; margin-bottom: 10px;">
 									</div>
 								</div>
