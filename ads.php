@@ -140,7 +140,7 @@
                 <div class="col-12">
                     <hr>
                     <p class="text-center text-muted">
-                        <i>Os resultados podem variar de pessoa para pessoa *</i>
+                        <i>* Os resultados podem variar de pessoa para pessoa</i>
                     </p>
                 </div>
             </div>
