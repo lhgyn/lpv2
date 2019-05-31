@@ -5,7 +5,7 @@
 					<div class="col-md-8 col-md-offset-4 col-sm-12 col-xs-12 center">
 						<div class="title">
 							<h2>
-								A MANEIRA MAIS EFICAZ E SEGURA <br>PARA EMAGRECER<br>
+								UMA MANEIRA EFICAZ E SEGURA <br>PARA EMAGRECER<br>
 								<strong>NATURALMENTE!</strong>
 							</h2>
 							<hr>
@@ -41,7 +41,7 @@
 					<div class="col-md-6 left">
 						<p id="text-test">
 							Conquiste Um Corpo Lindo E Atraente...<br/>
-							Sinta-se Mais Confiante E Feliz!
+							Sinta-se Mais Confiante E Feliz! *<br />
 						</p>
 					</div>
 					<div class="col-md-6 right"> <!-- animated infinite pulse delay-2s -->
@@ -63,11 +63,11 @@
 	<section id="section-two">
 		<div class="container">
 			<div class="col-md-8">
-				<h2>Absolutamente Tudo O Que Você Precisa Para Conquistar A Melhor Versão De Si Mesma!</h2>
+				<h2>A Formula Que Auxilia Você Buscar a Melhor Versão De Si Mesma!</h2>
 				<br>
 				<p>Phenatrim é uma fórmula emagrecedora 100% natural, composta por uma mistura única de ingredientes cuidadosamente selecionados e que oferecem benefícios comprovados cientificamente para perda de peso e queima de gordura.</p>
 
-				<p class="text-center"><img id="stamp-guarantee" src="assets/img/selos.png" alt=""></p>
+				<!-- <p class="text-center"><img id="stamp-guarantee" src="assets/img/selos.png" alt=""></p> -->
 			</div>
 			<div class="col-md-4">
 				<figure id="figure-card"><img class="img-responsive" src="./assets/img/resultado-60d.jpg" alt=""></figure>
@@ -94,9 +94,8 @@
 						<h2>FINALMENTE UMA ALTERNATIVA<br>NATURAL, SEGURA E EFICAZ</h2>
 						<hr>
 						<p>Se você realmente quer perder peso ou se livrar daquela gordurinha extra e ter um corpo magro e atraente; com Phenatrim você pode obter resultados reais.</p>
-						<p>Como você mesma pode perceber, Phenatrim foi perfeitamente formulado e precisamente equilibrado para atender às necessidades de cada mulher, quando se trata de perder peso.</p>
+						<p>Como você mesma pode perceber, Phenatrim foi formulado e equilibrado para atender às necessidades de cada mulher, quando se trata de perder peso.</p>
 						<hr>
-						<p>Você nunca viu nada igual...</p>
 					</div>
 				</div>
 			</div>
@@ -111,7 +110,7 @@
 					</figure>
 					<div>	    						
 						<h3>Completa</h3>
-    					<p>Nenhuma outra fórmula contém ingredientes 100% naturais, seguros e eficazes para ajudar estabelecer o equilíbrio metabólico e ativar o seu metabolismo no modo queimador de gordura. Este fator é crucial para a perda de peso. Afinal, com o metabolismo operando em ritmo lento nada irá contribuir para que você emagreça de forma eficiente.</p>
+    					<p>Contém ingredientes 100% naturais, seguros e eficazes para ajudar estabelecer o equilíbrio metabólico e ativar o seu metabolismo no modo queimador de gordura. Este fator é crucial para a perda de peso. Afinal, com o metabolismo operando em ritmo lento nada irá contribuir para que você emagreça de forma eficiente.</p>
 					</div>
 				</div>
 
@@ -139,7 +138,7 @@
 					</figure>
 					<div>
 						<h3>Potente</h3>
-						<p>Uma mistura única que reúne as melhores substâncias aprovadas pela ANVISA, na dosagem exata para ser capaz de proporcionar os melhores resultados, sem risco e sem efeito sanfona.</p>
+						<p>Uma mistura que reúne substâncias na dosagem equilibrada para ser capaz de proporcionar os melhores resultados.</p>
 					</div>
 				</div>
 
@@ -153,7 +152,7 @@
 					</figure>
 					<div>
 						<h3>Sinérgica</h3>
-    					<p>Cada componente foi cuidadosamente selecionado e trabalha em perfeita sinergia, atacando a gordura diretamente em sua fonte, promovendo assim até 3x mais perda de peso.</p>
+    					<p>Cada componente foi cuidadosamente selecionado e trabalha em perfeita sinergia, atacando a gordura diretamente em sua fonte, promovendo assim uma perda de peso acelerada.</p>
     				</div>
 				</div>
 			</div>
@@ -178,7 +177,7 @@
 			
 
 
-			<section id="depoiments">	
+			<!-- <section id="depoiments">	
 				<div class="container">
 					<div class="col-md-12">	
 						<h2 class="text-center">Resultados Que Você Também Pode Ter!</h2>
@@ -237,7 +236,7 @@
 						</a>
 					</div>
 				</div>
-			</section>
+			</section> -->
 
 
 			<section id="inspiracional">
@@ -255,7 +254,7 @@
 								<figure id="figure-card">
 									<img class="img-responsive" src="./assets/img/wish2/wish1.jpg" alt="">
 								</figure>
-								<h3> CORPO <br> <b>MAGRO E SAUDÁVEL</b> </h3>
+								<h3> CORPO <br> <b>MAGRO E SAUDÁVEL</b> *</h3>
 							</div>
 						</div>
 						<div class="col-md-4">
@@ -263,7 +262,7 @@
 								<figure id="figure-card">
 									<img class="img-responsive" src="./assets/img/wish2/wish2.jpg" alt="">
 								</figure>
-								<h3> MAIS <br> <b>AUTOESTIMA</b> </h3>
+								<h3> MAIS <br> <b>AUTOESTIMA</b> *</h3>
 							</div>
 						</div>
 						<div class="col-md-4">
@@ -271,7 +270,7 @@
 								<figure id="figure-card">
 									<img class="img-responsive" src="./assets/img/wish2/wish3.jpg" alt="">
 								</figure>
-								<h3> RESULTADOS <br> <b>SURPREENDENTES</b> </h3>
+								<h3> RESULTADOS <br> <b>SURPREENDENTES</b> *</h3>
 							</div>
 						</div>
 					</div>
@@ -285,7 +284,7 @@
 						<div class="col-md-8">
 							<h2>Você Pode Mudar A Sua Realidade <br>Agora Mesmo!</h2>
 							<br>
-							<p>Se você realmente quer perder peso, Phenatrim é a melhor solução que você pode encontrar hoje no mercado. Este emagrecedor é fruto de uma longa investigação que finalmente resultou no desenvolvimento de uma perfeita formulação que age sinergicamente no organismo para promover o equilíbrio da função metabólica e contribuir consideravelmente para o processo de emagrecimento.</p>
+							<p>Se você realmente quer perder peso, Phenatrim é um auxiliador que você pode encontrar hoje no mercado. Este emagrecedor é fruto de uma longa investigação que finalmente resultou no desenvolvimento de uma formulação que age sinergicamente no organismo para promover o equilíbrio da função metabólica e contribuir consideravelmente para o processo de emagrecimento.</p>
 							<p>E para obter melhores resultados tome Phenatrim corretamente, mantenha uma alimentação saudável e pratique atividades físicas de forma moderada e sempre acompanhada por um profissional qualificado.</p>
 							<hr>
 
@@ -298,10 +297,10 @@
 									<i class="flaticon-mortar"></i>
 									Sem substâncias farmacêuticas perigosas
 								</span>
-								<span>
+								<!-- <span>
 									<i class="flaticon-charity"></i>
 									Sem efeitos colaterais nocivos
-								</span>
+								</span> -->
 							</div>
 						</div>
 						<div class="col-md-4"></div>
@@ -392,8 +391,7 @@
 		    		<div class="col-md-12 title">
 		    			<h2 class="text-center"><strong>Experimente Hoje Mesmo!</strong></h2>
 						<p class="text-center">
-		    				Sabemos que oferecemos um produto verdadeiramente eficaz e com alto padrão de qualidade.<br/>
-							Por isso, confiamos completamente em nossa fórmula.
+		    				Sabemos que oferecemos um produto eficaz e com alto padrão de qualidade.
 						</p>
 		    		</div>
 		    		<div class="col-md-12 bg-transparent">
@@ -401,13 +399,14 @@
 			    			<img class="img-responsive" src="./assets/img/selo-garantia.png" alt="" style="margin-top: 25px;">
 			    		</div>
 			    		<div class="col-md-8">
-			    			<h3>EXPERIMENTE PHENATRIM AGORA COM RISCO ZERO</h3>
+			    			<h3>EXPERIMENTE PHENATRIM AGORA</h3>
 			    			<hr>
 			    			<p>
-		    					Você está convidada a experimentar <strong>Phenatrim</strong> e se por algum motivo não estiver 100% satisfeita, basta solicitar devolução dentro do prazo estipulado e devolver o produto (mesmo que a embalagem esteja vazia) para receber o seu reembolso. Nos pedidos acima de um frasco essa garantia é válida para uma embalagem aberta e as demais lacradas e em perfeitas condições.
+		    					Você está convidada a experimentar <strong>Phenatrim</strong> e se por algum motivo não estiver satisfeita, basta solicitar devolução dentro do prazo estipulado e devolver o produto (mesmo que a embalagem esteja vazia) para receber o seu reembolso. Nos pedidos acima de um frasco essa garantia é válida para uma embalagem aberta e as demais lacradas e em perfeitas condições.
 		    				</p>
 		    				<hr>
 		    				<p><strong>IMPORTANTE:</strong> Somente para os clientes que realizam o pedido no site oficial.</p>
+		    				<small style="color:#fff;">Leia a politica de reembolso</small>
 			    		</div>
 		    		</div>
 		    		<div class="col-md-12" style="margin-top: 40px" align="center">
