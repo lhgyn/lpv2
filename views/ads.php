@@ -177,7 +177,7 @@
 			
 
 
-			<!-- <section id="depoiments">	
+			<section id="depoiments">	
 				<div class="container">
 					<div class="col-md-12">	
 						<h2 class="text-center">Resultados Que Você Também Pode Ter!</h2>
@@ -236,7 +236,7 @@
 						</a>
 					</div>
 				</div>
-			</section> -->
+			</section>
 
 
 			<section id="inspiracional">
