@@ -22,10 +22,15 @@
 	justify-content: center;
 }
 
-#the_science p{
+#the_science p, #the_science ul li{
 	color: #333;
 	font-size: 16px;
 	text-align: justify;
+}
+
+#the_science ul{
+	list-style-type: none;
+	padding: 0;
 }
 
 #the_science img{

@@ -247,9 +247,16 @@
 	z-index: 10;
 }
 
-#section-two p{
+#section-two p, #section-two ul li {
 	color: #333;
 	font-size: 18px;
+}
+#section-two ul {
+	list-style-type: none;
+	padding: 0;
+}
+#section-two p.icon-selos {
+	padding: 30px 0;
 }
 
 #section-two #stamp-guarantee{
@@ -474,6 +481,11 @@
     background-attachment: fixed;
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+#depoiments p{
+	color: #333;
+	font-size: 18px;
+	text-align: center;
 }
 #depoiments .container .col-md-4{
 	position: relative;
@@ -831,4 +843,64 @@ box-shadow: #bbb 3px 3px 5px;
 #guarantee-block p, #guarantee-block h3{
 	color: #fff;
 	font-weight: normal;
+}
+
+/*//////////////////////////////////////////////////////
+////////////// VOCÊ DECIDE
+////////////////////////////////////*/
+
+#voce-decide {
+	background: #eee;
+	position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#voce-decide p {
+	color: #333;
+	font-size: 18px;
+}
+
+#voce-decide .content-text h4 {
+	padding: 20px 0;
+	color: #333;
+}
+#voce-decide .content-option {
+	padding: 40px 0 0;
+}
+
+#voce-decide .content-option h3 {
+	text-align: center;
+    background: #0077c8;
+    font-size: 23px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color: #fff;
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+#voce-decide .content-option p {
+	background: #ddd;
+    padding: 15px;
+}
+
+#voce-decide .content-option p:after {
+	content: "";
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background: #ddd;
+	left: 50%;
+	margin-left: -15px;
+	top: 76px;
+	transform: rotate(45deg);
+}
+
+@media screen and (max-width: 767px) {
+	#voce-decide .content-option > div {
+		padding: 0;
+		margin-top: 40px;
+	}
 }

@@ -1,434 +1,241 @@
-<section id="perguntas-frequentes">
+<section id="perguntas-frequentes" class="section-faq">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 title">
-				<h2 class="text-center">PERGUNTAS FREQUENTES</h2>
+			<div class="col-md-10 col-md-offset-1 title-faq">
+				<h2 class="text-center col-md-8 col-md-offset-2">Encontre as Resposta Que Você Procura, Faça a Sua Análise e Tome Uma Decisão Verdadeiramente Consciente</h2>
+				<p class="col-md-12">Tomar a decisão de investir em um novo emagrecedor não é uma tarefa tão simples o quanto parece. Principalmente se você já tiver tentado outras soluções que não te proporcionou nenhum tipo de resultado.</p>
+				<p class="col-md-12">Infelizmente existem vários produtos em que a publicidade é enganosa ou até mesmo falsa. E com certeza antes de você fazer a sua escolha, é bem provável que você queira saber o que está comprando, o que realmente vai tomar, se funciona ou não, se é perigoso... </p>
+				<p class="col-md-12">Enfim, existem inúmeras dúvidas e o nosso principal objetivo aqui, em compromisso com a verdade e com a transparência é disponibilizar as perguntas mais frequentes para que você possa encontrar as respostas que precisa antes de decidir se deve ou não experimentar o nosso produto.</p>
 			</div>
 		</div>
-		<div class="row content">
 
-			<div class="panel-group col-md-12" id="accordion" role="tablist" aria-multiselectable="true">
+		<div class="row">
+            <div class="col-md-10 col-md-offset-1">
+            	<hr>
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
-			  <!-- ///////////////////////////////////////////////////////////////
-			  ////////////// PRODUTO
-			  /////////////////////////////////// -->
-			  <div class="panel panel-default panel-master">
-			    <div class="panel-heading" role="tab" id="headingOne">
-			      <h4 class="panel-title">
-			        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-			          Produto
-			        </a>
-			      </h4>
-			    </div>
-			    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-			      <div class="panel-body">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="manual">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#manual1" aria-expanded="false" aria-controls="manual1">Parece ótimo, mas será que vai funcionar para mim?</a>                     
+                            </h4>
+                        </div>
+                        <div id="manual1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="manual" aria-expanded="false">
+                            <div class="panel-body">
+                                <p>Essa é uma dúvida bastante comum, principalmente para quem já está cansada de rasgar dinheiro com soluções ineficazes. Mas Phenatrim é diferente. Phenatrim tem comprovado ser uma das melhores alternativas disponíveis hoje no mercado para quem realmente deseja perder aqueles quilinhos indesejados. Cientificamente desenvolvido à base de ingredientes seguros e eficazes, sua fórmula oferece um apoio completo ao processo de emagrecimento e pode promover resultados até 3x mais rápido. Vários estudos comprovam a qualidade e a eficácia de cada composto presente na fórmula do Phenatrim. Além disso, inúmeras clientes em todo o país relatam ter conseguido obter resultados bastantes significativos com o uso de Phenatrim. Então, diante desses fatores acreditamos verdadeiramente que Phenatrim também pode funcionar para você. Aliás, acreditamos tanto nisto que, se você não tiver resultados com o Phenatrim, você poderá receber o reembolso referente ao valor pago pelo produto. </p>
+                            </div>
+                        </div>
+                    </div>
 
-			        <div class="panel-group parent" id="sub-accordion" role="tablist" aria-multiselectable="true">
-					  <div class="panel panel-default"> <!-- /////// #collapse1 -->
-					    <div class="panel-heading" role="tab" id="heading1">
-					      <h4 class="panel-title">
-					        <a role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
-					          # Qual é o modo de usar?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
-					      <div class="panel-body">
-					        <p>Na primeira semana recomenda-se iniciar com 2 cápsulas apenas 1 vez ao dia (30 minutos antes do café da manhã).
-							A partir da segunda semana tomar 2cápsulas 30 minutos antes do café da manhã e 2 cápsulas 30 minutos antes do almoço.
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading2">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">Quanto tempo demora para ter resultados?</a>                     
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2" aria-expanded="false">
+                            <div class="panel-body">
+                                <p>Os seus resultados vão depender do seu estilo de vida e de como o seu organismo vai reagir. De acordo com os relatos de clientes, a maioria das pessoas consegue obter resultados significativos logo nas primeiras semanas. Já os resultados melhores são conquistados com 3 meses de uso contínuo.</p>
+                            </div>
+                        </div>
+                    </div>
 
-							ATENÇÃO: Não ultrapassar a dosagem recomendada.</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default"> <!-- /////// #collapse2 -->
-					    <div class="panel-heading" role="tab" id="heading2">
-					      <h4 class="panel-title">
-					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
-					          # Tem alguma contraindicação?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-					      <div class="panel-body">
-					        <p>Phenatrim é contraindicado para crianças, gestantes ou lactantes, idosos, pessoas alérgicas aos componentes da fórmula e portadores de enfermidades.</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default"> <!-- /////// #collapse3 -->
-					    <div class="panel-heading" role="tab" id="heading3">
-					      <h4 class="panel-title">
-					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
-					          # Causa efeito colateral?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-					      <div class="panel-body">
-					        <p>Os efeitos colaterais dependem da sensibilidade aos componentes da fórmula e da reação de cada organismo.</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default"> <!-- /////// #collapse4 -->
-					    <div class="panel-heading" role="tab" id="heading4">
-					      <h4 class="panel-title">
-					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
-					          # Quais são os ingredientes com compõem o Phenatrim?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
-					      <div class="panel-body">
-					        <p>Phenatrim é composto por: Café verde (Ácido Clorogênico), Paullinia Cupana (Metilxantinas), Citrus Aurantium (Sinefrina), Chá Verde (Polifenóis), Caffeine Anhydrous e Manga Africana (Irvingia Gabonensis).</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default"> <!-- /////// #collapse5 -->
-					    <div class="panel-heading" role="tab" id="heading5">
-					      <h4 class="panel-title">
-					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
-					          # Phenatrim corta o efeito do anticoncepcional?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
-					      <div class="panel-body">
-					        <p>Não. Phenatrim não tem nenhuma substância capaz de interferir ou anular o efeito de anticoncepcionais.</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default"> <!-- /////// #collapse6 -->
-					    <div class="panel-heading" role="tab" id="heading6">
-					      <h4 class="panel-title">
-					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
-					          # Este produto é apenas para mulheres ou homens também podem tomar?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
-					      <div class="panel-body">
-					        <p>Sim. Embora Phenatrim tenha sido desenvolvido especialmente para atender as necessidades das mulheres, homens que queiram emagrecer também podem fazer uso do produto, sem nenhum problema.</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default"> <!-- /////// #collapse7 -->
-					    <div class="panel-heading" role="tab" id="heading7">
-					      <h4 class="panel-title">
-					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
-					          # Quem tem pressa alta pode tomar?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
-					      <div class="panel-body">
-					        <p>Se você tem algum problema de saúde ou toma remédio de uso contínuo, não é recomendado que faça uso deste produto sem orientação médica.</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default"> <!-- /////// #collapse8 -->
-					    <div class="panel-heading" role="tab" id="heading8">
-					      <h4 class="panel-title">
-					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapse8" aria-expanded="false" aria-controls="collapse8">
-					          # Somente quem faz atividade física pode tomar?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
-					      <div class="panel-body">
-					        <p>Não. É recomendado associar o produto com atividades físicas e alimentação saudável para potencializar os resultados.</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default"> <!-- /////// #collapse9 -->
-					    <div class="panel-heading" role="tab" id="heading9">
-					      <h4 class="panel-title">
-					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapse9" aria-expanded="false" aria-controls="collapse9">
-					          # Phenatrim tira o sono?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9">
-					      <div class="panel-body">
-					        <p>Phenatrim contém em sua fórmula substâncias estimulantes, portanto é recomendado tomar no mínimo 5 horas antes de ir dormir.</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default"> <!-- /////// #collapse10 -->
-					    <div class="panel-heading" role="tab" id="heading10">
-					      <h4 class="panel-title">
-					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapse10" aria-expanded="false" aria-controls="collapse10">
-					          # Phenatrim dá espinhas?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10">
-					      <div class="panel-body">
-					        <p>Não. Phenatrim não contém nenhuma substância que possa desenvolver o aparecimento de acne.</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default"> <!-- /////// #collapse11 -->
-					    <div class="panel-heading" role="tab" id="heading11">
-					      <h4 class="panel-title">
-					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#sub-accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
-					          # O produto é aprovado pela ANVISA?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11">
-					      <div class="panel-body">
-					        <p>Sim. Este produto está de acordo com a resolução vigente da ANVISA.</p>
-					      </div>
-					    </div>
-					  </div>
-					</div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading4">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">Já usei vários emagrecedores que simplesmente não funcionaram. Por que eu deveria comprar o Phenatrim?</a>                     
+                            </h4>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4" aria-expanded="false">
+                            <div class="panel-body">
+                                <p>Porque nenhum outro emagrecedor apresenta uma fórmula tão completa, eficaz e segura que seja realmente capaz de atuar nos fatores chaves do organismo e acelerar o metabolismo, queimar e bloquear gordura, inibir o apetite e ainda elevar os níveis de energia em perfeita sinergia.</p>
+                                <p><b>Phenatrim é uma fraude? Não funciona?</b></p>
+                                <p>Acredite se quiser, inacreditavelmente recebemos essa pergunta com muita frequência. E isso ocorre porque infelizmente existe concorrentes desleais e sem o mínimo de ética profissional que fazem um tipo de competição injusta e suja, onde empresas desonestas fazem comparações tendenciosas para favorecer os seus produtos de baixa qualidade e sem eficácia. Sem falar naquelas pessoas oportunistas que falsificam o produto e vendem por um preço bem abaixo do original. Portanto, Phenatrim não funciona apenas para quem tomou produto falsificado.</p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading5">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">Como devo usar Phenatrim?</a>                     
+                            </h4>
+                        </div>
+                        <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5" aria-expanded="false">
+                            <div class="panel-body">
+                                <p>Recomenda-se adultos, consumir 01 cápsula 02 vezes ao dia, ou conforme orientação do profissional de saúde.</p>
+                                <p><b>Atenção:</b> Não ultrapassar a dosagem recomendada.</p>
+                            </div>
+                        </div>
+                    </div>
 
-			      </div>
-			    </div>
-			  </div>
-			  <!-- ///////////////////////////////////////////////////////////////
-			  ////////////// COMPRA E PAGAMENTO
-			  /////////////////////////////////// -->
-			  <div class="panel panel-default panel-master">
-			    <div class="panel-heading" role="tab" id="headingTwo">
-			      <h4 class="panel-title">
-			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-			          Compra e Pagamento
-			        </a>
-			      </h4>
-			    </div>
-			    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-			      <div class="panel-body">
-			        
-					<div class="panel-group parent" id="payment-accordion" role="tablist" aria-multiselectable="true">
-					  <div class="panel panel-default"> <!-- /////// #collapsePayment1 -->
-					    <div class="panel-heading" role="tab" id="headingPayment1">
-					      <h4 class="panel-title">
-					        <a role="button" data-toggle="collapse" data-parent="#payment-accordion" href="#collapsePayment1" aria-expanded="true" aria-controls="collapsePayment1">
-					          # Onde posso comprar o Phenatrim?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapsePayment1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingPayment1">
-					      <div class="panel-body">
-					        <p>Você encontra Phenatrim disponível para compras apenas no site oficial do produto.</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default"> <!-- /////// #collapsePayment2 -->
-					    <div class="panel-heading" role="tab" id="headingPayment2">
-					      <h4 class="panel-title">
-					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#payment-accordion" href="#collapsePayment2" aria-expanded="false" aria-controls="collapsePayment2">
-					          # Como faço para realizar a compra pelo site?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapsePayment2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingPayment2">
-					      <div class="panel-body">
-					        <p>Para efetuar sua compra apenas siga o passo a passo logo abaixo:
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading6">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">Phenatrim faz mal?</a>                     
+                            </h4>
+                        </div>
+                        <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6" aria-expanded="false">
+                            <div class="panel-body">
+                                <p>Phenatrim não faz mal porque é composto por ingredientes puros, seguros, apoiados pela ciência e aprovados pela ANVISA, na dosagem ideal para promover o máximo de benefícios sem colocar sua saúde em risco.</p>
+                            </div>
+                        </div>
+                    </div>
 
-1. Acesse o site oficial e faça a escolha do seu kit (1; 2 ou 3 frascos);
-2. Depois clique no botão COMPRAR. Logo após você será redirecionado para a página de pagamento do sistema Bcash;
-3. Informe o CEP do endereço de entrega, escolha o tipo de envio: (SEDEX ou PAC) para calcular o valor do frete. Logo depois clique em FINALIZAR COMPRA;
-4. Preencha corretamente os dados solicitados e escolha a forma de pagamento (cartão, boleto ou transferência bancária).</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default"> <!-- /////// #collapsePayment3 -->
-					    <div class="panel-heading" role="tab" id="headingPayment3">
-					      <h4 class="panel-title">
-					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#payment-accordion" href="#collapsePayment3" aria-expanded="false" aria-controls="collapsePayment3">
-					          # Não consigo comprar. O que fazer?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapsePayment3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingPayment3">
-					      <div class="panel-body">
-					        <p>Caso não consiga realizar a compra pelo site, por favor, entre em contato com a Central de Atendimento (de segunda a sexta em horário comercial) por e-mail: sac@phenatrim.com.br ou telefone: (62) 3639-2975 e informe o problema para que possamos ajudá-la.</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default"> <!-- /////// #collapsePayment4 -->
-					    <div class="panel-heading" role="tab" id="headingPayment4">
-					      <h4 class="panel-title">
-					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#payment-accordion" href="#collapsePayment4" aria-expanded="false" aria-controls="collapsePayment4">
-					          # Quem não tem cartão de crédito, como fazer para comprar no boleto?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapsePayment4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingPayment4">
-					      <div class="panel-body">
-					        <p>Ao finalizar o processo de compras, selecione a opção de pagamento BOLETO BANCÁRIO e logo em seguida clique em FINALIZAR PAGAMENTO.</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default"> <!-- /////// #collapsePayment5 -->
-					    <div class="panel-heading" role="tab" id="headingPayment5">
-					      <h4 class="panel-title">
-					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#payment-accordion" href="#collapsePayment5" aria-expanded="false" aria-controls="collapsePayment5">
-					          # Quais são as formas de pagamento?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapsePayment5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingPayment5">
-					      <div class="panel-body">
-					        <p>Você pode realizar o pagamento por cartão de crédito mais usado como VISA e MASTERCARD, boleto bancário ou transferência bancária.</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default"> <!-- /////// #collapsePayment6 -->
-					    <div class="panel-heading" role="tab" id="headingPayment6">
-					      <h4 class="panel-title">
-					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#payment-accordion" href="#collapsePayment6" aria-expanded="false" aria-controls="collapsePayment6">
-					          # Site oficial é seguro?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapsePayment6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingPayment6">
-					      <div class="panel-body">
-					        <p>Sim. O Site é blindado com código de segurança. O Certificado SSL faz uso de criptografia para garantir sigilo das informações transferidas entre o usuário e o servidor web.</p>
-					      </div>
-					    </div>
-					  </div>
-					</div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading7">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7">Causa algum efeito colateral?</a>                     
+                            </h4>
+                        </div>
+                        <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7" aria-expanded="false">
+                            <div class="panel-body">
+                                <p>Até o momento não existe relatos de efeitos colaterais. No entanto, é sempre importante ressaltar que a presença de efeitos colaterais depende da reação e da sensibilidade de cada organismo aos componentes da fórmula.</p>
+                            </div>
+                        </div>
+                    </div>
 
-			      </div>
-			    </div>
-			  </div>
-			  <!-- ///////////////////////////////////////////////////////////////
-			  ////////////// ENTREGA
-			  /////////////////////////////////// -->
-			  <div class="panel panel-default panel-master">
-			    <div class="panel-heading" role="tab" id="headingThree">
-			      <h4 class="panel-title">
-			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-			          Entrega
-			        </a>
-			      </h4>
-			    </div>
-			    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-			      <div class="panel-body">
-			        
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading8">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="false" aria-controls="collapse8">Qualquer pessoa pode tomar?</a>                     
+                            </h4>
+                        </div>
+                        <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8" aria-expanded="false">
+                            <div class="panel-body">
+                                <p>Não. Este produto é contraindicado para gestantes, nutrizes e crianças até 3 (três) anos, somente devem consumir este produto sob orientação médica/nutricionista.</p>
+                            </div>
+                        </div>
+                    </div>
 
-			        <div class="panel-group parent" id="shipping-accordion" role="tablist" aria-multiselectable="true">
-					  <div class="panel panel-default"> <!-- /////// #collapseShipping1 -->
-					    <div class="panel-heading" role="tab" id="headingShipping1">
-					      <h4 class="panel-title">
-					        <a role="button" data-toggle="collapse" data-parent="#shipping-accordion" href="#collapseShipping1" aria-expanded="true" aria-controls="collapseShipping1">
-					          # Após realizar a compra, quando o produto será enviado?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapseShipping1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingShipping1">
-					      <div class="panel-body">
-					        <p>Assim que o pagamento for confirmado em nosso sistema o produto será enviado aos serviços dos Correios.
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading9">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="false" aria-controls="collapse9">Homens podem fazer uso deste produto?</a>                     
+                            </h4>
+                        </div>
+                        <div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9" aria-expanded="false">
+                            <div class="panel-body">
+                                <p>Sim. Phenatrim pode ser utilizado tanto por homens, quanto por mulheres.</p>
+                            </div>
+                        </div>
+                    </div>
 
-							OBS.: Os envios são realizados somente em dias úteis.
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading10">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="false" aria-controls="collapse10">Qual é a composição do Phenatrim?</a>                     
+                            </h4>
+                        </div>
+                        <div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10" aria-expanded="false">
+                            <div class="panel-body">
+                                <p>A fórmula de Phenatrim contém:</p>
+                                <p>Ingredientes: Óleo de Cártamo (Carthamus tinctorius), Fenilalanina, Cafeína Anidra (1, 3, 7-Trimethilxantine), Triptofano, Guaraná (Paullinia cupana) em pó e Picolinato de Cromo (Cromo).</p>
+                                <p>Cápsula: Gelatina, Água Purificada, Umectante (INS 422) e Corantes (INS 171 e INS 133).</p>
+                            </div>
+                        </div>
+                    </div>
 
-							Exemplo: Se o pagamento referente ao seu pedido for confirmado no sábado, o produto será enviado aos serviços dos Correios no primeiro dia útil.</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default"> <!-- /////// #collapseShipping2 -->
-					    <div class="panel-heading" role="tab" id="headingShipping2">
-					      <h4 class="panel-title">
-					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#shipping-accordion" href="#collapseShipping2" aria-expanded="false" aria-controls="collapseShipping2">
-					          # Qual o prazo estimado para entrega?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapseShipping2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingShipping2">
-					      <div class="panel-body">
-					        <p>O prazo de entrega estimado pelos Correios para envio:
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading11">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">Precisa de prescrição médica?</a>                     
+                            </h4>
+                        </div>
+                        <div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11" aria-expanded="false">
+                            <div class="panel-body">
+                                <p>Não. Phenatrim é comercializado como um nutracêutico e não como um medicamento. Portanto, de acordo com as normas vigentes da ANVISA, a sua venda dispensa a apresentação de receita médica.</p>
+                            </div>
+                        </div>
+                    </div>
 
-							PAC = entre 9 e 15 dias úteis
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading12">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="false" aria-controls="collapse12">É vendido em farmácia? Onde posso comprar?</a>                     
+                            </h4>
+                        </div>
+                        <div id="collapse12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading12" aria-expanded="false">
+                            <div class="panel-body">
+                                <p>Phenatrim não é vendido em farmácia e nem em lojas convencionais. O legítimo phenatrim encontra-se disponível para venda apenas no site oficial.</p>
+                            </div>
+                        </div>
+                    </div>
 
-							SEDEX = entre 3 e 5 dias úteis
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading13">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="false" aria-controls="collapse13">Phenatrim é aprovado pela ANVISA?</a>                     
+                            </h4>
+                        </div>
+                        <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13" aria-expanded="false">
+                            <div class="panel-body">
+                                <p>Phenatrim é aprovado pela ANVISA, cumpre rigorosamente todas as normas vigentes.</p>
+                            </div>
+                        </div>
+                    </div>
 
-							Ambos dependendo de cada região do país.</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default"> <!-- /////// #collapseShipping3 -->
-					    <div class="panel-heading" role="tab" id="headingShipping3">
-					      <h4 class="panel-title">
-					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#shipping-accordion" href="#collapseShipping3" aria-expanded="false" aria-controls="collapseShipping3">
-					          # Como acompanhar o meu pedido?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapseShipping3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingShipping3">
-					      <div class="panel-body">
-					        <p>Assim que a mercadoria for enviada, você receberá por e-mail o código de rastreamento.
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading14">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse14" aria-expanded="false" aria-controls="collapse14">É seguro comprar pelo site?</a>                     
+                            </h4>
+                        </div>
+                        <div id="collapse14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14" aria-expanded="false">
+                            <div class="panel-body">
+                                <p>Sim. O site oficial do Phenatrim é completamente seguro e confiável. Todos os pedidos são processados sob sigilo total através do certificado de SSL que criptografa todas as informações transferidas entre o usuário e o servidor da web.</p>
+                            </div>
+                        </div>
+                    </div>
 
-							Acesse o site dos Correios: CLICANDO AQUI!
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading15">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse15" aria-expanded="false" aria-controls="collapse15">Oferece alguma garantia? Como funciona?</a>                     
+                            </h4>
+                        </div>
+                        <div id="collapse15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading15" aria-expanded="false">
+                            <div class="panel-body">
+                                <p>Sim. O site oficial oferece a todos os seus clientes uma garantia exclusiva de 35 dias.</p>
+                                <p>Essa garantia funciona da seguinte forma:</p>
+                                <p>Se você realizou o seu pedido no site oficial e não está satisfeita (o) por algum motivo, simplesmente entre em contato com a central de atendimento dentro do prazo estipulado, solicite o seu reembolso e devolva o produto (mesmo que a embalagem esteja vazia).</p>
+                                <p>Atenção: Nos pedidos acima de um frasco, essa garantia é válida para até um frasco aberto e os demais lacrados e em perfeitas condições.</p>
+                            </div>
+                        </div>
+                    </div>
 
-							Informe o código de rastreamento e em seguida clique em BUSCAR.</p>
-					      </div>
-					    </div>
-					  </div>
-					</div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading16">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse16" aria-expanded="false" aria-controls="collapse16">Qual é a forma de pagamento?</a>                     
+                            </h4>
+                        </div>
+                        <div id="collapse16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading16" aria-expanded="false">
+                            <div class="panel-body">
+                                <p>Você pode realizar o pagamento através de cartão de crédito em até 12x sem juros.</p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading17">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse17" aria-expanded="false" aria-controls="collapse17">Qual é o prazo de entrega?</a>                     
+                            </h4>
+                        </div>
+                        <div id="collapse17" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading17" aria-expanded="false">
+                            <div class="panel-body">
+                                <p>O prazo de entrega estimado pelos Correios para envio:</p>
+                                <p><b>PAC</b> - entre 9 e 15 dias úteis.</p>
+                                <p><b>SEDEX</b> - entre 3 e 5 dias úteis.</p>
+                                <p>Ambos dependendo da região do país.</p>
+                            </div>
+                        </div>
+                    </div>
 
-			      </div>
-			    </div>
-			  </div>
-			  <!-- ///////////////////////////////////////////////////////////////
-			  ////////////// GARANTIA
-			  /////////////////////////////////// -->
-			  <div class="panel panel-default panel-master">
-			    <div class="panel-heading" role="tab" id="headingFour">
-			      <h4 class="panel-title">
-			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-			          Garantia
-			        </a>
-			      </h4>
-			    </div>
-			    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-			      <div class="panel-body">
-
-			      	<div class="panel-group parent" id="guarantee-accordion" role="tablist" aria-multiselectable="true">
-					  <div class="panel panel-default"> <!-- /////// #collapseGuarantee1 -->
-					    <div class="panel-heading" role="tab" id="headingGuarantee1">
-					      <h4 class="panel-title">
-					        <a role="button" data-toggle="collapse" data-parent="#guarantee-accordion" href="#collapseGuarantee1" aria-expanded="true" aria-controls="collapseGuarantee1">
-					          # Este produto oferece garantia?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapseGuarantee1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingGuarantee1">
-					      <div class="panel-body">
-					        <p>Sim. Mas essa garantia é exclusivamente para os clientes do site oficial.</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default"> <!-- /////// #collapseGuarantee2 -->
-					    <div class="panel-heading" role="tab" id="headingGuarantee2">
-					      <h4 class="panel-title">
-					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#guarantee-accordion" href="#collapseGuarantee2" aria-expanded="false" aria-controls="collapseGuarantee2">
-					          # Como funciona a garantia?
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapseGuarantee2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingGuarantee2">
-					      <div class="panel-body">
-					        <p>Se você realizou o seu pedido diretamente no site oficial e por algum motivo não está 100% satisfeita, basta entrar em contato com a central de atendimento (dentro do prazo estipulado da garantia), por e-mail: sac@phenatrim.com.br ou por telefone: (62) 3639-2975 (em horário comercial de segunda á sexta), solicitar a devolução e devolver o produto (mesmo que a embalagem esteja vazia) para receber o reembolso.
-
-							Atenção: Nos pedidos acima de um frasco essa garantia é válida apenas para uma embalagem aberta e as demais fechadas e em perfeito estado.</p>
-					      </div>
-					    </div>
-					  </div>
-					</div>
-
-
-			      </div>
-			    </div>
-			  </div>
-			</div>
-
-			
-		</div>
+                </div>
+            </div>
+        </div>
 	</div>
 </section>
 

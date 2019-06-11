@@ -3,8 +3,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 title" style="margin-top: 30px;margin-bottom: 50px;">
-                <h2 class="text-center">Depoimentos e histórias de sucesso</h2>
-                <p class="text-center">Veja algumas histórias de sucesso e realização de pessoas que usaram o Phenatrim</p>
+                <h2 class="text-center">
+                    Histórias de Sucesso<br>
+                    <small>Milhares de Clientes Satisfeitas em Todo o País!</small>
+                </h2>
+                <p class="text-center">Veja, Alguns Resultados Reais Que Você Também Pode Conquistar com o Phenatrim.</p>
             </div>
         </div>
         <div id="depoiment-cards" class="row">
@@ -18,7 +21,7 @@
                     <div class="text left left-arrow">
                         <h3>Leticia Passos</h3>
                         <p><i>
-                            "Depois da minha primeira gravidez meu corpo nunca mais foi o mesmo. Independentemente do que eu fizesse nada era capaz de me fazer emagrecer. Cansada de fazer escolhas erradas resolvi procurar uma nutricionista para me ajudar nesse processo, e ela me recomendou Phenatrim. Realizei meu pedido no site oficial e comecei tomar assim que chegou. Sinceramente a única coisa que me arrependo é de não ter conhecido esse emagrecedor antes. No final de 3 meses eu me livrei de 15,3 kg, sem efeito colateral e sem efeito sanfona, porque mais de 6 meses após o consumo eu continuo mantendo o meu peso. Recomendo porque eu testei e aprovei."
+                            “Depois da minha primeira gravidez meu corpo nunca mais foi o mesmo. Independentemente do que eu fizesse nada era capaz de me fazer emagrecer. Cansada de fazer escolhas erradas resolvi procurar uma nutricionista para me ajudar nesse processo, e ela me recomendou Phenatrim. Realizei meu pedido no site oficial e comecei tomar assim que chegou. Sinceramente a única coisa que me arrependo é de não ter conhecido esse emagrecedor antes. No final de 3 meses eu me livrei de 15,3 kg, sem efeito colateral e sem efeito sanfona, porque mais de 6 meses após o consumo eu continuo mantendo o meu peso. Recomendo porque eu testei e aprovei.”
                         </i></p>
                     </div>
                 </div>
@@ -77,10 +80,45 @@
             </div>
         </div>
 
+        <div id="guarantee-block" class="row">
+            <div class="container">
+                <div class="col-md-12 bg-transparent">
+                    <div class="col-md-4">
+                        <img class="img-responsive" src="./assets/img/selo-garantia.png" alt="" style="margin-top: 25px;">
+                    </div>
+                    <div class="col-md-8 text-center">
+                        <h3>Satisfação Garantida ou Seu Dinheiro de Volta!</h3>
+                        <hr>
+                        <p>
+                            Você está convidada a experimentar Phenatrim hoje. Totalmente Livre de Risco!
+                        </p>
+                        <p>Garanta Agora o Seu!</p>
+                        <p>Se não ficar satisfeita, basta entrar em contato com a nossa central de atendimento, dentro do prazo da garantia, solicitar o reembolso e devolver o produto (mesmo que a embalagem esteja vazia).</p>
+                        <p>Você Não Tem Nada a Perder!</p>
+                        <p><a href="./garantia">Saiba Mais...</a></p>
+                    </div>
+                </div>
+                <div class="col-md-10 col-xs-offset-1">
+                    <h3 style="color: #333; text-align: center;">Melhor Alternativa Para Emagrecer de Forma Rápida e Saudável!</h3>
+                    <p style="color: #333;  text-align: center;">Uma mistura sinérgica de ingredientes cientificamente estudados ao longo de vários anos para ser capaz de proporcionar resultados poderosos e comprovados.</p>
+                </div>
+                <div class="col-md-12" style="margin-top: 40px" align="center">
+                    <a href="https://phenatrim.com.br/#order" id="cta-button"> 
+                        <div>
+                            <span>GARANTA JÁ O SEU PHENATRIM</span>
+                        </div>
+                        <div>
+                            <i class="fa fa-angle-double-right"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
         <div id="relatos" class="row">
             <div class="container">
                 <div class="col-md-12">
-                    <h2>Relatos de clientes</h2>
+                    <h2>Relatos de clientes Reais</h2>
                 </div>
                 <div class="col-md-12 relatos">
                     <p><i>“Eu nunca tive resultados tão bons quanto eu tive com Phenatrim. É simplesmente fantástico! Super recomendo.”</i></p>
@@ -91,7 +129,7 @@
                     <h4>Mônica Oliveira</h4>
                 </div>
                 <div class="col-md-12 relatos">
-                    <p><i>Pela primeira vez algo que deu certo para mim. Com Phenatrim eu perdi 13,6 kg em 8 semanas, sem dietas rigorosas, sem efeito colateral. Vale a pena testar.”</i></p>
+                    <p><i>“Pela primeira vez algo que deu certo para mim. Com Phenatrim eu perdi 13,6 kg em 8 semanas, sem dietas rigorosas, sem efeito colateral. Vale a pena testar.”</i></p>
                     <h4>Gabrielle Mendes</h4>
                 </div>
                 <div class="col-md-12 relatos">
@@ -107,8 +145,12 @@
                     <h4>Vitória R.</h4>
                 </div>
                 <div class="col-md-12 relatos">
-                    <p><i>Pela primeira vez algo que deu certo para mim. Com Phenatrim eu perdi 13,6 kg em 8 semanas, sem dietas rigorosas, sem efeito colateral. Vale a pena testar.”</i></p>
+                    <p><i>“Pela primeira vez algo que deu certo para mim. Com Phenatrim eu perdi 13,6 kg em 8 semanas, sem dietas rigorosas, sem efeito colateral. Vale a pena testar.”</i></p>
                     <h4>Thalyta L.</h4>
+                </div>
+                <div class="col-md-12 text-center">
+                    <h3>O Que Você Ainda Está Esperando?</h3>
+                    <h3>Experimente Phenatrim e Seja a Próxima História de Sucesso!</h3>
                 </div>
             </div>
         </div>
@@ -130,19 +172,19 @@
                     Os resultados variam de uma pessoa para outra porque depende da reação de cada organismo e do estilo de vida de cada um.
                 </p>
                 <p>
-                    Isso quer dizer que, por mais potente que seja uma determinada fórmula não se pode afirmar que a mesma funciona 100% para todas as pessoas e garantir os mesmos resultados. Afinal, isso não é exata.
+                    Isso quer dizer que, por mais potente que seja uma determinada fórmula não se pode afirmar que à mesma funciona 100% para todas as pessoas e garantir os mesmos resultados. Afinal, isso não é exata.
                 </p>
                 <p>
                     Os depoimentos têm como objetivo mostrar as experiências e os resultados que os nossos clientes tiveram e consideram satisfatórios. Não têm em hipótese alguma, a intenção de representar ou garantir que outras pessoas vão ter resultados exatamente iguais ou semelhantes.
                 </p>
                 <p>
-                    97,6% dos clientes relatam resultados de sucesso. Obviamente, que os melhores resultados pertencem às pessoas que conseguem associar corretamente o uso do produto com uma alimentação saudável e balanceada, juntamente com a prática moderada de atividades físicas.
+                    98,6% dos clientes relatam resultados de sucesso. Obviamente, que os melhores resultados pertencem às pessoas que conseguem associar corretamente o uso do produto com uma alimentação saudável e balanceada, juntamente com a prática moderada de atividades físicas.
                 </p>
                 <p>
                     Infelizmente ainda existe pessoas que acreditam em pílula mágica, que faz você emagrecer da noite para o dia. E se você é uma delas, lamentavelmente Phenatrim não é para você.
                 </p>
                 <p>
-                    Outra observação importante de se fazer é que, se você tem algum problema de saúde ou faz uso continuo de medicamento que pode interferir negativamente com os compostos de Phenatrim, por favor, consulte um médico antes de iniciar o consumo de qualquer produto ou programa de dieta e exercício.
+                    Outra observação importante de se fazer é que, se você tem algum problema de saúde ou faz uso contínuo de medicamento que pode interferir negativamente com os compostos de Phenatrim, por favor, consulte um médico antes de iniciar o consumo de qualquer produto ou programa de dieta e exercício.
                 </p>
                 </div>
             </div>
@@ -175,8 +217,8 @@
                     <div>
                         <a href="https://phenatrim.com.br/#order" id="cta-button" class="nimated infinite pulse delay-4s"> 
                             <div>
-                                <span>PEÇA O SEU AGORA!</span>
-                                <small>100% DE SATISFAÇÃO OU SEU DINHEIRO DE VOLTA</small>
+                                <span>EXPERIMENTE PHENATRIM HOJE MESMO!</span>
+                                <small>SATISFAÇÃO 100% GARANTIDA!</small>
                             </div>
                             <div>
                                 <i class="fa fa-angle-double-right"></i>

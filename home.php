@@ -11,7 +11,7 @@
 							<strong>DEFINITIVAMENTE!</strong>
 						</h2>
 						<hr>
-						<h3>Poderosa fórmula com benefícios clinicamente comprovados:</h3>
+						<h3>Poderosa fórmula emagrecedora com benefícios clinicamentecomprovados:</h3>
 					</div>
 					<div class="benefit-list">
 						<div class="row" style="display: flex; align-items: center;">
@@ -42,7 +42,7 @@
 			<div class="container">
 				<div class="col-md-6 left">
 					<p id="text-test">
-						Conquiste Um Corpo Lindo E Atraente...<br/>
+						Conquiste Um Corpo Lindo E Atraente...<br />
 						Sinta-se Mais Confiante E Feliz!
 					</p>
 				</div>
@@ -50,7 +50,7 @@
 					<a href="https://phenatrim.com.br/#order" id="cta-button" class="animated infinite pulse delay-4s"> 
 						<div>
 							<span>EXPERIMENTE PHENATRIM HOJE!</span>
-							<small>SEJA A PRÓXIMA HISTÓRIA DE SUCESSO</small>
+							<small>Seja a Próxima História de Sucesso!</small>
 						</div>
 						<div>
 							<i class="fa fa-angle-double-right"></i>
@@ -66,14 +66,20 @@
 	<section id="section-two">
 		<div class="container">
 			<div class="col-md-8">
-				<h2>Absolutamente Tudo O Que Você Precisa Para Conquistar A Melhor Versão De Si Mesma!</h2>
+				<h2>ABSOLUTAMENTE TUDO O QUE VOCÊ PRECISA PARA CONQUISTAR A MELHOR VERSÃO DE SI MESMA!</h2>
 				<br>
-				<p>Phenatrim é uma fórmula emagrecedora 100% natural, composta por uma mistura única de ingredientes cuidadosamente selecionados e que oferecem benefícios comprovados cientificamente para perda de peso e queima de gordura.</p>
-
-				<p class="text-center"><img id="stamp-guarantee" src="assets/img/selos.png" alt=""></p>
+				<p>Phenatrim é um nutracêutico inovador que foi projetado para ajudar você a perder peso de forma rápida e segura. Sua poderosa fórmula foi desenvolvida cientificamente à base de compostos seguros e eficazes que oferecem um apoio completo ao processo de emagrecimento.</p>
+				<ul>
+					<li><strong>Perda de Peso Rápida e Responsável:</strong> Emagreça Sem Passar Fome e Sem Exercícios Cansativos e Perigosos</li>
+					<li><strong>Você Magra, Bonita e Atraente:</strong> Atua Diretamente na Queima de Gordura Teimosa (barriga, braços, coxas e bumbum)</li>
+					<li><strong>Resultados 3x Mais Rápidos:</strong> Acelera o Metabolismo e Transforma seu corpo em uma máquina de queimar de gordura 24/7</li>
+					<li><strong>Torna a Sua Dieta Mais Fácil:</strong> Inibe o Apetite e Diminui a Compulsão Alimentar, Ajudando Você a Seguir Uma Dieta Saudável e Equilibrada</li>
+					<li><strong>Mais Produtividade:</strong> Aumenta Rapidamente os Níveis de Energia e Melhora o Foco e a Concentração Mental</li>
+				</ul>
 			</div>
 			<div class="col-md-4">
 				<figure id="figure-card"><img class="img-responsive" src="./assets/img/resultado-60d.jpg" alt=""></figure>
+				<p class="text-center icon-selos"><img id="stamp-guarantee" src="assets/img/selos.png" alt=""></p>
 			</div>
 		</div>
 	</section>
@@ -94,10 +100,10 @@
 						</ul>
 					</div>
 					<div class="col-md-6 left">
-						<h2>FINALMENTE UMA ALTERNATIVA<br>NATURAL, SEGURA E EFICAZ</h2>
+						<h2>FINALMENTE UMA ALTERNATIVA<br />SEGURA E EFICAZ PARA QUEM<br />TANTO DESEJA EMAGRECER</h2>
 						<hr>
 						<p>Se você realmente quer perder peso ou se livrar daquela gordurinha extra e ter um corpo magro e atraente; com Phenatrim você pode obter resultados reais.</p>
-						<p>Como você mesma pode perceber, Phenatrim foi perfeitamente formulado e precisamente equilibrado para atender às necessidades de cada mulher, quando se trata de perder peso.</p>
+						<p>Phenatrim foi perfeitamente formulado e precisamente equilibrado para atender às necessidades de cada mulher, quando se trata de perder peso.</p>
 						<hr>
 						<p>Definitivamente, você nunca viu nada igual...</p>
 					</div>
@@ -114,7 +120,7 @@
 					</figure>
 					<div>	    						
 						<h3>Completa</h3>
-    					<p>Nenhuma outra fórmula contém ingredientes 100% naturais, seguros e eficazes para ajudar estabelecer o equilíbrio metabólico e ativar o seu metabolismo no modo queimador de gordura. Este fator é crucial para acelerar a perda de peso. Afinal, com o metabolismo operando em ritmo lento nada irá contribuir para que você emagreça de forma eficiente.</p>
+    					<p>Nenhuma outra fórmula contém ingredientes 100% seguros e eficazes para atuar sobre fatores chaves do organismo e transformar o seu organismo em uma verdadeira máquina de queimar gordura.</p>
 					</div>
 				</div>
 
@@ -128,7 +134,7 @@
 					</figure>
 					<div>	    						
 						<h3>Comprovada</h3>
-    					<p>Diversos estudos realizados nos EUA revelam que os compostos do Phenatrim – ácido clorogênico, sinefrina, caffeine anhydrous, irvingia gabonensis, metilxantinas e Green tea – intensificam consideravelmente a oxidação de gordura, especialmente aquela que se localiza na barriga, nas coxas e no bumbum.</p>
+    					<p>Inúmeros estudos atestam a qualidade, a segurança e a eficácia de cada composto presente na fórmula do Phenatrim. São ingredientes poderosos e apoiados pela ciência, capazes de oferecer múltiplos benefícios para perda de peso e para a saúde de modo geral.</p>
 					</div>
 				</div>
 			</div>
@@ -142,7 +148,7 @@
 					</figure>
 					<div>
 						<h3>Potente</h3>
-						<p>Uma mistura única que reúne as melhores substâncias aprovadas pela ANVISA, na dosagem exata para ser capaz de proporcionar os melhores resultados, sem risco e sem efeito sanfona.</p>
+						<p>Uma mistura única que reúne as melhores sustâncias aprovadas pela ANVISA, na dosagem exata para ser capaz de proporcionar resultados reais e duradouros, sem colocar a saúde em risco e sem efeito sanfona.</p>
 					</div>
 				</div>
 
@@ -156,7 +162,7 @@
 					</figure>
 					<div>
 						<h3>Sinérgica</h3>
-    					<p>Cada componente foi cuidadosamente selecionado e trabalha em perfeita sinergia, atacando a gordura diretamente em sua fonte, promovendo assim até 3x mais perda de peso.</p>
+    					<p>Cada composto foi cuidadosamente selecionado e testado para trabalhar em perfeita sinergia, promovendo o equilíbrio metabólico e ativando o modo queimador de gordura.</p>
     				</div>
 				</div>
 			</div>
@@ -165,7 +171,7 @@
 				<a href="https://phenatrim.com.br/#order" id="cta-button" class="img-responsive"> 
 					<div>
 						<span>EXPERIMENTE PHENATRIM HOJE!</span>
-						<small>SEJA A PRÓXIMA HISTÓRIA DE SUCESSO</small>
+						<small>SATISFAÇÃO 100% GARANTIDA!</small>
 					</div>
 					<div>
 						<i class="fa fa-angle-double-right"></i>
@@ -184,7 +190,9 @@
 			<section id="depoiments">	
 				<div class="container">
 					<div class="col-md-12">	
-						<h2 class="text-center">Resultados Que Você Também Pode Ter!</h2>
+						<h2 class="text-center">INÚMERAS CLIENTES SATISFEITAS NÃO PODEM ESTAR ERRADAS</h2>
+						<p>Quem experimentou aprovou! Várias pessoas em todo o país já testaram o poder e a eficácia do Phenatrim e hoje estão verdadeiramente felizes com a sua nova versão.</p>
+						<p>Veja, resultados que você também pode ter!</p>
 					</div>
 					<div class="col-md-4 left" align="center">
 						<figure>
@@ -197,7 +205,7 @@
 						</figure>
 
 						<div class="tip thumbnail">
-							<i>“Perder peso e manter definitivamente não é uma tarefa fácil, mas com Phenatrim isso é possível. Nunca me senti tão realizada quanto agora! Viver em paz com a balança é simplesmente maravilhoso! Valeu a pena experimentar.”</i>
+							<i>“Meu nome é Maria Clara, sou vendedora e mãe de duas crianças lindas! Depois da gravidez meu corpo nunca mais voltou ao normal, principalmente a barriga, que além daquela gordurinha indesejada também ficou bastante flácida. Passei anos da minha vida infeliz com o meu corpo e testando todas as opções de produtos para emagrecer, no entanto, o único resultado era frustração. Quando eu conseguia emagrecer alguns quilinhos, rapidamente eles voltavam em dobro. Certo dia, conversando com uma cliente na loja, ela me falou que tinha conseguido perder 11,3kg com o Phenatrim. Então, resolvi saber mais sobre este emagrecedor. Fiz várias pesquisas na internet e resolvi testar. O produto chegou em 3 dias na minha casa e imediatamente comecei a tomar. Sem dúvidas foi o melhor investimento da minha vida! Em 8 semanas de uso eu perdi 9,4kg! Sem dietas restritivas! Sem efeito colateral! E sem efeito sanfona! Estou muito feliz com o resultado e com a minha nova versão! Só tenho a agradecer!”</i>
 						</div>
 					</div>
 					<div class="col-md-4 center" align="center">
@@ -211,7 +219,7 @@
 						</figure>
 
 						<div class="tip thumbnail">
-							<i>“Depois de tanto tempo tentando emagrecer, descobri esse produto fantástico! Finalmente consegui perder peso, e o melhor; de forma natural e sem efeito colateral. Sem falar que hoje me sinto muito mais disposta e confiante. Só tenho a agradecer.”</i>
+							<i>“Olá, eu sou Ana Carolina, mãe da Júlia de 9 anos. Depois de testar inúmeras dietas, emagrecedores e remédios para voltar a ter aquela barriga lisinha que eu tanto amava, finalmente eu encontrei uma solução que funciona de verdade. Descobri o Phenatrim durante uma pesquisa por emagrecedores na internet. Inicialmente tive um pouco de receio, afinal eu já cansei de comprar produto que não funciona, mas depois de ver vários resultados e depoimentos de clientes, eu decidi testar. E a única coisa que me arrependo é de não ter conhecido este emagrecedor antes porque ele é maravilhoso! Phenatrim funciona mesmo! Além de recuperar a minha barriga lisinha, eu recuperei a minha autoestima. Isso não tem preço! Por isso, sempre recomendo Phenatrim para quem quer mesmo perder peso porque eu testei e tive ótimos resultados com ele.”</i>
 						</div>
 					</div>
 					<div class="col-md-4 right" align="center">
@@ -225,14 +233,19 @@
 						</figure>
 
 						<div class="tip thumbnail">
-							<i>“Estou muito contente com o meu resultado. Já tomei diversos produtos para emagrecimento e nenhum me proporcionou um resultado satisfatório, mas Phenatrim é diferente, pode acreditar... <br>  Funciona mesmo!”</i>
+							<i>“Oi, eu sou a Simone Santos e quero compartilhar aqui o meu resultado com o Phenatrim. Depois das minhas gravidez eu vivia em luta constante com a balança. Sempre fazendo dietas malucas, tomando remédios perigosos, mas nunca conseguia recuperar o meu peso e o meu corpo magro de antes. A cada dia, minhas numerações de roupas só aumentavam e eu cada vez mais infeliz com o meu corpo e a minha aparência. Cansada de passar vergonha com olhar crítico das pessoas, eu resolvi procurar uma nova solução que pudesse me ajudar emagrecer. Depois de pesquisar muito, eu me deparei com um artigo sobre o Phenatrim na internet e resolvi experimentar. Tomei durante 3 meses e perdi 15,7kg! O melhor de tudo é que não precisei passar fome e nem me matar durante horas na academia. Phenatrim transformou minha vida! Hoje eu posso inclusive colocar um biquini e curtir uma praia sem medo de ser criticada pelas pessoas. Eu estou muito feliz! Obrigada!”</i>
 						</div>
+					</div>
+					<div class="col-md-12" align="center">
+						<p><small>*Os resultados podem variar de uma pessoa para outra.</small></p>
+						<br>
+						<p>E você, quando vai se juntar a elas?</p>
 					</div>
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" align="center" style="margin-top:30px;"> 
 						<a href="https://phenatrim.com.br/#order" id="cta-button"> 
 							<div>
-								<span>EXPERIMENTE PHENATRIM HOJE!</span>
-								<small>SEJA A PRÓXIMA HISTÓRIA DE SUCESSO</small>
+								<span>EXPERIMENTE VOCÊ TAMBÉM!</span>
+								<small>E seja a nossa próxima história de sucesso!</small>
 							</div>
 							<div>
 								<i class="fa fa-angle-double-right"></i>
@@ -247,7 +260,8 @@
 				<div class="top">
 					<div class="container title">
 						<div class="col-md-12">
-							<h2 class="text-center" style="color: #fff">Imagine Quão Bom Seria Você Magra, <br> Bonita E Cheia De Disposição?</h2>
+							<h2 class="text-center" style="color: #fff">Imagine Quão Bom Seria Você Magra, <br />
+							Bonita E Cheia De Disposição?</h2>
 						</div>
 					</div>					
 				</div>
@@ -288,7 +302,8 @@
 						<div class="col-md-8">
 							<h2>Você Pode Mudar A Sua Realidade <br>Agora Mesmo!</h2>
 							<br>
-							<p>Se você realmente quer perder peso, Phenatrim definitivamente é a melhor solução que você pode encontrar hoje no mercado. Este emagrecedor é fruto de uma longa investigação que finalmente resultou no desenvolvimento de uma perfeita formulação que age sinergicamente no organismo para promover o equilíbrio da função metabólica e contribuir consideravelmente para o processo de emagrecimento.</p>
+							<p>Se você realmente quer perder peso, Phenatrim definitivamente é a melhor solução que você pode encontrar hoje no mercado. Phenatrim é um avanço revolucionário no mercado de nutracêuticos. Sua abordagem completa e inovadora contribui significativamente para a perda de peso.</p>
+							<p>Cada dose é estrategicamente formulada para fornecer as quantidades ideais de cada composto. Além disso, cada um desses ingredientes poderosos é totalmente apoiado pela ciência e oferece múltiplos benefícios no processo de emagrecimento.</p>
 							<p>E para obter melhores resultados tome Phenatrim corretamente, mantenha uma alimentação saudável e pratique atividades físicas de forma moderada e sempre acompanhada por um profissional qualificado.</p>
 							<hr>
 
@@ -327,13 +342,13 @@
 					<div class="col-md-6 item-1">
 						<div class="col-md-4">
 							<figure>
-								<img src="assets/img/globo-reporter-reduce.png" alt="globoreporter">
+								<img src="assets/img/claudia-og.png" alt="claudia">
 							</figure>
 						</div>
 						<div class="col-md-8">							
 							<div>
-								<h4>Globo Reporter</h4>
-								<i>"O chá verde, tão simples, guarda uma substância poderosa contra a gordura: a catequina."</i>
+								<h4>Claudia</h4>
+								<i>Cafeína - Segundo nutricionista Roseli Rossi: “Apesar de a quantidade em relação ao café preto ser só um pouco maior, a ação termogênica dessa substância é importante por estimular o metabolismo”.</i>
 							</div>
 						</div>
 					</div>
@@ -341,13 +356,13 @@
 					<div class="col-md-6 item-2">
 						<div class="col-md-4">
 							<figure>
-								<img src="assets/img/r7.png" alt="r7">
+								<img src="assets/img/terra-logo.png" alt="Terra">
 							</figure>
 						</div>
-						<div class="col-md-8">	
+						<div class="col-md-8">
 							<div>
-								<h4>R7</h4>
-								<i>"O café verde é rico em substâncias que aceleram o metabolismo e por isso pode auxiliar no emagrecimento."</i>
+								<h4>Terra</h4>
+			    				<i>Óleo de Cártamo – “O óleo de cártamo é um dos óleos naturais que mais auxiliam na perda de peso, pois possui propriedades que estimulam a lipólise (quebra da gordura), a oxidação e a queima da gordura.”</i>
 							</div>
 						</div>
 					</div>
@@ -361,29 +376,75 @@
 					<div class="col-md-6 item-3">
 						<div class="col-md-8">
 							<div>
-								<h4>Sou mais eu (REVISTA)</h4>
-			    				<i>"A manga africana faz sucesso por causa de sua eficácia no combate à obesidade, explica a nutricionista"</i>
+								<h4>Boa forma</h4>
+			    				<i>Guaraná - “A ciência acaba de descobrir que essa frutinha nativa da Amazônia oferece ainda outros benefícios, especialmente a quem quer emagrecer: reduz a fome e estimula os movimentos do intestino (adeus, prisão de ventre!).”</i>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<figure>
-								<img src="assets/img/sou-mais-eu-reduce.png" alt="sou mais eu (Revista)">
+								<img src="assets/img/boa-forma-og.png" alt="Boa Forma">
 							</figure>
 						</div>
 					</div>
 					
 					<div class="col-md-6 item-4">
-						<div class="col-md-8">
+						<div class="col-md-8">	
 							<div>
-								<h4>Dieta já</h4>
-			    				<i>"O poder da sociedade é um dos fatores que faz da fruta uma aliada para a perda de peso. Rica em antioxidantes, ela também ajuda a eliminar radicais livres do organismo"</i>
+								<h4>R7</h4>
+								<i>Triptofano - “Os principais benefícios do triptofano estão relacionadas ao bem estar geral, como o humor, combate de insônia e outras sensações importantes para a saúde humana.”</i>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<figure>
-								<img src="assets/img/dieta-ja-reduce.png" alt="dieta já">
+								<img src="assets/img/r7.png" alt="r7">
 							</figure>
 						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="payment">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-5">
+							<figure>
+								<img class="img-responsive" src="assets/img/payments/payment4.jpg" alt="">
+							</figure>
+						</div>
+						<div class="col-md-7">
+							<h2>NÃO ESTÁ ACOSTUMADA A COMPRAR PELA INTERNET?</h2>
+							<h4>Relaxa! Você pode ficar absolutamente tranquila quanto a isso. Solicite seu Phenatrim sem medo. É fácil, rápido e seguro!</h4>
+							<hr>
+							<div class="row">
+								<div class="col-md-6">
+									<div style="display:flex;align-items:center">
+										<i class="flaticon-padlock"></i>
+										<span>Dados pessoais sigilosos e não são compartilhados.</span>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div style="display:flex;align-items:center">
+										<i class="flaticon-electronic-key"></i>
+										<span>Dados financeiros secretos e protegidos.</span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div style="display:flex;align-items:center">
+										<i class="flaticon-shield"></i>
+										<span>Site 100% confiável e autenticado por empresas de segurança.</span>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div style="display:flex;align-items:center">
+										<i class="flaticon-delivery-truck-with-circular-clock"></i>
+										<span>Entrega garantida no prazo combinado e politica de devolução.</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</section>
@@ -396,7 +457,7 @@
 		    			<h2 class="text-center"><strong>Satisfação 100% Garantida!</strong></h2>
 						<p class="text-center">
 		    				Sabemos que oferecemos um produto verdadeiramente eficaz e com alto padrão de qualidade.<br/>
-							Por isso, confiamos completamente em nossa fórmula e garantimos a sua satisfação.
+		    				Por isso, confiamos completamente em nossa fórmula e garantimos a sua satisfação.
 						</p>
 		    		</div>
 		    		<div class="col-md-12 bg-transparent">
@@ -416,8 +477,54 @@
 		    		<div class="col-md-12" style="margin-top: 40px" align="center">
 		    			<a href="https://phenatrim.com.br/#order" id="cta-button"> 
 							<div>
-								<span>EXPERIMENTE PHENATRIM HOJE!</span>
-								<small>SEJA A PRÓXIMA HISTÓRIA DE SUCESSO</small>
+								<span>GARANTA JÁ O SEU PHENATRIM</span>
+							</div>
+							<div>
+								<i class="fa fa-angle-double-right"></i>
+							</div>
+						</a>
+		    		</div>
+		    	</div>
+		    </section>
+
+		    <section id="voce-decide">
+		    	<div class="container">
+		    		<div class="col-md-12 title">
+		    			<h2 class="text-center"><strong>A Decisão Está Em Suas Mãos!</strong></h2>
+						<p class="text-center">
+		    				A partir deste momento você tem <strong>TRÊS OPÇÕES:</strong>
+						</p>
+		    		</div>
+		    		<div class="col-md-12 bg-transparent content-option">
+		    			<div class="col-md-4">
+			    			<h3>1</h3>
+			    			<hr>
+			    			<p>
+		    					A <strong>primeira opção</strong> é não fazer nada. Mas se você chegou até aqui, provavelmente você já decidiu dar uma nova chance para você mesma.
+		    				</p>
+			    		</div>
+			    		<div class="col-md-4">
+			    			<h3>2</h3>
+			    			<hr>
+			    			<p>
+		    					A <strong>segunda opção</strong> é deixar essa oportunidade passar e continuar tentando as dietas da moda, os produtos ineficazes e seguir com os mesmos resultados de sempre, <strong>sonhando</strong> com um corpo mais magro e saudável. É simplesmente optar por permanecer a perder tempo e dinheiro. Definitivamente essa é a solução mais cara.
+		    				</p>
+			    		</div>
+			    		<div class="col-md-4">
+			    			<h3>3</h3>
+			    			<hr>
+			    			<p>
+		    					A <strong>terceira opção</strong> é escolher o seu kit logo a seguir e <strong>GARANTIR AGORA MESMO</strong> o seu Phenatrim <strong>absolutamente livre de risco.</strong>
+		    				</p>
+			    		</div>
+			    		<div class="col-md-12 text-center content-text">
+			    			<h4>Então, qual é a sua escolha?</h4>
+			    		</div>
+		    		</div>
+		    		<div class="col-md-12" style="margin-top: 40px" align="center">
+		    			<a href="https://phenatrim.com.br/#order" id="cta-button"> 
+							<div>
+								<span>GARANTA AGORA</span>
 							</div>
 							<div>
 								<i class="fa fa-angle-double-right"></i>

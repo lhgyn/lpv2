@@ -3,8 +3,18 @@
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-#perguntas-frequentes .title{
+#perguntas-frequentes .title-faq,
+#perguntas-frequentes .title-faq h2{
 	margin-bottom: 50px;
+}
+
+#perguntas-frequentes .title-faq h2{
+	color: #333;
+}
+
+#perguntas-frequentes .title-faq p{
+	color: #333;
+	font-size: 16px;
 }
 
 .panel-group .panel{
@@ -16,7 +26,7 @@
 	color: #fff
 }
 .panel-default>.panel-heading a{
-	color: #fff;
+	color: #0074C8;
 }
 .panel-title{
 	border-radius: 0;
@@ -38,4 +48,75 @@
 
 @media all and (min-width:991px) and (max-width:1199px){
 	
+}
+
+/* FAQ */
+.section-faq .panel-group .panel {
+	margin-bottom: 10px;
+	border: none!important
+}
+
+.section-faq .panel-group a:focus, .section-faq .panel-group a:hover {
+	text-decoration: none!important
+}
+
+.section-faq .panel-group h4 {
+	text-transform: inherit;
+	text-align: left;
+	color: #0074C8;
+	font-weight: 400;
+	line-height: 30px
+}
+
+@media (min-width:768px) {
+	.section-faq .panel-group h4 {
+		font-size: 18px
+	}
+}
+
+.section-faq .panel-group h4:after {
+	content: "";
+	display: block;
+	border-bottom: none!important;
+	width: 100%!important;
+	margin: 0!important
+}
+
+.section-faq .panel-heading .accordion-toggle:before {
+	font-family: 'Glyphicons Halflings';
+	content: "\2212";
+	float: right;
+	color: #0074C8
+}
+
+.section-faq .panel-heading .accordion-toggle.collapsed:before {
+	content: "\2b"
+}
+
+.section-faq .panel-heading:hover {
+	background: #eee
+}
+
+.section-faq .panel-body {
+	border: none!important
+}
+
+.section-faq .panel-body p{
+	color: #333;
+	font-size: 16px;
+	line-height: 1.8em;
+}
+
+.section-faq a.accordion-toggle {
+	display: block;
+	padding: 10px 15px;
+	background: #eee
+}
+
+.section-faq a.accordion-toggle.collapsed {
+	background: #f8f8f8
+}
+
+.section-faq div.panel-heading {
+	padding: 0
 }

@@ -12,14 +12,16 @@
     			<div class="col-md-6">
     				<h2>A Ciência por trás do Phenatrim</h2> <hr>
     				<p>
-    					Phenatrim é o resultado de uma longa investigação que determinou a perfeita formulação de um emagrecedor 100% natural, composto por ingredientes de alta qualidade e com benefícios clinicamente comprovados para perda de peso e queima de gordura.
+    					Phenatrim é um avanço revolucionário no mercado de nutracêuticos. Ele oferece uma abordagem completa capaz de atuar sobre fatores chaves do organismo e promover uma perda de peso mais rápida e segura.
     				</p>
-    				<p>		    					
-						A poderosa fórmula de Phenatrim trabalha para aumentar suavemente o metabolismo, intensificar o processo de termogênese e potencializar a queima de gordura de forma segura e eficaz.
-    				</p>
-    				<p>		    					
-						Isso é possível devido à ação sinérgica de 6 potentes metabolizadores de gordura presentes em sua composição que conseguem atuar diretamente nos principais fatores fisiológicos e atacar a gordura em sua fonte, resultando em uma perda de peso rápida e saudável.
-    				</p>
+                    <p>ABORDAGEM DE 360º PARA POTENCIALIZAR OS SEUS RESULTADOS</p>
+                    <ul>
+                        <li><strong>ACELERAR O METABOLISMO:</strong> Aumenta consideravelmente as taxas metabólicas para ativar o seu metabolismo e acelerar o processo de perda de peso, ajudando você a conquistar um corpo magro e sexy.</li>
+                        <li><strong>QUEIMADOR DE GORDURA:</strong> Sua potente ação termogênica contribui para intensificar o gasto calórico e transformar o seu organismo em uma verdadeira máquina de queimar gordura. E mais... Além de ajudar a derreter aquela gordura teimosa, ainda converte-a em fonte de energia.</li>
+                        <li><strong>BLOQUEADOR DE GORDURA:</strong> Contém ativos poderosos que ajudam a controlar o acúmulo de gordura na região abdominal (Adipogênese).</li>
+                        <li><strong>INIBIDOR DE APETITE:</strong> Sua fórmula sinérgica também permite que você assuma o controle do seu apetite, facilitando o corte de calorias e deixando você saciada por muito mais tempo. Agora, aquela fome insaciável é coisa do passado.</li>
+                        <li><strong>ENERGIA EXTRA:</strong> Eleva os níveis de energia deixando você mais disposta para realizar as suas tarefas do dia a dia e para fazer as suas atividades físicas.</li>
+                    </ul>
     			</div>
     			<div class="col-md-6 figure" align="center">
     				<img class="img-responsive" src="./assets/img/scientist-330.jpg" alt="scientist-330">
@@ -36,7 +38,7 @@
     	<div class="container">
     		<div class="row">
     			<div class="col-md-12">
-    				<h2 class="text-center">INGREDIENTES</h2>
+    				<h2 class="text-center">COMPOSTOS 100% SEGUROS, EFICAZES E APOIADOS PELA CIÊNCIA</h2>
     				<hr>
     			</div>
     		</div>
@@ -45,17 +47,17 @@
 					<div class="ingredient text-right">
 						<img class="img-responsive visible-sm visible-xs" src="./assets/img/ingredients/_1-cartamus.png" alt="">
 						<h4>ÓLEO DE CÁRTAMO - (CARTHAMUS TINCTORIUS)</h4>
-						<p>Sua composição apresenta substâncias importantes que ajudam na perda de peso e queima de gordura, especialmente gordura abdominal.</p>
+						<p>Contém substâncias importantes que ajudam na perda de peso e queima de gordura, especialmente gordura abdominal. Além disso, aumenta a produção de Leptina (hormônio responsável pela saciedade), colaborando assim para a redução do apetite, diminui a produção de cortisol (hormônio que armazena gordura abdominal), contém antioxidantes e ácidos graxos que possuem propriedades anti-inflamatórias que auxiliam no combate dos radicais livres, previne o envelhecimento e combate a celulite.</p>
 					</div>
 					<div class="ingredient text-right">
 						<img class="img-responsive visible-sm visible-xs" src="./assets/img/ingredients/_2-fenilalanina.png" alt="">
 						<h4>FENILALANINA</h4>
-						<p>É um aminoácido essencial que atua como inibidor de apetite ao administrar a liberação de um hormônio intestinal, a colecistocinina, que faz com que o cérebro se sinta saciado depois de comer.</p>
+						<p>É um aminoácido essencial que atua como inibidor de apetite ao administrar a liberação de um hormônio intestinal, a colecistocinina, que faz com que o cérebro se sinta saciado depois de comer. Então, além de ser um potente inibidor de apetite, a Fenilalanina também ajuda aumentar o metabolismo, reduzir a ansiedade, depressão e ainda melhora o humor.</p>
 					</div>
 					<div class="ingredient text-right">
 						<img class="img-responsive visible-sm visible-xs" src="./assets/img/ingredients/_3-cafeina-anidra.png" alt="">
 						<h4>CAFEÍNA ANIDRA - (1, 3, 7-TRIMETHILXANTINE)</h4>
-						<p>Estudos concluíram que a cafeína é realmente eficaz para perda de peso. Ela é um estimulante metabólico que aumenta o estado de alerta, foco e concentração. Além disso, ajuda reduzir o apetite.</p>
+						<p>Estudos concluíram que a cafeína é realmente eficaz para perda de peso. Ela é um estimulante metabólico que aumenta o estado de alerta, foco e concentração. Além disso, ajuda reduzir o apetite, impulsionar o processo de queima de gordura através do aumento da termogênese e contribuir para melhores resultados dos exercícios físicos, melhorando o seu desempenho.</p>
 					</div>
     			</div>
 
@@ -80,7 +82,7 @@
 					<div class="ingredient">
 						<img class="img-responsive visible-sm visible-xs" src="http://cdn5.nopesoideal.com.br/wp-content/uploads/2014/05/castanhas1-620x413.jpg" alt="">
 						<h4>TRIPTOFANO</h4>
-						<p>Colabora para o melhor funcionamento metabólico, facilitando a perda de peso e ajudando na queima de gordura. Também combate estresse e ansiedade e proporciona melhor desempenho físico.</p>
+						<p>Colabora para o melhor funcionamento metabólico, facilitando a perda de peso e ajudando na queima de gordura. Trata-se de um aminoácido essencial que age como regulador natural do humor, pois tem a capacidade de ajudar o organismo a produzir e equilibrar certos hormônios naturalmente. Também combate estresse e ansiedade e proporciona melhor desempenho físico.</p>
 					</div>
 					<div class="ingredient">
 						<img class="img-responsive visible-sm visible-xs" src="https://cdn.awsli.com.br/1000x1000/163/163535/produto/5829773/4d2b90a2d0.jpg" alt="">
@@ -90,7 +92,7 @@
 					<div class="ingredient">
 						<img class="img-responsive visible-sm visible-xs" src="https://www.quimlab.com.br/guiadoselementos/cromo/cromo7.jpg" alt="">
 						<h4>PICOLINATO DE CROMO</h4>
-						<p>Segundo a maioria dos especialistas, o cromo ajuda a reduzir o peso, diminuindo a quantidade de gordura corporal, suprindo o apetite e estimulando a produção de calor no organismo (termogênese), o que aumenta o gasto energético. Além disso, é útil para a construção muscular.</p>
+						<p>Segundo a maioria dos especialistas, o cromo ajuda a reduzir o peso, diminuindo a quantidade de gordura corporal, suprindo o apetite e estimulando a produção de calor no organismo (termogênese), o que aumenta o gasto energético. Além disso, é útil para a construção muscular e essencial para controlar os níveis de açúcar no sangue.</p>
 					</div>
     			</div>
     		</div>
@@ -113,10 +115,10 @@
 						</ul>
 					</div>
 					<div class="col-md-6 left">
-						<h2>FINALMENTE UMA ALTERNATIVA<br>NATURAL, SEGURA E EFICAZ</h2>
+						<h2>FINALMENTE UMA ALTERNATIVA<br>SEGURA E EFICAZ PARA QUEM TANTO DESEJA EMAGRECER</h2>
 						<hr>
 						<p>Se você realmente quer perder peso ou se livrar daquela gordurinha extra e ter um corpo magro e atraente; com Phenatrim você pode obter resultados reais.</p>
-						<p>Como você mesma pode perceber, Phenatrim foi perfeitamente formulado e precisamente equilibrado para atender às necessidades de cada mulher, quando se trata de perder peso.</p>
+						<p>Phenatrim foi perfeitamente formulado e precisamente equilibrado para atender às necessidades de cada mulher, quando se trata de perder peso.</p>
 						<hr>
 						<p>Definitivamente, você nunca viu nada igual...</p>
 					</div>
@@ -133,7 +135,7 @@
 					</figure>
 					<div>	    						
 						<h3>Completa</h3>
-    					<p>Nenhuma outra fórmula contém ingredientes 100% naturais, seguros e eficazes para ajudar estabelecer o equilíbrio metabólico e ativar o seu metabolismo no modo queimador de gordura. Este fator é crucial para acelerar a perda de peso. Afinal, com o metabolismo operando em ritmo lento nada irá contribuir para que você emagreça de forma eficiente.</p>
+    					<p>Nenhuma outra fórmula contém ingredientes 100% seguros e eficazes para atuar sobre fatores chaves do organismo e transformar o seu organismo em uma verdadeira máquina de queimar gordura.</p>
 					</div>
 				</div>
 
@@ -147,7 +149,7 @@
 					</figure>
 					<div>	    						
 						<h3>Comprovada</h3>
-    					<p>Diversos estudos realizados nos EUA revelam que os compostos do Phenatrim – ácido clorogênico, sinefrina, caffeine anhydrous, irvingia gabonensis, metilxantinas e Green tea – intensificam consideravelmente a oxidação de gordura, especialmente aquela que se localiza na barriga, nas coxas e no bumbum.</p>
+    					<p>Inúmeros estudos atestam a qualidade, a segurança e a eficácia de cada composto presente na fórmula do Phenatrim. São ingredientes poderosos e apoiados pela ciência, capazes de oferecer múltiplos benefícios para perda de peso e para a saúde de modo geral.</p>
 					</div>
 				</div>
 			</div>
@@ -161,7 +163,7 @@
 					</figure>
 					<div>
 						<h3>Potente</h3>
-						<p>Uma mistura única que reúne as melhores substâncias aprovadas pela ANVISA, na dosagem exata para ser capaz de proporcionar os melhores resultados, sem risco e sem efeito sanfona.</p>
+						<p>Uma mistura única que reúne as melhores sustâncias aprovadas pela ANVISA, na dosagem exata para ser capaz de proporcionar resultados reais e duradouros, sem colocar a saúde em risco e sem efeito sanfona.</p>
 					</div>
 				</div>
 
@@ -175,7 +177,7 @@
 					</figure>
 					<div>
 						<h3>Sinérgica</h3>
-    					<p>Cada componente foi cuidadosamente selecionado e trabalha em perfeita sinergia, atacando a gordura diretamente em sua fonte, promovendo assim até 3x mais perda de peso.</p>
+    					<p>Cada composto foi cuidadosamente selecionado e testado para trabalhar em perfeita sinergia, promovendo o equilíbrio metabólico e ativando o modo queimador de gordura.</p>
     				</div>
 				</div>
 			</div>
@@ -209,8 +211,8 @@
 	    			<div>
 	    				<a href="https://phenatrim.com.br/#order" id="cta-button" class="nimated infinite pulse delay-4s"> 
 							<div>
-								<span>PEÇA O SEU AGORA!</span>
-								<small>100% DE SATISFAÇÃO OU SEU DINHEIRO DE VOLTA</small>
+								<span>EXPERIMENTE PHENATRIM HOJE MESMO!</span>
+								<small>SATISFAÇÃO 100% GARANTIDA!</small>
 							</div>
 							<div>
 								<i class="fa fa-angle-double-right"></i>
