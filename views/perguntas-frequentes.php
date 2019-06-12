@@ -2,10 +2,12 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1 title-faq">
-				<h2 class="text-center col-md-8 col-md-offset-2">Encontre as Resposta Que Você Procura, Faça a Sua Análise e Tome Uma Decisão Verdadeiramente Consciente</h2>
-				<p class="col-md-12">Tomar a decisão de investir em um novo emagrecedor não é uma tarefa tão simples o quanto parece. Principalmente se você já tiver tentado outras soluções que não te proporcionou nenhum tipo de resultado.</p>
-				<p class="col-md-12">Infelizmente existem vários produtos em que a publicidade é enganosa ou até mesmo falsa. E com certeza antes de você fazer a sua escolha, é bem provável que você queira saber o que está comprando, o que realmente vai tomar, se funciona ou não, se é perigoso... </p>
-				<p class="col-md-12">Enfim, existem inúmeras dúvidas e o nosso principal objetivo aqui, em compromisso com a verdade e com a transparência é disponibilizar as perguntas mais frequentes para que você possa encontrar as respostas que precisa antes de decidir se deve ou não experimentar o nosso produto.</p>
+				<div class="row">
+					<h2 class="text-center col-md-8 col-md-offset-2">Encontre as Resposta Que Você Procura, Faça a Sua Análise e Tome Uma Decisão Verdadeiramente Consciente</h2>
+				</div>
+				<p>Tomar a decisão de investir em um novo emagrecedor não é uma tarefa tão simples o quanto parece. Principalmente se você já tiver tentado outras soluções que não te proporcionou nenhum tipo de resultado.</p>
+				<p>Infelizmente existem vários produtos em que a publicidade é enganosa ou até mesmo falsa. E com certeza antes de você fazer a sua escolha, é bem provável que você queira saber o que está comprando, o que realmente vai tomar, se funciona ou não, se é perigoso... </p>
+				<p>Enfim, existem inúmeras dúvidas e o nosso principal objetivo aqui, em compromisso com a verdade e com a transparência é disponibilizar as perguntas mais frequentes para que você possa encontrar as respostas que precisa antes de decidir se deve ou não experimentar o nosso produto.</p>
 			</div>
 		</div>
 

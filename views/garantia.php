@@ -143,7 +143,7 @@
 <section id="beneficios">
     <div class="container">         
         <div class="col-md-8 col-md-offset-2 text-center content-title-beneficios-garantia">
-            <h2 class="title-beneficios-garantia">Por Que Escolher Androzene?</h2>
+            <h2 class="title-beneficios-garantia">O Que Você Ainda Está Esperando?</h2>
             <h3 class="subtitle-beneficios-garantia">O CAMINHO MAIS RÁPIDO E SEGURO PARA TER O CORPO QUE VOCÊ SEMPRE QUIS</h3>
         </div>
         <div class="benefits-bar content-beneficios">

@@ -453,7 +453,6 @@
 }
 #ciencia .items_1 h3{ margin: 5px 0;  }
 #ciencia .items_1 p{
-	text-align: justify;
 	color: #333;
 	margin: 0; 
 }
@@ -673,8 +672,6 @@ box-shadow: #bbb 3px 3px 5px;
 
 #autoridade-medica p{
 	color: #333;
-	text-align: justify;
-
 }
 
 #autoridade-medica #icones{

@@ -94,7 +94,7 @@
                                 <li><a href="garantia" class=""> <i class="flaticon-guarantee"></i> GARANTIA </a></li>
                                 <li><a href="perguntas-frequentes" class=""> <i class="flaticon-help"></i> PERGUNTAS FREQUENTES</a></li>
                                 <li><a href="contato" class=""> <i class="flaticon-contact"></i> CONTATO </a></li>
-                                <li><a href="peca-agora" class=""> <i class="flaticon-shopping-basket"></i> PEÇA AGORA! </a></li>
+                                <li><a href="https://phenatrim.com.br/#order" class=""> <i class="flaticon-shopping-basket"></i> PEÇA AGORA! </a></li>
                             </ul>
                         </div><!-- /gn-scroller -->
                     </nav>

@@ -16,16 +16,26 @@
 	clip-path: polygon(90% 0, 100% 0%, 100% 100%, 60% 100%);
 }
 
-#the_science .row{
+#the_science .row.content-bottom{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+#the_science .content-intro-science {
+	margin-bottom: 20px;
+}
+
+#the_science .content-intro-science p,
+#the_science .content-intro-science h2{
+	text-align: center;
 }
 
 #the_science p, #the_science ul li{
 	color: #333;
 	font-size: 16px;
 	text-align: justify;
+	padding-bottom: 15px;
 }
 
 #the_science ul{
@@ -82,7 +92,7 @@
 	margin-bottom: 15px;
 }
 #ingredients .ingredient p{
-	color: #555
+	color: #555;
 }
 
 #ingredients .center{
