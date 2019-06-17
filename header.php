@@ -19,12 +19,12 @@
     <!-- //////////////////////////////////
     //////// DESENVOLVIMENTO
     ///////////////////// -->
-    <link rel="stylesheet" type="text/css" href="./assets/css/__desenvolvimento.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/__desenvolvimento.css"> -->
 
     <!-- //////////////////////////////////
     //////// PRODUÇÃO - BY GULP AUTOMATION
     ///////////////////// -->
-    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/all.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/all.min.css">
 		
 </head>
 <body>
