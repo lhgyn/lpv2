@@ -52,7 +52,7 @@
 				    <textarea cols="20" rows="6" class="form-control" name="mensagem" placeholder="Sua mensagem aqui!"></textarea>
 				  </div>
 				  <div class="form-group">
-				  	<button type="button" id="cta-button" class="btn pull-right">
+				  	<button type="button" id="cta-button" class="btn contact-button pull-right">
 						<div>
 							<span>Enviar</span>
 						</div>

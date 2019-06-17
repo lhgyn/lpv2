@@ -19,7 +19,7 @@
                       <input type="hidden" id="assinaturas_siteacessado" value="PHENATRIMOFICIAL">
                       <input type="hidden" id="assinaturas_datahora" value="<?php echo $datahoralocalcadastro; ?>">
                       <input type="hidden" id="assinaturas_ip" value="<?php echo $ipaddress; ?>">
-                      <button type="button" id="submitbutton" class="btn btn-default">ENVIAR</button>
+                      <button type="button" id="submitbutton" class="btn btn-default btn-newsletter">ENVIAR</button>
                     </form>
                 </div>
             </div>

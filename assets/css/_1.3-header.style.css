@@ -75,7 +75,6 @@ body P{
     border: 0;
     border-bottom: 2px solid #5daf27;
     color: #fff;
-    border-radius: 4px;
 }
 #navbar1.navbar-default .navbar-nav>li:last-child > a:hover{
     background-image: linear-gradient(to bottom,#5daf27 0,#5daf27 100%);

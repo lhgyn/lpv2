@@ -88,3 +88,17 @@
 		margin-top: 100px;
 	}
 }
+
+
+
+.contact-button {
+    background: #0077c8 !important;
+    border-color: #0077c8 !important;
+    border-bottom-width: 2px !important;
+    border-radius: 0px !important;
+}
+.contact-button i::after{
+	background: #fff !important;
+	height: 25px !important;
+	top: 1px !important;
+}

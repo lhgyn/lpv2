@@ -25,13 +25,13 @@
 }
 #site-newsletter form .form-control{
 	border: 0;
-	border-bottom: 2px solid darkorange;
+	border-bottom: 2px solid #0077c8;
 }
 #site-newsletter form .btn{
 	padding-left: 30px; padding-right: 30px;
-	border-bottom: 2px solid darkorange;
-	border-color: darkorange;
-	background: darkorange;
+	border-bottom: 2px solid #0077c8;
+	border-color: #0077c8;
+	background: #0077c8;
 	color: #fff;
 	text-shadow: none;
 }
@@ -139,4 +139,10 @@ clip-path: polygon(0 0, 0% 100%, 100% 50%);
 
 @media all and (min-width:991px) and (max-width:1199px){
 	
+}
+
+
+
+.btn-newsletter{
+	background-image: linear-gradient(to bottom,#0077c8 0, #0077c8 100%);
 }
