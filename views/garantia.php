@@ -53,7 +53,7 @@
 		</div>
 		<div class="col-md-12 bg-transparent">
 			<div class="col-md-4">
-    			<img class="img-responsive" src="./assets/img/selo-garantia.png" alt="" style="margin-top: 25px;">
+    			<img class="img-responsive" src="./assets/img/selo-garantia.png" alt="" style="margin: auto; max-width: 250px;">
     		</div>
     		<div class="col-md-8">
     			<h3>EXPERIMENTE PHENATRIM HOJE!</h3>
