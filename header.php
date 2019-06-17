@@ -19,12 +19,12 @@
     <!-- //////////////////////////////////
     //////// DESENVOLVIMENTO
     ///////////////////// -->
-    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/__desenvolvimento.css"> -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/__desenvolvimento.css">
 
     <!-- //////////////////////////////////
     //////// PRODUÇÃO - BY GULP AUTOMATION
     ///////////////////// -->
-    <link rel="stylesheet" type="text/css" href="./assets/css/all.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/all.min.css"> -->
 		
 </head>
 <body>
@@ -67,7 +67,7 @@
                         <li><a href="garantia">GARANTIA</a></li>
                         <li><a href="perguntas-frequentes">PERGUNTAS FREQUENTES</a></li>
                         <li><a href="contato">CONTATO</a></li>
-                        <li><a href="https://phenatrim.com.br/#order" class="">PEÇA AGORA!</a></li>
+                        <li><a href="https://phenatrim.com.br/#order" class="">PEÇA AGORA! &nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i></a></li>
                     </ul>
                 </div>
             </div>

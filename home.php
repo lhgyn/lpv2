@@ -53,7 +53,7 @@
 							<small>Seja a Próxima História de Sucesso!</small>
 						</div>
 						<div>
-							<i class="fa fa-angle-double-right"></i>
+							<i class="fa fa-chevron-right"></i>
 						</div>
 					</a>
 				</div>
@@ -174,7 +174,7 @@
 						<small>SATISFAÇÃO 100% GARANTIDA!</small>
 					</div>
 					<div>
-						<i class="fa fa-angle-double-right"></i>
+						<i class="fa fa-chevron-right"></i>
 					</div>
 				</a>
 			</div>
@@ -248,7 +248,7 @@
 								<small>E seja a nossa próxima história de sucesso!</small>
 							</div>
 							<div>
-								<i class="fa fa-angle-double-right"></i>
+								<i class="fa fa-chevron-right"></i>
 							</div>
 						</a>
 					</div>
@@ -462,7 +462,7 @@
 		    		</div>
 		    		<div class="col-md-12 bg-transparent">
 		    			<div class="col-md-4">
-			    			<img class="img-responsive" src="./assets/img/selo-garantia.png" alt="" style="margin-top: 25px;">
+			    			<img class="img-responsive" src="./assets/img/selo-garantia.png" alt="">
 			    		</div>
 			    		<div class="col-md-8">
 			    			<h3>EXPERIMENTE PHENATRIM AGORA COM RISCO ZERO</h3>
@@ -480,7 +480,7 @@
 								<span>GARANTA JÁ O SEU PHENATRIM</span>
 							</div>
 							<div>
-								<i class="fa fa-angle-double-right"></i>
+								<i class="fa fa-chevron-right"></i>
 							</div>
 						</a>
 		    		</div>
@@ -527,7 +527,7 @@
 								<span>GARANTA AGORA</span>
 							</div>
 							<div>
-								<i class="fa fa-angle-double-right"></i>
+								<i class="fa fa-chevron-right"></i>
 							</div>
 						</a>
 		    		</div>

@@ -108,7 +108,7 @@
                             <span>GARANTA JÁ O SEU PHENATRIM</span>
                         </div>
                         <div>
-                            <i class="fa fa-angle-double-right"></i>
+                            <i class="fa fa-chevron-right"></i>
                         </div>
                     </a>
                 </div>
@@ -221,7 +221,7 @@
                                 <small>SATISFAÇÃO 100% GARANTIDA!</small>
                             </div>
                             <div>
-                                <i class="fa fa-angle-double-right"></i>
+                                <i class="fa fa-chevron-right"></i>
                             </div>
                         </a>
                     </div>                  

@@ -33,7 +33,7 @@
 							<span>GARANTA AGORA!</span>
 						</div>
 						<div>
-							<i class="fa fa-angle-double-right"></i>
+							<i class="fa fa-chevron-right"></i>
 						</div>
 					</a>
     			</div>
@@ -72,7 +72,7 @@
 					<small>SEJA A PRÓXIMA HISTÓRIA DE SUCESSO</small>
 				</div>
 				<div>
-					<i class="fa fa-angle-double-right"></i>
+					<i class="fa fa-chevron-right"></i>
 				</div>
 			</a>
 		</div>
@@ -187,7 +187,7 @@
 					<span>GARANTA JÁ!</span>
 				</div>
 				<div>
-					<i class="fa fa-angle-double-right"></i>
+					<i class="fa fa-chevron-right"></i>
 				</div>
 			</a>
 		</div>
@@ -267,7 +267,7 @@
 							<small>SATISFAÇÃO 100% GARANTIDA!</small>
 						</div>
 						<div>
-							<i class="fa fa-angle-double-right"></i>
+							<i class="fa fa-chevron-right"></i>
 						</div>
 					</a>
     			</div>	    			

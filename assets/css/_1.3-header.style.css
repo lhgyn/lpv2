@@ -45,6 +45,9 @@ body P{
 	max-width: 160px !important;
 }
 
+#nav-links{
+	width: 100%;
+}
 #navbar1.navbar-default .navbar-nav>li>a{
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -70,11 +73,25 @@ body P{
 
 #navbar1.navbar-default .navbar-nav>li:last-child{
 	float: right;
+	height: 55px;
+    display: flex;
+    align-items: center;
+    line-height: 0;
 }
 #navbar1.navbar-default .navbar-nav>li:last-child > a{
-	background-image: linear-gradient(to bottom,#f0ad4e 0,#eb9316 100%);
-	border-top: 2px solid #eb9316;
+    background-image: linear-gradient(to bottom,#75d237 0,#75d237 100%);
+    border: 0;
+    border-bottom: 2px solid #5daf27;
     color: #fff;
+    display: inline-block;    
+    border-radius: 6px;
+    line-height: 1;
+    padding: 10px 25px;
+}
+#navbar1.navbar-default .navbar-nav>li:last-child > a:hover{
+    background-image: linear-gradient(to bottom,#5daf27 0,#5daf27 100%);
+    border-top: 0;	
+    border-bottom: 2px solid #75d237;
 }
 
 @media only screen and (max-width:991px){
@@ -115,18 +132,20 @@ body P{
 }
 
 #cta-button{
-	text-decoration: none;
-    background-image: linear-gradient(to bottom,#FFC107 0,#FB8C00 100%);
+    text-decoration: none;
+    background-image: linear-gradient(to bottom,#75d237 0,#75d237 100%);
     display: flex;
     align-items: center;
-    border: 1px solid;
-    border-color: #f0ad4e;
-    border-bottom-width: 2px;
-    border-radius: 6px;
-    color: #404040;
-    box-shadow: #888 -1px -1px 2px;
+    border: 0px solid;
+    border-color: #5daf27;
+    border-bottom-width: 3px;
+    border-radius: 5px;
+    color: #fff;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    box-shadow: #bbb 0px 0px 3px;
     max-width: 380px;
-    transition:  ease-in-out .4s;
+    transition: ease-in-out .4s;
 }
 #cta-button div:first-child{
 	display: flex;
@@ -151,19 +170,19 @@ body P{
 #cta-button i::after{
 	content:  "";
 	position: absolute;
-	left: -15px; top: -8px;
-	height: 40px;
+	left: -15px; top: -6px;
+	height: 35px;
 	width: 1px;
-	background-image: linear-gradient(to bottom,#FB8C00 100%, #FFC107 0);
+	background-image: linear-gradient(to bottom,#5daf27 0%, #75d237 100%);
 }
 
 #cta-button:hover{		
-    background-image: linear-gradient(to bottom,#FB8C00 0, #FFC107 100%);
-    border-color: #FFC107;
+    background-image: linear-gradient(to bottom,#5daf27 0, #5daf27 100%);
+    border-color: #75d237;
     transition:  ease-in-out .4s;
 }
 #cta-button:hover i::after{
-	background-image: linear-gradient(to bottom, #FFC107 0, #FB8C00 100%);
+	background-image: linear-gradient(to top, #75d237 0%, #5daf27 100%);
 }
 
 @media only screen and (max-width: 768px){

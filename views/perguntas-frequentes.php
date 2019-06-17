@@ -269,7 +269,7 @@
 							<small>100% DE SATISFAÇÃO OU SEU DINHEIRO DE VOLTA</small>
 						</div>
 						<div>
-							<i class="fa fa-angle-double-right"></i>
+							<i class="fa fa-chevron-right"></i>
 						</div>
 					</a>
     			</div>	    			
