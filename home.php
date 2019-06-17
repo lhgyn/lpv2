@@ -47,7 +47,7 @@
 					</p>
 				</div>
 				<div class="col-md-6 right"> <!-- animated infinite pulse delay-2s -->
-					<a href="https://phenatrim.com.br/#order" id="cta-button" class="animated infinite pulse delay-4s"> 
+					<a href="https://phenatrim.com.br/#order" id="cta-button" class="animated infinite pulse delay-4s" style="box-shadow: none;"> 
 						<div>
 							<span>EXPERIMENTE PHENATRIM HOJE!</span>
 							<small>Seja a Próxima História de Sucesso!</small>
