@@ -65,28 +65,17 @@ body P{
 	color: #0077c8
 }
 #navbar1.navbar-default .navbar-nav>li>a:hover{
-	/* background: #0077c8 !important; */
 	border-top: 2px solid #0077c8;
 	color: #0077c8;
 	transition: ease-in-out .3s;
 }
 
-#navbar1.navbar-default .navbar-nav>li:last-child{
-	float: right;
-	height: 55px;
-    display: flex;
-    align-items: center;
-    line-height: 0;
-}
 #navbar1.navbar-default .navbar-nav>li:last-child > a{
     background-image: linear-gradient(to bottom,#75d237 0,#75d237 100%);
     border: 0;
     border-bottom: 2px solid #5daf27;
     color: #fff;
-    display: inline-block;    
-    border-radius: 6px;
-    line-height: 1;
-    padding: 10px 25px;
+    border-radius: 4px;
 }
 #navbar1.navbar-default .navbar-nav>li:last-child > a:hover{
     background-image: linear-gradient(to bottom,#5daf27 0,#5daf27 100%);
