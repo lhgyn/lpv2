@@ -56,9 +56,6 @@
 						<div>
 							<span>Enviar</span>
 						</div>
-						<div>
-							<i class="fa fa-angle-double-right"></i>
-						</div>
 				  	</button>
 				  </div>
 				</form>
