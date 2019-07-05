@@ -19,7 +19,7 @@
                       <input type="hidden" id="assinaturas_siteacessado" value="PHENATRIMOFICIAL">
                       <input type="hidden" id="assinaturas_datahora" value="<?php echo $datahoralocalcadastro; ?>">
                       <input type="hidden" id="assinaturas_ip" value="<?php echo $ipaddress; ?>">
-                      <button type="button" id="submitbutton" class="btn btn-default">ENVIAR</button>
+                      <button type="button" id="submitbutton" class="btn btn-default btn-newsletter">ENVIAR</button>
                     </form>
                 </div>
             </div>
@@ -64,7 +64,7 @@
                             <li>
                                 <span class="icon"><i class="fa fa-phone"></i></span>
                                 <span>
-                                    pelo SAC: <br> <strong>(62) 3639-2975</strong>
+                                    pelo SAC: <br> <strong>(62) 3639-2978</strong>
                                 </span>
                             </li>
                             <li>

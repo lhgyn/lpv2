@@ -40,6 +40,7 @@ gulp.task('css-min', function () {
         './css/_2.3-peca-agora.style.css',
         './css/_5.1-flaticon.css',
         './css/_5.2-font-awesome.css',
+        './libs/animate.css',
         './libs/GoogleNexusWebsiteMenu/css/component.css'
 
       ])

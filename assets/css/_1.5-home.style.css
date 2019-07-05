@@ -826,10 +826,12 @@ box-shadow: #bbb 3px 3px 5px;
 	padding-bottom: 40px;
 }
 #guarantee-block .bg-transparent{
-	border: 1px solid #c7a742;
-    background: rgb(49, 49, 49);
+	border: 1px solid #0077c8;
+    background: rgb(238, 238, 238);
     border-radius: 10px;
     padding: 25px;
+    display: flex;
+    align-items: center;
 }
 #guarantee-block .title{
 	margin-bottom: 40px;
@@ -838,7 +840,7 @@ box-shadow: #bbb 3px 3px 5px;
 	color:  #333;
 }
 #guarantee-block p, #guarantee-block h3{
-	color: #fff;
+	color: #333;
 	font-weight: normal;
 }
 
