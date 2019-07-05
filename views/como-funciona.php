@@ -10,7 +10,7 @@
     	<div class="container">
     		<div class="row">
                 <div class="col-md-10 col-md-offset-1 content-intro-science">
-                    <h2>A Ciência por trás do Phenatrim</h2>
+                    <h2>A Ciência Por Trás do Phenatrim</h2>
                     <p>
                         Phenatrim é um avanço revolucionário no mercado de nutracêuticos. Ele oferece uma abordagem completa capaz de atuar sobre fatores chaves do organismo e promover uma perda de peso mais rápida e segura.
                     </p>

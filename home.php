@@ -11,7 +11,7 @@
 							<strong>DEFINITIVAMENTE!</strong>
 						</h2>
 						<hr>
-						<h3>Poderosa fórmula emagrecedora com benefícios clinicamentecomprovados:</h3>
+						<h3>Poderosa fórmula emagrecedora com benefícios clinicamente comprovados:</h3>
 					</div>
 					<div class="benefit-list">
 						<div class="row" style="display: flex; align-items: center;">
