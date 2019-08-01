@@ -19,9 +19,8 @@
 								<div style="margin-left: -10px; margin-top: 15px;">
 									<p><span><i class="flaticon-weight-scale"></i> Perda de peso</span></p>
 									<p><span><i class="flaticon-measuring-tape"></i> Redução de medidas</span></p>
-									<p><span><i class="flaticon-hip"></i> Combate à celulites</span></p>
-									<p><span><i class="flaticon-fire"></i> Queima de gordura teimosa</span></p>
-									<p><span><i class="flaticon-flash"></i> Energia extra</span></p>
+									<p><span><i class="flaticon-hip"></i> Inibe o Apetite</span></p>
+									<p><span><i class="flaticon-flash"></i> Mais Energia e Disposição</span></p>
 								</div>
 							</div>
 
