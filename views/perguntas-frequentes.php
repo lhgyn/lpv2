@@ -113,12 +113,12 @@
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="heading9">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="false" aria-controls="collapse9">Homens podem fazer uso deste produto?</a>                     
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="false" aria-controls="collapse9">Posso ingerir bebida alcoólica durante o uso do produto?</a>                     
                             </h4>
                         </div>
                         <div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9" aria-expanded="false">
                             <div class="panel-body">
-                                <p>Sim. Phenatrim pode ser utilizado tanto por homens, quanto por mulheres.</p>
+                                <p>Phenatrim não possui nenhum composto que possa causar reações com bebida alcoólica. No entanto, não é recomendo ingerir bebida alcoólica durante o uso do produto porque pode interferir nos resultados.</p>
                             </div>
                         </div>
                     </div>
@@ -126,10 +126,23 @@
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="heading10">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="false" aria-controls="collapse10">Qual é a composição do Phenatrim?</a>                     
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="false" aria-controls="collapse10">Homens podem fazer uso deste produto?</a>                     
                             </h4>
                         </div>
                         <div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10" aria-expanded="false">
+                            <div class="panel-body">
+                                <p>Sim. Phenatrim pode ser utilizado tanto por homens, quanto por mulheres.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading11">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">Qual é a composição do Phenatrim?</a>                     
+                            </h4>
+                        </div>
+                        <div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11" aria-expanded="false">
                             <div class="panel-body">
                                 <p>A fórmula de Phenatrim contém:</p>
                                 <p>Ingredientes: Óleo de Cártamo (Carthamus tinctorius), Fenilalanina, Cafeína Anidra (1, 3, 7-Trimethilxantine), Triptofano, Guaraná (Paullinia cupana) em pó e Picolinato de Cromo (Cromo).</p>
@@ -139,12 +152,12 @@
                     </div>
 
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="heading11">
+                        <div class="panel-heading" role="tab" id="heading12">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">Precisa de prescrição médica?</a>                     
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="false" aria-controls="collapse12">Precisa de prescrição médica?</a>                     
                             </h4>
                         </div>
-                        <div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11" aria-expanded="false">
+                        <div id="collapse12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading12" aria-expanded="false">
                             <div class="panel-body">
                                 <p>Não. Phenatrim é comercializado como um nutracêutico e não como um medicamento. Portanto, de acordo com as normas vigentes da ANVISA, a sua venda dispensa a apresentação de receita médica.</p>
                             </div>
@@ -152,12 +165,12 @@
                     </div>
 
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="heading12">
+                        <div class="panel-heading" role="tab" id="heading13">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="false" aria-controls="collapse12">É vendido em farmácia? Onde posso comprar?</a>                     
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="false" aria-controls="collapse13">É vendido em farmácia? Onde posso comprar?</a>                     
                             </h4>
                         </div>
-                        <div id="collapse12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading12" aria-expanded="false">
+                        <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13" aria-expanded="false">
                             <div class="panel-body">
                                 <p>Phenatrim não é vendido em farmácia e nem em lojas convencionais. O legítimo phenatrim encontra-se disponível para venda apenas no site oficial.</p>
                             </div>
@@ -165,12 +178,12 @@
                     </div>
 
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="heading13">
+                        <div class="panel-heading" role="tab" id="heading14">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="false" aria-controls="collapse13">Phenatrim é aprovado pela ANVISA?</a>                     
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse14" aria-expanded="false" aria-controls="collapse14">Phenatrim é aprovado pela ANVISA?</a>                     
                             </h4>
                         </div>
-                        <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13" aria-expanded="false">
+                        <div id="collapse14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14" aria-expanded="false">
                             <div class="panel-body">
                                 <p>Phenatrim é aprovado pela ANVISA, cumpre rigorosamente todas as normas vigentes.</p>
                             </div>
@@ -178,12 +191,12 @@
                     </div>
 
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="heading14">
+                        <div class="panel-heading" role="tab" id="heading15">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse14" aria-expanded="false" aria-controls="collapse14">É seguro comprar pelo site?</a>                     
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse15" aria-expanded="false" aria-controls="collapse15">É seguro comprar pelo site?</a>                     
                             </h4>
                         </div>
-                        <div id="collapse14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14" aria-expanded="false">
+                        <div id="collapse15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading15" aria-expanded="false">
                             <div class="panel-body">
                                 <p>Sim. O site oficial do Phenatrim é completamente seguro e confiável. Todos os pedidos são processados sob sigilo total através do certificado de SSL que criptografa todas as informações transferidas entre o usuário e o servidor da web.</p>
                             </div>
@@ -191,12 +204,12 @@
                     </div>
 
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="heading15">
+                        <div class="panel-heading" role="tab" id="heading16">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse15" aria-expanded="false" aria-controls="collapse15">Oferece alguma garantia? Como funciona?</a>                     
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse16" aria-expanded="false" aria-controls="collapse16">Oferece alguma garantia? Como funciona?</a>                     
                             </h4>
                         </div>
-                        <div id="collapse15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading15" aria-expanded="false">
+                        <div id="collapse16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading16" aria-expanded="false">
                             <div class="panel-body">
                                 <p>Sim. O site oficial oferece a todos os seus clientes uma garantia exclusiva de 35 dias.</p>
                                 <p>Essa garantia funciona da seguinte forma:</p>
@@ -207,12 +220,12 @@
                     </div>
 
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="heading16">
+                        <div class="panel-heading" role="tab" id="heading17">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse16" aria-expanded="false" aria-controls="collapse16">Qual é a forma de pagamento?</a>                     
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse17" aria-expanded="false" aria-controls="collapse17">Qual é a forma de pagamento?</a>                     
                             </h4>
                         </div>
-                        <div id="collapse16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading16" aria-expanded="false">
+                        <div id="collapse17" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading17" aria-expanded="false">
                             <div class="panel-body">
                                 <p>Você pode realizar o pagamento através de cartão de crédito em até 12x sem juros.</p>
                             </div>
@@ -220,12 +233,12 @@
                     </div>
 
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="heading17">
+                        <div class="panel-heading" role="tab" id="heading18">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse17" aria-expanded="false" aria-controls="collapse17">Qual é o prazo de entrega?</a>                     
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse18" aria-expanded="false" aria-controls="collapse18">Qual é o prazo de entrega?</a>                     
                             </h4>
                         </div>
-                        <div id="collapse17" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading17" aria-expanded="false">
+                        <div id="collapse18" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading18" aria-expanded="false">
                             <div class="panel-body">
                                 <p>O prazo de entrega estimado pelos Correios para envio:</p>
                                 <p><b>PAC</b> - entre 9 e 15 dias úteis.</p>
